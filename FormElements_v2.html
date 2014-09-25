@@ -31,6 +31,11 @@
 <link href="./content/css/prettify.css" rel="stylesheet" type="text/css">
 
     <link href="./content/css/guide.css" rel="stylesheet">
+	<style type="text/css">
+	.auto-style1 {
+		background-color: #FAFAFB;
+	}
+	</style>
 </head>
 
 <body data-spy="scroll" data-target=".menu-container" class="layout-fill">
@@ -253,7 +258,74 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 <pre class="prettyprint  linenums">&lt;h2&gt;&lt;a id="director"&gt;&lt;/a&gt;Directors&lt;/h2&gt;</pre>
 <!--  Anchor link end -->
 <hr>
- 
+<h1 id="list">Lists</h1>
+
+<!--  bulleted list start -->
+<h2 id="bullet">Bulleted list</h2>
+<p>Use a list to display a set of terms, phrases, or statements clearly.</p>
+<ul>
+<li>The first letter of the first word of each complete sentence should be lowercase</li>
+<li>Appropriate end punctuation should be included.</li>
+</ul>
+<form class="guide-example">
+    <fieldset>
+      <legend>Bullet lists on NICE.org look like this:</legend>
+      <ul>
+      <li>The first letter of the first word should be lowercase</li>
+<li>bullet list example text</li>
+<li>this the end of a bulleted list with appropriate end punctuation.</li>
+</ul>
+    </fieldset>
+  </form>
+  
+<h3>HTML code for a bullet list</h3> 
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;ul&gt;</span>
+<span class="auto-style1">&lt;li&gt;...&lt;/li&gt;</span>
+<span class="auto-style1">&lt;li&gt;...&lt;/li&gt;</span>
+<span class="auto-style1">&lt;li&gt;...&lt;/li&gt;</span>
+<span class="auto-style1">&lt;/ul&gt;</span></pre>
+<!--  bulleted list end -->
+
+<!--  numbered list start -->
+<h2 id="numbered">Numbered list</h2>
+<p>Use a list to display for instances where the items in the list need to follow a specific sequence or defined steps in a process.</p>
+<form class="guide-example"> 
+    <fieldset>
+      <legend>Numbered lists on NICE.org look like this:</legend>
+      <ul>
+      <li>the safety of the procedure</li>
+<li>whether it works well enough for routine use</li>
+<li>whether special arrangements are needed for patient consent.</li>
+</ul>
+    </fieldset>
+  </form>
+<h3>HTML code for a numbered list</h3> 
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;ol&gt;</span>
+<span class="auto-style1">&lt;li&gt;...&lt;/li&gt;</span>
+<span class="auto-style1">&lt;li&gt;...&lt;/li&gt;</span>
+<span class="auto-style1">&lt;li&gt;...&lt;/li&gt;</span>
+<span class="auto-style1">&lt;/ol&gt; </span></pre>
+<!--  numbered list end -->
+
+
+<!--  numbered list start -->
+<h2 id="alt">Highlighted numbered list</h2>
+<p>Use the highlighted numbered list when you want to emphasize a step by step process and make it a feature of the content.</p>
+<form class="guide-example"> 
+    <fieldset>
+      <legend>Highlighted numbered lists on NICE.org look like this:</legend>
+      <ol class="alt">
+      <li><strong>Guideline topic is referred</strong></li>
+<li><strong>Stakeholders register interest</strong></li>
+<li><strong>Final guideline produced</strong></li>
+<li><strong>Guidance issued</strong></li>
+</ol>
+    </fieldset>
+  </form>
+
+
+<!--  numbered list end -->
+
 
 </section>
       
@@ -274,6 +346,14 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
                 </li><li><a href="#anchor">Anchor links</a>
               </li></ul>
             </li>
+            <li><a href="#list">Lists</a>
+              <ul class="nav nav-list">
+                <li><a href="#bullet">Bulleted list</a>
+                </li><li><a href="#numbered">Numbered list</a>
+                </li><li><a href="#alt">Alternative numbered list</a>
+              </li></ul>
+            </li>
+
           </ul>
         </nav>
       </aside>
