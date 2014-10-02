@@ -261,6 +261,48 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 <p>The second part of an anchor tag is the actual anchor. The anchor should be placed at the beginning of the line where you want to start reading after you jump similar to:</p>
 <pre class="prettyprint  linenums">&lt;h2&gt;&lt;a id="director"&gt;&lt;/a&gt;Directors&lt;/h2&gt;</pre>
 <!--  Anchor link end -->
+
+<!--  Download link start -->
+<h2 id="download">Download links</h2>
+<p>Use PDF download links when displaying large numbers of PDF documents for download, for example:<br>
+<a href="http://www.nice.org.uk/about/who-we-are/policies-and-procedures">Policies and procedures</a> or the <a href="http://www.nice.org.uk/get-involved/citizens-council">Citizens Council</a> pages</p>
+<ul>
+<li>display a PDF icon, tell the user up front that the link they are about to click is a PDF</li>
+<li>show a file size: it is best practice to show your users what they can expect and how long it may take them.</li>
+</ul>
+<form class="guide-example">
+    <fieldset>
+      <legend>Download links on NICE.org look like this:</legend>
+      <div class="panel panel-resources">
+<div class="panel-body">
+<ul class="media-list">
+<li class="media media-resource">
+<div class="media-body">
+<h6 class="media-heading resource-link"><a href="/Media/Default/About/Who-we-are/NICE_Charter.pdf"> <i class="icon-nice-download"></i> NICE charter</a> <span class="stats"> <span class="data-size">PDF 156 Kb</span> </span></h6>
+</div>
+</li>
+</ul>
+</div>
+</div>
+    </fieldset>
+  </form>
+
+<h3>HTML code for a download link</h3>  
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;div class="panel-body"&gt;</span>
+<span class="auto-style1">&lt;ul class="media-list"&gt;</span>
+<span class="auto-style1">&lt;li class="media media-resource"&gt;</span>
+<span class="auto-style1">&lt;div class="media-body"&gt;</span>
+<span class="auto-style1">&lt;h6 class="media-heading resource-link"&gt;&lt;a href="#"&gt;</span>
+<span class="auto-style1">&lt;i class="icon-nice-download"&gt;&lt;/i&gt; NICE charter&lt;/a&gt;</span>
+<span class="auto-style1">&lt;span class="stats"&gt; &lt;span class="data-size"&gt;PDF 156 Kb&lt;/span&gt; &lt;/span&gt;&lt;/h6&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span>
+<span class="auto-style1">&lt;/li&gt;</span>
+<span class="auto-style1">&lt;/ul&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span></pre>
+
+<!--  Download link end -->
+
 <hr>
 <h1 id="list">Lists</h1>
 
@@ -368,6 +410,7 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
                 </li><li><a href="#key">Key link</a>
                 </li><li><a href="#text">Text link</a>
                 </li><li><a href="#anchor">Anchor links</a>
+                </li><li><a href="#download">Download links</a>
               </li></ul>
             </li>
             <li><a href="#list">Lists</a>
