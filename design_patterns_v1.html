@@ -1,6 +1,4 @@
-﻿
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
 
@@ -185,10 +183,11 @@ For example Register now, Contact us or Join the mailing list.</p>
       <button type="submit" class="btn btn-inverse">Register now</button>
     </fieldset>
   </form>
-
-
-<h3>HTML code for a call to action button</h3>
+<div class="btn btn-link collapsed" data-toggle="collapse" data-target="#cta">View HTML</div>
+<div id="cta" class="collapse" style="height: 0px;">
 <pre class="prettyprint  linenums">&lt;a href="/register/register-now" class="btn btn-cta"&gt;Register now&lt;/a&gt;</pre>
+</div>
+<hr style="border-bottom: 1px solid #ebebeb; margin: 14px 0;">
 <!-- call to action buttons ends -->
 
 <!--  std button start -->
@@ -207,8 +206,11 @@ View guidance consultations, List of guidelines or Advice listing.</p>
     </fieldset>
   </form>
 
-<h3>HTML code for a standard button</h3>
+<div class="btn btn-link collapsed" data-toggle="collapse" data-target="#std">View HTML</div>
+<div id="std" class="collapse" style="height: 0px;">
 <pre class="prettyprint  linenums">&lt;a href="⁄guidance⁄inconsultation"" class="btn"&gt;View guidance consultations/a&gt;</pre>
+</div>
+<hr style="border-bottom: 1px solid #ebebeb; margin: 14px 0;">
 <!--  std button end -->
 
 
@@ -228,13 +230,18 @@ View guidance consultations, List of guidelines or Advice listing.</p>
 </div>
     </fieldset>
   </form>
-<h3>HTML code for a collapsible information button</h3>  
+  
+<div class="btn btn-link collapsed" data-toggle="collapse" data-target="#col">View HTML</div>
+<div id="col" class="collapse" style="height: 0px;">
 <pre class="prettyprint  linenums"><span class="auto-style1">&lt;div class="btn btn-info collapsed" data-toggle="collapse" data-target="#example-id"&gt;View profile&lt;/div&gt;</span>
 <span class="auto-style1">&lt;div id="example-id" class="collapse" style="height: 0px;"&gt;</span>
 <span class="auto-style1">&lt;div class="well white"&gt;</span>
 <span class="auto-style1">&lt;p&gt;text would go here&lt;/p&gt;</span>
 <span class="auto-style1">&lt;/div&gt;</span>
-<span class="auto-style1">&lt;/div&gt;</span></pre>
+<span class="auto-style1">&lt;/div&gt;</span>
+</pre>
+</div>
+<hr style="border-bottom: 1px solid #ebebeb; margin: 14px 0;">
 <!--  collapse button end -->
 
 <!--  key link button start -->
@@ -424,6 +431,23 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 
 <!--  typography start -->
 <h2 id="typography">Typography</h2>
+<p>Use the NICE website font Lato, it is an open-source Google font optimized for the web.</p>
+<h2 id="heading">Headings</h2>
+<p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are available.</p>
+<div class="guide-example guide-helper-seperate">
+    <h1>h1. Bootstrap heading</h1>
+    <h2>h2. Bootstrap heading</h2>
+    <h3>h3. Bootstrap heading</h3>
+    <h4>h4. Bootstrap heading</h4>
+    <h5>h5. Bootstrap heading</h5>
+    <h6>h6. Bootstrap heading</h6>
+  </div>
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;h1&gt;h1. heading&lt;/h1&gt;</span>
+<span class="auto-style1">&lt;h2&gt;h2. heading&lt;/h2&gt;</span>
+<span class="auto-style1">&lt;h3&gt;h3. heading&lt;/h3&gt;</span>
+<span class="auto-style1">&lt;h4&gt;h4. heading&lt;/h4&gt;</span>
+<span class="auto-style1">&lt;h5&gt;h5. heading&lt;/h5&gt;</span>
+<span class="auto-style1">&lt;h6&gt;h6. heading&lt;/h6&gt;</span></pre>  
 <!--  typography  end -->
 
 </section>
