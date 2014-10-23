@@ -179,7 +179,6 @@ For example Register now, Contact us or Join the mailing list.</p>
 
 <form class="guide-example">
     <fieldset>
-      <legend>Main call-to-action buttons on NICE.org look like this:</legend>
       <button type="submit" class="btn btn-inverse">Register now</button>
     </fieldset>
   </form>
@@ -201,7 +200,6 @@ View guidance consultations, List of guidelines or Advice listing.</p>
 
 <form class="guide-example">
     <fieldset>
-      <legend>Standard buttons on NICE.org look like this:</legend>
       <button type="submit" class="btn">View guidance consultations</button>
     </fieldset>
   </form>
@@ -257,7 +255,6 @@ For example Read more about NICE guidelines, View the case study or Learn more.<
 </ul>
 <form class="guide-example">
     <fieldset>
-      <legend>Standard buttons on NICE.org look like this:</legend>
       <a href="#" class="key-link">Read more about NICE guidelines</a>
     </fieldset>
   </form>
@@ -283,7 +280,6 @@ Avoid opening content in a new window if you can, as it can be very confusing fo
 </ul>
 <form class="guide-example">
     <fieldset>
-      <legend>Text links on NICE.org look like this:</legend>
       <a href="#">NICE field team</a>
     </fieldset>
   </form>
@@ -325,7 +321,6 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 </ul>
 <form class="guide-example">
     <fieldset>
-      <legend>Download links on NICE.org look like this:</legend>
       <div class="panel panel-resources">
 <div class="panel-body">
 <ul class="media-list">
@@ -366,7 +361,6 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 <p>Use a list to display a set of terms, phrases, or statements clearly.</p>
 <form class="guide-example">
     <fieldset>
-      <legend>Long-entry bullet lists on NICE.org look like this:</legend>
       <ul>
       <li>Each entry usually consists of at least 1 complete sentence and ends with a full stop. But, you can also use the long-entry list style if you have a list in which the items are long but aren't complete sentences.</li>
       <li> The lead-in line can be a sentence or part of a sentence, and it should always end with a colon. Bullets do not have to run on from the lead-in line</li>
@@ -380,7 +374,6 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 <p>A short-entry list is introduced with a colon, and the bulleted items.</p>
 <form class="guide-example">
     <fieldset>
-      <legend>Short-entry bullet lists on NICE.org look like this:</legend>
       <ul>
       <li>start with a lower-case letter</li>
       <li>contain items with only a few words</li>
@@ -410,7 +403,6 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 </p>
 <form class="guide-example"> 
     <fieldset>
-      <legend>Numbered lists on NICE.org look like this:</legend>
       <ol>
       <li>the safety of the procedure</li>
 <li>whether it works well enough for routine use</li>
@@ -438,7 +430,6 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 
 <form class="guide-example"> 
     <fieldset>
-      <legend>Highlighted numbered lists on NICE.org look like this:</legend>
       <ol class="alt">
       <li><strong>Guideline topic is referred</strong></li>
 <li><strong>Stakeholders register interest</strong></li>
@@ -462,11 +453,15 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 <!--  typography start -->
 <h1 id="typography">Typography</h1>
 <p>Use the NICE website font Lato, it is an open-source Google font optimized for the web.</p>
+
+<!--  headings start -->
 <h2 id="heading">Headings</h2>
 <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are available.</p>
 <ul>
+<li>use a capital letter for only the first word in a heading</li>
 <li>use sentence case for headings</li>
 <li>use headings consistently to create a clear hierarchy</li>
+<li>do not put a full stop at the end of the heading</li>
 </ul>
 <div class="guide-example guide-helper-seperate">
     <h1>h1. heading</h1>
@@ -485,8 +480,61 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 <span class="auto-style1">&lt;h5&gt;h5. heading&lt;/h5&gt;</span>
 <span class="auto-style1">&lt;h6&gt;h6. heading&lt;/h6&gt;</span></pre>
 </div>
-
 <hr style="border-bottom: 1px solid #ebebeb;">
+<!--  headings end -->
+
+<!--  quotations start -->
+<h2 id="quote">Quotations</h2>
+<p>Use quaotations for quoting blocks of content from another source within your page or for use as a highlight panel on the right hand side of the page.</p>
+<p>Add <code>&lt;small&gt;</code> tag for identifying the source. Wrap the name of the source work in <code>&lt;cite&gt;</code>.</p>
+<form class="guide-example"> 
+<fieldset>
+<blockquote>
+<p>It’s vital that the excellent care highlighted in this report is replicated everywhere across the country</p>
+<small><cite title="Prof Gill Leng, NICE ">Prof Gill Leng, NICE </cite></small>    
+</blockquote>
+</fieldset>
+</form>
+<div class="btn btn-link collapsed" data-toggle="collapse" data-target="#quo">View HTML</div>
+<div id="quo" class="collapse" style="height: 0px;">
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;blockquote&gt;</span>
+<span class="auto-style1">&lt;p&gt;It’s vital that the excellent care highlighted in this report is replicated everywhere across the country&lt;/p&gt;</span>
+<span class="auto-style1">&lt;small&gt;&lt;cite title="Prof Gill Leng, NICE "&gt;Prof Gill Leng, NICE &lt;/cite&gt;&lt;/small&gt; </span>
+<span class="auto-style1">&lt;/blockquote&gt;&lt;/fieldset&gt;</span>
+</pre>
+</div>
+<hr style="border-bottom: 1px solid #ebebeb;">
+<!--  quotations end -->
+
+<!--  lead copy start -->
+<h2 id="lead">Lead body copy</h2>
+<p>Make the opening paragraph on a page stand out by adding <code>.lead</code>.</p>
+<ul>
+<li>there should only be one lead paragraph per page</li>
+</ul>
+<form class="guide-example"> 
+<fieldset>
+<p class="lead">These return on investment tools have been designed to support investment decisions by commissioners and policy makers in local authorities and the NHS.</p>
+<p>They have been developed in collaboration with Brunel University, LeLan Solutions and Matrix Knowledge.</p>
+</fieldset>
+</form>
+<div class="btn btn-link collapsed" data-toggle="collapse" data-target="#par">View HTML</div>
+<div id="par" class="collapse" style="height: 0px;">
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;p class="lead"&gt;These return on investment tools have been designed to support investment decisions by commissioners and policy makers in local authorities and the NHS.&lt;/p&gt;</span>
+<span class="auto-style1">&lt;p&gt;They have been developed in collaboration with Brunel University, LeLan Solutions and Matrix Knowledge.&lt;/p&gt;</span>
+</pre>
+</div>
+<hr style="border-bottom: 1px solid #ebebeb;">
+<!--  lead copy start -->
+
+<!--  body copy start -->
+<h2 id="body">Body copy</h2>
+<p>NICE's global default <code>font-size</code> is <strong>16px</strong>, with a <code>line-height</code> of 
+    <strong>24px</strong>. This is applied to the <code>&lt;body&gt;</code> and all paragraphs. In addition, 
+    <code>&lt;p&gt;</code> (paragraphs) receive a bottom margin of their line-height to ensure vertical rhythm is 
+    adhered to.</p>
+<!--  body copy start -->
+
 <!--  typography  end -->
 
 </section>
