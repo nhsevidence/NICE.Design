@@ -530,12 +530,113 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 <!--  body copy start -->
 <h2 id="body">Body copy</h2>
 <p>NICE's global default <code>font-size</code> is <strong>16px</strong>, with a <code>line-height</code> of 
-    <strong>24px</strong>. This is applied to the <code>&lt;body&gt;</code> and all paragraphs. In addition, 
+    <strong>24px</strong>. <br>This is applied to the <code>&lt;body&gt;</code> and all paragraphs. In addition, 
     <code>&lt;p&gt;</code> (paragraphs) receive a bottom margin of their line-height to ensure vertical rhythm is 
     adhered to.</p>
-<!--  body copy start -->
+<form class="guide-example"> 
+<fieldset>
+<p>NICE was originally set up in 1999 as the National Institute for Clinical Excellence, a special health authority, to reduce variation in the availability and quality of NHS treatments and care.</p>
+<p>In 2005, after merging with the Health Development Agency, we began developing public health guidance to help prevent ill health and promote healthier lifestyles. Our name changed to the National Institute for Health and Clinical Excellence.</p>
+</fieldset>
+</form>
+<div class="btn btn-link collapsed" data-toggle="collapse" data-target="#tex">View HTML</div>
+<div id="tex" class="collapse" style="height: 0px;">
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;p&gt;NICE was originally set up in 1999 as the National Institute for Clinical Excellence, a special health authority, to reduce variation in the availability and quality of NHS treatments and care.&lt;/p&gt;</span>
+<span class="auto-style1">&lt;p&gt;In 2005, after merging with the Health Development Agency, we began developing public health guidance to help prevent ill health and promote healthier lifestyles. Our name changed to the National Institute for Health and Clinical Excellence.&lt;/p&gt;</span></pre>
+</div>
+<hr style="border-bottom: 1px solid #ebebeb;">
+<!--  body copy end -->
 
+<!--  hero unit start -->
+<h2 id="hero">Hero unit</h2>
+<p>A lightweight, flexible component to showcase key content on your site, for example:<br>
+<a href="https://www.nice.org.uk/get-involved/fellows-and-scholars">Fellows and scholars</a> or <a href="
+https://www.nice.org.uk/news">News.</a></p>
+<form class="guide-example"> 
+<fieldset>
+<div class="hero-unit" style="padding: 30px;">
+<h2 style="color: white;">Recruitment for the 2015 Fellows and Scholars programme is now open</h2>
+<p>Meet and work with colleagues from different disciplines across the UK. Experience innovative professional development opportunities. Network with likeminded professionals.</p>
+<p><a class="btn btn-primary btn-large" href="http://www.nice.org.uk/Get-Involved/Fellows-and-Scholars/how-to-apply">Apply today</a></p>
+</div>
+</fieldset>
+</form>
+<div class="btn btn-link collapsed" data-toggle="collapse" data-target="#hea">View HTML</div>
+<div id="hea" class="collapse" style="height: 0px;">
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;div class="hero-unit"&gt;</span>
+<span class="auto-style1">&lt;h2&gt;Recruitment for the 2015 Fellows and Scholars programme is now open&lt;/h2&gt;</span>
+<span class="auto-style1">&lt;p&gt;Meet and work with colleagues from different disciplines across the UK. Experience innovative professional development opportunities. Network with likeminded professionals.&lt;/p&gt;</span>
+<span class="auto-style1">&lt;p&gt;&lt;a class="btn btn-primary btn-large" href="#"&gt;Apply today&lt;/a&gt;&lt;/p&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span>
+</pre>
+</div>
+<hr style="border-bottom: 1px solid #ebebeb;">
+<!--  hero unit end -->
 <!--  typography  end -->
+
+<!--  navs start -->
+<h1 id="nav">Navs</h1>
+<p>TBC</p>
+
+<!--  tabs start -->
+<h2 id="tab">Tabs</h2>
+<p>Information is readable if the content is organised in short manageable sections, one solution we have used is by using tabs to seperate blocks of content that are required to live on the same page, for example:<br>
+<a href="https://www.nice.org.uk/about/what-we-do/accreditation">Accreditation</a> or <a href="
+https://www.nice.org.uk/about/what-we-do/nice-international">NICE International.</a></p>
+<p>To make tabs tabbable, create a <code>.tab-pane</code> with unique ID for every tab and wrap them in <code>.tab-content</code>.</p>
+<form class="guide-example"> 
+<fieldset>
+<div class="tabbable" style="margin-bottom: 18px;">
+<ul class="nav nav-tabs">
+<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+<li class=""><a href="#tab2" data-toggle="tab">Section 2</a></li>
+<li class=""><a href="#tab3" data-toggle="tab">Section 3</a></li>
+</ul>
+<div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+<div class="tab-pane active" id="tab1">
+<p>I'm in Section 1.</p>
+</div>
+<div class="tab-pane" id="tab2">
+<p>I'm in Section 2.</p>
+</div>
+<div class="tab-pane" id="tab3">
+<p>I'm in Section 3.</p>
+</div>
+</div>
+</div>
+</fieldset>
+</form>
+
+<div class="btn btn-link collapsed" data-toggle="collapse" data-target="#tabs">View HTML</div>
+<div id="tabs" class="collapse" style="height: 0px;">
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;div class="tabbable" style="margin-bottom: 18px;"&gt;</span>
+<span class="auto-style1">&lt;ul class="nav nav-tabs"&gt;</span>
+<span class="auto-style1">&lt;li class="active"&gt;&lt;a href="#tab1" data-toggle="tab"&gt;Section 1&lt;/a&gt;&lt;/li&gt;</span>
+<span class="auto-style1">&lt;li class=""&gt;&lt;a href="#tab2" data-toggle="tab"&gt;Section 2&lt;/a&gt;&lt;/li&gt;</span>
+<span class="auto-style1">&lt;li class=""&gt;&lt;a href="#tab3" data-toggle="tab"&gt;Section 3&lt;/a&gt;&lt;/li&gt;</span>
+<span class="auto-style1">&lt;/ul&gt;</span>
+<span class="auto-style1">&lt;div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;"&gt;</span>
+<span class="auto-style1">&lt;div class="tab-pane active" id="tab1"&gt;</span>
+<span class="auto-style1">&lt;p&gt;I'm in Section 1.&lt;/p&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span>
+<span class="auto-style1">&lt;div class="tab-pane" id="tab2"&gt;</span>
+<span class="auto-style1">&lt;p&gt;I'm in Section 2.&lt;/p&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span>
+<span class="auto-style1">&lt;div class="tab-pane" id="tab3"&gt;</span>
+<span class="auto-style1">&lt;p&gt;I'm in Section 3.&lt;/p&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span></pre>
+</div>
+<hr style="border-bottom: 1px solid #ebebeb;">
+<!--  tabs end-->
+
+
+
+
+
+<!--  navs unit end -->
+
 
 </section>
       
@@ -572,32 +673,21 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 <li><a href="#quote">Quotations</a></li>
 <li><a href="#lead">Lead body copy</a></li>
 <li><a href="#body">Body copy</a></li>
+<li><a href="#hero">Hero unit</a></li>
 </ul>
 </li>
 
-
-
-
+<li><a href="#nav">Navs</a>
+<ul class="nav nav-list">
+<li><a href="#tab">Tabs</a></li>
+</ul>
+</li>
           </ul>
         </nav>
       </aside>
     </article>
 
-    <div class="navbar navbar-inverse">
-      <div class="navbar-inner">
-        <div class="container">
-          <ul class="nav nav-pills">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./Guide.GettingStarted.html">Get started</a></li>
-            <li><a href="./Guide.Scaffolding.html">Scaffolding</a></li>
-            <li><a href="./Guide.BasicElements.html">Basic elements</a></li>
-            <li class="active"><a href="./Guide.FormElements.html">Form elements</a></li>
-            <li><a href="./Guide.Navigation.html">Navigation</a></li>
-            <li><a href="./Guide.Glyphs.html">Icons</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    
 
     <footer class="footer-wrapper">
   <div class="footer">
