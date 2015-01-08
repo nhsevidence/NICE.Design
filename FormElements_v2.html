@@ -192,8 +192,8 @@ For example Register now, Contact us or Join the mailing list.</p>
 
 <!--  std button start -->
 <h2 id="standard">Standard button</h2>
-<p>Use the standard button for normal actions, do something within the page, typically to reveal more information.<br>
-For example View guidance consultations, List of guidelines or Advice listing.</p>
+<p>Use the standard button for normal actions, do something within the page, typically to reveal more information, for example:<br>
+View guidance consultations, List of guidelines or Advice listing.</p>
 <ul>
 <li>avoid excessively long button text</li>
 <li>make sure the button text describes an action.</li>
@@ -210,10 +210,37 @@ For example View guidance consultations, List of guidelines or Advice listing.</
 <pre class="prettyprint  linenums">&lt;a href="⁄guidance⁄inconsultation"" class="btn"&gt;View guidance consultations/a&gt;</pre>
 <!--  std button end -->
 
+
+<!--  collapse button start -->
+<h2 id="collapse">Collapsible information button</h2>
+<p>Using the collapsible information button gives you the option to expand and collapse information on a button click, useful for hiding numerous profile's, for example:<br>
+<a href="http://www.nice.org.uk/about/who-we-are/guidance-executive">Guidance Executive</a> or <a href="http://www.nice.org.uk/about/what-we-do/accreditation/accreditation-external-advisers">Accreditation external advisers.</a> </p>
+<form class="guide-example">
+    <fieldset>
+      <legend>Collapsible buttons on NICE.org look like this:</legend>
+      <div class="btn btn-info collapsed" data-toggle="collapse" data-target="#phillip-bairstow">View profile</div>
+<div id="phillip-bairstow" class="collapse" style="height: 0px;">
+<div class="well white">
+<p><strong>Phillip</strong> is a graduate of the University of Western Australia and has held research positions at the University of London and the University of Birmingham.</p>
+<p>He currently manages the development, continuous review and accreditation of Diagnostic Imaging Pathways, which is a decision support tool and educational resource for healthcare professionals and patients based on the best available evidence and broad clinical consensus. Associated initiatives include the development of an application to better implement diagnostic guidance in clinical practice, and the development of teaching modules to support the education and continuing professional development of healthcare professionals.</p>
+</div>
+</div>
+    </fieldset>
+  </form>
+<h3>HTML code for a collapsible information button</h3>  
+<pre class="prettyprint  linenums"><span class="auto-style1">&lt;div class="btn btn-info collapsed" data-toggle="collapse" data-target="#example-id"&gt;View profile&lt;/div&gt;</span>
+<span class="auto-style1">&lt;div id="example-id" class="collapse" style="height: 0px;"&gt;</span>
+<span class="auto-style1">&lt;div class="well white"&gt;</span>
+<span class="auto-style1">&lt;p&gt;text would go here&lt;/p&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span>
+<span class="auto-style1">&lt;/div&gt;</span></pre>
+<!--  collapse button end -->
+
 <!--  key link button start -->
 <h2 id="key">Key link</h2>
 <p>Use the key link for more information, read more or find out more, typically to read more information.<br>
 For example Read more about NICE guidelines, View the case study or Learn more.</p>
+
 
 <ul>
 <li>avoid excessively long link text</li>
@@ -227,9 +254,7 @@ For example Read more about NICE guidelines, View the case study or Learn more.<
   </form>
 <h3>HTML code for a key link link</h3> 
 <pre class="prettyprint  linenums">&lt;a href="⁄About⁄What-we-do/⁄Our-Programmes⁄NICE-guidancee⁄NICE-guidelines" class="key-link"&gt;Read more about NICE guidelines&lt;⁄a&gt;</pre>
-
-
-<!--  key link button start -->
+<!--  key link button end -->
 
 <!--  standard link start -->
 <h2 id="text">Text link</h2>
@@ -239,6 +264,7 @@ Avoid opening content in a new window if you can, as it can be very confusing fo
 <li>generalised link within the text</li>
 <li>not an action </li>
 <li>navigational</li>
+<li>links without surrounding text should not have a full stop at the end</li>
 <li>make them describe the thing they link to.</li>
 </ul>
 <form class="guide-example">
@@ -265,7 +291,7 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 <!--  Download link start -->
 <h2 id="download">Download links</h2>
 <p>Use PDF download links when displaying large numbers of PDF documents for download, for example:<br>
-<a href="http://www.nice.org.uk/about/who-we-are/policies-and-procedures">Policies and procedures</a> or the <a href="http://www.nice.org.uk/get-involved/citizens-council">Citizens Council</a> pages</p>
+<a href="http://www.nice.org.uk/about/who-we-are/policies-and-procedures">Policies and procedures</a> or <a href="http://www.nice.org.uk/get-involved/citizens-council">Citizens Council</a>.</p>
 <ul>
 <li>display a PDF icon, tell the user up front that the link they are about to click is a PDF</li>
 <li>show a file size: it is best practice to show your users what they can expect and how long it may take them.</li>
@@ -348,7 +374,8 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 
 <!--  numbered list start -->
 <h2 id="numbered">Numbered list</h2>
-<p>Use numbered lists when you want to indicate a hierarchy, or the numbers or letters form part of a specific grading system.</p>
+<p>Use numbered lists when you want to indicate a hierarchy, or the numbers or letters form part of a specific grading system.<br>
+</p>
 <form class="guide-example"> 
     <fieldset>
       <legend>Numbered lists on NICE.org look like this:</legend>
@@ -370,7 +397,9 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
 
 <!--  numbered list start -->
 <h2 id="alt">Highlighted numbered list</h2>
-<p>Use the highlighted numbered list when you want to emphasize a step by step process and make it a feature of the content.</p>
+<p>Use the highlighted numbered list when you want to emphasize a step by step process and make it a feature of the content, for example:<br>
+<a href="http://www.nice.org.uk/about/what-we-do/accreditation/accreditation-decisions">Accreditation decisions</a> or <a href="http://www.nice.org.uk/standards-and-indicators">Standards and Indicators</a>.</p>
+
 <form class="guide-example"> 
     <fieldset>
       <legend>Highlighted numbered lists on NICE.org look like this:</legend>
@@ -437,6 +466,7 @@ For example Down to Directors, Down to Executive directors or Back to top.</p>
               <ul class="nav nav-list">
                 <li><a href="#call">Call-to-action button</a>
                 </li><li><a href="#standard">Standard button</a>
+                </li><li><a href="#collapse">Collapsible information button</a>
                 </li><li><a href="#key">Key link</a>
                 </li><li><a href="#text">Text link</a>
                 </li><li><a href="#anchor">Anchor links</a>
