@@ -1,0 +1,26 @@
+*[data-toggle='popover'] {
+	cursor: pointer;
+}
+.popover {
+	max-width: 480px;
+	padding: 0;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: white;
+	background-color: @darkgrey;
+	border: 0;
+	.border-radius(0);
+	.box-shadow(none);
+	left: 24px;
+}
+.popover.bottom>.arrow:after {
+	top: 1px;
+	margin-left: -10px;
+	content: " ";
+	border-top-width: 0;
+	border-bottom-color: @darkgrey;
+}
+.popover-content {
+	padding: 24px 24px 0 24px;
+}
