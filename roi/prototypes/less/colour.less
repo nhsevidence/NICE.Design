@@ -1,0 +1,30 @@
+/*BASE COLOURS*/
+
+@lightblue:	#03A9F4;
+@medblue:	#0277BD;
+@darkblue:	#01579B;
+
+@lightgrey:	#ECEFF1;
+@medgrey:	#90A4AE;
+@darkgrey:	#263238;
+
+@red:		#F44336;
+@green:		#4CAF50;
+@yellow:	#FDD835;
+
+@white:		#ffffff;
+
+
+/*COLOUR TRANSPARENCY FROM HEX VALUES*/
+
+.opacity-background(@color, @alpha: 1) {
+  background: rgba( red(@color), green(@color), blue(@color), @alpha);
+}
+
+.opacity-colour(@color, @alpha: 1) {
+  color: rgba( red(@color), green(@color), blue(@color), @alpha);
+}
+
+.opacity-border(@color, @alpha: 1) {
+  border-color: rgba( red(@color), green(@color), blue(@color), @alpha);
+}
