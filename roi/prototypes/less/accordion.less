@@ -1,0 +1,79 @@
+*[data-toggle='collapse'] {
+	cursor: pointer;
+}
+.accordion {
+		margin: 0;
+		@media (max-width: 767px) {
+			margin: 0 -24px;
+		}
+		border-bottom: 1px solid white;
+		&.disabled {
+			opacity: 0.5;
+			a {
+				cursor: not-allowed;
+			}
+		}
+		.header {
+			padding: 24px 24px 0 24px;
+			background: @lightgrey;
+			.title {
+				display: table;
+				color: @darkgrey;
+				/*&:before {
+					.glyphicon;
+					content: "\e113";
+					font-size: 12px;
+					line-height: 1;
+					width: 24px;
+					display: table-cell;
+					vertical-align: top;
+					top: 6px;
+					
+				}*/
+				&.collapsed {
+					color: @medblue;
+					/*&:before {
+						content: "\e114";
+					}*/
+				}
+			}
+			.options {
+				margin: 0 0 24px 0;
+				float: right;
+				@media (max-width: 992px) {
+					float: none;
+					overflow: hidden;
+					margin: -12px 0 24px 0;
+					/*padding-left: 36px;*/
+				}
+				.options-item {
+					text-align: right;
+					float: left;
+					margin-left: 24px;
+					@media (max-width: 992px) {
+						text-align: left;
+						margin-left: 0;
+						margin-right: 24px;
+					}
+					@media (max-width: 767px) {
+						float: none;
+						display: block;
+					}
+				}
+			}
+		}
+		.content {
+			padding: 0 24px;
+			/*.opacity-background(@darkgrey, 0.5);*/
+			background: @lightgrey;
+			overflow: hidden;
+		}
+		
+	}
+	
+	.accordion-options {
+		font-size: 12px;
+		.opacity-background(@lightgrey, 0.5);
+		padding: 12px 24px;
+		
+	}

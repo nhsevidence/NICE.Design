@@ -1,0 +1,101 @@
+@import "lesshat.less";
+@import "type.less";
+@import "grid.less";
+@import "colour.less";
+@import "forms.less";
+@import "steps.less";
+@import "accordion.less";
+@import "popover.less";
+@import "modal.less";
+@import "misc.less";
+/*@import "jquery.bootstrap-touchspin.less";*/
+
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #212121;
+	/*background: @lightgrey;*/
+}
+
+.tophat-1 {
+	width: 100%;
+	height: 54px;
+	background: #262626;
+}
+
+.tophat-2 {
+	width: 100%;
+	height: 48px;
+	background: #eee;
+}
+
+.btn {
+	padding: 12px;
+	font-size: 16px;
+	line-height: 1.5;
+	border: 0;
+	.border-radius(0);
+	min-width: 48px;
+	background: @darkgrey;
+	color: white;
+}
+.bootstrap-touchspin {
+	/*background: red;*/
+	.form-control {
+		border: 0;
+		font-size: 16px;
+		line-height: 1.5;
+		padding: 12px 24px;
+		min-height: 48px;
+		.box-shadow(none);
+	}
+	.bootstrap-touchspin-down, .bootstrap-touchspin-up {
+		.opacity-background(@darkgrey, @alpha: 0.3);
+		color: @white;
+		margin: 0!important;
+		font-size: 24px;
+		line-height: 1;
+		.box-shadow(inset 0 -1px 0 0 rgba(0,0,0,0.15));
+		&:hover {
+			.opacity-background(@darkgrey, @alpha: 0.6);
+		}
+	}
+	.input-group-addon {
+		font-size: 16px;
+		line-height: 1.5;
+		background-color: transparent;
+		border: 0;
+		&.bootstrap-touchspin-prefix {
+		}
+	}
+}
+
+
+.input-range {
+	overflow: hidden;
+	/*margin-bottom: 24px;*/
+	padding: 12px 24px;
+	.opacity-background(@darkgrey, @alpha: 0.1);
+	.box-shadow(inset 0 -1px 0 0 @lightgrey);
+	.input-group {
+		margin: 0 0 12px 0;
+	}
+	label {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 12px;
+	}
+}
+
+.total {
+	padding: 12px 24px;
+	margin-bottom: 24px;
+	background: @lightblue;
+	color: white;
+}
