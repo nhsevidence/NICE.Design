@@ -1,0 +1,71 @@
+.admin-main {
+  padding: 24px 24px 24px 24px;
+  background-color: #e0e0e0;
+  min-height: 100vh;
+  margin-top: 24px;
+}
+.admin-main .a-z {
+  -webkit-box-shadow: inset 0 -1px 0 0 #d6d6d6;
+  -moz-box-shadow: inset 0 -1px 0 0 #d6d6d6;
+  box-shadow: inset 0 -1px 0 0 #d6d6d6;
+  margin-top: -24px;
+  margin-bottom: 24px;
+}
+.admin-main .a-z li {
+  padding: 0 3px;
+}
+.admin-main .a-z li a {
+  padding: 12px 3px;
+  display: block;
+  font-weight: 700;
+}
+.admin-main .organisation-section {
+  background-color: white;
+  padding: 24px 24px 0 24px;
+  margin-top: 24px;
+  box-shadow: inset 0 -1px 0 0 #bdbdbd;
+}
+.admin-main .organisation-section .organisation-item {
+  margin-bottom: 24px;
+  /*overflow: hidden;*/
+}
+.admin-main .organisation-section .h1 {
+  font-size: 66px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.admin-main .organisation-section .h3 {
+  margin-bottom: 6px;
+}
+.admin-main .organisation-section .organisation-edit {
+  background-color: #eeeeee;
+  padding: 0 24px;
+}
+.admin-main .organisation-section .organisation-edit label {
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  padding: 9px 0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+.sticky .a-z {
+  max-width: 1122px;
+  padding: 0 24px;
+  margin: 0 auto;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.pad {
+  padding-top: 48px;
+}
