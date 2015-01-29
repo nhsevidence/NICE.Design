@@ -19,7 +19,7 @@ body {
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	color: #212121;
+	color: @darkgrey;
 	/*background: @lightgrey;*/
 }
 
@@ -77,19 +77,24 @@ body {
 }
 
 
-.input-range {
+.input-ranges {
 	overflow: hidden;
-	/*margin-bottom: 24px;*/
-	padding: 12px 24px;
+	margin-bottom: 24px;
+	/*padding: 12px 24px;
 	.opacity-background(@darkgrey, @alpha: 0.1);
-	.box-shadow(inset 0 -1px 0 0 @lightgrey);
+	.box-shadow(inset 0 -1px 0 0 @lightgrey);*/
+	
 	.input-group {
-		margin: 0 0 12px 0;
+		margin: 12px 0;
 	}
 	label {
 		font-size: 18px;
 		line-height: 24px;
-		margin-bottom: 12px;
+		font-weight: 400;
+		margin: 0;
+		@media (max-width: 767px) {
+			font-size: 16px;
+		}
 	}
 }
 
