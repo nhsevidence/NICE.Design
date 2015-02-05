@@ -113,14 +113,14 @@
                         <div class="span9 checkboxes">
                           <div class="row">
                             <div class="span6">
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" id="select-all" value="option1"> Select all attributes</label>
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option2"> Accrediting organisation</label>
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option3"> Author</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-add" id="select-all-add" value="option1"> Select all attributes</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-add" value="option2"> Accrediting organisation</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-add" value="option3"> Author</label>
                             </div>
                             <div class="span6">
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option4"> Endorsing organisation</label>
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option5"> Publisher</label>
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option6"> Supporting organisation</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-add" value="option4"> Endorsing organisation</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-add" value="option5"> Publisher</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-add" value="option6"> Supporting organisation</label>
                             </div>
                           </div>
                         </div>
@@ -230,14 +230,14 @@
                         <div class="span9 checkboxes">
                           <div class="row">
                             <div class="span6">
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" id="select-all" value="option1"> Select all attributes</label>
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option2"> Accrediting organisation</label>
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option3"> Author</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-edit" id="select-all-edit" value="option1"> Select all attributes</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-edit" value="option2"> Accrediting organisation</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-edit" value="option3"> Author</label>
                             </div>
                             <div class="span6">
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option4"> Endorsing organisation</label>
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option5"> Publisher</label>
-                              <label class="checkbox"><input type="checkbox" class="checkbox-input" value="option6"> Supporting organisation</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-edit" value="option4"> Endorsing organisation</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-edit" value="option5"> Publisher</label>
+                              <label class="checkbox"><input type="checkbox" class="checkbox-input checkbox-input-edit" value="option6"> Supporting organisation</label>
                             </div>
                           </div>
                         </div>
@@ -507,13 +507,28 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-    $('#select-all').click(function(event) {  //on click 
+    $('#select-all-add').click(function(event) {  //on click 
         if(this.checked) { // check select status
-            $('.checkbox-input').each(function() { //loop through each checkbox
+            $('.checkbox-input-add').each(function() { //loop through each checkbox
                 this.checked = true;  //select all checkboxes with class "checkbox1"               
             });
         }else{
-            $('.checkbox-input').each(function() { //loop through each checkbox
+            $('.checkbox-input-add').each(function() { //loop through each checkbox
+                this.checked = false; //deselect all checkboxes with class "checkbox1"                       
+            });         
+        }
+    });
+});
+
+
+$(document).ready(function() {
+    $('#select-all-edit').click(function(event) {  //on click 
+        if(this.checked) { // check select status
+            $('.checkbox-input-edit').each(function() { //loop through each checkbox
+                this.checked = true;  //select all checkboxes with class "checkbox1"               
+            });
+        }else{
+            $('.checkbox-input-edit').each(function() { //loop through each checkbox
                 this.checked = false; //deselect all checkboxes with class "checkbox1"                       
             });         
         }
