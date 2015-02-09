@@ -1,0 +1,63 @@
+
+html {
+	overflow-y: visible;
+}
+html, body, html body {
+	height: 100%;
+	width: 100%;
+}
+header {
+	background-color: #333;
+	height: 48px;
+}
+footer {
+	background-color: #333;
+	height: 48px;
+}
+
+.cover {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	@media(min-width:767px){
+		height: 100%;
+		background: url(http://dev.evidence.nhs.uk/content/nice/demo-bg.jpg) no-repeat bottom center scroll;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+.cover .cover-body {
+	display: table-cell;
+	vertical-align: middle;
+	background: url(http://dev.evidence.nhs.uk/content/nice/EvidenceEye.svg) no-repeat center center;
+	@media(max-width:767px){
+		background-size: 767px 767px;
+	}
+}
+
+
+.cover .container {
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	
+	@media(min-width:1200px){
+		width: 1170px;
+	}
+	@media(min-width:992px){
+		width: 970px;
+	}
+	@media(min-width:768px){
+		width: 750px;
+	}
+}
+
+.evidence-search {
+	margin: 0 24px;
+	padding: 120px 0;
+}

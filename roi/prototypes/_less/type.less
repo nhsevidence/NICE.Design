@@ -1,40 +1,45 @@
-p {
+p, ul {
 	margin: 0 0 24px 0;
 }
 a:hover, a:focus {
 	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	display: inline-block;
+	display: block;
 	font-weight: 400;
 	margin: 0 0 24px 0;
 }
 h2, .h2 {
 	font-size: 48px;
 	line-height: 1;
+	@media (max-width: 767px) {
+		font-size: 36px;
+		line-height: 1.166666666666667;
+	}
 }
 h3, .h3 {
-	font-size: 36px;
-	line-height: 48px;
+	font-size: 30px;
+	line-height: 1.2;
 	display: inherit;
+	@media (max-width: 767px) {
+		font-size: 24px;
+		line-height: 1;
+	}
 }
 h4, .h4 {
-	font-size: 24px;
-	line-height: 24px;
-	/*font-weight: 700;*/
-	/*margin: 0 0 12px 0;*/
-	display: inherit;
+	font-size: 21px;
+	line-height: 1.142857142857143;
+	margin-bottom: 24px;
+	
+	
 }
 h5, .h5 {
 	font-size: 18px;
 	line-height: 24px;
-	/*font-weight: 700;*/
-	/*padding-bottom: 12px;
-	margin-bottom: 12px;
-	border-bottom: 1px solid black;*/
-	display: block;
-	margin-bottom: 12px;
+	font-weight: 400;
+	margin: 0;
 }
+
 h6, .h6 {
 	font-size: 16px;
 	line-height: 24px;
@@ -67,4 +72,12 @@ h6, .h6 {
 
 .bg-info {
 	padding: 12px 24px;
+}
+
+.link {
+	color: @medblue;
+	cursor: pointer;
+	&:hover {
+		color: @darkblue;
+	}
 }

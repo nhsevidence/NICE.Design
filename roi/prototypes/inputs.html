@@ -5,16 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ROI Tools general UI</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<link href="http://fonts.googleapis.com/css?family=Lato:400,400italic,700|Roboto+Condensed:400" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link href="http://fonts.googleapis.com/css?family=Lato:400,400italic,700" rel="stylesheet" media="screen">
 <link href="roi-v01.css" rel="stylesheet" media="screen">
 </head>
-<body class="roi-tools-ui">
+<body class="roi-tools-ui inputs">
 <div class="steps">
   <ul class="list-unstyled">
-    <li class="step"><a href="#">Location</a></li>
-    <li class="step"><a href="#">Population groups</a></li>
-    <li class="step"><a href="#">Individual interventions</a></li>
+    <li class="step"><a href="location.html">Location</a></li>
+    <li class="step"><a href="population-groups.html">Population groups</a></li>
+    <li class="step"><a href="individual-interventions.html">Individual interventions</a></li>
     <li class="step active">Population interventions</li>
     <li class="step inactive">Summary</li>
     <li class="step inactive">Calculations</li>
@@ -24,27 +24,42 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <div class="scenario-title">Untitled scenario</div>
+        <div class="scenario-title">Untitled scenario 2</div>
         <h2>Population interventions <i class="glyphicon glyphicon-info-sign info" data-toggle="popover" data-placement="bottom" data-html="true" data-content="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum mi eros, at mollis quam mattis at. Morbi porttitor mi ex, eget odio hendrerit venenatis. Integer tincidunt ultricies massa.</p>"></i></h2>
-        <h5>Overview</h5>
+        <h3>Overview</h3>
         <p>Population-level interventions are targeted at adults, with the workplace-based interventions applying only to the sub-population of employed adults who are currently inactive.</p>
-        <h3>Community-based interventions</h3>
+        
         <div class="accordion-options">
           <div class="row">
-            <div class="col-md-9 col-xs-6"><a href="#" id="collapse-init">Expand all</a></div>
-            <div class="col-md-3 col-xs-6 text-right"><a href="#">Include all</a></div>
+            <div class="col-xs-6">
+            	<div id="collapse-init" class="link">Expand all</div>
+            </div>
+            <div class="col-xs-6 text-right">
+                <label class="checkbox-label">
+                <input type="checkbox" class="checkbox-input hidden" id="select-all"><span class="select-all link">Include all</span>
+                </label>
+            </div>
           </div>
         </div>
+        
+        
+        <div class="accordion-heading"><h3>Community-based <!--interventions--></h3></div>
         <div class="accordion">
           <div class="header">
             <div class="row">
-              <div class="col-xs-10"><a class="title h4 collapsed" data-toggle="collapse" href="#accordion-1">Media campaigns</a></div>
+              <div class="col-xs-10">
+                <div class="title h4 collapsed" data-toggle="collapse" aria-expanded="false" data-target="#accordion-1">Media campaigns</div>
+              </div>
               <div class="col-xs-2 text-right">
-                <input type="checkbox" checked>
+                <input type="checkbox" class="checkbox-input">
                 <label><span class="sr-only">Include</span></label>
               </div>
             </div>
           </div>
+          
+          
+          
+          
           <div id="accordion-1" class="collapse">
             <div class="content">
               <p>Project STRIDE aims to provide information on ways to achieve 30 minutes of moderate physical activity, 5 days per week. Surveys are also sent out in order to send participants tailored feedback. <span class="btn-link" data-toggle="modal" data-target="#myModal">Learn more&#8230;</span></p>
@@ -53,7 +68,7 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel">Media campaigns</h4>
+                      <h3 class="modal-title" id="myModalLabel">Media campaigns</h3>
                     </div>
                     <div class="modal-body">
                       <p>This intervention is not from NICE guidance. The main components of the intervention are as follows:</p>
@@ -74,18 +89,18 @@
               </div>
               
               
-              <div class="input-range">
+              <div class="input-ranges">
                 <div>
-                  <label for="input-range">Population allocated</label>
+                  <label for="input-percentage">Population allocated</label>
                 </div>
                 <div class="row">
                   <div class="col-md-6">
-                    <input type="text" name="input-range" placeholder="88.88%" />
+                    <input type="text" name="input-percentage" placeholder="0.00" value="10.00" />
                     <div>% of adults</div>
                   </div>
                   
                   <div class="col-md-6">
-                    <input type="text" name="input-range" placeholder="888,888,888" />
+                    <input type="text" name="input-numeric" placeholder="0" value="40517" />
                     <div>number of individuals <a href="#" class=" pull-right">Reset</a></div>
                   </div>
                   
@@ -95,43 +110,99 @@
               
               
               
+              <div class="input-ranges">
+                <div>
+                  <label for="input-percentage">Effectiveness</label>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="input-percentage" placeholder="0.00" value="3.60" />
+                    <div>% of adults <a href="#" class=" pull-right">Reset</a></div>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="text" name="input-percentage" placeholder="0.00" value="1.05" />
+                    <div>number of individuals <a href="#" class=" pull-right">Reset</a></div>
+                  </div>
+                  
+                </div>
+              </div>
+              
+              
+              <div class="total">
+              <div class="row">
+                <div class="col-xs-8 col-sm-6">
+                  <h5>Cost per individual per intervention</h5>
+                  <div class="h6">&pound; 23.06</div>
+                  </div>
+                  
+                  
+                  <div class="col-xs-4 col-sm-6">
+                  <h5>Total cost</h5>
+                  <div class="h6">&pound; 934,438</div>
+                  
+                  
+                </div>
+                
+              </div> 
+              </div>             
+              
+              
+             <!-- <div class="total">
+                <div class="row">
+                  <div class="col-sm-9"><b>Cost per individual per intervention</b></div>
+                  <div class="col-sm-3 text-right">£ 23.06</div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-9"><b>Total cost</b></div>
+                  <div class="col-sm-3 text-right">£ 934,438</div>
+                </div>
+              </div>-->
+              
+              
+              
             </div>
           </div>
         </div>
         <div class="accordion">
           <div class="header">
             <div class="row">
-              <div class="col-xs-10"><a class="title h4 collapsed" data-toggle="collapse" href="#accordion-2">Community-based walking programmes</a></div>
+              
+              
+              <div class="col-xs-10">
+                <div class="title h4 collapsed" data-toggle="collapse" aria-expanded="false" data-target="#accordion-2">Community-based walking programmes</div>
+              </div>
+              
               <div class="col-xs-2 text-right">
-                <input type="checkbox" checked>
+                <input type="checkbox" class="checkbox-input">
                 <label><span class="sr-only">Include</span></label>
               </div>
             </div>
           </div>
           <div id="accordion-2" class="collapse">
             <div class="content">
-              <h5>Adults (16+) population size for Manchester: 888,888</h5>
+              <h6>Adults (16+) population size for Manchester: 888,888</h6>
               <p>The recommended 'active' level of physical activity for adults is 150 minutes per week or more. 'Low active' indicates an activity level of 30-149 mins per week and 'inactive' at 0-29 minutes per week. <i>(Source: <a href="#">Active People Survey 2012</a>)</i></p>
-              <div class="input-range">
+              <div class="input-ranges">
                 <div>
-                  <label for="input-range">Increase in low active adults</label>
+                  <label for="input-percentage">Increase in low active adults</label>
                 </div>
                 <div class="row">
                   <div class="col-md-8">
-                    <input type="text" name="input-range" placeholder="88.88%" />
+                    <input type="text" name="input-percentage" placeholder="88.88%" />
                   </div>
                   <div class="col-md-4">
                     <div><b>888,888</b> individuals <a href="#" class=" pull-right">Reset</a></div>
                   </div>
                 </div>
               </div>
-              <div class="input-range">
+              <div class="input-ranges">
                 <div>
-                  <label for="input-range">Increase in active adults</label>
+                  <label for="input-percentage">Increase in active adults</label>
                 </div>
                 <div class="row">
                   <div class="col-md-8">
-                    <input type="text" name="input-range" placeholder="88.88%" />
+                    <input type="text" name="input-percentage" placeholder="88.88%" />
                   </div>
                   <div class="col-md-4">
                     <div><b>888,888</b> individuals <a href="#" class=" pull-right">Reset</a></div>
@@ -153,41 +224,32 @@
         </div>
         
         
-        <div id="accordion-3" class="accordion disabled">
-          <div class="header">
-            <div class="row">
-              <div class="col-xs-10"><a class="title h4 collapsed" href="#">Accordion (unchecked)</a></div>
-              <div class="col-xs-2 text-right">
-                <input type="checkbox">
-                <label><span class="sr-only">Include</span></label>
-              </div>
-            </div>
-          </div>
-        </div>
         
         
         
-        <h3>Environmental interventions</h3>
         
-        <div class="accordion-options">
-          <div class="row">
-            <div class="col-md-9 col-xs-6"><a href="#" id="collapse-init">Expand all</a></div>
-            <div class="col-md-3 col-xs-6 text-right"><a href="#">Include all</a></div>
-          </div>
-        </div>
+        <h3>Environmental <!--interventions--></h3>
+        
+        
         
         
         <div class="accordion">
           <div class="header">
             <div class="row">
-              <div class="col-xs-10"><a class="title h4 collapsed" data-toggle="collapse" href="#accordion-1">Cycling programmes</a></div>
+              
+              
+              <div class="col-xs-10">
+                <div class="title h4 collapsed" data-toggle="collapse" aria-expanded="false" data-target="#accordion-3">Cycling programmes</div>
+              </div>
+              
+              
               <div class="col-xs-2 text-right">
-                <input type="checkbox" checked>
+                <input type="checkbox" class="checkbox-input">
                 <label><span class="sr-only">Include</span></label>
               </div>
             </div>
           </div>
-          <div id="accordion-1" class="collapse">
+          <div id="accordion-3" class="collapse">
             <div class="content">
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
@@ -197,14 +259,20 @@
         <div class="accordion">
           <div class="header">
             <div class="row">
-              <div class="col-xs-10"><a class="title h4 collapsed" data-toggle="collapse" href="#accordion-1">Walking programmes</a></div>
+              
+              
+              <div class="col-xs-10">
+                <div class="title h4 collapsed" data-toggle="collapse" aria-expanded="false" data-target="#accordion-4">Walking programmes</div>
+              </div>
+              
+              
               <div class="col-xs-2 text-right">
-                <input type="checkbox" checked>
+                <input type="checkbox" class="checkbox-input">
                 <label><span class="sr-only">Include</span></label>
               </div>
             </div>
           </div>
-          <div id="accordion-1" class="collapse">
+          <div id="accordion-4" class="collapse">
             <div class="content">
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
@@ -214,14 +282,20 @@
         <div class="accordion">
           <div class="header">
             <div class="row">
-              <div class="col-xs-10"><a class="title h4 collapsed" data-toggle="collapse" href="#accordion-1">Urban planning</a></div>
+             
+              
+              <div class="col-xs-10">
+                <div class="title h4 collapsed" data-toggle="collapse" aria-expanded="false" data-target="#accordion-5">Urban planning</div>
+              </div>
+              
+              
               <div class="col-xs-2 text-right">
-                <input type="checkbox" checked>
+                <input type="checkbox" class="checkbox-input">
                 <label><span class="sr-only">Include</span></label>
               </div>
             </div>
           </div>
-          <div id="accordion-1" class="collapse">
+          <div id="accordion-5" class="collapse">
             <div class="content">
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
@@ -235,45 +309,9 @@
 </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> 
-<script src="js/scripts.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> 
 <script src="js/jquery.bootstrap-touchspin.js"></script> 
-<script>
-$(function () {
-	$('[data-toggle="popover"]').popover()
-})
-</script> 
-<script>
-    $("input[name='input-range']").TouchSpin({
-        min: 0,
-		step: 0.01,
-		decimals: 2
-    });
-</script> 
-<script>
-$(function () {
+<script src="js/scripts.js"></script> 
 
-    var active = true;
-
-    $('#collapse-init').click(function () {
-        if (active) {
-            active = false;
-            $('.collapse').collapse('show');
-            $('.title').attr('data-toggle', '');
-            $(this).text('Collapse all');
-        } else {
-            active = true;
-            $('.collapse').collapse('hide');
-            $('.title').attr('data-toggle', 'collapse');
-            $(this).text('Expand all');
-        }
-    });
-    
-    $('#accordion').on('show.bs.collapse', function () {
-        if (active) $('#accordion .in').collapse('hide');
-    });
-
-});
-</script>
 </body>
 </html>
