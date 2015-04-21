@@ -17,6 +17,7 @@
 <meta name="msapplication-TileColor" content="#fafafb">
 <meta name="msapplication-TileImage" content="//cdn.nice.org.uk/V3/Content/nice/favicon-144.png">
 <link href="//cdn.nice.org.uk/V3/Content/NICE.bootstrap.css" rel="stylesheet" media="screen">
+<link href="../In-Dev/css/section.css" rel="stylesheet" type="text/css">
 
 
 <style type="text/css">
@@ -103,6 +104,15 @@
                 <p class="summary">
                     Draft projects :
                 </p>
+                <section>
+                 
+<!-- Search box...  -->
+<form class="form-search">
+    <input type="text" class="input-large search-query" hb-bind-instant="Terms" trigger-on-enter="do-search" placeholder="Search draft products by word, term, phrase, ID etc">
+    <button type="btn" class="btn" hb-trigger="do-search">Search</button>
+</form>
+
+             </section>
             </div>
                 <div class="search-body">
                     <ul class="media-list search-list">
