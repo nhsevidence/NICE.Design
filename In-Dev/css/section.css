@@ -1,0 +1,719 @@
+﻿}
+section#publications-ui {
+  visibility: visible;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  min-width: 960px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+section#publications-ui article section.tab-content {
+  display: none;
+}
+section#publications-ui article section.tab-content.active {
+  display: block;
+}
+section#publications-ui input[type=file] {
+  height: auto;
+  background: white;
+  -webkit-box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  -moz-box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  padding: 0 0 0 12px;
+  line-height: 56px;
+}
+section#publications-ui label.vertical {
+  text-align: left;
+  width: 100%;
+}
+section#publications-ui input[type=file]::-webkit-file-upload-button {
+  -webkit-appearance: none;
+  border: 0px;
+  background: #bdbdbd;
+  margin-top: 2px;
+  line-height: 40px;
+}
+section#publications-ui section.view-edit-block > section.view {
+  display: block;
+}
+section#publications-ui section.view-edit-block > section.edit {
+  display: none;
+}
+section#publications-ui section.view-edit-block.editing > section.view {
+  display: none;
+}
+section#publications-ui section.view-edit-block.editing > section.edit {
+  display: block;
+}
+section#publications-ui div.aside h4 {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+}
+section#publications-ui div.uneditable-input {
+  color: #888;
+  white-space: normal;
+  height: auto;
+}
+section#publications-ui section.relationships div.no-margin {
+  margin-bottom: 0px;
+}
+section#publications-ui section.relationships div.relationship-options {
+  margin-top: -20px;
+  margin-bottom: -50px;
+}
+section#publications-ui section.relationships div.relationship-options > div.controls {
+  background: #fefefe;
+}
+section#publications-ui section.relationships div.relationship-options > div.controls ul {
+  margin: 0;
+  overflow-y: auto;
+  max-height: 400px;
+}
+section#publications-ui section.relationships div.relationship-options > div.controls ul li {
+  padding: 10px;
+}
+section#publications-ui section.relationships div.relationship-options > div.controls ul,
+section#publications-ui section.relationships div.relationship-options > div.controls li {
+  list-style: none;
+}
+section#publications-ui section.relationships div.relationship-options > div.controls li:hover {
+  background-color: #f5f5f5;
+}
+section#publications-ui section.relationships.organisation {
+  margin-bottom: 70px;
+}
+section#publications-ui section.browse-categories div.category,
+section#publications-ui section.relationships div.category {
+  visibility: visible;
+  display: block;
+  background: white;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+section#publications-ui section.browse-categories div.relationship-options {
+  margin-top: 0px;
+}
+section#publications-ui section.workflow-cta {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px 20px 0px 20px;
+}
+section#publications-ui section.workflow-cta h3,
+section#publications-ui section.workflow-cta p {
+  display: inline;
+  font-size: 16px;
+}
+section#publications-ui section.workflow-cta button {
+  margin-top: 5px;
+}
+section#publications-ui section.main {
+  height: auto;
+  min-height: 100vh;
+  margin-bottom: 50px;
+}
+section#publications-ui form.form-search {
+  display: flex;
+}
+section#publications-ui section.page-body {
+  background: #455a64;
+}
+section#publications-ui section.page-content {
+  width: 100%;
+  float: left;
+}
+section#publications-ui section.page-content section.content {
+  clear: both;
+}
+section#publications-ui section.page-content menu {
+  margin: 0;
+}
+section#publications-ui section.workflow {
+  float: left;
+  width: 25%;
+  display: none;
+}
+section#publications-ui section.workflow ul {
+  list-style: none;
+  margin: 10px 0;
+}
+section#publications-ui section.workflow ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+section#publications-ui section.workflow ul li section.description {
+  flex-grow: 1;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+section#publications-ui section.workflow ul li section.inputs {
+  flex-shrink: 0;
+}
+section#publications-ui section.workflow ul li.warning section.description {
+  margin-right: 10px;
+}
+section#publications-ui section.workflow section.content,
+section#publications-ui section.page-content section.content {
+  padding: 0px 20px 20px;
+}
+section#publications-ui.workflow section.page-content {
+  width: 75%;
+}
+section#publications-ui section.additional-data div.input.pre {
+  white-space: pre-wrap;
+}
+section#publications-ui section.filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+section#publications-ui section.filters section.filter-link {
+  margin-right: 10px;
+  display: flex;
+}
+section#publications-ui section.filters section.filter-link .filter-dropdown:after {
+  content: '\e023';
+  font-size: 18px;
+  float: right;
+  font-family: 'NICE.Glyphs';
+  line-height: 16px;
+}
+section#publications-ui section.filters section.filter-link .filter-dropdown-btns .btn {
+  padding: 6px 12px;
+  margin: 12px;
+}
+section#publications-ui section.filters section.filter-link .filter-dropdown-btns:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+section#publications-ui section.filters section.filter-link > a {
+  margin-left: 10px;
+  padding: 12px 16px !important;
+}
+section#publications-ui section.filters section.filter-link a:hover {
+  background-color: #37474f;
+}
+section#publications-ui section.filters section.filter-link section.filter-control {
+  background: white;
+}
+section#publications-ui section.filters section.filter-link section.filter-control header {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 16px !important;
+}
+section#publications-ui section.filters section.filter-link section.filter-control header:after {
+  content: '\e022';
+  font-size: 18px;
+  float: right;
+  font-family: 'NICE.Glyphs';
+  line-height: 34px;
+}
+section#publications-ui section.filters section.filter-link section.filter-control header:hover {
+  background-color: #e0e0e0;
+}
+section#publications-ui section.filters section.filter-link section.filter-control ul {
+  list-style: none;
+  margin: 6px 0;
+  padding: 0 5px;
+}
+section#publications-ui section.filters section.filter-link section.filter-control ul li {
+  padding: 0 10px 0 5px;
+}
+section#publications-ui section.filters section.filter-link section.filter-control ul li a {
+  display: block;
+}
+section#publications-ui section.filters section.filter-link section.filter-control ul li a.active {
+  background-color: #ffffff !important;
+  color: #0093da !important;
+}
+section#publications-ui section.filters section.filter-link section.filter-control ul li a.active:after {
+  content: '\e029';
+  font-size: 18px;
+  float: right;
+  font-family: 'NICE.Glyphs';
+  line-height: 24px;
+}
+section#publications-ui section.filters section.filter-link section.filter-control ul li a.active:hover {
+  background-color: #e0e0e0 !important;
+}
+section#publications-ui section.filters section.filter-link section.filter-control ul li a:hover,
+section#publications-ui section.filters section.filter-link section.filter-control ul li:hover {
+  background-color: #e0e0e0;
+}
+section#publications-ui section.filters section.filter-link section.filter-control ul.filter-dropdown-btn-ul {
+  margin: 0 0 6px 0;
+}
+section#publications-ui section.filters section.filter-control {
+  padding: 20px;
+  margin: 0px 10px;
+}
+section#publications-ui div.multi-magic div.control-group.add {
+  overflow: auto;
+}
+section#publications-ui div.multi-magic div.control-group.add a.publications-type {
+  margin-bottom: 10px;
+}
+section#publications-ui div.multi-magic div.control-group.add p {
+  margin-bottom: 10px;
+}
+section#publications-ui section.multi-magic-chooser {
+  display: none;
+}
+section#publications-ui section.multi-magic-chooser.active {
+  display: block;
+}
+section#publications-ui section.multi-magic-chooser ul {
+  margin: 10px 0;
+  height: 200px;
+  overflow-y: scroll;
+}
+section#publications-ui section.multi-magic-chooser ul li {
+  line-height: 40px;
+  padding: 0px 20px;
+  border-bottom: 1px solid #dedede;
+}
+section#publications-ui section.multi-magic-chooser ul li:hover {
+  background: #dedede;
+}
+section#publications-ui section.multi-magic-chooser ul li.taken {
+  display: none;
+  padding: 0px 5px;
+}
+section#publications-ui section.multi-magic-chooser ul li.selected {
+  background: #fefefe;
+}
+section#publications-ui section.multi-magic-chooser ul li.selected:after {
+  content: '\e029';
+  font-size: 18px;
+  float: right;
+  font-family: 'NICE.Glyphs';
+  line-height: 40px;
+  color: #03a9f4;
+}
+section#publications-ui section.multi-magic-chooser .form-group {
+  margin-left: 0px;
+}
+section#publications-ui section.multi-magic-chooser .btn-group {
+  margin-bottom: 0px;
+}
+section#publications-ui section.multi-magic-chooser div.result-container {
+  display: none;
+}
+section#publications-ui section.multi-magic-chooser div.result-container.active {
+  display: block;
+}
+section#publications-ui .resource-type-detail {
+  padding: 0 0 6px;
+  margin: 0 0 6px;
+  width: auto;
+  -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  color: #757575;
+}
+section#publications-ui:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+section.admin-main {
+  padding: 0 24px 12px;
+  background-color: #e0e0e0;
+  margin-top: 24px;
+}
+section.admin-main .a-z-wrapper {
+  background-color: transparent;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+section.admin-main .organisation-section {
+  background-color: #fff;
+  padding: 24px 24px 0;
+  margin-bottom: 12px;
+  box-shadow: inset 0 -1px 0 0 #bdbdbd;
+}
+section.admin-main .organisation-item {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+section.admin-main .h1 {
+  font-size: 66px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+section.admin-main .h3 {
+  margin-bottom: 6px;
+  color: #7a7a7a;
+}
+section.admin-main .a-z li a {
+  padding: 12px 3px;
+  display: block;
+}
+section.admin-main ul.inline.unstyled > li {
+  padding-left: 0;
+  padding-right: 12px;
+}
+section.admin-main .accordion-trigger:before {
+  font-family: "NICE.Glyphs";
+  content: "\e02e";
+  font-size: 16px;
+  line-height: 24px;
+  width: 16px;
+  display: inline-block;
+}
+section.admin-main #addorg {
+  padding: 12px 24px;
+  background-color: #d7d7d7;
+}
+section.admin-main .organisation-add,
+section.admin-main .organisation-edit-content {
+  padding: 24px 24px 0;
+  overflow: hidden;
+  padding-top: 0;
+  background-color: #d7d7d7;
+}
+section.admin-main .organisation-add .field-row,
+section.admin-main .organisation-edit-content .field-row {
+  margin-bottom: 24px;
+}
+section.admin-main .organisation-add .checkboxes,
+section.admin-main .organisation-edit-content .checkboxes {
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+section.admin-main .organisation-add .form-label,
+section.admin-main .organisation-edit-content .form-label {
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
+section.admin-main .organisation-add .error,
+section.admin-main .organisation-edit-content .error {
+  background-color: #f1c40f;
+  color: #37474f;
+  display: inline-block;
+  padding: 5px;
+}
+section.admin-main .organisation-add .margin-bottom-10,
+section.admin-main .organisation-edit-content .margin-bottom-10 {
+  margin-bottom: 10px;
+}
+section.admin-main .organisation-add .margin-bottom-20,
+section.admin-main .organisation-edit-content .margin-bottom-20 {
+  margin-bottom: 20px;
+}
+section.admin-main #editorg {
+  margin-bottom: 30px;
+}
+section.admin-main #editorg .organisation-edit-content {
+  padding-top: 50px;
+}
+*,
+:before,
+:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+section#products ul,
+section#products ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section#products h3 {
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0 0 24px!important;
+}
+section#products p {
+  margin: 0 0 24px;
+}
+section#products li {
+  line-height: 24px;
+}
+section#products a,
+section#products a:hover {
+  text-decoration: none;
+}
+section#products .button {
+  padding: 6px 12px;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #37474f;
+  background-color: #bdbdbd;
+  -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.15);
+  border: 0;
+  line-height: 24px;
+}
+section#products form {
+  margin: 0;
+}
+section#products section.filters {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+section#products section.filters section.filter-link {
+  margin: 0;
+  padding: 0 12px;
+  display: block;
+  width: 33.33333333333333%;
+  float: left;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+section#products section.filters section.filter-link:nth-child(5) {
+  display: none;
+}
+section#products section.filters section.filter-link > a {
+  margin: 0 0 12px;
+  padding: 12px 24px;
+  display: block!important;
+  font-size: 16px;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+section#products section.filters section.filter-control {
+  background-color: #fff;
+  margin: -60px 0 0 0;
+  width: 310px;
+  position: fixed;
+  height: auto;
+  padding: 0;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3000;
+}
+section#products section.filters section.filter-control header,
+section#publications-ui section.filters section.filter-control ul {
+  font-size: 16px;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 12px 24px;
+}
+section#products section.filters section.filter-control header {
+  color: #000000;
+}
+section#publications-ui section.filters section.filter-link section.filter-control ul li a.active {
+  background-color: #00a7df;
+}
+section#products section.filters section.filter-control .button {
+  margin: 0 24px 24px;
+}
+section#products ul.create-new {
+  position: relative;
+}
+section#products ul.create-new > li > .button {
+  float: right;
+  clear: both;
+}
+section#products ul.create-new > li > .button.btn-danger {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+section#products ul.create-new .create-form h3 {
+  font-size: 20px;
+}
+section#products ul.create-new .button {
+  color: #fff;
+  background-color: #2ecc71;
+}
+section#products ul.create-new .button:hover {
+  background-color: #263238;
+}
+section#products ul.create-new .button.btn-danger {
+  background-color: #e74c3c;
+}
+section#products ul.create-new .button.btn-danger:hover {
+  background-color: #263238;
+}
+section#products ul.create-new .input-prepend .button {
+  background-color: #bdbdbd;
+  color: #37474f;
+}
+section#products ul.create-new li.create-form {
+  padding: 48px 96px;
+  background-color: #e0e0e0;
+}
+section#products ul.create-new li.create-form div.controls .btn {
+  margin-bottom: 0;
+}
+section#products ul.create-new li.create-form div.controls .button {
+  padding: 12px 24px;
+}
+section#products form .form-group {
+  margin-bottom: 24px;
+}
+section#products form .form-group label {
+  width: 310px;
+  padding: 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-size: 12px;
+  color: #757575;
+  text-align: right;
+  padding-right: 24px;
+}
+section#products form .form-group > div input,
+form .form-group > div textarea,
+form .form-group > div select {
+  width: 644px;
+  min-height: 48px;
+  border: 0;
+  -webkit-box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  -moz-box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  padding: 12px 24px;
+}
+section#products form .form-group > div.input-prepend {
+  margin-left: 0;
+}
+section#products .input-prepend .add-on:first-child,
+.input-prepend .btn:first-child {
+  margin: 0;
+  border: 0;
+  background-color: red;
+  line-height: 24px;
+  padding: 12px 24px;
+  display: inline-table;
+  -webkit-box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  -moz-box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  color: #37474f;
+  background-color: #eee;
+}
+section#products ul.create-new .input-prepend .button {
+  padding: 12px 24px;
+}
+section#products form .form-group > div input.prependedInput,
+form .form-group > div textarea.prependedInput {
+  width: 160px;
+}
+section#products form .form-group > div span.warning {
+  color: #757575;
+  font-size: 16px;
+  font-style: italic;
+  min-height: 48px;
+  padding: 0 24px;
+}
+section#products .form-search {
+  padding: 24px 96px;
+  background-color: #0288d1;
+}
+section#products .form-search .search-query {
+  padding: 12px;
+  min-height: 48px;
+  border: 0;
+}
+section#products .form-search .btn {
+  width: 48px;
+  height: 48px;
+  background-color: #37474f;
+  color: #03a9f4;
+  padding: 0;
+  border: 0;
+  line-height: 24px;
+  font-family: 'NICE.Glyphs';
+}
+section#products .form-search .btn:hover {
+  background-color: #263238;
+}
+section#products .form-search .btn:before {
+  content: '\e004';
+  font-size: 24px;
+  line-height: 30px;
+  padding: 0 14px;
+  text-align: center;
+}
+section#products .filters {
+  padding: 24px 84px 12px;
+  background-color: #039be5;
+}
+section#products section.results {
+  margin-top: 24px;
+}
+section#products section article.product {
+  background-color: #f5f5f5;
+  margin-bottom: 6px;
+  -webkit-box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  -moz-box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  box-shadow: inset 0 -1px 0 0 #bdbdbd;
+  padding: 24px 96px;
+  position: relative;
+  overflow: hidden;
+}
+section#products section article.product.product header {
+  background-color: transparent;
+  padding: 0;
+  width: 644px;
+  display: block;
+  float: left;
+  color: #506470;
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+section#products section article.product.product header span {
+  background-color: #e0e0e0;
+  float: left;
+  margin-right: 12px;
+  padding-left: 6px;
+}
+section#products section article.product > p.label {
+  padding: 0;
+  background-color: transparent;
+}
+section#products section article.product.product .subheading {
+  color: #506470;
+  width: 310px;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  float: right;
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+section#products section article.product.product .subheading strong,
+section#publications-ui section.page-content section article.product.product .subheading em {
+  font-style: normal;
+  font-weight: 400;
+}
+section#products section article.product.product .subheading em {
+  display: block;
+}
+section#products section article.product > section {
+  padding: 0;
+  border: 0;
+  width: 644px;
+  display: block;
+}
+section#products section.results article.product h2 {
+  font-size: 21px;
+  line-height: 24px;
+  margin: 0!important;
+  color: #00a7df;
+}
+section#products section.page-content section article.product h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+section#products button.button {
+  margin-bottom: 0;
+}
