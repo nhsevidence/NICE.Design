@@ -1,0 +1,166 @@
+﻿
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+<meta name="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="author" content="NICE - The National Institute of Health and Care Excellence">
+<link href="//fonts.googleapis.com/css?family=Lato:200normal,200italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic" rel="stylesheet" media="screen">
+<!--[if IE 7]>
+<link href="../Content/NICE.glyphs-ie7.css" rel="stylesheet" media="screen">
+<![endif]-->
+
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="//cdn.nice.org.uk/V3/Content/nice/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="//cdn.nice.org.uk/V3/Content/nice/favicon-152.png">
+<meta name="msapplication-TileColor" content="#fafafb">
+<meta name="msapplication-TileImage" content="//cdn.nice.org.uk/V3/Content/nice/favicon-144.png">
+<link href="//cdn.nice.org.uk/V3/Content/NICE.bootstrap.css" rel="stylesheet" media="screen">
+<link href="/Content/Site.css" rel="stylesheet" media="screen">
+
+
+        <title>Projects</title>
+    </head>
+    <body>
+        
+
+<div class="nice-tophat">
+    <div class="nice-global nice-partner" id="nice-global">
+        <div class="tophat-inner">
+            <span class="partner-brand">In development projects</span>
+            <ul class="menu">
+                <li class="active"><a href="/">In development projects</a></li>
+                <li class=""><a href="/adviceprojects">Advice projects</a></li>
+            </ul>            
+        </div>
+    </div>
+</div>
+<div class="container" style="margin-top:20px;margin-bottom:10px;">
+    <a class="btn pull-right" href="#create-project" role="button" data-toggle="modal">NEW PROJECT</a>
+</div>
+
+<article class="container">
+    <div class="layout search-results">
+        <div>
+            <div class="search-heading">
+            <p class="summary">
+                Found 5 results for test
+            </p>
+            </div>
+                <div class="search-body">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a href="/edit/draft/GID-NG1000">test</a>
+                        </div>
+                        <div class="panel-body text-success" style="padding: 12px 24px;">GID-NG1000
+                            <span class="label label-success" style="margin-left: 10px;">Draft</span>
+                            <span class="pull-right">
+                                <small>Status <strong>In progress</strong></small>
+                            </span>
+                        </div>
+                    </div>                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a href="/edit/draft/GID-TA1002">test</a>
+                        </div>
+                        <div class="panel-body text-success" style="padding: 12px 24px;">GID-TA1002
+                            <span class="label label-success" style="margin-left: 10px;">Draft</span>
+                            <span class="pull-right">
+                                <small>Status <strong>In progress</strong></small>
+                            </span>
+                        </div>
+                    </div>                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a href="/edit/published/cg100">TA test</a>
+                        </div>
+                        <div class="panel-body text-success" style="padding: 12px 24px;">cg100
+                            <span class="pull-right">
+                                <small>Status <strong>In progress</strong></small>
+                            </span>
+                        </div>
+                    </div>                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a href="/edit/draft/GID-NG1005">Scheduling test</a>
+                        </div>
+                        <div class="panel-body text-success" style="padding: 12px 24px;">GID-NG1005
+                            <span class="label label-success" style="margin-left: 10px;">Draft</span>
+                            <span class="pull-right">
+                                <small>Status <strong>In progress</strong></small>
+                            </span>
+                        </div>
+                    </div>                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a href="/edit/draft/GID-TA1000">For Testing</a>
+                        </div>
+                        <div class="panel-body text-success" style="padding: 12px 24px;">GID-TA1000
+                            <span class="label label-success" style="margin-left: 10px;">Draft</span>
+                            <span class="pull-right">
+                                <small>Status <strong>In progress</strong></small>
+                            </span>
+                        </div>
+                    </div>                    
+                </div>
+        </div>
+    </div>   
+</article>
+
+
+<!-- Create project modal -->
+<div id="create-project" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="createProjectModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="createProjectModalLabel">Create project</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" method="POST" action="/?Page=0&amp;PageSize=1024">
+            <div class="control-group">
+                <label class="control-label" for="ProjectType">Title</label>
+                <div class="controls">
+                    <textarea rows="3" id="Title" name="Title"></textarea>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="ProjectType">Project Type</label>
+                <div class="controls">
+                    <select id="ProjectType" name="ProjectType">
+                            <option value="NG">Guideline</option>
+                            <option value="DG">Diagnostics guidance</option>
+                            <option value="HST">Highly specialised technology</option>
+                            <option value="IPG">Interventional procedures guidance</option>
+                            <option value="MTG">Medical technologies guidance</option>
+                            <option value="QS">Quality standard</option>
+                            <option value="TA">Technology appraisal guidance</option>
+                    </select>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+                    <button class="btn btn-primary" type="submit">Create</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+
+        <script src="//cdn.nice.org.uk/V3/Scripts/jquery/jquery-1.10.2.min.js"></script>
+<script src="//cdn.nice.org.uk/V3/Scripts/twitter.bootstrap.min.js"></script>
+<script src="//cdn.nice.org.uk/V3/Scripts/NICE.bootstrap.min.js"></script>
+
+<script src="//cdn.nice.org.uk/V3/Scripts/nice/NICE.TopHat.js" data-search="/" data-home="/" data-typeaheadtype="local" data-typeaheadsource="bob" data-internal="In development" defer  async
+        data-environment="beta"></script>
+
+<script src="/Scripts/indev/utils.js"></script>
+<script src="/Scripts/indev/drag-and-drop.js"></script>
+<script src="/Scripts/indev/browse-categories.js"></script>
+        
+    </body>
+
+</html>
