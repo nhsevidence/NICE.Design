@@ -95,7 +95,7 @@
         <div class="search-body">
             <fieldset>
                 <legend>Timeline</legend>
-                    <ul class="media-list search-list">
+                    <ul class="media-list search-list" style="padding: 5px 0px 15px;">
 <li class="media">
     <div class="panel panel-default row">
         <div class="panel-heading">
@@ -104,23 +104,24 @@
             </a>
                 <small class="pull-right">Start Date: 08 April 2015 - End Date: 10 April 2015</small>
         </div>
-        <div class="panel-body">
+        <div class="panel-body" style="padding: 12px 24px; background-color: #fafafb">
             <div class="control-group">
                 <div class="controls pull-right">
                                             <button type="button" class="btn btn-small" href="#add-documents-to-timeline0" data-toggle="modal">Upload</button>
-                    <button type="button" class="btn btn-small" href="#edit-timeline0" data-toggle="modal">Edit</button>
+                    <button type="button" class="btn btn-info btn-small" href="#edit-timeline0" data-toggle="modal">Edit</button>
                     <button type="submit" class="btn btn-small btn-danger" form="delete-timeline0">Delete</button>
                 </div>
             </div>
+
             <form id="delete-timeline0" style="display: none;" method="Post" action="/edit/GID-NG1000/timeline/0">
-                <input type="hidden" name="Etag" value="01000000-0000-0026-0000-000000000001" />
-                <input type="hidden" name="_method" value="DELETE" />
+                <input type="hidden" name="Etag" value="01000000-0000-0026-0000-000000000001">
+                <input type="hidden" name="_method" value="DELETE">
             </form>
         </div>
     </div>
 </li>
 
-<div id="add-documents-to-timeline0" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader0" aria-hidden="true">
+<div id="add-documents-to-timeline0" class="modal hide fade wide" tabindex="-1" role="dialog" aria-labelledby="addDocumentsToTimeLineHeader0" aria-hidden="true">
 
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -128,7 +129,7 @@
     </div>
 
     <div class="modal-body">
-        <div class="span6 file-area" data-etag="01000000-0000-0026-0000-000000000001" data-uploadUrl="/edit/GID-NG1000/timeline/0/file">
+        <div class="span6 file-area" data-etag="01000000-0000-0026-0000-000000000001" data-uploadurl="/edit/GID-NG1000/timeline/0/file">
             <p>
                 Drag and drop files on to this window to upload <strong>documents</strong>.
             </p>
