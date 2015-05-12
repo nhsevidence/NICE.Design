@@ -1,0 +1,2443 @@
+﻿
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8"> 
+        <meta content="IE=edge,chrome=1" name="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+        <!-- Timestamp: 12/05/2015 15:34:19 609487-WEB09-->
+        <title>Published | Guidance | NICE</title>
+        
+        <script src="//cdn.optimizely.com/js/2225620398.js"></script> 
+        <link href="/Themes/NICE.Bootstrap/styles/jquery/tables/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Lato:200normal,200italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic" rel="stylesheet" type="text/css" />
+<link href="//cdn.nice.org.uk/v2/content/NICE.bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/NICE.Bootstrap/styles/nice/NICE.base.less" rel="stylesheet" type="text/css" />
+<link href="//cdn.nice.org.uk/v2/Content/FontAwesome.css" rel="stylesheet" type="text/css" />
+<link href="//cdn.nice.org.uk/v2/Content/NICE.glyphs.css" rel="stylesheet" type="text/css" />
+<!--[if IE 7]>
+<link href="//cdn.nice.org.uk/v2/Content/NICE.glyphs-ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="/Themes/NICE.Bootstrap/Styles/nice/NICE.base.IE7.less" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 8]>
+<link href="/Themes/NICE.Bootstrap/Styles/nice/NICE.base.IE8.less" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 9]>
+<link href="/Themes/NICE.Bootstrap/Styles/nice/NICE.base.IE9.less" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link href="/Themes/NICE.Bootstrap/Styles/nice/NICE.base.legacy-fonts.less" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="/Themes/NICE.Bootstrap/styles/nice/NICE.Print.css" media="print" rel="stylesheet" type="text/css" />
+<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="//cdn.nice.org.uk/v2/scripts/html5shiv/html5shiv.js" type="text/javascript"></script>
+<![endif]-->
+<script src="/Themes/NICE.Bootstrap/scripts/JSON/JSON2.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/niceorg/NICE.GA.js" type="text/javascript"></script>
+
+
+
+
+ 
+  <meta name="DC.Publisher" content="NICE" />
+  <meta name="DC.Rights.Copyright" content="All content on this site is NICE copyright unless otherwise stated. You can download material for private research, study or in-house use only. Do not distribute or publish any material from this site without first obtaining NICE's permission. Where Crown copyright applies, see the Office of Public Sector Information (formerly HMSO) website for information." />
+  <meta name="DC.Language" scheme="DCTERMS.ISO639-2T" content="eng" />
+  <meta name="DC.Subject" scheme="eGMS.IPSV" content="Health, well-being and care" />
+  <meta name="eGMS.accessibility" scheme="eGMS.WCAG10" content="Double-A"/>
+  
+        
+        <meta name="DC.Title" content="Published | Guidance | NICE" />
+        <meta name="msapplication-TileColor" content="#f6f6f6">
+        <meta name="msapplication-TileImage" content="//cdn.nice.org.uk/V3/Content/nice/favicon-144.png">
+        <link rel="shortcut icon" href="//cdn.nice.org.uk/V3/Content/nice/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="//cdn.nice.org.uk/V3/Content/nice/favicon-152.png">
+            <link rel="canonical" href="/guidance/published?type=guidelines" />
+        <!-- addthis config -->
+        <script>
+            var addthis_config = {
+                data_ga_property: 'UA-28620212-1',
+                data_ga_social: true,
+                ui_show_promo: false,
+                services_compact: '',
+                pubid: 'ra-5506be4a13ce4bf0'
+            };
+            $(function () {
+                addthis.init();
+            });
+        </script>
+        <!-- end addthis config -->
+    </head>
+
+
+<body data-spy="scroll" data-target=".aside-primary" class="layout-fill">
+                
+<div id='gtmscript'></div>    <!-- Google Tag Manager -->
+            <noscript>
+                <iframe src="//www.googletagmanager.com/ns.html?id=GTM-M55QTQ"
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <script>
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+                            new Date().getTime(), event: 'gtm.js'
+                    }); var f = d.getElementsByTagName(s)[0],
+                            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                                '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-M55QTQ');</script>
+            <!-- End Google Tag Manager -->
+        
+        
+<div id="printpane"></div>
+    <div class="nice-tophat">
+        <div class="nice-global" id="nice-global">
+            <div class="tophat-inner">
+                <div class="zone zone-navigation">
+
+<div class="widget-navigation widget-search-widget widget">
+    <div class="widget-content">
+      
+    </div>
+  </div>
+
+<div class="widget-navigation widget-menu-widget widget">
+    <div class="widget-content">
+      <ul class="nav nav-pills menu">
+    
+    
+
+<li><a href="/news">News</a>
+</li>
+
+<li><a href="/about">About</a>
+</li>
+
+<li><a href="/get-involved">Get involved</a>
+</li>
+
+<li><a href="/about/nice-communities">Communities</a>
+</li>
+</ul>
+    </div>
+  </div></div>
+            </div>
+        </div>
+    </div>
+<div class="layout-offcanvas"><div class="layout layout-first-right">
+    <div class="content content-primary">
+            <button type="button" class="btn offcanvas-toggle" data-toggle="offcanvas" data-alt-text="">Show sections</button>
+    <div class="zone zone-featured"><h1>Guidance List</h1>
+</div>    <div class="zone zone-content">
+
+
+
+<div id="guidance-tabs-container">
+    <div class="tabbable">
+        <ul class="nav nav-tabs" id="guidanceTabs">
+            <li class='active main'>
+                <a id="linkPublished" href="/guidance/published?type=guidelines" 
+                   class="active">Published</a>
+            </li>
+            <li class=indevelopment>
+                <a id="linkUpdatedGuidance" href="/guidance/indevelopment?type=guidelines" 
+                   class=""><span>In development</span></a>
+            </li>
+            <li class=inconsultation>
+                <a id="linkConsultations" href="/guidance/inconsultation?type=guidelines" 
+                   class=""><span>In consultation</span></a>
+            </li>
+            <li class="link-about">
+                 <a id="linkHelp" href="/About/What-we-do/Our-programmes/NICE-guidance" class="help-button"><i class="helpindicator"></i>&nbsp;<span>About NICE guidance</span></a>
+             </li>
+        </ul>
+        <div class="tab-content">
+                <div class="tab-pane fade active in" id="Published">
+                    
+
+
+<script> // (won't work in script file - changes for each ajax tab load)
+    $(function () { 
+        $('.removex').attr('href', document.location.pathname);
+    });
+</script>
+
+<div class="guidance-table-container">
+    <div class="filterrow">
+             <span class="table-information pull-left"></span>
+             <div class="server-filter pull-left">
+                 <span>Filtered by: 
+                    <span class="label label-info">
+                        <strong>NICE guidelines
+                        <a href="#" class="removex"><span data-role="remove">x</span></a></strong>
+                    </span>
+                </span>
+             </div>
+
+        <label><input type="text" class="titleFilter" placeholder="Title" /></label>
+        <input type="text" class="typeFilter hidden" value="" />
+
+    </div>
+
+    <div class="table-responsive">
+        <table class="guidance-list-table dataTable table table-condensed table-striped table-hover" id="PublishedTable">
+            <thead>
+                <tr>
+                        <th >Title</th>
+                        <th  class=hidden>Process</th>
+                        <th  data-sortnextcolumn=true class=data-date>Published date</th>
+                        <th  class=hidden>Sort date</th>
+                </tr>
+            </thead>
+            <tbody data-link="row" class="rowlink">
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg187">Acute heart failure (CG187)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2014</time></span></td>
+                            <td  style="display:none">20141001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg169">Acute kidney injury (CG169)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2013</time></span></td>
+                            <td  style="display:none">20130801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg141">Acute upper gastrointestinal bleeding: management (CG141)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2012</time></span></td>
+                            <td  style="display:none">20120601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg50">Acutely ill patients in hospital (CG50)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2007</time></span></td>
+                            <td  style="display:none">20070701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg81">Advanced breast cancer (update) (CG81)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2014</time></span></td>
+                            <td  style="display:none">20140701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg100">Alcohol-use disorders: Diagnosis and clinical management of alcohol-related physical complications (CG100)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2010</time></span></td>
+                            <td  style="display:none">20100601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg115">Alcohol-use disorders: diagnosis, assessment and management of harmful drinking and alcohol dependence (CG115)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2011</time></span></td>
+                            <td  style="display:none">20110201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph24">Alcohol-use disorders: preventing harmful drinking (PH24)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2010</time></span></td>
+                            <td  style="display:none">20100601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg114">Anaemia management in people with chronic kidney disease (CG114)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2011</time></span></td>
+                            <td  style="display:none">20110201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg134">Anaphylaxis: assessment to confirm an anaphylactic episode and the decision to refer after emergency treatment for a suspected anaphylactic episode (CG134)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2011</time></span></td>
+                            <td  style="display:none">20111201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg192">Antenatal and postnatal mental health: clinical management and service guidance (CG192)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2014</time></span></td>
+                            <td  style="display:none">20141201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg62">Antenatal care (CG62)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2008</time></span></td>
+                            <td  style="display:none">20080301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg149">Antibiotics for early-onset neonatal infection (CG149)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2012</time></span></td>
+                            <td  style="display:none">20120801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg158">Antisocial behaviour and conduct disorders in children and young people: recognition, intervention and management (CG158)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2013</time></span></td>
+                            <td  style="display:none">20130301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg77">Antisocial personality disorder (CG77)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2009</time></span></td>
+                            <td  style="display:none">20090101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph46">Assessing body mass index and waist circumference thresholds for intervening to prevent ill health and premature death among adults from black, Asian and other minority ethnic groups in the UK (PH46)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2013</time></span></td>
+                            <td  style="display:none">20130701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg57">Atopic eczema in children (CG57)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2007</time></span></td>
+                            <td  style="display:none">20071201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg180">Atrial fibrillation: the management of atrial fibrillation (CG180)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2014</time></span></td>
+                            <td  style="display:none">20140601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg72">Attention deficit hyperactivity disorder (CG72)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2008</time></span></td>
+                            <td  style="display:none">20080901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg170">Autism (CG170)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2013</time></span></td>
+                            <td  style="display:none">20130801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg128">Autism diagnosis in children and young people (CG128)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2011</time></span></td>
+                            <td  style="display:none">20110901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg142">Autism: recognition, referral, diagnosis and management of adults on the autism spectrum (CG142)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2012</time></span></td>
+                            <td  style="display:none">20120601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg102">Bacterial meningitis and meningococcal septicaemia (CG102)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2010</time></span></td>
+                            <td  style="display:none">20100601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg106">Barrett's oesophagus (CG106)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2010</time></span></td>
+                            <td  style="display:none">20100801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph49">Behaviour change: individual approaches (PH49)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2014</time></span></td>
+                            <td  style="display:none">20140101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph6">Behaviour change: the principles for effective interventions (PH6)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2007</time></span></td>
+                            <td  style="display:none">20071001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg185">Bipolar disorder: the assessment and management of bipolar disorder in adults, children and young people in primary and secondary care (CG185)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2014</time></span></td>
+                            <td  style="display:none">20140901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ng2">Bladder cancer: diagnosis and management (NG2)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2015</time></span></td>
+                            <td  style="display:none">20150201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg78">Borderline personality disorder (CG78)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2009</time></span></td>
+                            <td  style="display:none">20090101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csgbraincns">Brain tumours (CSGBraincns)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2006</time></span></td>
+                            <td  style="display:none">20060601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph1">Brief interventions and referral for smoking cessation (PH1)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2006</time></span></td>
+                            <td  style="display:none">20060301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg132">Caesarean section (CG132)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2011</time></span></td>
+                            <td  style="display:none">20111101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg95">Chest pain of recent onset (CG95)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2010</time></span></td>
+                            <td  style="display:none">20100301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csgcyp">Children and young people with cancer (CSGCYP)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2005</time></span></td>
+                            <td  style="display:none">20050801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg53">Chronic fatigue syndrome/myalgic encephalomyelitis (or encephalopathy) (CG53)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2007</time></span></td>
+                            <td  style="display:none">20070801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg108">Chronic heart failure (CG108)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2010</time></span></td>
+                            <td  style="display:none">20100801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg182">Chronic kidney disease (CG182)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2014</time></span></td>
+                            <td  style="display:none">20140701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg101">Chronic obstructive pulmonary disease (CG101)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2010</time></span></td>
+                            <td  style="display:none">20100601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg86">Coeliac disease (CG86)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2009</time></span></td>
+                            <td  style="display:none">20090501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg118">Colonoscopic surveillance for prevention of colorectal cancer in people with ulcerative colitis, Crohn's disease or adenomas (CG118)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2011</time></span></td>
+                            <td  style="display:none">20110301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg131">Colorectal cancer (CG131)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2014</time></span></td>
+                            <td  style="display:none">20141201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg123">Common mental health disorders (CG123)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2011</time></span></td>
+                            <td  style="display:none">20110501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph9">Community engagement (PH9)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2008</time></span></td>
+                            <td  style="display:none">20080201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg99">Constipation in children and young people (CG99)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2010</time></span></td>
+                            <td  style="display:none">20100501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph51">Contraceptive services with a focus on young people up to the age of 25 (PH51)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2014</time></span></td>
+                            <td  style="display:none">20140301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg152">Crohn's disease (CG152)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2012</time></span></td>
+                            <td  style="display:none">20121001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg103">Delirium (CG103)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2010</time></span></td>
+                            <td  style="display:none">20100701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg42">Dementia (CG42)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2006</time></span></td>
+                            <td  style="display:none">20061101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg19">Dental recall (CG19)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2004</time></span></td>
+                            <td  style="display:none">20041001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg90">Depression in adults (CG90)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2009</time></span></td>
+                            <td  style="display:none">20091001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg91">Depression in adults with a chronic physical health problem (CG91)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2009</time></span></td>
+                            <td  style="display:none">20091001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg28">Depression in children and young people: Identification and management in primary, community and secondary care (CG28)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2015</time></span></td>
+                            <td  style="display:none">20150301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/mpg1">Developing and updating local formularies (MPG1)</a>
+
+                            </td>
+                            <td class=" hidden">MPG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2012</time></span></td>
+                            <td  style="display:none">20121201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ng3">Diabetes in pregnancy: management of diabetes and its complications from preconception to the postnatal period (NG3)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2015</time></span></td>
+                            <td  style="display:none">20150201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg63">Diabetes in pregnancy: Management of diabetes and its complications from pre-conception to the postnatal period (CG63)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2008</time></span></td>
+                            <td  style="display:none">20080301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg119">Diabetic foot problems (CG119)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2011</time></span></td>
+                            <td  style="display:none">20110301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg84">Diarrhoea and vomiting in children (CG84)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">April 2009</time></span></td>
+                            <td  style="display:none">20090401</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph50">Domestic violence and abuse: how health services, social care and the organisations they work with can respond effectively (PH50)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2014</time></span></td>
+                            <td  style="display:none">20140201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg93">Donor milk banks: the operation of donor milk bank services (CG93)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2010</time></span></td>
+                            <td  style="display:none">20100201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg183">Drug allergy: diagnosis and management of drug allergy in adults, children and young people (CG183)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2014</time></span></td>
+                            <td  style="display:none">20140901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg52">Drug misuse – opioid detoxification (CG52)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2007</time></span></td>
+                            <td  style="display:none">20070701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg51">Drug misuse – psychosocial interventions (CG51)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2007</time></span></td>
+                            <td  style="display:none">20070701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg184">Dyspepsia and gastro‑oesophageal reflux disease (CG184)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2014</time></span></td>
+                            <td  style="display:none">20140901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg80">Early and locally advanced breast cancer (CG80)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2009</time></span></td>
+                            <td  style="display:none">20090201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg9">Eating disorders (CG9)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2004</time></span></td>
+                            <td  style="display:none">20040101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg154">Ectopic pregnancy and miscarriage (CG154)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2012</time></span></td>
+                            <td  style="display:none">20121201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ng6">Excess winter deaths and morbidity and the health risks associated with cold homes (NG6)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2015</time></span></td>
+                            <td  style="display:none">20150301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph54">Exercise referral schemes to promote physical activity (PH54)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2014</time></span></td>
+                            <td  style="display:none">20140901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg49">Faecal incontinence (CG49)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2007</time></span></td>
+                            <td  style="display:none">20070601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg161">Falls: assessment and prevention of falls in older people (CG161)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2013</time></span></td>
+                            <td  style="display:none">20130601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg164">Familial breast cancer (CG164)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2013</time></span></td>
+                            <td  style="display:none">20130601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg156">Fertility (CG156)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2013</time></span></td>
+                            <td  style="display:none">20130201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg160">Feverish illness in children (CG160)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2013</time></span></td>
+                            <td  style="display:none">20130501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg116">Food allergy in children and young people (CG116)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2011</time></span></td>
+                            <td  style="display:none">20110201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg188">Gallstone disease (CG188)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2014</time></span></td>
+                            <td  style="display:none">20141001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ng1">Gastro-oesophageal reflux disease: recognition, diagnosis and management in children and young people (NG1)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2015</time></span></td>
+                            <td  style="display:none">20150101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg113">Generalised anxiety disorder and panic disorder (with or without agoraphobia) in adults (CG113)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2011</time></span></td>
+                            <td  style="display:none">20110101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg85">Glaucoma (CG85)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">April 2009</time></span></td>
+                            <td  style="display:none">20090401</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csgho">Haemato-oncology (CSGHO)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2003</time></span></td>
+                            <td  style="display:none">20031001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csghn">Head and neck (CSGHN)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2004</time></span></td>
+                            <td  style="display:none">20041101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg176">Head injury (CG176)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2014</time></span></td>
+                            <td  style="display:none">20140101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg150">Headaches (CG150)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2012</time></span></td>
+                            <td  style="display:none">20120901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg44">Heavy menstrual bleeding (CG44)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2007</time></span></td>
+                            <td  style="display:none">20070101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg165">Hepatitis B (chronic) (CG165)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2013</time></span></td>
+                            <td  style="display:none">20130601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph43">Hepatitis B and C: ways to promote and offer testing to people at increased risk of infection (PH43)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2012</time></span></td>
+                            <td  style="display:none">20121201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg124">Hip fracture (CG124)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2011</time></span></td>
+                            <td  style="display:none">20110601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg130">Hyperglycaemia in acute coronary syndromes (CG130)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2011</time></span></td>
+                            <td  style="display:none">20111001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg157">Hyperphosphataemia in chronic kidney disease (CG157)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2013</time></span></td>
+                            <td  style="display:none">20130301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg127">Hypertension (CG127)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2011</time></span></td>
+                            <td  style="display:none">20110801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg107">Hypertension in pregnancy (CG107)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2010</time></span></td>
+                            <td  style="display:none">20100801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg71">Identification and management of familial hypercholesterolaemia (CG71)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2008</time></span></td>
+                            <td  style="display:none">20080801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph37">Identifying and managing tuberculosis among hard-to-reach groups (PH37)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2012</time></span></td>
+                            <td  style="display:none">20120301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph15">Identifying and supporting people most at risk of dying prematurely (PH15)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2008</time></span></td>
+                            <td  style="display:none">20080901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg163">Idiopathic pulmonary fibrosis (CG163)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2013</time></span></td>
+                            <td  style="display:none">20130601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csgbc">Improving outcomes in breast cancer (CSGBC)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2002</time></span></td>
+                            <td  style="display:none">20020801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csgcc">Improving outcomes in colorectal cancer (CSGCC)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2004</time></span></td>
+                            <td  style="display:none">20040601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg65">Inadvertent perioperative hypothermia (CG65)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">April 2008</time></span></td>
+                            <td  style="display:none">20080401</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph33">Increasing the uptake of HIV testing among black Africans in England (PH33)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2011</time></span></td>
+                            <td  style="display:none">20110301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph34">Increasing the uptake of HIV testing among men who have sex with men (PH34)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2011</time></span></td>
+                            <td  style="display:none">20110301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg70">Induction of labour (CG70)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2008</time></span></td>
+                            <td  style="display:none">20080701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg139">Infection (CG139)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2012</time></span></td>
+                            <td  style="display:none">20120301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph4">Interventions to reduce substance misuse among vulnerable young people (PH4)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2007</time></span></td>
+                            <td  style="display:none">20070301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg190">Intrapartum care: care of healthy women and their babies during childbirth (CG190)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2014</time></span></td>
+                            <td  style="display:none">20141201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg174">Intravenous fluid therapy in adults in hospital (CG174)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2013</time></span></td>
+                            <td  style="display:none">20131201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg61">Irritable bowel syndrome in adults: diagnosis and management of irritable bowel syndrome in primary care (CG61)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2015</time></span></td>
+                            <td  style="display:none">20150201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg181">Lipid modification: cardiovascular risk assessment and the modification of blood lipids for the primary and secondary prevention of cardiovascular disease (CG181)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2014</time></span></td>
+                            <td  style="display:none">20140701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg30">Long-acting reversible contraception (update) (CG30)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2014</time></span></td>
+                            <td  style="display:none">20140901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph28">Looked-after children and young people (PH28)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2010</time></span></td>
+                            <td  style="display:none">20101001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg88">Low back pain (CG88)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2009</time></span></td>
+                            <td  style="display:none">20090501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg147">Lower limb peripheral arterial disease: diagnosis and management (CG147)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2012</time></span></td>
+                            <td  style="display:none">20120801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg97">Lower urinary tract symptoms (CG97)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2010</time></span></td>
+                            <td  style="display:none">20100501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg121">Lung cancer (CG121)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">April 2011</time></span></td>
+                            <td  style="display:none">20110401</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ng7">Maintaining a healthy weight and preventing excess weight gain among adults and children (NG7)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2015</time></span></td>
+                            <td  style="display:none">20150301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg126">Management of stable angina (CG126)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2011</time></span></td>
+                            <td  style="display:none">20110701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph19">Managing long-term sickness and incapacity for work (PH19)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2009</time></span></td>
+                            <td  style="display:none">20090301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/sc1">Managing medicines in care homes (SC1)</a>
+
+                            </td>
+                            <td class=" hidden">SC</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2014</time></span></td>
+                            <td  style="display:none">20140301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph47">Managing overweight and obesity among children and young people: lifestyle weight management services (PH47)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2013</time></span></td>
+                            <td  style="display:none">20131001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph53">Managing overweight and obesity in adults – lifestyle weight management services (PH53)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2014</time></span></td>
+                            <td  style="display:none">20140501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph11">Maternal and child nutrition (PH11)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2008</time></span></td>
+                            <td  style="display:none">20080301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg76">Medicines adherence (CG76)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2009</time></span></td>
+                            <td  style="display:none">20090101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ng5">Medicines optimisation: the safe and effective use of medicines to enable the best possible outcomes (NG5)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2015</time></span></td>
+                            <td  style="display:none">20150301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg104">Metastatic malignant disease of unknown primary origin (CG104)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2010</time></span></td>
+                            <td  style="display:none">20100701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg75">Metastatic spinal cord compression (CG75)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2008</time></span></td>
+                            <td  style="display:none">20081101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg172">MI – secondary prevention (CG172)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2013</time></span></td>
+                            <td  style="display:none">20131101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg105">Motor neurone disease (CG105)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2010</time></span></td>
+                            <td  style="display:none">20100701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg129">Multiple pregnancy (CG129)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2011</time></span></td>
+                            <td  style="display:none">20110901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg186">Multiple sclerosis (CG186)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2014</time></span></td>
+                            <td  style="display:none">20141001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg167">Myocardial infarction with ST-segment elevation (CG167)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2013</time></span></td>
+                            <td  style="display:none">20130701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph52">Needle and syringe programmes (PH52)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2014</time></span></td>
+                            <td  style="display:none">20140301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg98">Neonatal jaundice (CG98)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2010</time></span></td>
+                            <td  style="display:none">20100501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg173">Neuropathic pain – pharmacological management (CG173)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2013</time></span></td>
+                            <td  style="display:none">20131101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg151">Neutropenic sepsis: prevention and management of neutropenic sepsis in cancer patients (CG151)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2012</time></span></td>
+                            <td  style="display:none">20120901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg111">Nocturnal enuresis (CG111)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2010</time></span></td>
+                            <td  style="display:none">20101001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg32">Nutrition support in adults (CG32)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2006</time></span></td>
+                            <td  style="display:none">20060201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg43">Obesity (CG43)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2006</time></span></td>
+                            <td  style="display:none">20061201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg189">Obesity: identification, assessment and management of overweight and obesity in children, young people and adults (CG189)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2014</time></span></td>
+                            <td  style="display:none">20141101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph42">Obesity: working with local communities (PH42)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2012</time></span></td>
+                            <td  style="display:none">20121101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg31">Obsessive-compulsive disorder (CG31)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2005</time></span></td>
+                            <td  style="display:none">20051101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph16">Occupational therapy and physical activity interventions to promote the mental wellbeing of older people in primary care and residential care (PH16)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2008</time></span></td>
+                            <td  style="display:none">20081001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg140">Opioids in palliative care: safe and effective prescribing of strong opioids for pain in palliative care of adults (CG140)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2012</time></span></td>
+                            <td  style="display:none">20120501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph55">Oral health: approaches for local authorities and their partners to improve the oral health of their communities (PH55)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2014</time></span></td>
+                            <td  style="display:none">20141001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg135">Organ donation for transplantation: improving donor identification and consent rates for deceased organ donation (CG135)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2011</time></span></td>
+                            <td  style="display:none">20111201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg177">Osteoarthritis (CG177)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2014</time></span></td>
+                            <td  style="display:none">20140201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg146">Osteoporosis: assessing the risk of fragility fracture (CG146)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2012</time></span></td>
+                            <td  style="display:none">20120801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg122">Ovarian cancer (CG122)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">April 2011</time></span></td>
+                            <td  style="display:none">20110401</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg35">Parkinson's disease (CG35)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2006</time></span></td>
+                            <td  style="display:none">20060601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg138">Patient experience in adult NHS services: improving the experience of care for people using adult NHS services (CG138)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2012</time></span></td>
+                            <td  style="display:none">20120201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/mpg2">Patient Group Directions (MPG2)</a>
+
+                            </td>
+                            <td class=" hidden">MPG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2013</time></span></td>
+                            <td  style="display:none">20130801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg125">Peritoneal dialysis (CG125)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2011</time></span></td>
+                            <td  style="display:none">20110701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph8">Physical activity and the environment (PH8)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2008</time></span></td>
+                            <td  style="display:none">20080101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph44">Physical activity: brief advice for adults in primary care (PH44)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2013</time></span></td>
+                            <td  style="display:none">20130501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg191">Pneumonia (CG191)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2014</time></span></td>
+                            <td  style="display:none">20141201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg37">Postnatal care (CG37)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2014</time></span></td>
+                            <td  style="display:none">20141201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg26">Post-traumatic stress disorder (PTSD) (CG26)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2005</time></span></td>
+                            <td  style="display:none">20050301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg110">Pregnancy and complex social factors (CG110)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2010</time></span></td>
+                            <td  style="display:none">20100901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg3">Preoperative tests (CG3)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2003</time></span></td>
+                            <td  style="display:none">20030601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg179">Pressure ulcers: prevention and management of pressure ulcers (CG179)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">April 2014</time></span></td>
+                            <td  style="display:none">20140401</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph14">Preventing the uptake of smoking by children and young people (PH14)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2008</time></span></td>
+                            <td  style="display:none">20080701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph35">Preventing type 2 diabetes: population and community-level interventions (PH35)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2011</time></span></td>
+                            <td  style="display:none">20110501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph38">Preventing type 2 diabetes: risk identification and interventions for individuals at high risk (PH38)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2012</time></span></td>
+                            <td  style="display:none">20120701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph30">Preventing unintentional injuries among the under-15s in the home (PH30)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2010</time></span></td>
+                            <td  style="display:none">20101101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph31">Preventing unintentional road injuries among under-15s (PH31)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2010</time></span></td>
+                            <td  style="display:none">20101101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph36">Prevention and control of healthcare-associated infections (PH36)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2011</time></span></td>
+                            <td  style="display:none">20111101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph25">Prevention of cardiovascular disease (PH25)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2010</time></span></td>
+                            <td  style="display:none">20100601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph3">Prevention of sexually transmitted infections and under 18 conceptions (PH3)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2007</time></span></td>
+                            <td  style="display:none">20070201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph22">Promoting mental wellbeing at work (PH22)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2009</time></span></td>
+                            <td  style="display:none">20091101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph17">Promoting physical activity for children and young people (PH17)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2009</time></span></td>
+                            <td  style="display:none">20090101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph13">Promoting physical activity in the workplace (PH13)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2008</time></span></td>
+                            <td  style="display:none">20080501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg64">Prophylaxis against infective endocarditis (CG64)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2008</time></span></td>
+                            <td  style="display:none">20080301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg175">Prostate cancer: diagnosis and treatment (CG175)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2014</time></span></td>
+                            <td  style="display:none">20140101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg153">Psoriasis (CG153)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2012</time></span></td>
+                            <td  style="display:none">20121001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg178">Psychosis and schizophrenia in adults: treatment and management (CG178)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2014</time></span></td>
+                            <td  style="display:none">20140201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg155">Psychosis and schizophrenia in children and young people (CG155)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2013</time></span></td>
+                            <td  style="display:none">20130101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg120">Psychosis with coexisting substance misuse (CG120)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2011</time></span></td>
+                            <td  style="display:none">20110301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph26">Quitting smoking in pregnancy and following childbirth (PH26)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2010</time></span></td>
+                            <td  style="display:none">20100601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph21">Reducing differences in the uptake of immunisations (PH21)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2009</time></span></td>
+                            <td  style="display:none">20090901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg27">Referral guidelines for suspected cancer (CG27)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2005</time></span></td>
+                            <td  style="display:none">20050601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg83">Rehabilitation after critical illness (CG83)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2009</time></span></td>
+                            <td  style="display:none">20090301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg69">Respiratory tract infections – antibiotic prescribing (CG69)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2008</time></span></td>
+                            <td  style="display:none">20080701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg79">Rheumatoid arthritis (CG79)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2009</time></span></td>
+                            <td  style="display:none">20090201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ng4">Safe midwifery staffing for maternity settings (NG4)</a>
+
+                            </td>
+                            <td class=" hidden">SG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2015</time></span></td>
+                            <td  style="display:none">20150201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/sg1">Safe staffing for nursing in adult inpatient wards in acute hospitals (SG1)</a>
+
+                            </td>
+                            <td class=" hidden">SG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2014</time></span></td>
+                            <td  style="display:none">20140701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csgsarcoma">Sarcoma (CSGSarcoma)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2006</time></span></td>
+                            <td  style="display:none">20060301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph7">School-based interventions on alcohol (PH7)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2007</time></span></td>
+                            <td  style="display:none">20071101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph23">School-based interventions to prevent smoking (PH23)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2010</time></span></td>
+                            <td  style="display:none">20100201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg112">Sedation in children and young people (CG112)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2010</time></span></td>
+                            <td  style="display:none">20101201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg16">Self-harm (CG16)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2004</time></span></td>
+                            <td  style="display:none">20040701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg133">Self-harm: longer-term management (CG133)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2011</time></span></td>
+                            <td  style="display:none">20111101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg136">Service user experience in adult mental health: improving the experience of care for people using adult NHS mental health services (CG136)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">December 2011</time></span></td>
+                            <td  style="display:none">20111201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg143">Sickle cell acute painful episode: management of an acute painful sickle cell episode in hospital (CG143)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2012</time></span></td>
+                            <td  style="display:none">20120601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph32">Skin cancer prevention: information, resources and environmental changes (PH32)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2011</time></span></td>
+                            <td  style="display:none">20110101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csgstim">Skin tumours including melanoma (CSGSTIM)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2010</time></span></td>
+                            <td  style="display:none">20100501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph39">Smokeless tobacco cessation: South Asian communities (PH39)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2012</time></span></td>
+                            <td  style="display:none">20120901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph48">Smoking cessation in secondary care: acute, maternity and mental health services (PH48)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2013</time></span></td>
+                            <td  style="display:none">20131101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph10">Smoking cessation services (PH10)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2008</time></span></td>
+                            <td  style="display:none">20080201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph12">Social and emotional wellbeing in primary education (PH12)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2008</time></span></td>
+                            <td  style="display:none">20080301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph20">Social and emotional wellbeing in secondary education (PH20)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2009</time></span></td>
+                            <td  style="display:none">20090901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph40">Social and emotional wellbeing: early years (PH40)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2012</time></span></td>
+                            <td  style="display:none">20121001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg159">Social anxiety disorder: recognition, assessment and treatment (CG159)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2013</time></span></td>
+                            <td  style="display:none">20130501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg145">Spasticity in children and young people with non-progressive brain disorders (CG145)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2012</time></span></td>
+                            <td  style="display:none">20120701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph29">Strategies to prevent unintentional injuries among the under-15s (PH29)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2010</time></span></td>
+                            <td  style="display:none">20101101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg68">Stroke (CG68)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2008</time></span></td>
+                            <td  style="display:none">20080701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg162">Stroke rehabilitation (CG162)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2013</time></span></td>
+                            <td  style="display:none">20130601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csgsp">Supportive and palliative care (CSGSP)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2004</time></span></td>
+                            <td  style="display:none">20040301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg60">Surgical management of otitis media with effusion in children (CG60)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2008</time></span></td>
+                            <td  style="display:none">20080201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg74">Surgical site infection (CG74)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">October 2008</time></span></td>
+                            <td  style="display:none">20081001</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg137">The epilepsies: the diagnosis and management of the epilepsies in adults and children in primary and secondary care (CG137)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2012</time></span></td>
+                            <td  style="display:none">20120101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph45">Tobacco: harm-reduction approaches to smoking (PH45)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2013</time></span></td>
+                            <td  style="display:none">20130601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg109">Transient loss of consciousness ('blackouts') management in adults and young people (CG109)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2010</time></span></td>
+                            <td  style="display:none">20100801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg117">Tuberculosis (CG117)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2011</time></span></td>
+                            <td  style="display:none">20110301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg15">Type 1 diabetes (CG15)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2004</time></span></td>
+                            <td  style="display:none">20040701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg87">Type 2 diabetes (CG87)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2009</time></span></td>
+                            <td  style="display:none">20090501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg66">Type 2 diabetes (partially updated by CG87) (CG66)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">May 2008</time></span></td>
+                            <td  style="display:none">20080501</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg10">Type 2 diabetes foot problems (CG10)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2004</time></span></td>
+                            <td  style="display:none">20040101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg166">Ulcerative colitis (CG166)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2013</time></span></td>
+                            <td  style="display:none">20130601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg94">Unstable angina and NSTEMI (CG94)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">March 2010</time></span></td>
+                            <td  style="display:none">20100301</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg171">Urinary incontinence (CG171)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2013</time></span></td>
+                            <td  style="display:none">20130901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg148">Urinary incontinence in neurological disease (CG148)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2012</time></span></td>
+                            <td  style="display:none">20120801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg54">Urinary tract infection in children (CG54)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">August 2007</time></span></td>
+                            <td  style="display:none">20070801</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/csguc">Urological (CSGUC)</a>
+
+                            </td>
+                            <td class=" hidden">CSG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">September 2002</time></span></td>
+                            <td  style="display:none">20020901</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg168">Varicose veins in the legs (CG168)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2013</time></span></td>
+                            <td  style="display:none">20130701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg144">Venous thromboembolic diseases: the management of venous thromboembolic diseases and the role of thrombophilia testing (CG144)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">June 2012</time></span></td>
+                            <td  style="display:none">20120601</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg92">Venous thromboembolism: reducing the risk (CG92)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">January 2010</time></span></td>
+                            <td  style="display:none">20100101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg25">Violence (CG25)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">February 2005</time></span></td>
+                            <td  style="display:none">20050201</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph56">Vitamin D: increasing supplement use among at-risk groups (PH56)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2014</time></span></td>
+                            <td  style="display:none">20141101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph41">Walking and cycling: local measures to promote walking and cycling as forms of travel or recreation (PH41)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">November 2012</time></span></td>
+                            <td  style="display:none">20121101</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph27">Weight management before, during and after pregnancy (PH27)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2010</time></span></td>
+                            <td  style="display:none">20100701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/cg89">When to suspect child maltreatment (CG89)</a>
+
+                            </td>
+                            <td class=" hidden">CG</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">July 2009</time></span></td>
+                            <td  style="display:none">20090701</td>
+                        </tr>
+                        <tr >
+                            <td >
+                                    <a href="/guidance/ph5">Workplace interventions to promote smoking cessation (PH5)</a>
+
+                            </td>
+                            <td class=" hidden">PH</td> 
+                            <td class="data-date "><span class="date-value"><time class="date-value-inner">April 2007</time></span></td>
+                            <td  style="display:none">20070401</td>
+                        </tr>
+            </tbody>
+        </table>
+                  
+    </div>
+</div>
+
+                </div>
+                                </div>
+    </div>
+</div>
+</div>        </div>
+    <div id="left-nav-container" class="content content-secondary">
+<div class="zone zone-stacked-breadcrumb">
+<input id="Token" name="Token" type="hidden" value="98pR4cojFk98aydHf_LYjdyDnEv9X8XVbzSNT002di5LGdijYLdf15dMHbwz4suCS8WVdHSLZJyXhk9D-AKVOdk-JNc1" />
+       <div class="browsepanel">
+        <ul class="breadcrumb breadcrumb-stack in collapse" id="guidance-breadcrumb">
+            <li class="active">
+                    <a href="/guidance" data-track="guidancebreadcrumb">Find guidance</a>
+                    <a href="#guidance-breadcrumb" class="toggle icon-toggle" data-toggle="stack"></a>
+                </li>
+            </ul>
+           </div>
+</div>        <div class="zone zone-left-nav">
+<div id="savingsAndProductivity-menu">
+</div>
+
+
+<div id='guidance-menu'><div class='menu-container'><ul class="nav nav-list" id="GuidanceMenu-Menu">
+      <li class="async">
+        <a href="/guidancemenu/conditions-and-diseases">Conditions and diseases</a>
+      </li>
+      <li class="async">
+        <a href="/guidancemenu/health-protection">Health protection</a>
+      </li>
+      <li class="async">
+        <a href="/guidancemenu/lifestyle-and-wellbeing">Lifestyle and wellbeing</a>
+      </li>
+      <li class="async">
+        <a href="/guidancemenu/population-groups">Population groups</a>
+      </li>
+      <li class="async">
+        <a href="/guidancemenu/service-delivery--organisation-and-staffing">Service delivery, organisation and staffing</a>
+      </li>
+      <li class="async">
+        <a href="/guidancemenu/settings">Settings</a>
+      </li>
+</ul>
+</div></div></div>
+    </div> <!-- content primary -->
+</div> <!-- layout -->
+</div>
+<div class="callouts">
+    <div class="container">
+        <a href="/get-involved" class="callout-involved track-link" data-track="getinvolvedtab" data-track-category="get involved tab" data-track-action="clicked" data-track-label="https://www.nice.org.uk/guidance/published?type=guidelines">Get involved</a>
+    </div>
+</div>
+
+<footer class="footer-wrapper">
+    <div class="footer">
+        <div class="navbar navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <div class="zone zone-footer">
+
+<div class="widget-footer widget-menu-widget widget">
+    <div class="widget-content">
+      <ul class="nav nav-pills menu">
+    
+    
+
+<li><a href="/news">News</a>
+</li>
+
+<li><a href="/about">About</a>
+</li>
+
+<li><a href="/get-involved">Get involved</a>
+</li>
+
+<li><a href="/about/nice-communities">Communities</a>
+</li>
+</ul>
+    </div>
+  </div>
+
+<div class="widget-footer widget-html-widget widget">
+    <div class="widget-content">
+      <ul class="nav nav-pills">
+<li><a href="/leave-feedback"><span>Leave Feedback</span></a></li>
+</ul>
+    </div>
+  </div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <a href="http://www.nice.org.uk" class="footer-logo"><i class="logo icon-nice-logo"></i></a>
+
+            <ul class="nav nav-services">
+                <li><a href="http://pathways.nice.org.uk"><i class="icon-nice-pathways"></i> NICE Pathways</a></li>
+                <li><a href="http://www.nice.org.uk/guidance"><i class="icon-nice-guidance"></i> Guidance</a></li>
+                <li><a href="http://www.nice.org.uk/standards-and-indicators"><i class="icon-nice-standards"></i> Standards &amp;&nbsp;Indicators</a></li>
+                <li><a href="http://www.evidence.nhs.uk"><i class="icon-nice-evidence"></i> Evidence services</a></li>
+            </ul>
+
+            <div class="legal-panel">
+                <div class="social-panel">
+                    <!-- AddThis Button BEGIN -->
+                    <p class="social-follow addthis_toolbox">
+                        Follow Us
+                        <a class="addthis_button_twitter_follow" addthis:userid="nicecomms" target="_blank" title="Follow on Twitter" href="#">
+                            <i class="icon-twitter"></i>
+                        </a>
+                    </p>
+                    <!-- AddThis Button END -->
+                </div>
+
+                <ul class="nav nav-legal">
+                    <li><a href="//www.nice.org.uk/about">About</a></li>
+                    <li><a href="//www.nice.org.uk/accessibility">Accessibility</a></li>
+                    <li><a href="//www.nice.org.uk/freedom-of-information">Freedom of information</a></li>
+                    <li><a href="//www.nice.org.uk/get-involved/contact-us">Contact Us</a></li>
+                    <li><a href="//www.nice.org.uk/glossary">Glossary</a></li>
+                    <li><a href="//www.nice.org.uk/terms-and-conditions">Terms and conditions</a></li>
+                    <li><a href="/news/nice-newsletters-and-alerts">Subscribe</a></li>
+                    <li><a href="/help">Help</a></li>
+                </ul>
+
+                <p class="legal-copyright">Copyright &copy; 2014 National Institute for Health and Care Excellence. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <script src="/Themes/NICE.Bootstrap/scripts/jquery/jquery.dataTables.min.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/jquery/dataTables.bootstrap.js" type="text/javascript"></script>
+<script src="/Modules/NICE.Guidance/scripts/GuidanceList.js" type="text/javascript"></script>
+<script src="//cdn.nice.org.uk/v2/scripts/twitter.bootstrap.min.js" type="text/javascript"></script>
+<script src="//cdn.nice.org.uk/v2/scripts/NICE.bootstrap.min.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/niceorg/NICE.rowlink.js" type="text/javascript"></script>
+<script src="//cdn.nice.org.uk/V3/scripts/nice/NICE.eprivacy-policy.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/tabdrop/bootstrap-tabdrop.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/nice/NICE.TabDrop.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/history/history.min.js" type="text/javascript"></script>
+<script src="//cdn.nice.org.uk/V3/Scripts/nice/NICE.EventTracking.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/niceorg/NICE.GATracking.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/niceorg/NICE.LinkFixes.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/niceorg/NICE.Additions2.js" type="text/javascript"></script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#async=1" type="text/javascript"></script>
+<script src="/Modules/NICE.Search/scripts/searchwidget.js" type="text/javascript"></script>
+<script src="/Themes/NICE.Bootstrap/scripts/jquery/jquery.isotope.min.js" type="text/javascript"></script>
+<script src="/Modules/NICE.Guidance/scripts/GuidanceMenu.js" type="text/javascript"></script>
+<script src="/Modules/NICE.Guidance/scripts/TopicSummaryIndex.js" type="text/javascript"></script>
+
+
+        
+
+    <script src="//cdn.nice.org.uk/V3/scripts/nice/NICE.TopHat.js"
+            data-environment="Live"
+            data-search="/search?q=%term"
+            data-typeaheadtype="remote"
+            data-typeaheadsource="/autocomplete?%query"
+              data-service="guidance"              async></script>
+
+
+
+    
+        
+        <script type="text/javascript">
+            $(document).ajaxSend(function (event, jqxhr, settings) {
+                if (settings.url.indexOf("?") >= 0) {
+                    settings.url = settings.url + "&ajax=ajax";
+                } else {
+                    settings.url = settings.url + "?ajax=ajax";
+                }
+            })
+        </script>
+        <script type="text/javascript">
+            var is_touch_device = 'ontouchstart' in document.documentElement;
+            if (is_touch_device) {
+                $('body').addClass('touch-screen-device');
+            } else {
+                $('body').addClass('non-touch-screen-device');
+            }
+        </script>
+    </body>
+</html>
+
