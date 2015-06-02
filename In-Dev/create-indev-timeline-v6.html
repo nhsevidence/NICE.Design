@@ -122,6 +122,130 @@
             <fieldset>
                 <legend>Timeline</legend>
                     <ul class="media-list search-list timeline-list">
+                    
+<li class="media">
+    <div class="panel panel-default row">
+        <div class="panel-heading">
+                <a href="#edit-timeline4" role="button" data-toggle="modal">
+                    <strong>Meeting<small> - Second committee meeting</small></strong>
+                </a>
+                            <small class="pull-right">Date: 24 June 2015</small>
+        </div>
+        <div class="panel-body" style="padding: 12px 24px;">
+            <div class="control-group">
+                <div class="controls">
+                    <div class="pull-right">
+                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline4" data-toggle="modal">Upload</button>
+                        <button type="button" class="btn btn-small" href="#edit-timeline4" data-toggle="modal">Edit</button>
+                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline4">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <form id="delete-timeline4" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/4">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <input type="hidden" name="_method" value="DELETE" />
+            </form>
+        </div>
+    </div>
+</li>
+
+<div id="add-documents-to-timeline4" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader4" aria-hidden="true">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="addDocumentsToTimeLineHeader4">Upload Second committee meeting documents</h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/4/file">
+            <p>
+                Drag and drop files on to this window to upload <strong>documents</strong>.
+            </p>
+            <select style="display: none;" name="DocumentType" class="input-block-level">
+                <option value="">Select type....</option>
+                    <option value="FinalProtocol">Final protocol</option>
+                    <option value="TopicDescription">Topic description</option>
+                    <option value="FinalScope">Final scope</option>
+                    <option value="EqualityImpactAssessment">Equality impact assessment</option>
+                    <option value="DiagnosticsConsultationDocument">Diagnostics consultation document</option>
+                    <option value="EconomicPlan">Economic plan</option>
+                    <option value="ReviewQuestions">Review questions</option>
+                    <option value="SearchStrategies">Search strategies</option>
+                    <option value="ReviewProtocols">Review protocols</option>
+                    <option value="CommitteeMemberList">Committee member list</option>
+                    <option value="SpecialistCommitteeMembers">Specialist committee members</option>
+                    <option value="StakeholderList">Stakeholder list</option>
+                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
+                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
+                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
+                    <option value="ScopingEIAForm">Scoping EIA form</option>
+                    <option value="AssessmentReport">Assessment report</option>
+                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
+                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
+                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
+                    <option value="TopicExpertCommitteeMembers">Topic expert committee members</option>
+                    <option value="AddendumToAssessmentReport">Addendum to assessment report</option>
+                    <option value="FactualCheckOfAssessmentReport">Factual check of assessment report</option>
+                    <option value="OverviewOfAssessmentReport">Overview of assessment report</option>
+                    <option value="ClinicalExpertAdvice">Clinical expert advice</option>
+                    <option value="ScopeConsultationCommentsAndResponse">Scope consultation comments and response</option>
+                    <option value="CallForEvidenceResponseForm">Call for evidence response form</option>
+                    <option value="CorrespondenceWithEac">Correspondence with EAC</option>
+                    <option value="DataRequirements">Data requirements</option>
+                    <option value="DraftScope">Draft scope</option>
+                    <option value="EconomicReport">Economic report</option>
+                    <option value="EvidenceReview">Evidence review</option>
+                    <option value="DraftGuideline">Draft guideline</option>
+                    <option value="EvidenceToRecommendationsTables">Evidence to recommendations tables</option>
+                    <option value="CommentsForm">Comments form</option>
+                    <option value="GuidanceConsultationCommentsAndResponse">Guidance consultation comments and response</option>
+                    <option value="GuidelineAppendices">Guideline appendices</option>
+                    <option value="ReportAppendices">Report appendices</option>
+                    <option value="ShortVersionOfDraftGuideline">Short version of draft guideline</option>
+                    <option value="SupportingDocumentation">Supporting documentation</option>
+                    <option value="Overview">Overview</option>
+                    <option value="DiagnosticsAssessmentReport">Diagnostics assessment report</option>
+                    <option value="DARAddendum">DAR Addendum</option>
+                    <option value="DARErratum">DAR Erratum</option>
+                    <option value="DARCommentsTableAndEAGResponse">DAR Comments table and EAG response</option>
+                    <option value="ConsultationCommentsAndResponse">Consultation comments and response</option>
+                    <option value="DraftGuidance">Draft guidance</option>
+                    <option value="DraftQualityStandard">Draft quality standard</option>
+                    <option value="TopicOverview">Topic overview</option>
+                    <option value="SubmissionOfEvidenceBySponsor">Submission of evidence by sponsor</option>
+                    <option value="QSConsultationCommentsAndResponse">QS consultation comments and response</option>
+                    <option value="BriefingPaper">Briefing paper</option>
+                    <option value="ConsultationDocument">Consultation document</option>
+                    <option value="SAQs">SAQs</option>
+                    <option value="AppraisalConsultationDocument">Appraisal consultation document</option>
+                    <option value="DraftScopePostReferral">Draft scope (post-referral)</option>
+                    <option value="DraftMatrixOfConsulteesAndCommentatorsPostReferral">Draft matrix of consultees and commentators post referral</option>
+                    <option value="EvaluationReport">Evaluation report</option>
+                    <option value="PreMeetingBriefing">Pre-meeting briefing</option>
+                    <option value="SurveillanceReviewProposal">Surveillance review proposal</option>
+                    <option value="ConsultationCommentsProForma">Consultation comments pro-forma</option>
+                    <option value="ReviewProposalPaper">Review proposal paper</option>
+                    <option value="StakeholderMatrix">Stakeholder matrix</option>
+                    <option value="Agenda">Agenda</option>
+                    <option value="MinutesUnconfirmed">Minutes (Unconfirmed)</option>
+                    <option value="MinutesConfirmed">Minutes (Confirmed)</option>
+                    <option value="WorkshopNotes">Workshop notes</option>
+                    <option value="Minutes">Minutes</option>
+                    <option value="AppealLetter">Appeal letter</option>
+                    <option value="ScrutinyLetter">Scrutiny letter</option>
+                    <option value="ResponseToScrutinyLetter">Response to scrutiny letter</option>
+                    <option value="FinalScrutinyLetter">Final scrutiny letter</option>
+                    <option value="ResponseToFinalScrutinyLetter">Response to final scrutiny letter</option>
+                    <option value="NICEsFinalResponse">NICE&#39;s final response</option>
+                    <option value="AppealDecision">Appeal decision</option>
+                    <option value="HtmlContent">Html content</option>
+            </select>
+
+        </div>
+    </div>
+
+</div>
+                    
 <li class="media">
     <div class="panel panel-default row">
         <div class="panel-heading">
@@ -477,128 +601,9 @@
 
 </div>
     
-<li class="media">
-    <div class="panel panel-default row">
-        <div class="panel-heading">
-                <a href="#edit-timeline4" role="button" data-toggle="modal">
-                    <strong>Meeting<small> - Second committee meeting</small></strong>
-                </a>
-                            <small class="pull-right">Date: 24 June 2015</small>
-        </div>
-        <div class="panel-body" style="padding: 12px 24px;">
-            <div class="control-group">
-                <div class="controls">
-                    <div class="pull-right">
-                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline4" data-toggle="modal">Upload</button>
-                        <button type="button" class="btn btn-small" href="#edit-timeline4" data-toggle="modal">Edit</button>
-                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline4">Delete</button>
-                    </div>
-                </div>
-            </div>
-            <form id="delete-timeline4" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/4">
-                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
-                <input type="hidden" name="_method" value="DELETE" />
-            </form>
-        </div>
-    </div>
-</li>
 
-<div id="add-documents-to-timeline4" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader4" aria-hidden="true">
 
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="addDocumentsToTimeLineHeader4">Upload Second committee meeting documents</h3>
-    </div>
 
-    <div class="modal-body">
-        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/4/file">
-            <p>
-                Drag and drop files on to this window to upload <strong>documents</strong>.
-            </p>
-            <select style="display: none;" name="DocumentType" class="input-block-level">
-                <option value="">Select type....</option>
-                    <option value="FinalProtocol">Final protocol</option>
-                    <option value="TopicDescription">Topic description</option>
-                    <option value="FinalScope">Final scope</option>
-                    <option value="EqualityImpactAssessment">Equality impact assessment</option>
-                    <option value="DiagnosticsConsultationDocument">Diagnostics consultation document</option>
-                    <option value="EconomicPlan">Economic plan</option>
-                    <option value="ReviewQuestions">Review questions</option>
-                    <option value="SearchStrategies">Search strategies</option>
-                    <option value="ReviewProtocols">Review protocols</option>
-                    <option value="CommitteeMemberList">Committee member list</option>
-                    <option value="SpecialistCommitteeMembers">Specialist committee members</option>
-                    <option value="StakeholderList">Stakeholder list</option>
-                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
-                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
-                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
-                    <option value="ScopingEIAForm">Scoping EIA form</option>
-                    <option value="AssessmentReport">Assessment report</option>
-                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
-                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
-                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
-                    <option value="TopicExpertCommitteeMembers">Topic expert committee members</option>
-                    <option value="AddendumToAssessmentReport">Addendum to assessment report</option>
-                    <option value="FactualCheckOfAssessmentReport">Factual check of assessment report</option>
-                    <option value="OverviewOfAssessmentReport">Overview of assessment report</option>
-                    <option value="ClinicalExpertAdvice">Clinical expert advice</option>
-                    <option value="ScopeConsultationCommentsAndResponse">Scope consultation comments and response</option>
-                    <option value="CallForEvidenceResponseForm">Call for evidence response form</option>
-                    <option value="CorrespondenceWithEac">Correspondence with EAC</option>
-                    <option value="DataRequirements">Data requirements</option>
-                    <option value="DraftScope">Draft scope</option>
-                    <option value="EconomicReport">Economic report</option>
-                    <option value="EvidenceReview">Evidence review</option>
-                    <option value="DraftGuideline">Draft guideline</option>
-                    <option value="EvidenceToRecommendationsTables">Evidence to recommendations tables</option>
-                    <option value="CommentsForm">Comments form</option>
-                    <option value="GuidanceConsultationCommentsAndResponse">Guidance consultation comments and response</option>
-                    <option value="GuidelineAppendices">Guideline appendices</option>
-                    <option value="ReportAppendices">Report appendices</option>
-                    <option value="ShortVersionOfDraftGuideline">Short version of draft guideline</option>
-                    <option value="SupportingDocumentation">Supporting documentation</option>
-                    <option value="Overview">Overview</option>
-                    <option value="DiagnosticsAssessmentReport">Diagnostics assessment report</option>
-                    <option value="DARAddendum">DAR Addendum</option>
-                    <option value="DARErratum">DAR Erratum</option>
-                    <option value="DARCommentsTableAndEAGResponse">DAR Comments table and EAG response</option>
-                    <option value="ConsultationCommentsAndResponse">Consultation comments and response</option>
-                    <option value="DraftGuidance">Draft guidance</option>
-                    <option value="DraftQualityStandard">Draft quality standard</option>
-                    <option value="TopicOverview">Topic overview</option>
-                    <option value="SubmissionOfEvidenceBySponsor">Submission of evidence by sponsor</option>
-                    <option value="QSConsultationCommentsAndResponse">QS consultation comments and response</option>
-                    <option value="BriefingPaper">Briefing paper</option>
-                    <option value="ConsultationDocument">Consultation document</option>
-                    <option value="SAQs">SAQs</option>
-                    <option value="AppraisalConsultationDocument">Appraisal consultation document</option>
-                    <option value="DraftScopePostReferral">Draft scope (post-referral)</option>
-                    <option value="DraftMatrixOfConsulteesAndCommentatorsPostReferral">Draft matrix of consultees and commentators post referral</option>
-                    <option value="EvaluationReport">Evaluation report</option>
-                    <option value="PreMeetingBriefing">Pre-meeting briefing</option>
-                    <option value="SurveillanceReviewProposal">Surveillance review proposal</option>
-                    <option value="ConsultationCommentsProForma">Consultation comments pro-forma</option>
-                    <option value="ReviewProposalPaper">Review proposal paper</option>
-                    <option value="StakeholderMatrix">Stakeholder matrix</option>
-                    <option value="Agenda">Agenda</option>
-                    <option value="MinutesUnconfirmed">Minutes (Unconfirmed)</option>
-                    <option value="MinutesConfirmed">Minutes (Confirmed)</option>
-                    <option value="WorkshopNotes">Workshop notes</option>
-                    <option value="Minutes">Minutes</option>
-                    <option value="AppealLetter">Appeal letter</option>
-                    <option value="ScrutinyLetter">Scrutiny letter</option>
-                    <option value="ResponseToScrutinyLetter">Response to scrutiny letter</option>
-                    <option value="FinalScrutinyLetter">Final scrutiny letter</option>
-                    <option value="ResponseToFinalScrutinyLetter">Response to final scrutiny letter</option>
-                    <option value="NICEsFinalResponse">NICE&#39;s final response</option>
-                    <option value="AppealDecision">Appeal decision</option>
-                    <option value="HtmlContent">Html content</option>
-            </select>
-
-        </div>
-    </div>
-
-</div>
     
 
 
