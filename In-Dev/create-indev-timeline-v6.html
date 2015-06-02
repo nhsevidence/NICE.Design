@@ -1,0 +1,1828 @@
+﻿
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+<meta name="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="author" content="NICE - The National Institute of Health and Care Excellence">
+<link href="//fonts.googleapis.com/css?family=Lato:200normal,200italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic" rel="stylesheet" media="screen">
+<!--[if IE 7]>
+<link href="../Content/NICE.glyphs-ie7.css" rel="stylesheet" media="screen">
+<![endif]-->
+
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="//cdn.nice.org.uk/V3/Content/nice/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="//cdn.nice.org.uk/V3/Content/nice/favicon-152.png">
+<meta name="msapplication-TileColor" content="#fafafb">
+<meta name="msapplication-TileImage" content="//cdn.nice.org.uk/V3/Content/nice/favicon-144.png">
+<link href="//cdn.nice.org.uk/V3/Content/NICE.bootstrap.css" rel="stylesheet" media="screen">
+<link href="/Content/Site.css" rel="stylesheet" media="screen">
+
+
+        <title>Edit Project</title>
+    </head>
+    <body>
+        
+<div class="nice-tophat">
+    <div class="nice-global nice-partner" id="nice-global">
+        <div class="tophat-inner">
+            <span class="partner-brand">In development projects</span>
+            <ul class="menu">
+                <li class="active"><a href="/">In development projects</a></li>
+                <li class=""><a href="/adviceprojects">Advice projects</a></li>
+            </ul>            
+        </div>
+    </div>
+</div>
+
+
+
+<header class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="span9">
+                <h2>ta</h2>
+                <p class="text-info" style="margin:0;">Technology appraisal guidance | In progress | New project</p>
+            </div>
+            <div class="span3">
+                <a href="#confirm-delete-dialog" data-toggle="modal" class="btn btn-danger pull-right">DELETE DRAFT PROJECT</a>
+                <a href="#view-schedule" style="margin-top:10px" class="btn pull-right" data-toggle="modal">SCHEDULE</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<article class="container">
+    <ul class="nav nav-tabs project-nav">
+        <li class="active">
+            <a href="#view-timeline" data-toggle="tab" class="timeline-tab-btn">Timeline</a>
+        </li>
+        <li>
+            <a href="#view-project-details" data-toggle="tab">Project Details</a>
+        </li>
+            <li>
+                <a href="#view-project-people" data-toggle="tab">Project Team</a>
+            </li>
+                    <li>
+                <a href="#view-enum-value-UpdatePartialUpdate" data-toggle="tab">Updated guidance</a>
+            </li>
+            <li>
+                <a href="#view-enum-value-Consultees" data-toggle="tab">Consultees</a>
+            </li>
+            <li>
+                <a href="#view-enum-value-Commentators" data-toggle="tab">Commentators</a>
+            </li>
+        <li>
+            <a href="#view-browsecategories" data-toggle="tab">Browse Categories</a>
+        </li>
+        <li>
+            <a href="#view-audit" data-toggle="tab">Audit</a>
+        </li>
+    </ul>
+    
+    <div class="tab-content">
+        <div class="tab-pane main-content fade active in" id="view-timeline">
+            <div class="row">
+    <div class="span3">
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active">
+                <a href="#">ADD</a>
+            </li>
+            <li>
+                <a href="#view-eventTimeline" data-toggle="modal">Event</a>
+            </li>
+            <li>
+                <a href="#view-eventConsultation" data-toggle="modal">Consultation</a>
+            </li>
+                <li>
+                    <a href="#view-eventMeeting" data-toggle="modal">Meeting</a>
+                </li>
+                            <li>
+                    <a href="#view-eventSuspendDiscontinue" data-toggle="modal">Suspend/Discontinue</a>
+                </li>
+                            <li>
+                    <a href="#view-eventAppealHearing" data-toggle="modal">Appeal hearing</a>
+                </li>
+                <li>
+                    <a href="#view-eventAppeal" data-toggle="modal">Appeal</a>
+                </li>
+                <li>
+                    <a href="#view-eventAppealDecision" data-toggle="modal">Appeal decision</a>
+                </li>
+                            <li>
+                    <a href="#view-eventComplete" data-toggle="modal">Guidance published</a>
+                </li>
+        </ul>
+    </div>        
+    <div class="span9">
+        <div class="search-body">
+            <fieldset>
+                <legend>Timeline</legend>
+                    <ul class="media-list search-list timeline-list">
+<li class="media">
+    <div class="panel panel-default row">
+        <div class="panel-heading">
+                <a href="#edit-timeline0" role="button" data-toggle="modal">
+                    <strong>Timeline<small> - Referral</small></strong>
+                </a>
+                            <small class="pull-right">Date: 03 June 2015</small>
+        </div>
+        <div class="panel-body">
+            <div class="control-group">
+                <div class="controls">
+                    <div class="pull-right">
+                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline0" data-toggle="modal">Upload</button>
+                        <button type="button" class="btn btn-small" href="#edit-timeline0" data-toggle="modal">Edit</button>
+                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline0">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <form id="delete-timeline0" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/0">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <input type="hidden" name="_method" value="DELETE" />
+            </form>
+        </div>
+    </div>
+</li>
+
+<div id="add-documents-to-timeline0" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader0" aria-hidden="true">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="addDocumentsToTimeLineHeader0">Upload Referral documents</h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/0/file">
+            <p>
+                Drag and drop files on to this window to upload <strong>documents</strong>.
+            </p>
+            <select style="display: none;" name="DocumentType" class="input-block-level">
+                <option value="">Select type....</option>
+                    <option value="FinalProtocol">Final protocol</option>
+                    <option value="FinalScope">Final scope</option>
+                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
+                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
+                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
+                    <option value="ScopingEIAForm">Scoping EIA form</option>
+                    <option value="AssessmentReport">Assessment report</option>
+                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
+                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
+                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
+            </select>
+
+        </div>
+    </div>
+
+</div>
+    
+<li class="media">
+    <div class="panel panel-default row">
+        <div class="panel-heading">
+                <a href="#edit-timeline1" role="button" data-toggle="modal">
+                    <strong>Timeline<small> - Equality impact assessment published</small></strong>
+                </a>
+                            <small class="pull-right">Date: 10 June 2015</small>
+        </div>
+        <div class="panel-body">
+            <div class="control-group">
+                <div class="controls">
+                    <div class="pull-right">
+                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline1" data-toggle="modal">Upload</button>
+                        <button type="button" class="btn btn-small" href="#edit-timeline1" data-toggle="modal">Edit</button>
+                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline1">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <form id="delete-timeline1" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/1">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <input type="hidden" name="_method" value="DELETE" />
+            </form>
+        </div>
+    </div>
+</li>
+
+<div id="add-documents-to-timeline1" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader1" aria-hidden="true">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="addDocumentsToTimeLineHeader1">Upload Equality impact assessment published documents</h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/1/file">
+            <p>
+                Drag and drop files on to this window to upload <strong>documents</strong>.
+            </p>
+            <select style="display: none;" name="DocumentType" class="input-block-level">
+                <option value="">Select type....</option>
+                    <option value="FinalProtocol">Final protocol</option>
+                    <option value="FinalScope">Final scope</option>
+                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
+                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
+                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
+                    <option value="ScopingEIAForm">Scoping EIA form</option>
+                    <option value="AssessmentReport">Assessment report</option>
+                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
+                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
+                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
+            </select>
+
+        </div>
+    </div>
+
+</div>
+    
+<li class="media">
+    <div class="panel panel-default row">
+        <div class="panel-heading">
+                <a href="#edit-timeline2" role="button" data-toggle="modal">
+                    <strong>Timeline<small> - Assessment report sent for comment</small></strong>
+                </a>
+                            <small class="pull-right">Date: 13 June 2015</small>
+        </div>
+        <div class="panel-body">
+            <div class="control-group">
+                <div class="controls">
+                    <div class="pull-right">
+                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline2" data-toggle="modal">Upload</button>
+                        <button type="button" class="btn btn-small" href="#edit-timeline2" data-toggle="modal">Edit</button>
+                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline2">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <form id="delete-timeline2" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/2">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <input type="hidden" name="_method" value="DELETE" />
+            </form>
+        </div>
+    </div>
+</li>
+
+<div id="add-documents-to-timeline2" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader2" aria-hidden="true">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="addDocumentsToTimeLineHeader2">Upload Assessment report sent for comment documents</h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/2/file">
+            <p>
+                Drag and drop files on to this window to upload <strong>documents</strong>.
+            </p>
+            <select style="display: none;" name="DocumentType" class="input-block-level">
+                <option value="">Select type....</option>
+                    <option value="FinalProtocol">Final protocol</option>
+                    <option value="FinalScope">Final scope</option>
+                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
+                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
+                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
+                    <option value="ScopingEIAForm">Scoping EIA form</option>
+                    <option value="AssessmentReport">Assessment report</option>
+                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
+                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
+                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
+            </select>
+
+        </div>
+    </div>
+
+</div>
+    
+<li class="media">
+    <div class="panel panel-default row">
+        <div class="panel-heading">
+                <a href="#edit-timeline3" role="button" data-toggle="modal">
+                    <strong>Meeting<small> - First committee meeting</small></strong>
+                </a>
+                            <small class="pull-right">Date: 11 June 2015</small>
+        </div>
+        <div class="panel-body">
+            <div class="control-group">
+                <div class="controls">
+                    <div class="pull-right">
+                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline3" data-toggle="modal">Upload</button>
+                        <button type="button" class="btn btn-small" href="#edit-timeline3" data-toggle="modal">Edit</button>
+                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline3">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <form id="delete-timeline3" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/3">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <input type="hidden" name="_method" value="DELETE" />
+            </form>
+        </div>
+    </div>
+</li>
+
+<div id="add-documents-to-timeline3" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader3" aria-hidden="true">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="addDocumentsToTimeLineHeader3">Upload First committee meeting documents</h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/3/file">
+            <p>
+                Drag and drop files on to this window to upload <strong>documents</strong>.
+            </p>
+            <select style="display: none;" name="DocumentType" class="input-block-level">
+                <option value="">Select type....</option>
+                    <option value="FinalProtocol">Final protocol</option>
+                    <option value="TopicDescription">Topic description</option>
+                    <option value="FinalScope">Final scope</option>
+                    <option value="EqualityImpactAssessment">Equality impact assessment</option>
+                    <option value="DiagnosticsConsultationDocument">Diagnostics consultation document</option>
+                    <option value="EconomicPlan">Economic plan</option>
+                    <option value="ReviewQuestions">Review questions</option>
+                    <option value="SearchStrategies">Search strategies</option>
+                    <option value="ReviewProtocols">Review protocols</option>
+                    <option value="CommitteeMemberList">Committee member list</option>
+                    <option value="SpecialistCommitteeMembers">Specialist committee members</option>
+                    <option value="StakeholderList">Stakeholder list</option>
+                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
+                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
+                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
+                    <option value="ScopingEIAForm">Scoping EIA form</option>
+                    <option value="AssessmentReport">Assessment report</option>
+                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
+                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
+                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
+                    <option value="TopicExpertCommitteeMembers">Topic expert committee members</option>
+                    <option value="AddendumToAssessmentReport">Addendum to assessment report</option>
+                    <option value="FactualCheckOfAssessmentReport">Factual check of assessment report</option>
+                    <option value="OverviewOfAssessmentReport">Overview of assessment report</option>
+                    <option value="ClinicalExpertAdvice">Clinical expert advice</option>
+                    <option value="ScopeConsultationCommentsAndResponse">Scope consultation comments and response</option>
+                    <option value="CallForEvidenceResponseForm">Call for evidence response form</option>
+                    <option value="CorrespondenceWithEac">Correspondence with EAC</option>
+                    <option value="DataRequirements">Data requirements</option>
+                    <option value="DraftScope">Draft scope</option>
+                    <option value="EconomicReport">Economic report</option>
+                    <option value="EvidenceReview">Evidence review</option>
+                    <option value="DraftGuideline">Draft guideline</option>
+                    <option value="EvidenceToRecommendationsTables">Evidence to recommendations tables</option>
+                    <option value="CommentsForm">Comments form</option>
+                    <option value="GuidanceConsultationCommentsAndResponse">Guidance consultation comments and response</option>
+                    <option value="GuidelineAppendices">Guideline appendices</option>
+                    <option value="ReportAppendices">Report appendices</option>
+                    <option value="ShortVersionOfDraftGuideline">Short version of draft guideline</option>
+                    <option value="SupportingDocumentation">Supporting documentation</option>
+                    <option value="Overview">Overview</option>
+                    <option value="DiagnosticsAssessmentReport">Diagnostics assessment report</option>
+                    <option value="DARAddendum">DAR Addendum</option>
+                    <option value="DARErratum">DAR Erratum</option>
+                    <option value="DARCommentsTableAndEAGResponse">DAR Comments table and EAG response</option>
+                    <option value="ConsultationCommentsAndResponse">Consultation comments and response</option>
+                    <option value="DraftGuidance">Draft guidance</option>
+                    <option value="DraftQualityStandard">Draft quality standard</option>
+                    <option value="TopicOverview">Topic overview</option>
+                    <option value="SubmissionOfEvidenceBySponsor">Submission of evidence by sponsor</option>
+                    <option value="QSConsultationCommentsAndResponse">QS consultation comments and response</option>
+                    <option value="BriefingPaper">Briefing paper</option>
+                    <option value="ConsultationDocument">Consultation document</option>
+                    <option value="SAQs">SAQs</option>
+                    <option value="AppraisalConsultationDocument">Appraisal consultation document</option>
+                    <option value="DraftScopePostReferral">Draft scope (post-referral)</option>
+                    <option value="DraftMatrixOfConsulteesAndCommentatorsPostReferral">Draft matrix of consultees and commentators post referral</option>
+                    <option value="EvaluationReport">Evaluation report</option>
+                    <option value="PreMeetingBriefing">Pre-meeting briefing</option>
+                    <option value="SurveillanceReviewProposal">Surveillance review proposal</option>
+                    <option value="ConsultationCommentsProForma">Consultation comments pro-forma</option>
+                    <option value="ReviewProposalPaper">Review proposal paper</option>
+                    <option value="StakeholderMatrix">Stakeholder matrix</option>
+                    <option value="Agenda">Agenda</option>
+                    <option value="MinutesUnconfirmed">Minutes (Unconfirmed)</option>
+                    <option value="MinutesConfirmed">Minutes (Confirmed)</option>
+                    <option value="WorkshopNotes">Workshop notes</option>
+                    <option value="Minutes">Minutes</option>
+                    <option value="AppealLetter">Appeal letter</option>
+                    <option value="ScrutinyLetter">Scrutiny letter</option>
+                    <option value="ResponseToScrutinyLetter">Response to scrutiny letter</option>
+                    <option value="FinalScrutinyLetter">Final scrutiny letter</option>
+                    <option value="ResponseToFinalScrutinyLetter">Response to final scrutiny letter</option>
+                    <option value="NICEsFinalResponse">NICE&#39;s final response</option>
+                    <option value="AppealDecision">Appeal decision</option>
+                    <option value="HtmlContent">Html content</option>
+            </select>
+
+        </div>
+    </div>
+
+</div>
+    
+<li class="media">
+    <div class="panel panel-default row">
+        <div class="panel-heading">
+                <a href="#edit-timeline4" role="button" data-toggle="modal">
+                    <strong>Meeting<small> - Second committee meeting</small></strong>
+                </a>
+                            <small class="pull-right">Date: 24 June 2015</small>
+        </div>
+        <div class="panel-body">
+            <div class="control-group">
+                <div class="controls">
+                    <div class="pull-right">
+                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline4" data-toggle="modal">Upload</button>
+                        <button type="button" class="btn btn-small" href="#edit-timeline4" data-toggle="modal">Edit</button>
+                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline4">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <form id="delete-timeline4" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/4">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <input type="hidden" name="_method" value="DELETE" />
+            </form>
+        </div>
+    </div>
+</li>
+
+<div id="add-documents-to-timeline4" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader4" aria-hidden="true">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="addDocumentsToTimeLineHeader4">Upload Second committee meeting documents</h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/4/file">
+            <p>
+                Drag and drop files on to this window to upload <strong>documents</strong>.
+            </p>
+            <select style="display: none;" name="DocumentType" class="input-block-level">
+                <option value="">Select type....</option>
+                    <option value="FinalProtocol">Final protocol</option>
+                    <option value="TopicDescription">Topic description</option>
+                    <option value="FinalScope">Final scope</option>
+                    <option value="EqualityImpactAssessment">Equality impact assessment</option>
+                    <option value="DiagnosticsConsultationDocument">Diagnostics consultation document</option>
+                    <option value="EconomicPlan">Economic plan</option>
+                    <option value="ReviewQuestions">Review questions</option>
+                    <option value="SearchStrategies">Search strategies</option>
+                    <option value="ReviewProtocols">Review protocols</option>
+                    <option value="CommitteeMemberList">Committee member list</option>
+                    <option value="SpecialistCommitteeMembers">Specialist committee members</option>
+                    <option value="StakeholderList">Stakeholder list</option>
+                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
+                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
+                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
+                    <option value="ScopingEIAForm">Scoping EIA form</option>
+                    <option value="AssessmentReport">Assessment report</option>
+                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
+                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
+                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
+                    <option value="TopicExpertCommitteeMembers">Topic expert committee members</option>
+                    <option value="AddendumToAssessmentReport">Addendum to assessment report</option>
+                    <option value="FactualCheckOfAssessmentReport">Factual check of assessment report</option>
+                    <option value="OverviewOfAssessmentReport">Overview of assessment report</option>
+                    <option value="ClinicalExpertAdvice">Clinical expert advice</option>
+                    <option value="ScopeConsultationCommentsAndResponse">Scope consultation comments and response</option>
+                    <option value="CallForEvidenceResponseForm">Call for evidence response form</option>
+                    <option value="CorrespondenceWithEac">Correspondence with EAC</option>
+                    <option value="DataRequirements">Data requirements</option>
+                    <option value="DraftScope">Draft scope</option>
+                    <option value="EconomicReport">Economic report</option>
+                    <option value="EvidenceReview">Evidence review</option>
+                    <option value="DraftGuideline">Draft guideline</option>
+                    <option value="EvidenceToRecommendationsTables">Evidence to recommendations tables</option>
+                    <option value="CommentsForm">Comments form</option>
+                    <option value="GuidanceConsultationCommentsAndResponse">Guidance consultation comments and response</option>
+                    <option value="GuidelineAppendices">Guideline appendices</option>
+                    <option value="ReportAppendices">Report appendices</option>
+                    <option value="ShortVersionOfDraftGuideline">Short version of draft guideline</option>
+                    <option value="SupportingDocumentation">Supporting documentation</option>
+                    <option value="Overview">Overview</option>
+                    <option value="DiagnosticsAssessmentReport">Diagnostics assessment report</option>
+                    <option value="DARAddendum">DAR Addendum</option>
+                    <option value="DARErratum">DAR Erratum</option>
+                    <option value="DARCommentsTableAndEAGResponse">DAR Comments table and EAG response</option>
+                    <option value="ConsultationCommentsAndResponse">Consultation comments and response</option>
+                    <option value="DraftGuidance">Draft guidance</option>
+                    <option value="DraftQualityStandard">Draft quality standard</option>
+                    <option value="TopicOverview">Topic overview</option>
+                    <option value="SubmissionOfEvidenceBySponsor">Submission of evidence by sponsor</option>
+                    <option value="QSConsultationCommentsAndResponse">QS consultation comments and response</option>
+                    <option value="BriefingPaper">Briefing paper</option>
+                    <option value="ConsultationDocument">Consultation document</option>
+                    <option value="SAQs">SAQs</option>
+                    <option value="AppraisalConsultationDocument">Appraisal consultation document</option>
+                    <option value="DraftScopePostReferral">Draft scope (post-referral)</option>
+                    <option value="DraftMatrixOfConsulteesAndCommentatorsPostReferral">Draft matrix of consultees and commentators post referral</option>
+                    <option value="EvaluationReport">Evaluation report</option>
+                    <option value="PreMeetingBriefing">Pre-meeting briefing</option>
+                    <option value="SurveillanceReviewProposal">Surveillance review proposal</option>
+                    <option value="ConsultationCommentsProForma">Consultation comments pro-forma</option>
+                    <option value="ReviewProposalPaper">Review proposal paper</option>
+                    <option value="StakeholderMatrix">Stakeholder matrix</option>
+                    <option value="Agenda">Agenda</option>
+                    <option value="MinutesUnconfirmed">Minutes (Unconfirmed)</option>
+                    <option value="MinutesConfirmed">Minutes (Confirmed)</option>
+                    <option value="WorkshopNotes">Workshop notes</option>
+                    <option value="Minutes">Minutes</option>
+                    <option value="AppealLetter">Appeal letter</option>
+                    <option value="ScrutinyLetter">Scrutiny letter</option>
+                    <option value="ResponseToScrutinyLetter">Response to scrutiny letter</option>
+                    <option value="FinalScrutinyLetter">Final scrutiny letter</option>
+                    <option value="ResponseToFinalScrutinyLetter">Response to final scrutiny letter</option>
+                    <option value="NICEsFinalResponse">NICE&#39;s final response</option>
+                    <option value="AppealDecision">Appeal decision</option>
+                    <option value="HtmlContent">Html content</option>
+            </select>
+
+        </div>
+    </div>
+
+</div>
+    
+<li class="media">
+    <div class="panel panel-default row">
+        <div class="panel-heading">
+                <a href="#edit-timeline5" role="button" data-toggle="modal">
+                    <strong>Timeline<small> - Invitation to participate</small></strong>
+                </a>
+                            <small class="pull-right">Date: 04 June 2015</small>
+        </div>
+        <div class="panel-body">
+            <div class="control-group">
+                <div class="controls">
+                    <div class="pull-right">
+                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline5" data-toggle="modal">Upload</button>
+                        <button type="button" class="btn btn-small" href="#edit-timeline5" data-toggle="modal">Edit</button>
+                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline5">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <form id="delete-timeline5" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/5">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <input type="hidden" name="_method" value="DELETE" />
+            </form>
+        </div>
+    </div>
+</li>
+
+<div id="add-documents-to-timeline5" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader5" aria-hidden="true">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="addDocumentsToTimeLineHeader5">Upload Invitation to participate documents</h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/5/file">
+            <p>
+                Drag and drop files on to this window to upload <strong>documents</strong>.
+            </p>
+            <select style="display: none;" name="DocumentType" class="input-block-level">
+                <option value="">Select type....</option>
+                    <option value="FinalProtocol">Final protocol</option>
+                    <option value="FinalScope">Final scope</option>
+                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
+                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
+                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
+                    <option value="ScopingEIAForm">Scoping EIA form</option>
+                    <option value="AssessmentReport">Assessment report</option>
+                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
+                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
+                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
+            </select>
+
+        </div>
+    </div>
+
+</div>
+    
+                    </ul>
+            </fieldset>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+        <div class="tab-pane main-content fade" id="view-project-details">
+            <div>
+    <fieldset>
+        <legend>Project Details</legend>
+    </fieldset>
+
+    <div class="tab-content">
+        <div id="edit-project-details-panel" class="tab-pane fade">
+            <form  class="form-horizontal" method="POST" action="/edit/draft/GID-TA1004">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                    <div class="control-group">
+        <label class="control-label" for="Status">Status</label>
+        <div class="controls">
+            <input type="text" name="Status" value="In progress"  class="span4" disabled="disabled" />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="Title">Title</label>
+        <div class="controls">
+            <textarea rows="2" id="Title" name="Title" class="input-block-level">ta</textarea>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="LongTitle">Full title</label>
+        <div class="controls">
+            <textarea rows="2" id="LongTitle" name="LongTitle" class="input-block-level"></textarea>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="PlanningId">Planning Id</label>
+        <div class="controls">
+            <input type="text" name="PlanningId" pattern="[0-9]*" title="Planning tool ID number"  class="span4" />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="EmailAddress">Project email address</label>
+        <div class="controls">
+            <input  id="Email" name="Email" type="email" class="span6" />
+        </div>
+    </div>
+        <div class="control-group">
+            <label class="control-label" for="TechnologyApprasialType">TA type</label>
+            <div class="controls">
+                <select name="TechnologyApprasialType" id="TechnologyApprasialType" class="span6">
+                    <option value="" selected>None selected....</option>
+                        <option value="STA" >STA</option>
+                        <option value="MTA" >MTA</option>
+                </select>
+            </div>
+        </div>  
+        <div class="control-group">
+            <label class="control-label" for="TaHstBatchNumber">Batch number</label>
+            <div class="controls">
+                <input  id="TaHstBatchNumber" name="TaHstBatchNumber" type="text" class="span3" />
+            </div>
+        </div>
+
+                
+                <div class="control-group">
+                    <div class="controls pull-right">
+                        <a class="btn" href="#view-project-details-panel" role="button" data-toggle="tab">Cancel</a>
+                        <button type="submit" class="btn btn-info">Save</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div id="view-project-details-panel" class="tab-pane fade active in">
+            <div  class="form-horizontal">
+                    <div class="control-group">
+        <label class="control-label" for="Status">Status</label>
+        <div class="controls">
+            <input type="text" name="Status" value="In progress"  class="span4" disabled="disabled" />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="Title">Title</label>
+        <div class="controls">
+            <textarea rows="2" id="Title" name="Title" class="input-block-level" disabled=&quot;disabled&quot;>ta</textarea>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="LongTitle">Full title</label>
+        <div class="controls">
+            <textarea rows="2" id="LongTitle" name="LongTitle" class="input-block-level" disabled=&quot;disabled&quot;></textarea>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="PlanningId">Planning Id</label>
+        <div class="controls">
+            <input type="text" name="PlanningId" pattern="[0-9]*" title="Planning tool ID number"  class="span4" disabled=&quot;disabled&quot; />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="EmailAddress">Project email address</label>
+        <div class="controls">
+            <input  id="Email" name="Email" type="email" class="span6"  disabled=&quot;disabled&quot;/>
+        </div>
+    </div>
+        <div class="control-group">
+            <label class="control-label" for="TechnologyApprasialType">TA type</label>
+            <div class="controls">
+                <select name="TechnologyApprasialType" id="TechnologyApprasialType" class="span6" disabled=&quot;disabled&quot;>
+                    <option value="" selected>None selected....</option>
+                        <option value="STA" >STA</option>
+                        <option value="MTA" >MTA</option>
+                </select>
+            </div>
+        </div>  
+        <div class="control-group">
+            <label class="control-label" for="TaHstBatchNumber">Batch number</label>
+            <div class="controls">
+                <input  id="TaHstBatchNumber" name="TaHstBatchNumber" type="text" class="span3"  disabled=&quot;disabled&quot;/>
+            </div>
+        </div>
+
+
+                    <div class="control-group">
+                        <div class="controls pull-right">
+                            <a class="btn" href="#edit-project-details-panel" role="button" data-toggle="tab">Edit</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+        </div>
+        <div class="tab-pane main-content fade" id="view-project-people">
+            <div>
+    <fieldset>
+        <legend>Project Team</legend>
+    </fieldset>
+    <div class="tab-content">
+        <div id="edit-project-people-panel" class="tab-pane fade">
+            <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/people" >
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                        <div class="control-group">
+            <label class="control-label" for="ProjectLead">Project lead</label>
+            <div class="controls">
+                <input  id="ProjectLead" name="ProjectLead" type="text" class="input-block-level" value="" />
+            </div>
+        </div>
+
+                <div class="control-group">
+                    <div class="controls pull-right">
+                        <a class="btn" href="#view-project-people-panel" role="button" data-toggle="tab">Cancel</a>
+                        <button class="btn btn-info" type="submit">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="view-project-people-panel" class="tab-pane fade active in">
+            <div class="form-horizontal">
+                        <div class="control-group">
+            <label class="control-label" for="ProjectLead">Project lead</label>
+            <div class="controls">
+                <input  id="ProjectLead" name="ProjectLead" type="text" class="input-block-level" disabled=&quot;disabled&quot; value="" />
+            </div>
+        </div>
+
+                    <div class="control-group">
+                        <div class="controls pull-right">
+                            <a class="btn" href="#edit-project-people-panel" role="button" data-toggle="tab">Edit</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+                <div class="tab-pane main-content fade" id="view-enum-value-UpdatePartialUpdate">
+            <div data-enumvalue="true">
+    <fieldset>
+        <legend>Updated and partially updated guidance numbers</legend>
+    </fieldset>
+    
+    <div class="tab-content">
+        <div id="edit-UpdatePartialUpdate-panel" class="tab-pane fade">
+            <form method="POST" action="/edit/enunumlistfield/GID-TA1004/UpdatePartialUpdate" >
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <div class="guidance-numbers-container">
+                    
+                </div>
+                        <div class="control-group row process-options" style="display:none;">
+            <div class="controls">
+                <label class="span5" for="UpdateProcessOption">
+                    Update process option
+                </label>
+                <select name="UpdateProcessOption" class="span5">
+                        <option value="Standard" selected>Standard</option>
+                        <option value="StandingCommittee" >Standing committee</option>
+                </select>
+            </div>
+        </div>
+
+                <div class="control-group">
+                    <div class="controls">
+                        <a aria-hidden="true" class="add-update-partial-update-numbers btn btn-success">Add</a>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls pull-right">
+                        <a class="btn" href="#view-UpdatePartialUpdate-panel" role="button" data-toggle="tab">Cancel</a>
+                        <button class="btn btn-info" type="submit">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="view-UpdatePartialUpdate-panel" class="tab-pane fade active in">
+            <div>
+                <div>
+                            <div class="alert alert-info">
+            No updated guidance numbers have been entered for this project
+        </div>                    
+
+                </div>
+                        <div class="control-group row" style="display:none;">
+            <div class="controls">
+                <label class="span5" for="UpdateProcessOption">
+                    Update process option
+                </label>
+                <select name="UpdateProcessOption" class="span5" disabled=&quot;disabled&quot;>
+                        <option value="Standard" selected>Standard</option>
+                        <option value="StandingCommittee" >Standing committee</option>
+                </select>
+            </div>
+        </div>
+
+                    <div class="control-group">
+                        <div class="controls pull-right">
+                            <a class="btn" href="#edit-UpdatePartialUpdate-panel" role="button" data-toggle="tab">Edit</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="control-group row default-list" style="display: none;">
+        <div class="controls">
+            <select name="EnumValue" class="span5">
+                    <option value="FullUpdate">Full update</option>
+                    <option value="PartialUpdate">Partial update</option>
+            </select>
+            <input name="TextValue" placeholder="Enter a guidance no" class="span5" type="text" value="" />
+            <a href="#" aria-hidden="true" class="icon-nice-trash btn btn-danger delete-icon-btn"></a>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+        
+        </div>
+        <div class="tab-pane main-content fade" id="view-enum-value-Consultees">
+            <div data-enumvalue="true">
+    <fieldset>
+        <legend>Project consultees</legend>
+    </fieldset>
+    
+    <div class="tab-content">
+        <div id="edit-Consultees-panel" class="tab-pane fade">
+            <form method="POST" action="/edit/enunumlistfield/GID-TA1004/Consultees" >
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <div class="guidance-numbers-container">
+                    
+                </div>
+                
+                <div class="control-group">
+                    <div class="controls">
+                        <a aria-hidden="true" class="add-update-partial-update-numbers btn btn-success">Add</a>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls pull-right">
+                        <a class="btn" href="#view-Consultees-panel" role="button" data-toggle="tab">Cancel</a>
+                        <button class="btn btn-info" type="submit">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="view-Consultees-panel" class="tab-pane fade active in">
+            <div>
+                <div>
+                            <div class="alert alert-info">
+            No consultees have been entered for this project
+        </div>                    
+
+                </div>
+                
+                    <div class="control-group">
+                        <div class="controls pull-right">
+                            <a class="btn" href="#edit-Consultees-panel" role="button" data-toggle="tab">Edit</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="control-group row default-list" style="display: none;">
+        <div class="controls">
+            <select name="EnumValue" class="span5">
+                    <option value="CompaniesSponsors">Companies/sponsors</option>
+                    <option value="PatientCarerGroups">Patient/carer groups</option>
+                    <option value="ProfessionalGroups">Professional groups</option>
+                    <option value="Others">Others</option>
+            </select>
+            <input name="TextValue" placeholder="Enter a name" class="span5" type="text" value="" />
+            <a href="#" aria-hidden="true" class="icon-nice-trash btn btn-danger delete-icon-btn"></a>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+        
+        </div>
+        <div class="tab-pane main-content fade" id="view-enum-value-Commentators">
+            <div data-enumvalue="true">
+    <fieldset>
+        <legend>Project commentators</legend>
+    </fieldset>
+    
+    <div class="tab-content">
+        <div id="edit-Commentators-panel" class="tab-pane fade">
+            <form method="POST" action="/edit/enunumlistfield/GID-TA1004/Commentators" >
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <div class="guidance-numbers-container">
+                    
+                </div>
+                
+                <div class="control-group">
+                    <div class="controls">
+                        <a aria-hidden="true" class="add-update-partial-update-numbers btn btn-success">Add</a>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls pull-right">
+                        <a class="btn" href="#view-Commentators-panel" role="button" data-toggle="tab">Cancel</a>
+                        <button class="btn btn-info" type="submit">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="view-Commentators-panel" class="tab-pane fade active in">
+            <div>
+                <div>
+                            <div class="alert alert-info">
+            No commentators have been entered for this project
+        </div>                    
+
+                </div>
+                
+                    <div class="control-group">
+                        <div class="controls pull-right">
+                            <a class="btn" href="#edit-Commentators-panel" role="button" data-toggle="tab">Edit</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="control-group row default-list" style="display: none;">
+        <div class="controls">
+            <select name="EnumValue" class="span5">
+                    <option value="GeneralCommentators">General commentators</option>
+                    <option value="ComparatorCompanies">Comparator companies</option>
+                    <option value="RelevantResearchGroups">Relevant research groups</option>
+                    <option value="EvidenceReviewGroup">Evidence review group</option>
+                    <option value="AssessmentGroup">Assessment group</option>
+                    <option value="AssociatedGuidelineGroups">Associated guideline groups</option>
+                    <option value="AssociatedPublicHealthGroups">Associated public health groups</option>
+            </select>
+            <input name="TextValue" placeholder="Enter a name" class="span5" type="text" value="" />
+            <a href="#" aria-hidden="true" class="icon-nice-trash btn btn-danger delete-icon-btn"></a>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+        
+        </div>
+        <div class="tab-pane main-content fade" id="view-browsecategories">
+            <div>
+    
+    <fieldset>
+        <legend>Browse Categories</legend>
+    </fieldset>
+    <div class="tab-content">
+        <div id="edit-browsecategories-panel" class="tab-pane fade">
+                    <div>
+            <input type="text" class="input-block-level" autocomplete="off" placeholder="Search for a browse category" id="browse-category-search" data-provide="typeahead" data-source-type="local" data-source="browseCategoriesSearch" />
+        </div>
+        <div class="row">
+            <div class="span4 control-group">
+                <label class="control-label" for="level-1-categories"><small>Level 1 category</small></label>
+                <div class="controls">
+                    <select id="level-1-categories" name="level-1-categories"></select>
+                </div>
+            </div>
+            <div class="span4 control-group">
+                <label class="control-label" for="level-2-categories"><small>Level 2 category</small></label>
+                <div class="controls">
+                    <select id="level-2-categories" name="level-2-categories"></select>
+                </div>
+            </div>
+            <div class="span4 control-group">
+                <label class="control-label" for="level-3-categories"><small>Level 3 category</small></label>
+                <div class="controls">
+                    <select id="level-3-categories" name="level-3-categories"></select>
+                </div>
+            </div>
+        </div>
+    
+            <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/browsecategories" id="browse-category-form">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <div id="browse-catergory-data">
+                            <div class="control-group row">
+                <div class="span11">
+                    <label for="Zid" data-zid="140672089374242962841239"></label>
+                        <div class="controls">
+                            <input name="Zid" type="hidden" value="140672089374242962841239" />
+                        </div>
+                </div>
+                    <div class="pull-right">
+                        <a aria-hidden="true" class="btn btn-danger icon-nice-trash delete-icon-btn"></a>
+                    </div>
+            </div>
+
+                </div>
+                <div class="control-group">
+                    <div class="controls pull-right">
+                        <a class="btn" href="#view-browsecategories-panel" role="button" data-toggle="tab">Cancel</a>
+                        <button class="btn btn-info" type="submit">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="view-browsecategories-panel" class="tab-pane fade active in">
+            <div class="form-horizontal">
+                            <div class="control-group row">
+                <div class="span11">
+                    <label for="Zid" data-zid="140672089374242962841239"></label>
+                </div>
+            </div>
+
+                    <div class="control-group">
+                        <div class="controls pull-right">
+                            <a class="btn" href="#edit-browsecategories-panel" role="button" data-toggle="tab">Edit</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>    
+
+</div>
+
+
+
+        </div>
+        <div class="tab-pane main-content fade" id="view-audit">
+            <div>
+    <fieldset>
+        <legend>Project Audit Events</legend>
+    </fieldset>
+    <div class="row">
+        <table class="table table-striped table-condensed">
+            <thead>
+                <td>When</td>
+                <td>Who</td>
+                <td>Details</td>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td><small>02-06-2015 13:06</small></td>
+                        <td><small>Michael Howarth</small></td>
+                        <td><small>Event added &#39;Invitation to participate&#39; - Date : 04-06-2015</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>02-06-2015 12:58</small></td>
+                        <td><small>Michael Howarth</small></td>
+                        <td><small>Event added &#39;Second committee meeting&#39; - Date : 24-06-2015</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>02-06-2015 12:51</small></td>
+                        <td><small>Michael Howarth</small></td>
+                        <td><small>Event added &#39;First committee meeting&#39; - Date : 11-06-2015</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>02-06-2015 12:48</small></td>
+                        <td><small>Michael Howarth</small></td>
+                        <td><small>Event added &#39;Assessment report sent for comment&#39; - Date : 13-06-2015</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>02-06-2015 12:47</small></td>
+                        <td><small>Michael Howarth</small></td>
+                        <td><small>Event added &#39;Equality impact assessment published&#39; - Date : 10-06-2015</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>02-06-2015 12:47</small></td>
+                        <td><small>Michael Howarth</small></td>
+                        <td><small>Event added &#39;Referral&#39; - Date : 03-06-2015</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>02-06-2015 12:32</small></td>
+                        <td><small>Michael Howarth</small></td>
+                        <td><small>Browse categories updated.</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>02-06-2015 12:28</small></td>
+                        <td><small>Michael Howarth</small></td>
+                        <td><small>Project created.</small></td>
+                    </tr>
+            </tbody>
+        </table>        
+    </div>
+</div>
+        </div>
+        <div class="tab-pane main-content fade" id="view-content">
+            <div id="consultation-content-form-container">
+</div>
+        </div>
+    </div>
+</article>
+
+<div id="edit-timeline0" class="modal hide fade" tabindex="-1"  role="dialog" aria-labelledby="editTimeLineHeader0" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="editTimeLineHeader0">Edit Referral Timeline</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal"   method="POST" action="/edit/GID-TA1004/timeline/0"  >
+            <input type="hidden" name="EventType" value="Timeline"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="Referral" selected>Referral</option>
+                <option value="InvitationToParticipate" >Invitation to participate</option>
+                <option value="EqualityImpactAssessmentPublished" >Equality impact assessment published</option>
+                <option value="AssessmentReportSentForComment" >Assessment report sent for comment</option>
+                <option value="FinalProtocolPublished" >Final protocol published</option>
+                <option value="FinalAppraisalDetermination" >Final appraisal determination</option>
+        </select>
+    </div>
+</div>
+<div class="control-group timeline-startdate">
+    <label class="control-label" for="StartDate">Start date</label>
+    <div class="controls">
+        <input  id="StartDate" name="StartDate" type="date" class="input-block-level" />
+    </div>
+</div>
+<div class="control-group timeline-enddate">
+    <label class="control-label" for="EndDate">End date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" value="2015-06-03" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="edit-timeline1" class="modal hide fade" tabindex="-1"  role="dialog" aria-labelledby="editTimeLineHeader1" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="editTimeLineHeader1">Edit Equality impact assessment published Timeline</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal"   method="POST" action="/edit/GID-TA1004/timeline/1"  >
+            <input type="hidden" name="EventType" value="Timeline"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="Referral" >Referral</option>
+                <option value="InvitationToParticipate" >Invitation to participate</option>
+                <option value="EqualityImpactAssessmentPublished" selected>Equality impact assessment published</option>
+                <option value="AssessmentReportSentForComment" >Assessment report sent for comment</option>
+                <option value="FinalProtocolPublished" >Final protocol published</option>
+                <option value="FinalAppraisalDetermination" >Final appraisal determination</option>
+        </select>
+    </div>
+</div>
+<div class="control-group timeline-startdate">
+    <label class="control-label" for="StartDate">Start date</label>
+    <div class="controls">
+        <input  id="StartDate" name="StartDate" type="date" class="input-block-level" />
+    </div>
+</div>
+<div class="control-group timeline-enddate">
+    <label class="control-label" for="EndDate">End date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" value="2015-06-10" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="edit-timeline2" class="modal hide fade" tabindex="-1"  role="dialog" aria-labelledby="editTimeLineHeader2" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="editTimeLineHeader2">Edit Assessment report sent for comment Timeline</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal"   method="POST" action="/edit/GID-TA1004/timeline/2"  >
+            <input type="hidden" name="EventType" value="Timeline"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="Referral" >Referral</option>
+                <option value="InvitationToParticipate" >Invitation to participate</option>
+                <option value="EqualityImpactAssessmentPublished" >Equality impact assessment published</option>
+                <option value="AssessmentReportSentForComment" selected>Assessment report sent for comment</option>
+                <option value="FinalProtocolPublished" >Final protocol published</option>
+                <option value="FinalAppraisalDetermination" >Final appraisal determination</option>
+        </select>
+    </div>
+</div>
+<div class="control-group timeline-startdate">
+    <label class="control-label" for="StartDate">Start date</label>
+    <div class="controls">
+        <input  id="StartDate" name="StartDate" type="date" class="input-block-level" />
+    </div>
+</div>
+<div class="control-group timeline-enddate">
+    <label class="control-label" for="EndDate">End date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" value="2015-06-13" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="edit-timeline3" class="modal hide fade" tabindex="-1"  role="dialog" aria-labelledby="editTimeLineHeader3" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="editTimeLineHeader3">Edit First committee meeting Timeline</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal"   method="POST" action="/edit/GID-TA1004/timeline/3"  >
+            <input type="hidden" name="EventType" value="Meeting"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="FirstCommitteeMeeting" selected>First committee meeting</option>
+                <option value="SecondCommitteeMeeting" >Second committee meeting</option>
+        </select>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="EndDate">Date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" value="2015-06-11" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="edit-timeline4" class="modal hide fade" tabindex="-1"  role="dialog" aria-labelledby="editTimeLineHeader4" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="editTimeLineHeader4">Edit Second committee meeting Timeline</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal"   method="POST" action="/edit/GID-TA1004/timeline/4"  >
+            <input type="hidden" name="EventType" value="Meeting"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="FirstCommitteeMeeting" >First committee meeting</option>
+                <option value="SecondCommitteeMeeting" selected>Second committee meeting</option>
+        </select>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="EndDate">Date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" value="2015-06-24" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="edit-timeline5" class="modal hide fade" tabindex="-1"  role="dialog" aria-labelledby="editTimeLineHeader5" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="editTimeLineHeader5">Edit Invitation to participate Timeline</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal"   method="POST" action="/edit/GID-TA1004/timeline/5"  >
+            <input type="hidden" name="EventType" value="Timeline"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="Referral" >Referral</option>
+                <option value="InvitationToParticipate" selected>Invitation to participate</option>
+                <option value="EqualityImpactAssessmentPublished" >Equality impact assessment published</option>
+                <option value="AssessmentReportSentForComment" >Assessment report sent for comment</option>
+                <option value="FinalProtocolPublished" >Final protocol published</option>
+                <option value="FinalAppraisalDetermination" >Final appraisal determination</option>
+        </select>
+    </div>
+</div>
+<div class="control-group timeline-startdate">
+    <label class="control-label" for="StartDate">Start date</label>
+    <div class="controls">
+        <input  id="StartDate" name="StartDate" type="date" class="input-block-level" />
+    </div>
+</div>
+<div class="control-group timeline-enddate">
+    <label class="control-label" for="EndDate">End date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" value="2015-06-04" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div id="view-schedule" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="scheduleModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="scheduleModalLabel">Schedule</h3>
+    </div>
+    <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/schedule" >
+        <div class="modal-body">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <div class="control-group">
+                    <label class="control-label" for="Status">Go live date and time</label>
+                    <div class="controls">
+                        <input  id="ScheduledDate" name="ScheduledDate" type="datetime-local" class="input-block-level span3" />
+                        <button id="schedulenow" class="btn btn-success" style="padding: 7px 14px;margin-left: 8px;">NOW</button>
+                    </div>
+                </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+            <button class="btn btn-info" type="submit">Save</button>
+        </div>
+    </form>
+</div>
+<div id="view-eventTimeline" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="createEventLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="createEventLabel">Add Timeline</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/timeline" >
+            <input type="hidden" name="EventType" value ="Timeline"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="Referral" >Referral</option>
+                <option value="InvitationToParticipate" >Invitation to participate</option>
+                <option value="EqualityImpactAssessmentPublished" >Equality impact assessment published</option>
+                <option value="AssessmentReportSentForComment" >Assessment report sent for comment</option>
+                <option value="FinalProtocolPublished" >Final protocol published</option>
+                <option value="FinalAppraisalDetermination" >Final appraisal determination</option>
+        </select>
+    </div>
+</div>
+<div class="control-group timeline-startdate">
+    <label class="control-label" for="StartDate">Start date</label>
+    <div class="controls">
+        <input  id="StartDate" name="StartDate" type="date" class="input-block-level" />
+    </div>
+</div>
+<div class="control-group timeline-enddate">
+    <label class="control-label" for="EndDate">End date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div><div id="view-eventConsultation" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="createEventLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="createEventLabel">Add Consultation</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/timeline" >
+            <input type="hidden" name="EventType" value ="Consultation"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="PostReferralScopeConsultation" >Post-referral scope consultation</option>
+                <option value="AppraisalConsultation" >Appraisal consultation</option>
+                <option value="SurveillanceConsultation" >Surveillance consultation</option>
+        </select>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="StartDate">Start date</label>
+    <div class="controls">
+        <input  id="StartDate" name="StartDate" type="date" class="input-block-level" />
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="EndDate">End date</label>
+    <div class="controls">
+            <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" />
+    </div>
+</div>
+
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div><div id="view-eventMeeting" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="createEventLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="createEventLabel">Add Meeting</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/timeline" >
+            <input type="hidden" name="EventType" value ="Meeting"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="FirstCommitteeMeeting" >First committee meeting</option>
+                <option value="SecondCommitteeMeeting" >Second committee meeting</option>
+        </select>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="EndDate">Date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div><div id="view-eventSuspendDiscontinue" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="createEventLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="createEventLabel">Add Suspend / discontinue reason</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/timeline" >
+            <input type="hidden" name="EventType" value ="SuspendDiscontinue"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="Suspended" selected>Suspended</option>
+                <option value="Discontinued" >Discontinued</option>
+        </select>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="EndDate">Date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" />
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="SuspendedDiscontinuedResason">Reason</label>
+    <div class="controls">
+        <textarea rows="3" id="SuspendedDiscontinuedResason" required name="SuspendedDiscontinuedResason"></textarea>
+    </div>
+</div>
+
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div><div id="view-eventComplete" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="createEventLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="createEventLabel">Add Guidance published</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/timeline" >
+            <input type="hidden" name="EventType" value ="Complete"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="Complete" selected>Complete</option>
+        </select>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="GuidanceNo">Output product reference</label>
+    <div class="controls">
+        <input  name="GuidanceNo" type="text" required class="input-block-level" />
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="EndDate">Date</label>
+    <div class="controls">
+        <input  name="EndDate" type="date" required class="input-block-level" />
+    </div>
+</div>
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div><div id="view-eventAppealHearing" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="createEventLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="createEventLabel">Add Appeal hearing</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/timeline" >
+            <input type="hidden" name="EventType" value ="AppealHearing"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="AppealHearing" >Appeal hearing</option>
+        </select>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="Url">Url</label>
+    <div class="controls">
+        <input  id="Url" name="Url" type="url" required class="input-block-level" />
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="EndDate">Date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div><div id="view-eventAppeal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="createEventLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="createEventLabel">Add Appeal</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/timeline" >
+            <input type="hidden" name="EventType" value ="Appeal"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="Appeal" >Appeal</option>
+        </select>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="Organisation">Organisation</label>
+    <div class="controls">
+        <input  id="Organisation" name="Organisation" type="text" required class="input-block-level" />
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="EndDate">Date</label>
+    <div class="controls">
+        <input  id="EndDate" name="EndDate" type="date" required class="input-block-level" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div><div id="view-eventAppealDecision" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="createEventLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="createEventLabel">Add Appeal decision</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" method="POST" action="/edit/GID-TA1004/timeline" >
+            <input type="hidden" name="EventType" value ="AppealDecision"/>
+            
+<input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+<div class="control-group">
+    <label class="control-label" for="TimeLineItemType">Type</label>
+    <div class="controls">
+        <select id="EventItemType" name="EventItemType" class="timeline-select">
+                <option value="AppealDecision" >Appeal decision</option>
+        </select>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="EndDate">Date</label>
+    <div class="controls">
+        <input  name="EndDate" type="date" required class="input-block-level" />
+    </div>
+</div>
+
+
+            <div class="control-group">
+                <div class="controls pull-right">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" type="reset">Close</button>
+                    <button class="btn btn-info" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <!-- change to delete once i bother to stat using script -->
+    <form id="delete-project" method="Post" action="/edit/draft/GID-TA1004">
+        <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+        <input type="hidden" name="_method" value="DELETE" />
+    </form>
+</div>
+
+<div id="confirm-delete-dialog" class="modal hide fade" aria-hidden="true">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <a href="#" data-dismiss="modal" aria-hidden="true" class="close">×</a>
+             <h3>Delete draft project</h3>
+        </div>
+        <div class="modal-body">
+             <p>This cannot be undone. Are you sure you wish to continue?</p>
+        </div>
+          <div class="modal-footer">
+              <div class="pull-right">
+                  <a class="btn" href="#" role="button" data-dismiss="modal">NO</a>
+                  <button type="submit" class="btn btn-danger" form="delete-project">YES, DELETE PROJECT</button>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+        <script src="//cdn.nice.org.uk/V3/Scripts/jquery/jquery-1.10.2.min.js"></script>
+<script src="//cdn.nice.org.uk/V3/Scripts/twitter.bootstrap.min.js"></script>
+<script src="//cdn.nice.org.uk/V3/Scripts/NICE.bootstrap.min.js"></script>
+
+<script src="//cdn.nice.org.uk/V3/Scripts/nice/NICE.TopHat.js" data-search="/" data-home="/" data-typeaheadtype="local" data-typeaheadsource="bob" data-internal="In development" defer  async
+        data-environment="beta"></script>
+
+<script src="/Scripts/tinymce/jquery.tinymce.min.js"></script>
+<script src="/Scripts/tinymce/tinymce.min.js"></script>
+
+<script src="/Scripts/indev/utils.js"></script>
+<script src="/Scripts/indev/drag-and-drop.js"></script>
+<script src="/Scripts/indev/browse-categories.js"></script>
+<script src="/Scripts/indev/consultation-content.js"></script>
+
+        
+    <script type="text/javascript">
+        var enumKV = window.enumKeyValueItems();
+        var dragDrop = window.dragAndDrop("select[name=DocumentType]", true);
+        var partialUpdate = window.browseCategories("http://dev.publications.nice.org.uk/feeds/browsecategories", "9381aaba-7c37-4fd6-b069-37b4427ffac4");
+
+        $(function() {
+            $('#schedulenow').on('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                $('#ScheduledDate').setNow();
+            });
+
+            $('.timeline-select').on('change', function(e) {
+                var parentFormE = $(this).parents('form');
+                if (parentFormE.length == 0) return;
+
+                var startDateE = parentFormE.find('.timeline-startdate');
+                var endDateE = parentFormE.find('.timeline-enddate');
+                if (startDateE.length == 0 || endDateE.length == 0) return;
+
+                if (showStartDateForTimelineEvent($(this).val()) === true) {
+                    startDateE.show();
+                    endDateE.find('label').text('End date');
+                } else {
+                    startDateE.hide();
+                    startDateE.find('input').val("");
+                    endDateE.find('label').text('Date');
+                }
+            });
+            $('.timeline-select').trigger('change');
+
+            $('a.consultation-content').on('click', function (e) {
+                consultationContent.init($(this).data('id'), $(this).data('project-id'), $(this).data('is-draft'));
+                $('a.timeline-tab-btn').bind('click', consultationContent_clickTimelineTab); });
+
+        });        
+
+    </script>
+    
+    </body>
+
+</html>
