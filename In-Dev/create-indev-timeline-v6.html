@@ -293,62 +293,9 @@
 
 </div>
     
-<li class="media">
-    <div class="panel panel-default row">
-        <div class="panel-heading">
-                <a href="#edit-timeline2" role="button" data-toggle="modal">
-                    <strong>Timeline<small> - Assessment report sent for comment</small></strong>
-                </a>
-                            <small class="pull-right">Date: 13 June 2015</small>
-        </div>
-        <div class="panel-body">
-            <div class="control-group">
-                <div class="controls">
-                    <div class="pull-right">
-                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline2" data-toggle="modal">Upload</button>
-                        <button type="button" class="btn btn-small" href="#edit-timeline2" data-toggle="modal">Edit</button>
-                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline2">Delete</button>
-                    </div>
-                </div>
-            </div>
-            <form id="delete-timeline2" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/2">
-                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
-                <input type="hidden" name="_method" value="DELETE" />
-            </form>
-        </div>
-    </div>
-</li>
 
-<div id="add-documents-to-timeline2" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader2" aria-hidden="true">
 
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="addDocumentsToTimeLineHeader2">Upload Assessment report sent for comment documents</h3>
-    </div>
 
-    <div class="modal-body">
-        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/2/file">
-            <p>
-                Drag and drop files on to this window to upload <strong>documents</strong>.
-            </p>
-            <select style="display: none;" name="DocumentType" class="input-block-level">
-                <option value="">Select type....</option>
-                    <option value="FinalProtocol">Final protocol</option>
-                    <option value="FinalScope">Final scope</option>
-                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
-                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
-                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
-                    <option value="ScopingEIAForm">Scoping EIA form</option>
-                    <option value="AssessmentReport">Assessment report</option>
-                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
-                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
-                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
-            </select>
-
-        </div>
-    </div>
-
-</div>
     
 <li class="media">
     <div class="panel panel-default row">
@@ -466,6 +413,63 @@
                     <option value="NICEsFinalResponse">NICE&#39;s final response</option>
                     <option value="AppealDecision">Appeal decision</option>
                     <option value="HtmlContent">Html content</option>
+            </select>
+
+        </div>
+    </div>
+
+</div>
+
+<li class="media">
+    <div class="panel panel-default row">
+        <div class="panel-heading">
+                <a href="#edit-timeline2" role="button" data-toggle="modal">
+                    <strong>Timeline<small> - Assessment report sent for comment</small></strong>
+                </a>
+                            <small class="pull-right">Date: 13 June 2015</small>
+        </div>
+        <div class="panel-body">
+            <div class="control-group">
+                <div class="controls">
+                    <div class="pull-right">
+                                                    <button type="button" class="btn btn-small" href="#add-documents-to-timeline2" data-toggle="modal">Upload</button>
+                        <button type="button" class="btn btn-small" href="#edit-timeline2" data-toggle="modal">Edit</button>
+                        <button type="submit" class="btn btn-small btn-danger" form="delete-timeline2">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <form id="delete-timeline2" style="display: none;" method="Post" action="/edit/GID-TA1004/timeline/2">
+                <input type="hidden" name="Etag" value="01000000-0000-00AF-0000-00000000053F" />
+                <input type="hidden" name="_method" value="DELETE" />
+            </form>
+        </div>
+    </div>
+</li>
+
+<div id="add-documents-to-timeline2" class="modal hide fade wide" tabindex="-1"  role="dialog" aria-labelledby="addDocumentsToTimeLineHeader2" aria-hidden="true">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="addDocumentsToTimeLineHeader2">Upload Assessment report sent for comment documents</h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="span6 file-area" data-etag="01000000-0000-00AF-0000-00000000053F" data-uploadUrl="/edit/GID-TA1004/timeline/2/file">
+            <p>
+                Drag and drop files on to this window to upload <strong>documents</strong>.
+            </p>
+            <select style="display: none;" name="DocumentType" class="input-block-level">
+                <option value="">Select type....</option>
+                    <option value="FinalProtocol">Final protocol</option>
+                    <option value="FinalScope">Final scope</option>
+                    <option value="FinalMatrixOfConsulteesAndCommentators">Final matrix of consultees and commentators</option>
+                    <option value="EqualityImpactAssessmentPublished">Equality impact assessment (Published)</option>
+                    <option value="EqualityImpactAssessmentScoping">Equality impact assessment (Scoping)</option>
+                    <option value="ScopingEIAForm">Scoping EIA form</option>
+                    <option value="AssessmentReport">Assessment report</option>
+                    <option value="FinalAppraisalDeterminationDocument">Final appraisal determination document</option>
+                    <option value="ScopeConsultationCommentsAndResponses">Scope consultation comments and responses</option>
+                    <option value="GuidanceConsultationCommentsAndResponses">Guidance consultation comments and responses</option>
             </select>
 
         </div>
