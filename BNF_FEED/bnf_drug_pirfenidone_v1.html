@@ -119,6 +119,24 @@ li {
   .tab-pane {
     padding: 0px;
 }
+  ph {
+    color: #006;
+  }
+
+  tm::before {
+    font-size: .8em;
+    margin-left: -.2em;
+    vertical-align: top;
+  }
+  tm[tmtype=reg]::before {
+    content: "\00ae";
+  }
+  tm[tmtype=copy]::before {
+    content: "\00a9";
+  }
+  tm[tmtype=trade]::before {
+    content: "\2122";
+  }
 
 
 </style>
