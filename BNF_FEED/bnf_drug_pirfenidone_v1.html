@@ -75,6 +75,43 @@
             });
         </script>
         
+<script>
+jQuery.fn.topLink = function(settings) {
+  settings = jQuery.extend({
+    min: 1,
+    fadeSpeed: 100
+  }, settings);
+  return this.each(function() {
+    //listen for scroll
+    var el = jQuery(this);
+    el.hide(); //in case the user forgot
+    jQuery(window).scroll(function() {
+      if(jQuery(window).scrollTop() >= settings.min)
+      {
+        el.fadeIn(settings.fadeSpeed);
+      }
+      else
+      {
+        el.fadeOut(settings.fadeSpeed);
+      }
+    });
+  });
+};
+
+//usage w/ smoothscroll
+jQuery(document).ready(function() {
+  //set the link
+  jQuery('#top-link').topLink({
+    min: 500,
+    fadeSpeed: 100
+  });
+  //smoothscroll
+  jQuery('#top-link').click(function(r) {    
+    jQuery("html, body").animate({ scrollTop: 0 }, 300);
+  });
+});
+</script>
+        
 <style>
 
 #two-columns {
@@ -137,7 +174,8 @@ li {
   tm[tmtype=trade]::before {
     content: "\2122";
   }
-
+#wrap {height:auto; width:auto; margin:0 auto;}
+#top-link  {display:none; position:fixed; left:50%; margin-left:78px; bottom:320px; color:#292f33; font-weight:400; text-decoration:none; border:none; background:#c1ccd2; padding:5px 12px; box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.1); opacity:0.8 }
 
 </style>
         <!-- end addthis config -->
@@ -482,7 +520,12 @@ Label 25 - Swallow this medicine whole. Do not chew or crush</p>
 </section>
     </div>
 </div>
+<div id="wrap">
 
+ <a href="#top" id="top-link">Back to Top</a>
+           
+
+</div>
 </div>
 
 <div class="span4">
