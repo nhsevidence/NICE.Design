@@ -121,7 +121,41 @@ jQuery(document).ready(function() {
   column-count: 2;
   column-gap: 64px;
  }
- 
+
+  header .nav {
+    list-style: decimal inside none;
+  }
+  header .nav > li {
+    display: list-item;
+  }
+  header .nav > li > a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #01769d;
+  }
+  header .nav > li > a:hover,
+  header .nav > li > a:focus,
+  header .nav > li.active > a,
+  header .nav > li.active > a:hover,
+  header .nav > li.active > a:focus {
+    outline: 0;
+    color: #08455b;
+    background: transparent;
+    text-decoration: none;
+  }
+  header .nav > li > a:hover,
+  header .nav > li > a:focus {
+    text-decoration: underline;
+  }
+
+  [outputclass=title], .title {
+    font-size: 19px;
+    font-size: 1.9rem;
+    line-height: 24px;
+    line-height: 2.4rem;
+  }
 
  h1, h2, h3, h4, h5, h6 {
     margin: 0 0 12px;
