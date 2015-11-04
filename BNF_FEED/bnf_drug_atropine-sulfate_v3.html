@@ -195,7 +195,11 @@ p {
     font-weight: 400;
     line-height: 28px;
 }
-
+btn-toolbar {
+    font-size: 0;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
   
 .alert {
     text-shadow: none;
@@ -224,27 +228,6 @@ p {
     border-color: #d9f2f7;
     color: #3a87ad;
     font-size: 18px;
-}
-pagination {
-    margin: 10px 0 !important;
-    list-style: none;
-    text-align: center;
-}
-pagination li>a, .pagination li>span {
-    display: inline-block;
-    padding: 5px 14px;
-    color: #4a4a4a;
-    background-color: #e7e7e7 !important;
-    border: 1px solid #e7e7e7 !important;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-}
-pagination li>a:hover, .pagination li>a:focus {
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #4a4a4a;
-    background-color: #4a4a4a;
 }
   /* DITA symbols */
 
@@ -395,10 +378,12 @@ pagination li>a:hover, .pagination li>a:focus {
 <div class="tab-content">
 
 <section class="tab-pane active" id="indicationsAndDoses">
-<ul class="pagination pull-right">
-<li><a href="#"><i class="icon-chevron-left"></i></a></li>
-<li><a href="#"><i class="icon-chevron-right"></i></a></li>
-</ul>   
+<div class="btn-toolbar pull-right">
+<div class="btn-group">
+<button class="btn"><i class="icon-chevron-left"></i></button>
+<button class="btn"><i class="icon-chevron-right"></i></button>                   
+</div>
+</div>  
 <h2>Indications and doses</h2>
 <hr style="margin: 10px 0;">
 
