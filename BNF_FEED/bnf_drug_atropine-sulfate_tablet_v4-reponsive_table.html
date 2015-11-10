@@ -338,6 +338,25 @@ jQuery(document).ready(function() {
   });
 });
 </script>
+
+ <script type="text/javascript">
+            $(document).ajaxSend(function (event, jqxhr, settings) {
+                if (settings.url.indexOf("?") >= 0) {
+                    settings.url = settings.url + "&ajax=ajax";
+                } else {
+                    settings.url = settings.url + "?ajax=ajax";
+                }
+            })
+        </script>
+        <script type="text/javascript">
+            var is_touch_device = 'ontouchstart' in document.documentElement;
+            if (is_touch_device) {
+                $('body').addClass('touch-screen-device');
+            } else {
+                $('body').addClass('non-touch-screen-device');
+            }
+        </script>
+
  
   
   <script src="http://nhsevidence.github.io/NICE.Design/BNF_FEED/js/jquery.js"></script>
