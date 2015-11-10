@@ -42,7 +42,18 @@
         <!--[if IE 7]><script>var ieVersion = 7;</script><![endif]-->
         <!--[if IE 8]><script>var ieVersion = 8;</script><![endif]-->
         <!-- addthis config -->
-        <script>
+
+<script>
+$(window).on('load resize', function () {
+  if ($(this).width() < 640) {
+    $('table tfoot').hide();
+  } else {
+    $('table tfoot').show();
+  }  
+});
+</script>
+
+<script>
             var addthis_config = {
                 data_ga_property: 'UA-28620212-1',
                 data_ga_social: true,
@@ -181,6 +192,25 @@ p {
 }
 thead {
 background-color: #e7e7e7 !Important;
+}
+
+
+.table-bordered {
+  border: 1px solid #ddd !important;
+}
+
+table caption {
+	padding: .5em 0;
+}
+
+table tfoot tr td {
+  text-align: center !important;
+}
+
+@media (max-width: 39.9375em) {
+  .tablesaw-stack tbody tr:not(:last-child) {
+    border-bottom: 2px solid #0B0B0D;
+
 }
   .doses {
     padding-left: 0;
