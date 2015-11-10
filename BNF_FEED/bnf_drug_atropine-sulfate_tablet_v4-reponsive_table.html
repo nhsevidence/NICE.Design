@@ -104,6 +104,41 @@ table tfoot tr td {
 </ul>
 </div>
 
+
+<div class="row">
+<div class="span8">
+<h1>ATROPINE SULFATE <small>Medicinal forms</small></h1>
+<div class="row">
+<div style="height:1em">&nbsp;</div>
+<ul class="unstyled" id="two-columns">
+<li><a href="http://nhsevidence.github.io/NICE.Design/BNF_FEED/bnf_drug_atropine-sulfate_v3.html">Atropine Sulfate monograph</a></li>
+<li class="active"><a href="#tablet" data-toggle="tab">Tablet</a></li>
+<li><a href="#solutionforinjection" data-toggle="tab">Solution for injection</a></li>
+<li><a href="#eyedrops" data-toggle="tab">Eye drops</a></li>
+</ul>
+
+
+</div>
+<div id="wrap">
+
+ <a href="#top" id="top-link">Back to Top</a>
+           
+
+</div>
+</div>
+
+<div class="span4">
+<h2>Sub-sections</h2>
+<ul class="unstyled">
+<li><a href="#">TBC</a></li>
+<li><a href="#">TBC</a></li>
+<li><a href="#">TBC</a></li>
+</ul>
+
+</div>
+</div>
+
+
   <div class="row">
     <div class="col-xs-12">
 <h2>Tablet <small>All products</small></h2>
@@ -256,6 +291,45 @@ table tfoot tr td {
   }  
 });
   </script>
+  
+ <script>
+jQuery.fn.topLink = function(settings) {
+  settings = jQuery.extend({
+    min: 1,
+    fadeSpeed: 100
+  }, settings);
+  return this.each(function() {
+    //listen for scroll
+    var el = jQuery(this);
+    el.hide(); //in case the user forgot
+    jQuery(window).scroll(function() {
+      if(jQuery(window).scrollTop() >= settings.min)
+      {
+        el.fadeIn(settings.fadeSpeed);
+      }
+      else
+      {
+        el.fadeOut(settings.fadeSpeed);
+      }
+    });
+  });
+};
+
+//usage w/ smoothscroll
+jQuery(document).ready(function() {
+  //set the link
+  jQuery('#top-link').topLink({
+    min: 500,
+    fadeSpeed: 100
+  });
+  //smoothscroll
+  jQuery('#top-link').click(function(r) {    
+    jQuery("html, body").animate({ scrollTop: 0 }, 300);
+  });
+});
+</script>
+ 
+  
   <script src="http://nhsevidence.github.io/NICE.Design/BNF_FEED/js/jquery.js"></script>
 <script src="http://nhsevidence.github.io/NICE.Design/BNF_FEED/js/tablesaw.js"></script>
 <script src="http://nhsevidence.github.io/NICE.Design/BNF_FEED/js/tablesaw-init.js"></script>
