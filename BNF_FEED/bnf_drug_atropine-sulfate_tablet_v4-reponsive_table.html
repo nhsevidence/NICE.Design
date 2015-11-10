@@ -46,6 +46,11 @@ table caption {
 table tfoot tr td {
   text-align: center !important;
 }
+.tablesaw thead {
+    border: 1px solid #ddd;
+    background: #fff;
+
+}
 
 @media (max-width: 39.9375em) {
   .tablesaw-stack tbody tr:not(:last-child) {
@@ -91,7 +96,7 @@ table tfoot tr td {
   <div class="row">
     <div class="col-xs-12">
     <h2>Responsive Table with Tablesaw</h2>
-     <table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" id="table-8690">
+     <table class="table table-bordered table-hover tablesaw tablesaw-stack" data-tablesaw-mode="stack" id="table-8690">
 			<thead>
           <tr>
             <th>Strength</th>
