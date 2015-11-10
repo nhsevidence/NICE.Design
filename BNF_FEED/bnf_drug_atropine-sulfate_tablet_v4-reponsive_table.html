@@ -16,6 +16,8 @@
   <!-- Le styles -->
   <link href="http://fonts.googleapis.com/css?family=Lato:300normal,300italic,400normal,400italic,700normal,700italic" rel="stylesheet"/>
   <link href="http://cdn.nice.org.uk/V3/Content/NICE.bootstrap.css" rel="stylesheet"/>
+  <link href="../../NICE.Design/BNF_FEED/css/NICE.tablesaw.css" rel="stylesheet"/>
+
 
   <!--[if IE 7]>
   <link href="http://cdn.nice.org.uk/V3/Content/NICE.glyphs-ie7.css" rel="stylesheet"/>
@@ -72,7 +74,11 @@ table tfoot tr td {
   	</div>
   </div>
 
-  <div class="container">
+  
+  
+  
+
+<div class="container">
 <div class="row">
 <ul class="breadcrumb"> 
 <li><a href="#" data-di-id="di-id-1cff43f3-bd785e45">Home</a><i class="divider icon-nice-chevron-right"></i></li>
@@ -81,13 +87,81 @@ table tfoot tr td {
 </ul>
 </div>
 
-<h1>Solution for injection</h1>
-
-
-
-    
-
+  <div class="row">
+    <div class="col-xs-12">
+    <h2>Responsive Table with Tablesaw</h2>
+      <table summary="This table shows how to create responsive tables using Tablesaw's functionality" class="table table-bordered table-hover tablesaw tablesaw-stack" data-tablesaw-mode="stack">
+        <caption class="text-center">An example of a responsive table based on <a href="https://github.com/filamentgroup/tablesaw" target="_blank"> Tablesaw</a>:</caption>
+  <thead>
+          <tr>
+            <th>Strength</th>
+            <th>Size</th>
+            <th>Unit</th>
+            <th>Product</th>
+            <th>Manufacturer</th>
+            <th>Legal category</th>
+            <th>NHS indicative price</th>
+            <th>Drug Tariff</th>
+          </tr>
+        </thead>
+        <tbody>
+           <tr>
+            <td>Atropine sulfate 600 microgram</td>
+            <td>28</td>
+            <td>tablet</td>
+            <td>Atropine 600 microgram tablets</td>
+            <td>(A A H Pharmaceuticals Ltd)</td>
+            <td>POM</td>
+            <td>£25.75</td>
+            <td>£25.75</td>
+          </tr>
+          <tr>
+            <td>Atropine sulfate 600 microgram</td>
+            <td>28</td>
+            <td>tablet</td>
+            <td>Atropine 600 microgram tablets</td>
+            <td>(Alliance Healthcare (Distribution) Ltd)</td>
+            <td>POM</td>
+            <td>£25.75</td>
+            <td>£25.75</td>
+          </tr>
+          <tr>
+            <td>Atropine sulfate 600 microgram</td>
+            <td>28</td>
+            <td>tablet</td>
+            <td>Atropine 600 microgram tablets</td>
+            <td>(DE Pharmaceuticals)</td>
+            <td>POM</td>
+            <td>—</td>
+            <td>£25.75</td>
+          </tr>
+          <tr>
+            <td>Atropine sulfate 600 microgram</td>
+            <td>28</td>
+            <td>tablet</td>
+            <td>Atropine 600 microgram tablets</td>
+            <td>(Phoenix Healthcare Distribution Ltd)</td>
+            <td>POM</td>
+            <td>—</td>
+            <td>£25.75</td>
+          </tr>
+          <tr>
+            <td>Atropine sulfate 600 microgram</td>
+            <td>28</td>
+            <td>tablet</td>
+            <td>Atropine 600 microgram tablets</td>
+            <td>(Wockhardt UK Ltd)</td>
+            <td>POM</td>
+            <td>£25.75</td>
+            <td>£25.75</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
+</div>
+
+<p class="p">Demo by George Martsoukos. <a href="http://www.sitepoint.com/responsive-data-tables-comprehensive-list-solutions" target="_blank">See article</a>.</p>
 
   <div class="callouts">
       <div class="container">
@@ -155,6 +229,19 @@ table tfoot tr td {
           data-typeaheadtype="remote"
           data-typeaheadsource="/autocomplete?%query"
           async></script>
+          
+  <script>
+  $(window).on('load resize', function () {
+  if ($(this).width() < 640) {
+    $('table tfoot').hide();
+  } else {
+    $('table tfoot').show();
+  }  
+});
+  </script>
+  <script src="../../NICE.Design/BNF_FEED/js/jquery.js"></script>
+<script src="../../NICE.Design/BNF_FEED/js/tablesaw.js"></script>
+<script src="../../NICE.Design/BNF_FEED/js/tablesaw-init.js"></script>
   <script src="http://cdn.nice.org.uk/V3/Scripts/jquery/jquery-1.10.2.min.js"></script>
   <script src="http://cdn.nice.org.uk/V3/Scripts/twitter.bootstrap.min.js"></script>
   <script src="http://cdn.nice.org.uk/V3/Scripts/NICE.bootstrap.min.js"></script>
