@@ -375,21 +375,18 @@ table.tablesaw thead td {
 
 .tablesaw thead {
   border: 1px solid #e5e5e4;
-  background: #e2dfdc;
-  background-image: -webkit-linear-gradient(top, #fff, #e2dfdc);
-  background-image: linear-gradient(to bottom, #fff, #e2dfdc);
+  background: #e7e7e7;
 }
 
 .tablesaw thead th {
   font-weight: 100;
   color: #777;
   text-transform: uppercase;
-  text-shadow: 0 1px 0 #fff;
   text-align: left;
 }
 
 .tablesaw thead tr:first-child th {
-  font-weight: normal;
+  font-weight: 600;
   font-family: sans-serif;
   border-right: 1px solid #e4e1de;
 }
