@@ -970,17 +970,14 @@ eye drops, solution for injection, oral suspension, solution for infusion, oral 
 
         
 
-    <script src="//cdn.nice.org.uk/V3/Scripts/nice/NICE.TopHat.dev.js"
-            data-environment="Live"
-            data-search="/search?q=%term"
-            data-typeaheadtype="remote"
-            data-typeaheadsource="/autocomplete?%query"
-                        async></script>
-
-
-
-    
-        
+<script src="http://cdn.nice.org.uk/V3/Scripts/nice/NICE.TopHat.dev.js"
+          data-evidence="bnf"
+          data-environment="Test"
+          data-search="/search?q=%term"
+          data-typeaheadtype="remote"
+          data-typeaheadsource="/autocomplete?%query"
+          async></script>
+  
         <script type="text/javascript">
             $(document).ajaxSend(function (event, jqxhr, settings) {
                 if (settings.url.indexOf("?") >= 0) {
