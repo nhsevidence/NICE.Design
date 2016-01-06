@@ -116,8 +116,9 @@ jQuery(document).ready(function() {
   -webkit-column-gap: 64px;
   column-count: 2;
   column-gap: 64px;
- }
- #doorbell-button {
+
+}
+#doorbell-button {
     position: fixed;
     visibility: visible !important;
     cursor: pointer;
@@ -135,6 +136,7 @@ jQuery(document).ready(function() {
     -moz-border-radius: 5px 5px 0 0;
     border-radius: 5px 5px 0 0;
 }
+
   header .nav {
     list-style: decimal inside none;
   }
@@ -178,46 +180,46 @@ jQuery(document).ready(function() {
     color: #4a4a4a;
     text-rendering: optimizelegibility;
 }
-  h1 {
-      font-size: 48px;
-  }
-  h2 {
-      font-size: 36px;
-  }
-  h3 {
-      font-size: 24px;
-  }
-  
-.table-bordered {
-  border: 1px solid #ddd !important;
+h1 {
+    font-size: 48px;
 }
-
-table caption {
-	padding: .5em 0;
+h2 {
+    font-size: 36px;
 }
-
-table tfoot tr td {
-  text-align: center !important;
+h3 {
+    font-size: 24px;
 }
-
-@media (max-width: 39.9375em) {
-  .tablesaw-stack tbody tr:not(:last-child) {
-    border-bottom: 2px solid #0B0B0D;
-  }
+h4 {
+    font-size: 18px;
 }
-  [outputclass=title], .title, h4 {
-      font-size: 18px;
-  }
-  .drug .content-primary h2,
-  .drug .content-primary h3 {
-    padding-bottom: 11px;
-    border-bottom: 1px so
-   }   
-    hr {
+hr {
     margin: 0 0 14px;
     border: 0margin: 24px 0;;
     border-top: 1px solid #DCDCDC;
     border-bottom: 1px solid #fff;
+}
+
+.btn-link {
+    border-color: transparent;
+    color: #0093da;
+    font-weight: 700;
+
+}
+.btn-link, .btn-link:active, .btn-link[disabled] {
+    background-color: transparent;
+    padding: 0;
+    font-weight: 700;
+
+}
+  .btn-link:hover, .btn-link:focus {
+    color: #007dba;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 700;
+}
+.related {
+    border-top: 10px solid #d9e0e6;
+    padding-top: 5px;
 }
 p {
     margin: 0 0 12px;
@@ -226,9 +228,6 @@ p {
     font-size: 0 !Important;
     margin-top: 8px !Important;
     margin-bottom: 0px !Important;
-}
-thead {
-background-color: #e7e7e7 !Important;
 }
   .doses {
     padding-left: 0;
@@ -255,8 +254,35 @@ background-color: #e7e7e7 !Important;
     font-weight: 400;
     line-height: 28px;
 }
-
-  
+.chapter-toc {
+    border-left: 5px solid;
+    border-left-color: #03a9f4;
+    padding-left: 20px;
+}
+.chapter-toc li {
+    font-size: 16px !Important;
+    line-height: 24px  !Important;
+    font-weight: 600;
+}
+.chapter-toc a {
+    color: #03a9f4 !Important;
+}
+.chapter-doc {
+    border-top: 7px solid;
+    border-top-color: #03a9f4;
+    padding-top: 10px;
+}
+.chapter-doc li {
+    font-size: 16px !Important;
+    line-height: 32px  !Important;
+    font-weight: 600;
+}
+.chapter-doc a {
+    color: #03a9f4 !Important;
+}
+.icon-nice-double-angle-right  {
+    padding-right: 10px;
+}
 .alert {
     text-shadow: none;
 }
@@ -303,6 +329,9 @@ background-color: #e7e7e7 !Important;
   .tab-pane {
     padding: 0px;
 }
+  ph {
+    color: #006;
+  }
 
   tm::before {
     font-size: .8em;
@@ -419,13 +448,19 @@ background-color: #e7e7e7 !Important;
 </div>
 
 <div class="span4">
-<h2>Sub-sections</h2>
-<ul class="unstyled">
-<li><a href="#">TBC</a></li>
-<li><a href="#">TBC</a></li>
-<li><a href="#">TBC</a></li>
-</ul>
-
+<!-- /panel start --> 
+<nav class="chapter-doc">
+<h5><small>SEE ALSO</small></h5>
+      <ul class="unstyled">
+    
+<li><a href="http://nhsevidence.github.io/NICE.Design/BNF_FEED/bnf_drug_atropine-sulfate_related_links_v2.html#bnfc"><i aria-hidden="true" class="icon-nice-double-angle-right"></i> BNFC</a> <span class="muted"><small> (24)</small></span></li>
+<li><a href="http://nhsevidence.github.io/NICE.Design/BNF_FEED/bnf_drug_atropine-sulfate_related_links_v2.html#treatment"><i aria-hidden="true" class="icon-nice-double-angle-right"></i> TREATMENT SUMMARIES</a> <span class="muted"><small> (15)</small></span></li>
+<li><a href="http://nhsevidence.github.io/NICE.Design/BNF_FEED/bnf_drug_atropine-sulfate_related_links_v2.html#Drugsameclass"><i aria-hidden="true" class="icon-nice-double-angle-right"></i> DRUGS IN SAME CLASSIFICATION </a> <span class="muted"><small> (32)</small></span></li>
+<li><span class="muted"><a href="http://nhsevidence.github.io/NICE.Design/BNF_FEED/bnf_drug_atropine-sulfate_related_links_v2.html"><i aria-hidden="true" class="icon-nice-double-angle-right"></i> See all</a></span></li>
+</ul>   
+    </nav>
+<!-- /panel end --> 
+ 
 </div>
 </div>
 
