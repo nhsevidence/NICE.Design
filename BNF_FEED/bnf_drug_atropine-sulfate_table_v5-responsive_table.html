@@ -54,6 +54,14 @@
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
+<script>
+$(document).ready(function() {
+var hash = window.location.hash;
+hash && $('a[href="' + hash + '"]').tab-pane('show');
+});
+</script>
+
+
 <!-- addthis config -->
        <script>
             var addthis_config = {
@@ -426,7 +434,7 @@ p {
 <ul class="breadcrumb"> 
 <li><a href="#">Home</a><i class="divider icon-nice-chevron-right"></i></li>
 <li><a href="#">Drugs</a> <i class="divider icon-nice-chevron-right"></i></li>
-<li class="active"><a href="http://nhsevidence.github.io/NICE.Design/BNF_FEED/bnf_drug_atropine-sulfate_v5.html">Atropine Sulfate</a></li>
+<li class="active"><a href="http://nhsevidence.github.io/NICE.Design/BNF_FEED/bnf_drug_atropine-sulfate_v7.html">Atropine Sulfate</a></li>
 </ul>
 </div>
 
@@ -436,7 +444,7 @@ p {
 <div class="row">
 <div style="height:1em">&nbsp;</div>
 <ul class="unstyled" id="two-columns">
-<li><a href="http://nhsevidence.github.io/NICE.Design/BNF_FEED/bnf_drug_atropine-sulfate_v5.html">Atropine Sulfate monograph</a></li>
+<li><a href="http://nhsevidence.github.io/NICE.Design/BNF_FEED/bnf_drug_atropine-sulfate_v7.html">Atropine Sulfate monograph</a></li>
 <li class="active"><a href="#tablet" data-toggle="tab">Tablet</a></li>
 <li><a href="#solutionforinjection" data-toggle="tab">Solution for injection</a></li>
 <li><a href="#eyedrops" data-toggle="tab">Eye drops</a></li>
