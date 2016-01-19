@@ -25,6 +25,7 @@
   padding: 3px 20px;
   font-size: 18px;
   line-height: 24px;
+  border: 1px solid #ccc;
 }
 
 .tt-suggestion.tt-cursor {
