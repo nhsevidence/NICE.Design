@@ -16,7 +16,7 @@
   margin-top: 0px;
   padding: 0px 0;
   background-color: @dropdownBackground;
-  border: 1px solid @dropdownBorder;
+  border: none !Important;
   text-align: left;
   z-index: 1051;
 }
