@@ -13,8 +13,8 @@
 
 .tt-dropdown-menu {
   width: 422px;
-  margin-top: 2px;
-  padding: 8px 0;
+  margin-top: 0px;
+  padding: 0px 0;
   background-color: @dropdownBackground;
   border: 1px solid @dropdownBorder;
   text-align: left;
