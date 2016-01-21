@@ -152,12 +152,6 @@ jQuery(document).ready(function() {
     text-decoration: underline;
   }
 
-  [outputclass=title], .title {
-    font-size: 19px;
-    font-size: 1.9rem;
-    line-height: 24px;
-    line-height: 2.4rem;
-  }
 
  h1, h2, h3, h4, h5, h6 {
     margin: 0 0 12px;
@@ -185,12 +179,27 @@ hr {
     border-top: 1px solid #DCDCDC;
     border-bottom: 1px solid #fff;
 }
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}    
+.col-xs-4, .col-xs-8  {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
 .btn {
-    color: #333;
-    background: #BFC1C3;
+    color: #fff;
+    background: #0093da;
     outline: 0;
 }    
-
+.btn-typeahead {
+    font-size: 14px;
+    padding: 12px 24px;
+    text-transform: none;
+}       
 .btn-large, .btn-xl {
     font-size: 20px;
     margin-top: 14px;
@@ -201,7 +210,7 @@ hr {
 }
 .btn:hover, .btn:focus, .btn.active, .btn:active {
     color: #fff;
-    background: #005EA5;
+    background: #37474f;
 }
 .btn-toolbar {
     font-size: 0 !Important;
