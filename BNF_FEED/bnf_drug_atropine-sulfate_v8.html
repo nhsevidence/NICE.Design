@@ -144,8 +144,6 @@ jQuery(document).ready(function() {
     border-radius: 5px 5px 0 0;
 }
 
-
-
   header .nav {
     list-style: decimal inside none;
   }
@@ -207,12 +205,35 @@ hr {
     border-top: 1px solid #DCDCDC;
     border-bottom: 1px solid #fff;
 }
+
+.btn-link {
+    border-color: transparent;
+    color: #0093da;
+    font-weight: 700;
+
+}
+.btn-link, .btn-link:active, .btn-link[disabled] {
+    background-color: transparent;
+    padding: 0;
+    font-weight: 700;
+
+}
+  .btn-link:hover, .btn-link:focus {
+    color: #007dba;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 700;
+}
+.related {
+    border-top: 10px solid #d9e0e6;
+    padding-top: 5px;
+}
+ul, ol {
+    margin: 0 0 24px 0px;
+    list-style-type: none;
+}
 p {
     margin: 0 0 12px;
-}
-.tab-pane {
-    padding: 0px 0px;
-    padding-left: 0px;
 }
 .btn-toolbar {
     font-size: 0 !Important;
@@ -244,7 +265,37 @@ p {
     font-weight: 400;
     line-height: 28px;
 }
-  
+.chapter-toc {
+    border-left: 10px solid;
+    border-left-color: #03a9f4;
+    padding-left: 20px;
+}
+.chapter-toc li {
+    font-size: 16px !Important;
+    line-height: 24px  !Important;
+    font-weight: 600;
+
+}
+.chapter-toc a {
+    color: #03a9f4 !Important;
+}
+.chapter-doc {
+    border-top: 10px solid;
+    border-top-color: #03a9f4;
+    padding-top: 10px;
+}
+.chapter-doc li {
+    font-size: 16px !Important;
+    line-height: 24px  !Important;
+    font-weight: 600;
+    padding-bottom: 8px  !Important;
+}
+.chapter-doc a {
+    color: #03a9f4 !Important;
+}
+.icon-nice-double-angle-right  {
+    padding-right: 10px;
+}
 .alert {
     text-shadow: none;
 }
@@ -273,7 +324,7 @@ p {
     color: #3a87ad;
     font-size: 18px;
 }
-    .left, .right {
+.left, .right {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -298,6 +349,7 @@ p {
         float: none;
         width: 100%;
     }
+}
   /* DITA symbols */
 
   ph {
