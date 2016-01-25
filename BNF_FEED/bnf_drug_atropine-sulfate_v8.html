@@ -350,31 +350,33 @@ p {
 .right li {
     background-color: none;
 }
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
+  /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
     .accordion {
-        display: block;
-    }
-@media only screen and (max-width: 768px) {
-        .left, .right {
-        float: none;
-        width: 100%;
         display: none;
     }
-    
-        /* Medium Devices, Desktops */
+    /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
     .accordion {
         display: none;
     }
-
-    /* Large Devices, Wide Screens */
-    @media only screen and (mx-width : 1200px) {
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
     .accordion {
         display: none;
     }
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    } 
 }
- }
   /* DITA symbols */
 
   ph {
