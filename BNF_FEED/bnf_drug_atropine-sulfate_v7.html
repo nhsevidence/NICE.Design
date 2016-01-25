@@ -200,10 +200,14 @@ h4 {
     font-size: 18px;
 }
 hr {
-    margin: 0 0 14px;
+    margin: 14px 0 14px;
     border: 0margin: 24px 0;;
     border-top: 1px solid #DCDCDC;
     border-bottom: 1px solid #fff;
+}
+.tab-pane {
+    padding: 0px 0px;
+    padding-left: 0px;
 }
 
 .btn-link {
@@ -323,6 +327,32 @@ p {
     border-color: #d9f2f7;
     color: #3a87ad;
     font-size: 18px;
+}
+.left, .right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.left li {
+    background-color: none;
+}
+.right li {
+    background-color: none;
+}
+
+@media only screen and (max-width: 610px) {
+    .left, .right {
+        float: none;
+        width: 100%;
+    }
 }
   /* DITA symbols */
 
@@ -447,16 +477,18 @@ p {
 <div class="span8">
 <h1>ATROPINE SULFATE</h1>
 <div class="row">
-<div style="height:1em">&nbsp;</div>
-<ul class="unstyled" id="two-columns">
+<div class="row">
+    <ul class="left">
           <li class="active"><a href="#indicationsAndDoses" data-toggle="tab">Indications and doses</a></li>
-          <li><a href="#unlicensedUse" data-toggle="tab">Unlicensed use</a></li>
-          <li><a href="#importantSafetyInformation" data-toggle="tab">Important safety information</a></li>
-          <li><a href="#contraindications" data-toggle="tab">Contra-indications</a></li>
-          <li><a href="#cautions" data-toggle="tab">Cautions</a></li>
-          <li><a href="#interactions" data-toggle="tab">Interactions</a></li>
-          <li><a href="#sideEffects" data-toggle="tab">Side-effects</a></li>
-          <li><a href="#pregnancy" data-toggle="tab">Pregnancy</a></li>
+          <li class=""><a href="#unlicensedUse" data-toggle="tab">Unlicensed use</a></li>
+          <li class=""><a href="#importantSafetyInformation" data-toggle="tab">Important safety information</a></li>
+          <li class=""><a href="#contraindications" data-toggle="tab">Contra-indications</a></li>
+          <li class=""><a href="#cautions" data-toggle="tab">Cautions</a></li>
+          <li class=""><a href="#interactions" data-toggle="tab">Interactions</a></li>
+          <li class=""><a href="#sideEffects" data-toggle="tab">Side-effects</a></li>
+          <li class=""><a href="#pregnancy" data-toggle="tab">Pregnancy</a></li>
+    </ul>
+    <ul class="right">
           <li><a href="#breastfeeding" data-toggle="tab">Breast feeding</a></li>
           <li><a href="#monitoringRequirements" data-toggle="tab">Monitoring requirements</a></li>
           <li><a href="#directionsforadministration" data-toggle="tab">Directions for administration</a></li>
@@ -465,8 +497,8 @@ p {
           <li><a href="#lessSuitableForPrescribing" data-toggle="tab">Less suitable for prescribing</a></li>
           <li><a href="#exceptionsToLegalCategory" data-toggle="tab">Exceptions to legal category</a></li>
           <li><a href="#medicinalForms" data-toggle="tab">Medicinal forms</a></li>
-</ul>
-
+    </ul>
+</div>
 <hr>
 
 <div class="tab-content">
