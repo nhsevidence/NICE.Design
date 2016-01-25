@@ -351,11 +351,51 @@ p {
     background-color: none;
 }
 
-@media only screen and (max-width: 610px) {
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
     .left, .right {
         float: none;
         width: 100%;
+        display: none;
+
+        
     }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+    .left, .right {
+        float: none;
+        width: 100%;
+        display: none;
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    .left, .right {
+        float: none;
+        width: 100%;
+        display: none;
+
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    .accordion {
+        display: none;
+    }
+
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    .accordion {
+        display: none;
+    }
+
 }
   /* DITA symbols */
 
