@@ -242,6 +242,54 @@ ul, ol {
 p {
     margin: 0 0 12px;
 }
+.accordion-heading {
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: none;
+    border: solid 1px #bfc1c3;
+    border-width: 1px 0;
+    padding: 0 16px;
+}
+.accordion-toggle.collapsed:before {
+    color: #292f33;
+    font-family: "NICE.Glyphs";
+    content: "\e034";
+    padding-right: 0.5em;
+    font-weight: 400;
+    color: inherit;
+}
+.accordion-toggle:before {
+    font-size: 24px;
+    content: "-";
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    margin: 0px 0px 0 0px;
+    vertical-align: middle;
+    float: right;
+    -webkit-box-shadow: inset 0 1px 0 0 #fafafb;
+    -moz-box-shadow: inset 0 1px 0 0 #fafafb;
+    box-shadow: inset 0 1px 0 0 #fafafb;
+
+}
+.accordion-toggle:before {
+    /* color: #292f33; */
+    font-family: "NICE.Glyphs";
+    /* content: "\e034"; */
+    padding-right: 0.5em;
+    font-weight: 400;
+    color: inherit;
+    font-size: 24px;
+    content: "\e031";
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    margin: -12px -24px 0 24px;
+    vertical-align: middle;
+    float: right;
+}
 .btn-toolbar {
     font-size: 0 !Important;
     margin-top: 8px !Important;
@@ -364,54 +412,6 @@ p {
         display: none;
     }
 }
-.accordion-heading {
-    line-height: 24px;
-    font-weight: 400;
-    text-transform: none;
-    border: solid 1px #bfc1c3;
-    border-width: 1px 0;
-    padding: 0 16px;
-}
-.accordion-toggle.collapsed:before {
-    color: #292f33;
-    font-family: "NICE.Glyphs";
-    content: "\e034";
-    padding-right: 0.5em;
-    font-weight: 400;
-    color: inherit;
-}
-.accordion-toggle:before {
-    font-size: 24px;
-    content: "-";
-    display: inline-block;
-    width: 48px;
-    height: 48px;
-    text-align: center;
-    margin: 0px 0px 0 0px;
-    vertical-align: middle;
-    float: right;
-    -webkit-box-shadow: inset 0 1px 0 0 #fafafb;
-    -moz-box-shadow: inset 0 1px 0 0 #fafafb;
-    box-shadow: inset 0 1px 0 0 #fafafb;
-
-}
-.accordion-toggle:before {
-    /* color: #292f33; */
-    font-family: "NICE.Glyphs";
-    /* content: "\e034"; */
-    padding-right: 0.5em;
-    font-weight: 400;
-    color: inherit;
-    font-size: 24px;
-    content: "\e031";
-    display: inline-block;
-    width: 48px;
-    height: 48px;
-    text-align: center;
-    margin: -12px -24px 0 24px;
-    vertical-align: middle;
-    float: right;
-    }
   /* DITA symbols */
 
   ph {
