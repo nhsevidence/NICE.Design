@@ -293,12 +293,16 @@ p {
     float: right;
 }
  /*==========  Non-Mobile First Method  ==========*/
+@media only screen and (max-width: 992px) {
+    .accordion  {
+        display: none;
 
-
+}
 @media only screen and (max-width: 768px) {
     .left, .right  {
         display: none;
     }
+    
 }
 .btn-toolbar {
     font-size: 0 !Important;
