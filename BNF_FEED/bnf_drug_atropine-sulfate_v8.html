@@ -242,7 +242,7 @@ ul, ol {
 p {
     margin: 0 0 12px;
 }
-.accordion-heading a, .accordion-heading a:focus, .accordion-heading a:active {
+.accordion-heading a:focus, .accordion-heading a:active {
     color: #0093da;
     border-bottom: 3px solid #03a9f4;
     }
@@ -256,7 +256,12 @@ p {
 }
 .accordion-group {
     background-color: #ffffff;
-    }
+}
+.accordion-inner {
+    padding: 12px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
 .accordion-toggle.collapsed:before {
     color: #292f33;
     font-family: "NICE.Glyphs";
