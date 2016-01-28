@@ -58,11 +58,11 @@
 $(document).ready(function() {
   $(".accordion-body").on("show",function(event){
       event.stopPropagation();
-     $('span', $(this).siblings('.accordion-heading')).text('Open');
+     $('span', $(this).siblings('.accordion-heading')).text('Hide all parts of this monograph');
   });
   $(".accordion-body").on("hide",function(event){
       event.stopPropagation();
-    $('span', $(this).siblings('.accordion-heading')).text('Close');
+    $('span', $(this).siblings('.accordion-heading')).text('Show all parts of this monograph');
   });
 });
 
@@ -571,7 +571,7 @@ hr  { display: none !Important; }
 <div class="accordion-group">
 <div class="accordion-heading">
 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-Show all parts of this monograph</a>
+<span>Show all parts of this monograph</span></a>
 </div>
 <div id="collapseTwo" class="accordion-body collapse" style="height: 0px;">
 <div class="accordion-inner">
