@@ -55,6 +55,12 @@
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
+
+<script>$('#my-link').click(function(e) {
+    $('#collapseOne').collapse('hide');
+    $('#collapseTwo').collapse('show');        
+});</script>
+
 <script>
 $(document).ready(function() {
 var hash = window.location.hash;
@@ -546,6 +552,7 @@ hr  { display: none !Important; }
 
     <div class="row">
 <div class="span8">
+<p><a href="#accordion" id="my-link" class="btn btn-primary">Open group 2</a></p>
 <h1>ATROPINE SULFATE</h1>
 
 <div class="row">
