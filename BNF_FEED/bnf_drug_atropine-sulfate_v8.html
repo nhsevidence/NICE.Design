@@ -1232,7 +1232,11 @@ eye drops, solution for injection, oral suspension, solution for infusion, oral 
           data-typeaheadtype="remote"
           data-typeaheadsource="/autocomplete?%query"
           async></script>
-  
+          <script type="text/javascript">
+          $('#importantSafetyInformation').click(function(e) {
+    $('#collapseTwo').collapse('hide');        
+});
+</script>
         <script type="text/javascript">
             $(document).ajaxSend(function (event, jqxhr, settings) {
                 if (settings.url.indexOf("?") >= 0) {
