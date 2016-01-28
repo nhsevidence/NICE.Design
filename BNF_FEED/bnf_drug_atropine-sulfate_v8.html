@@ -55,9 +55,9 @@
 </script>
 
           <script type="text/javascript">
-          $('#importantSafetyInformation').click(function(e) {
-    $('#collapseTwo').collapse('hide');        
-});
+$('#accordion').on('hidden.bs.collapse', function (e) {
+    alert('Event fired on #' + e.currentTarget.id);
+})
 </script>
 
 
