@@ -56,6 +56,22 @@
             });
         </script>
         
+<!-- dropdown hide and show text start -->
+<script>
+$(document).ready(function() {
+  $(".accordion-body").on("show",function(event){
+      event.stopPropagation();
+     $('span', $(this).siblings('.accordion-heading')).text('Hide all parts of this monograph');
+  });
+  $(".accordion-body").on("hide",function(event){
+      event.stopPropagation();
+    $('span', $(this).siblings('.accordion-heading')).text('Show all parts of this monograph');
+  });
+});
+</script>
+<!-- dropdown hide and show text end -->
+        
+        
 <!-- tab pane show anchor start -->
 <script>
 $(document).ready(function() {
@@ -113,8 +129,9 @@ jQuery(document).ready(function() {
   -webkit-column-gap: 64px;
   column-count: 2;
   column-gap: 64px;
- }
- #doorbell-button {
+
+}
+#doorbell-button {
     position: fixed;
     visibility: visible !important;
     cursor: pointer;
@@ -132,6 +149,7 @@ jQuery(document).ready(function() {
     -moz-border-radius: 5px 5px 0 0;
     border-radius: 5px 5px 0 0;
 }
+
   header .nav {
     list-style: decimal inside none;
   }
@@ -175,47 +193,54 @@ jQuery(document).ready(function() {
     color: #4a4a4a;
     text-rendering: optimizelegibility;
 }
-  h1 {
-      font-size: 48px;
-  }
-  h2 {
-      font-size: 36px;
-  }
-  h3 {
-      font-size: 24px;
-  }
-  
-
-.table-bordered {
-  border: 1px solid #ddd !important;
+h1 {
+    font-size: 48px;
 }
-
-table caption {
-	padding: .5em 0;
+h2 {
+    font-size: 36px;
 }
-
-table tfoot tr td {
-  text-align: center !important;
+h3 {
+    font-size: 24px;
 }
-
-@media (max-width: 39.9375em) {
-  .tablesaw-stack tbody tr:not(:last-child) {
-    border-bottom: 2px solid #0B0B0D;
-  }
+h4 {
+    font-size: 18px;
 }
-  [outputclass=title], .title, h4 {
-      font-size: 18px;
-  }
-  .drug .content-primary h2,
-  .drug .content-primary h3 {
-    padding-bottom: 11px;
-    border-bottom: 1px so
-   }   
-    hr {
-    margin: 0 0 14px;
+hr {
+    margin: 14px 0 14px;
     border: 0margin: 24px 0;;
     border-top: 1px solid #DCDCDC;
     border-bottom: 1px solid #fff;
+}
+.tab-pane {
+    padding: 0px 0px;
+    padding-left: 0px;
+}
+
+.btn-link {
+    border-color: transparent;
+    color: #0093da;
+    font-weight: 700;
+
+}
+.btn-link, .btn-link:active, .btn-link[disabled] {
+    background-color: transparent;
+    padding: 0;
+    font-weight: 700;
+
+}
+  .btn-link:hover, .btn-link:focus {
+    color: #007dba;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 700;
+}
+.related {
+    border-top: 10px solid #d9e0e6;
+    padding-top: 5px;
+}
+ul, ol {
+    margin: 0 0 24px 0px;
+    list-style-type: none;
 }
 p {
     margin: 0 0 12px;
@@ -224,9 +249,6 @@ p {
     font-size: 0 !Important;
     margin-top: 8px !Important;
     margin-bottom: 0px !Important;
-}
-thead {
-background-color: #e7e7e7 !Important;
 }
   .doses {
     padding-left: 0;
@@ -253,8 +275,37 @@ background-color: #e7e7e7 !Important;
     font-weight: 400;
     line-height: 28px;
 }
+.chapter-toc {
+    border-left: 10px solid;
+    border-left-color: #03a9f4;
+    padding-left: 20px;
+}
+.chapter-toc li {
+    font-size: 16px !Important;
+    line-height: 24px  !Important;
+    font-weight: 600;
 
-  
+}
+.chapter-toc a {
+    color: #03a9f4 !Important;
+}
+.chapter-doc {
+    border-top: 10px solid;
+    border-top-color: #03a9f4;
+    padding-top: 10px;
+}
+.chapter-doc li {
+    font-size: 16px !Important;
+    line-height: 24px  !Important;
+    font-weight: 600;
+    padding-bottom: 8px  !Important;
+}
+.chapter-doc a {
+    color: #03a9f4 !Important;
+}
+.icon-nice-double-angle-right  {
+    padding-right: 10px;
+}
 .alert {
     text-shadow: none;
 }
@@ -283,6 +334,102 @@ background-color: #e7e7e7 !Important;
     color: #3a87ad;
     font-size: 18px;
 }
+.accordion-heading a:focus, .accordion-heading a:active {
+    color: #0093da;
+    border-bottom: 3px solid #03a9f4;
+    }
+.accordion-heading a:visited {
+    color: #0093da;
+    border-bottom: none;
+}
+.accordion-heading {
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: none;
+    border: solid 1px #bfc1c3;
+    border-width: 1px 0;
+
+}
+.accordion-group {
+    background-color: #ffffff;
+}
+.accordion-inner {
+    padding: 12px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.accordion-toggle.collapsed:before {
+    color: #292f33;
+    font-family: "NICE.Glyphs";
+    content: "\e034";
+    padding-right: 0;
+    font-weight: 400;
+    color: inherit;
+
+}
+.accordion-toggle {
+    display: block;
+    padding: 12px 12px;
+    position: relative;
+    cursor: pointer;
+}
+.accordion-toggle:before {
+
+    font-family: "NICE.Glyphs";
+    font-weight: 400;
+    color: inherit;
+    font-size: 24px;
+    content: "\e031";
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    margin: 0px -0px 0 0px;
+    vertical-align: middle;
+    float: right;
+}
+
+.left, .right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.left li {
+    background-color: none;
+}
+.right li {
+    background-color: none;
+}
+/*==========  test media  ==========*/ 
+@media only screen and (min-width: 768px) and (max-width: 1700px){
+.accordion { display: none; }
+}
+
+@media only screen and (max-width:767px){
+.left, .right { display: none; }
+}
+@media only screen and (max-width:768px){
+h1  { font-size: 32px !Important; }
+} 
+@media only screen and (max-width:768px){
+h2  { font-size: 24px !Important; }
+}
+@media only screen and (max-width:768px){
+hr  { display: none !Important; }
+}  
+  
+@media only screen and (max-width:768px){
+.btn-toolbar  { display: none !Important;  }
+}   
+
   /* DITA symbols */
 
   ph {
@@ -301,6 +448,9 @@ background-color: #e7e7e7 !Important;
   .tab-pane {
     padding: 0px;
 }
+  ph {
+    color: #006;
+  }
 
   tm::before {
     font-size: .8em;
