@@ -56,6 +56,15 @@
             });
         </script>
         
+<!-- tab pane show anchor start -->
+<script>
+$(document).ready(function() {
+var hash = window.location.hash;
+hash && $('a[href="' + hash + '"]').tab-pane('show');
+});
+</script>
+<!-- tab pane show anchor end -->        
+        
 <script>
 jQuery.fn.topLink = function(settings) {
   settings = jQuery.extend({
