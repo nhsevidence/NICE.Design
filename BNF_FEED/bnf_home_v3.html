@@ -179,6 +179,37 @@ h3 {
 h4 {
     font-size: 18px;
 }
+<!-- equal column start -->
+
+#container3 {
+    float:left;
+    width:100%;
+    background:green;
+}
+#container2 {
+    float:left;
+    width:100%;
+    background:yellow;
+}
+#container1 {
+    float:left;
+    width:100%;
+    background:red;
+}
+#col1 {
+    float:left;
+    width:30%;
+}
+#col2 {
+    float:left;
+    width:40%;
+}
+#col3 {
+    float:left;
+    width:30%;
+}
+
+<!-- equal column end -->
 hr {
     margin: 0 0 14px;
     border: 0margin: 24px 0;;
@@ -470,26 +501,31 @@ ul, ol {
 </div>
 <!-- row 1 links start -->
 <div class="row">
-<div class="span4">
-<a href="#" class="btn btn-large btn-block btn-primary" role="button">
-<span style="font-size: 24px"><strong>Drugs</strong></span><br><br>
-<span style="font-size: 16px">Topics: Drugs, alphabetically, Drugs by drug class...</span>
-</a>
+<div id="container3">
+	<div id="container2">
+		<div id="container1">
+			<div id="col1">
+				<!-- Column one start -->
+<h1>Drugs</h1>
+<p>Topics: Drugs, alphabetically, Drugs by drug class...</p>
+				<!-- Column one end -->
+			</div>
+			<div id="col2">
+				<!-- Column two start -->
+<h1>Interactions</h1>
+<p>List of drug interactions, browse interactions alphabetically...</p>
+				<!-- Column two end -->
+			</div>
+			<div id="col3">
+				<!-- Column three start -->
+<h1>Treatment summaries</h1>
+<p>Topics: Treatment summaries by body system; Treatment summaries, alphabetically...</p>
+				<!-- Column three end -->
+			</div>
+		</div>
+	</div>
 </div>
 
-<div class="span4">
-<a href="#" class="btn btn-large btn-block btn-primary" role="button">
-<span style="font-size: 24px"><strong>Interactions</strong></span><br><br>
-<span style="font-size: 16px">List of drug interactions, browse interactions alphabetically...</span>
-</a>
-</div>
-
-<div class="span4">
-<a href="#" class="btn btn-large btn-block btn-primary" role="button">
-<span style="font-size: 24px"><strong>Treatment summaries</strong></span><br><br>
-<span style="font-size: 16px">Topics: Treatment summaries by body system; Treatment summaries, alphabetically...</span>
-</a>
-</div>
 
 </div>
 <!-- row 1 links end -->
