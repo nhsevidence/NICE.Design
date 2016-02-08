@@ -11,8 +11,6 @@
         <link href="//fonts.googleapis.com/css?family=Lato:200normal,200italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic" rel="stylesheet" type="text/css" />
 <link href="//cdn.nice.org.uk/v3/content/NICE.bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="//www.nice.org.uk/Themes/NICE.Bootstrap/styles/nice/NICE.base.less" rel="stylesheet" type="text/css" />
-
-
 <link href="//cdn.nice.org.uk/v2/Content/FontAwesome.css" rel="stylesheet" type="text/css" />
 <link href="//cdn.nice.org.uk/v2/Content/NICE.glyphs.css" rel="stylesheet" type="text/css" />
 
@@ -154,6 +152,12 @@ jQuery(document).ready(function() {
     text-decoration: underline;
   }
 
+  [outputclass=title], .title {
+    font-size: 19px;
+    font-size: 1.9rem;
+    line-height: 24px;
+    line-height: 2.4rem;
+  }
 
  h1, h2, h3, h4, h5, h6 {
     margin: 0 0 12px;
@@ -181,61 +185,6 @@ hr {
     border-top: 1px solid #DCDCDC;
     border-bottom: 1px solid #fff;
 }
-  /* primary links */
-
-.tabbable-home .topics ul li a:hover {
-  background: white;
-}
-.tabbable-home .guidance-block {
-  padding: 24px 0;
-  display: block;
-  overflow: hidden;
-  transition-property: box-shadow !Important;
-  -webkit-box-shadow: inset 0 -1px 0 0 #e3e7e8 !Important;
-  box-shadow: inset 0 -1px 0 0 #e3e7e8 !Important;
-}
-.tabbable-home .guidance-block .title {
-  color: #0093da;
-  font-size: 24px;
-  line-height: 24px;
-  margin-bottom: 16px;
-}
-.tabbable-home .guidance-block p {
-  margin: 0;
-  color: #374248;
-}
-.tabbable-home .guidance-block:hover {
-  -webkit-box-shadow: inset 0 -1px 0 0 #c1ccd2;
-  box-shadow: inset 0 -1px 0 0 #c1ccd2;
-}
-.tabbable-home .guidance-block:hover .title {
-  color: #007dba;
-}
-.tabbable-home .guidance-block .key-links {
-  margin: 0;
-}
-.tabbable-home .guidance-block .key-links li {
-  display: block;
-}
-.tabbable-home .guidance-block .key-links li:before {
-  content: "\e032";
-  font-family: "NICE.Glyphs";
-  width: 24px;
-  text-align: center;
-  display: inline-block;
-  color: #b6c2c9;
-}
-.tabbable-home h4 {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  font-weight: 400;
-}
-.no-shadow {
-  -webkit-box-shadow: none!important;
-  box-shadow: none!important;
-}
-  /* primary links */
 .btn {
     color: #333;
     background: #BFC1C3;
@@ -523,11 +472,11 @@ ul, ol {
 <!-- row 1 links start -->
 <div class="row">
 <div class="span4">
-<a href="#" class="guidance-block">
-            <h3 class="title">Consultations</h3>
-            <p>NICE’s current consultations on guidance and other issues</p>
-            </a>
-            </div>
+<div class="span4">
+<a href="#" class="btn btn-large btn-block btn-primary" role="button">
+<span style="font-size: 24px"><strong>Drugs</strong></span><br><br>
+<span style="font-size: 16px">Topics: Drugs, alphabetically, Drugs by drug class...</span>
+</a>            </div>
 
 <div class="span4">
 <a href="#" class="btn btn-large btn-block btn-primary" role="button">
