@@ -1,0 +1,2236 @@
+﻿
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="utf-8">
+  <meta name="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+
+  <title>A to Z of drugs | BNF provided by NICE</title>
+  <meta name="description" content="Browse the complete list of drugs, alphabetically.">
+  <meta name="author" content="NICE - The National Institute for Health and Care Excellence"
+
+  <link rel="alternate" type="application/json" href="unsaved:///undefined.json" title="RDF/JSON version of this document"/>
+  <link rel="alternate" type="text/turtle" href="./undefined.ttl" title="Turtle version of this document"/>
+  <!--[if lt IE 9]>
+  <script src="css_1/html5shiv.js"></script>
+  <![endif]-->
+  
+  <!-- Le styles -->
+  <link href="http://fonts.googleapis.com/css?family=Lato:300normal,300italic,400normal,400italic,700normal,700italic" rel="stylesheet"/>
+  <link href="css_1/NICE.bootstrap.css" rel="stylesheet"/>
+  
+  <!--[if IE 7]>
+  <link href="css_1/NICE.glyphs-ie7.css" rel="stylesheet"/>
+  <![endif]-->
+  
+  <meta content="#f6f6f6" name="msapplication-TileColor" />
+  <meta content="http://cdn.nice.org.uk/V3/Content/nice/favicon-144.png" name="msapplication-TileImage" />
+  <link rel="shortcut icon" href="http://cdn.nice.org.uk/V3/Content/nice/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" href="http://cdn.nice.org.uk/V3/Content/nice/favicon-152.png">
+  
+  <style>
+  .layout {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  [outputclass=title], .title, h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 12px;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: normal;
+    color: #4a4a4a;
+    text-rendering: optimizelegibility;
+  }
+  h1 {
+      font-size: 48px;
+  }
+  h2 {
+      font-size: 36px;
+  }
+  h3 {
+      font-size: 24px;
+  }
+  [outputclass=title], .title, h4 {
+      font-size: 18px;
+  }
+  .content-primary h2,
+  .content-primary h3 {
+    padding-bottom: 11px;
+    border-bottom: 1px solid #ddd;
+  }
+  p {
+      margin: 0 0 12px;
+  }
+  
+  .nav-subtopics {
+    width: 100%;
+    -moz-column-count: 2;
+    -moz-column-gap: 64px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 64px;
+    column-count: 2;
+    column-gap: 64px;
+  }
+  
+  .doses {
+    padding-left: 0;
+    list-style: none;
+  }
+  .doses .dose {
+    padding-left: 24px;
+    padding-left: 1rem;
+    margin-bottom: 6px;
+    margin-bottom: .6rem;
+  }
+  .doses .adult,
+  .doses .elderly,
+  .doses .childbearing {
+    border-left: 10px solid #0288d1;
+  }
+  .doses .child,
+  .doses .neonate {
+    border-left: 10px solid #82176F;
+  }
+  .doses .info {
+    border-left: 10px solid #468847;
+  }
+  .lead {
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  /*
+  .alert {
+      text-shadow: none;
+  }
+  .alert-block {
+      padding-top: 35px;
+      padding-bottom: 35px;
+  }
+  .alert, .alert h4 {
+      color: #4a4a4a;
+  }
+  .alert {
+    padding: 25px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    background-color: #fff;
+    border: 5px solid #0288d1;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  .alert-info {
+      background-color: #f6fbfd;
+      border-color: #d9f2f7;
+      color: #3a87ad;
+      font-size: 18px;
+  }
+  */
+  
+  /* DITA symbols */
+  
+  ph {
+    color: #006;
+  }
+  
+  .tab-content {
+    overflow: auto;
+  }
+  .tab-content > .tab-pane {
+    display: none;
+  }
+  .tab-content > .active {
+    display: block;
+  }
+  .tab-pane {
+    padding: 0px;
+  }
+  ph {
+    color: #006;
+  }
+  
+  tm::before {
+    font-size: .8em;
+    margin-left: -.2em;
+    vertical-align: top;
+  }
+  tm[tmtype=reg]::before {
+    content: "\00ae";
+  }
+  tm[tmtype=copy]::before {
+    content: "\00a9";
+  }
+  tm[tmtype=trade]::before {
+    content: "\2122";
+  }
+  
+  
+  .interaction-list-specific .interaction-list-inherited {
+    display: none;
+  }
+  .interaction-list .interaction-body {
+    border: 1px solid #E4E4E4;
+    margin-bottom: 10px;
+    padding: 12px;
+  }
+  .interaction-list .High .interaction-body {
+    background-color: #f2dede;
+    color: #fb1b1b;
+  }
+  .interaction-list .High .interaction-body a {
+    color: #fb1b1b;
+    text-decoration: underline;
+  }
+  
+  
+  nav .aToZ > li > a {
+    margin-right: 2px;
+    padding: 12px 15px;
+    color: #111;
+    border: 1px solid #E4E4E4;
+  }
+  nav .aToZ > .active > a {
+    background-color: #0074d9;
+    border: 1px solid #0074d9;
+  }
+  
+  .index > li > a {
+    display: block;
+    border-top: 1px solid #E4E4E4;
+    padding: 8px 12px;
+  }
+  .index > li > a:hover,
+  .index > li > a:active,
+  .index > li > a:focus {
+    text-decoration: underline;
+  }
+  
+  [href="#type"] {
+    display: none;
+  }
+  
+  address span {
+    display: block;
+  }
+  
+  #backToTop  {
+    display: none;
+    position: fixed;
+    left: 50%;
+    margin-left: 78px;
+    bottom: 320px;
+    color: #292f33;
+    font-weight: 400;
+    text-decoration: none;
+    border: none;
+    background: #c1ccd2;
+    padding: 12px 18px;
+    box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.1);
+    opacity: 0.8
+  }
+  
+  .publication {
+    border-top: 10px solid #03a9f4;
+    overflow: hidden;
+    text-align: right;
+    padding: 24px 0;
+  }
+  .publication-brand {
+    float: left;
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    padding-left: 24px;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+  }
+  
+  .nice-global .nice-search {
+    width: 100%;
+  }
+  .nice-global .nice-search input {
+    font-size: 24px;
+    height: 60px;
+  }
+  .nice-global .nice-search button {
+    height: 60px;
+    width: 60px;
+  }
+  .nice-global .nice-search .icon-search {
+    font-size: 36px;
+  }
+  
+  .navbar-publication {
+    margin-top: -24px;
+  }
+  .navbar-publication ul {
+    text-align: center;
+    margin: 12px 0 24px;
+  }
+  
+  </style>
+</head>
+<body id="aToZ" class="aToZ">
+  <div class="container">
+    <ul class="breadcrumb">
+      <li><a href="../">Home</a> <span class="divider icon-nice-chevron-right"></span></li>
+      <li class="active">drugs</li>
+    </ul>
+  </div>
+
+  <div class="layout search-results"></div>
+
+  <div class="container topic-container">
+    <h3>Browse drugs</h3>
+
+    <nav>
+      <ul class="nav nav-pills aToZ">
+          <li class="active"><a href="#A" data-toggle="tab">A</a></li>
+          <li><a href="#B" data-toggle="tab">B</a></li>
+          <li><a href="#C" data-toggle="tab">C</a></li>
+          <li><a href="#D" data-toggle="tab">D</a></li>
+          <li><a href="#E" data-toggle="tab">E</a></li>
+          <li><a href="#F" data-toggle="tab">F</a></li>
+          <li><a href="#G" data-toggle="tab">G</a></li>
+          <li><a href="#H" data-toggle="tab">H</a></li>
+          <li><a href="#I" data-toggle="tab">I</a></li>
+          <li><a href="#J" data-toggle="tab">J</a></li>
+          <li><a href="#K" data-toggle="tab">K</a></li>
+          <li><a href="#L" data-toggle="tab">L</a></li>
+          <li><a href="#M" data-toggle="tab">M</a></li>
+          <li><a href="#N" data-toggle="tab">N</a></li>
+          <li><a href="#O" data-toggle="tab">O</a></li>
+          <li><a href="#P" data-toggle="tab">P</a></li>
+          <li><a href="#Q" data-toggle="tab">Q</a></li>
+          <li><a href="#R" data-toggle="tab">R</a></li>
+          <li><a href="#S" data-toggle="tab">S</a></li>
+          <li><a href="#T" data-toggle="tab">T</a></li>
+          <li><a href="#U" data-toggle="tab">U</a></li>
+          <li><a href="#V" data-toggle="tab">V</a></li>
+          <li><a href="#W" data-toggle="tab">W</a></li>
+          <li><a href="#X" data-toggle="tab">X</a></li>
+          <li><a href="#Y" data-toggle="tab">Y</a></li>
+          <li><a href="#Z" data-toggle="tab">Z</a></li>
+      </ul>
+    </nav>
+
+    <div class="tab-content">
+      <section class="tab-pane active" id="A">
+        <div class="row">
+          <div class="span1">
+            <h2 title="129  begining with the letter A">A</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP3751.html"><span>ABACAVIR</span></a></li>
+              <li><a href="./PHP106633.html"><span>ABACAVIR WITH DOLUTEGRAVIR AND LAMIVUDINE</span></a></li>
+              <li><a href="./PHP85564.html"><span>ABACAVIR WITH LAMIVUDINE</span></a></li>
+              <li><a href="./PHP85565.html"><span>ABACAVIR WITH LAMIVUDINE AND ZIDOVUDINE</span></a></li>
+              <li><a href="./PHP6626.html"><span>ABATACEPT</span></a></li>
+              <li><a href="./PHP1529.html"><span>ABCIXIMAB</span></a></li>
+              <li><a href="./PHP5787.html"><span>ABIRATERONE ACETATE</span></a></li>
+              <li><a href="./PHP3181.html"><span>ACAMPROSATE CALCIUM</span></a></li>
+              <li><a href="./PHP4182.html"><span>ACARBOSE</span></a></li>
+              <li><a href="./PHP952.html"><span>ACEBUTOLOL</span></a></li>
+              <li><a href="./PHP6406.html"><span>ACECLOFENAC</span></a></li>
+              <li><a href="./PHP6409.html"><span>ACEMETACIN</span></a></li>
+              <li><a href="./PHP1499.html"><span>ACENOCOUMAROL</span></a></li>
+              <li><a href="./PHP7015.html"><span>ACETAZOLAMIDE</span></a></li>
+              <li><a href="./PHP7147.html"><span>ACETYLCHOLINE CHLORIDE</span></a></li>
+              <li><a href="./PHP195.html"><span>ACETYLCYSTEINE</span></a></li>
+              <li><a href="./PHP3843.html"><span>ACICLOVIR</span></a></li>
+              <li><a href="./PHP1694.html"><span>ACIPIMOX</span></a></li>
+              <li><a href="./PHP7757.html"><span>ACITRETIN</span></a></li>
+              <li><a href="./PHP18568.html"><span>ACLIDINIUM BROMIDE</span></a></li>
+              <li><a href="./PHP108185.html"><span>ACLIDINIUM BROMIDE WITH FORMOTEROL</span></a></li>
+              <li><a href="./PHP1907.html"><span>ACRIVASTINE</span></a></li>
+              <li><a href="./PHP536.html"><span>ADALIMUMAB</span></a></li>
+              <li><a href="./PHP7826.html"><span>ADAPALENE</span></a></li>
+              <li><a href="./PHP97006.html"><span>ADAPALENE WITH BENZOYL PEROXIDE</span></a></li>
+              <li><a href="./PHP3870.html"><span>ADEFOVIR DIPIVOXIL</span></a></li>
+              <li><a href="./PHP900.html"><span>ADENOSINE</span></a></li>
+              <li><a href="./PHP8678.html"><span>ADRENALINE WITH ARTICAINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1435.html"><span>ADRENALINE/EPINEPHRINE</span></a></li>
+              <li><a href="./PHP34301.html"><span>AFATINIB</span></a></li>
+              <li><a href="./PHP33788.html"><span>AFLIBERCEPT</span></a></li>
+              <li><a href="./PHP104055.html"><span>AGALSIDASE ALFA</span></a></li>
+              <li><a href="./PHP104056.html"><span>AGALSIDASE BETA</span></a></li>
+              <li><a href="./PHP2440.html"><span>AGOMELATINE</span></a></li>
+              <li><a href="./PHP34495.html"><span>ALBENDAZOLE</span></a></li>
+              <li><a href="./PHP6023.html"><span>ALBUMIN SOLUTION</span></a></li>
+              <li><a href="./PHP7612.html"><span>ALCLOMETASONE DIPROPIONATE</span></a></li>
+              <li><a href="./PHP8111.html"><span>ALCOHOL</span></a></li>
+              <li><a href="./PHP5690.html"><span>ALDESLEUKIN</span></a></li>
+              <li><a href="./PHP97242.html"><span>ALEMTUZUMAB</span></a></li>
+              <li><a href="./PHP4656.html"><span>ALENDRONIC ACID</span></a></li>
+              <li><a href="./PHP85566.html"><span>ALENDRONIC ACID WITH COLECALCIFEROL</span></a></li>
+              <li><a href="./PHP6237.html"><span>ALFACALCIDOL</span></a></li>
+              <li><a href="./PHP8594.html"><span>ALFENTANIL</span></a></li>
+              <li><a href="./PHP5037.html"><span>ALFUZOSIN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP85550.html"><span>ALGINIC ACID</span></a></li>
+              <li><a href="./PHP6333.html"><span>ALGLUCOSIDASE ALFA</span></a></li>
+              <li><a href="./PHP1930.html"><span>ALIMEMAZINE TARTRATE</span></a></li>
+              <li><a href="./PHP1252.html"><span>ALISKIREN</span></a></li>
+              <li><a href="./PHP7695.html"><span>ALITRETINOIN</span></a></li>
+              <li><a href="./PHP6669.html"><span>ALLOPURINOL</span></a></li>
+              <li><a href="./PHP34499.html"><span>ALMOND OIL</span></a></li>
+              <li><a href="./PHP2844.html"><span>ALMOTRIPTAN</span></a></li>
+              <li><a href="./PHP34511.html"><span>ALOGLIPTIN</span></a></li>
+              <li><a href="./PHP85567.html"><span>ALOGLIPTIN WITH METFORMIN</span></a></li>
+              <li><a href="./PHP6275.html"><span>ALPHA TOCOPHEROL</span></a></li>
+              <li><a href="./PHP6273.html"><span>ALPHA TOCOPHERYL ACETATE</span></a></li>
+              <li><a href="./PHP2165.html"><span>ALPRAZOLAM</span></a></li>
+              <li><a href="./PHP5148.html"><span>ALPROSTADIL</span></a></li>
+              <li><a href="./PHP1576.html"><span>ALTEPLASE</span></a></li>
+              <li><a href="./PHP7190.html"><span>ALUMINIUM ACETATE</span></a></li>
+              <li><a href="./PHP8200.html"><span>ALUMINIUM CHLORIDE HEXAHYDRATE</span></a></li>
+              <li><a href="./PHP287.html"><span>ALUMINIUM HYDROXIDE</span></a></li>
+              <li><a href="./PHP7845.html"><span>ALUMINIUM OXIDE</span></a></li>
+              <li><a href="./PHP373.html"><span>ALVERINE CITRATE</span></a></li>
+              <li><a href="./PHP3127.html"><span>AMANTADINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1042.html"><span>AMBRISENTAN</span></a></li>
+              <li><a href="./PHP6714.html"><span>AMIFAMPRIDINE</span></a></li>
+              <li><a href="./PHP3486.html"><span>AMIKACIN</span></a></li>
+              <li><a href="./PHP822.html"><span>AMILORIDE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP85561.html"><span>AMILORIDE WITH BUMETANIDE</span></a></li>
+              <li><a href="./PHP85560.html"><span>AMILORIDE WITH CYCLOPENTHIAZIDE</span></a></li>
+              <li><a href="./PHP1811.html"><span>AMINOPHYLLINE</span></a></li>
+              <li><a href="./PHP106894.html"><span>AMINOSALICYLIC ACID</span></a></li>
+              <li><a href="./PHP908.html"><span>AMIODARONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2268.html"><span>AMISULPRIDE</span></a></li>
+              <li><a href="./PHP2362.html"><span>AMITRIPTYLINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP85569.html"><span>AMITRIPTYLINE WITH PERPHENAZINE</span></a></li>
+              <li><a href="./PHP1312.html"><span>AMLODIPINE</span></a></li>
+              <li><a href="./PHP85571.html"><span>AMLODIPINE WITH VALSARTAN</span></a></li>
+              <li><a href="./PHP8010.html"><span>AMOROLFINE</span></a></li>
+              <li><a href="./PHP3327.html"><span>AMOXICILLIN</span></a></li>
+              <li><a href="./PHP3717.html"><span>AMPHOTERICIN</span></a></li>
+              <li><a href="./PHP3330.html"><span>AMPICILLIN</span></a></li>
+              <li><a href="./PHP5933.html"><span>ANAGRELIDE</span></a></li>
+              <li><a href="./PHP6633.html"><span>ANAKINRA</span></a></li>
+              <li><a href="./PHP5751.html"><span>ANASTROZOLE</span></a></li>
+              <li><a href="./PHP92546.html"><span>ANETHOL WITH BORNEOL, CAMPHENE, CINEOLE, FENCHONE AND PINENE </span></a></li>
+              <li><a href="./PHP3726.html"><span>ANIDULAFUNGIN</span></a></li>
+              <li><a href="./PHP88008.html"><span>ANTAZOLINE WITH XYLOMETAZOLINE</span></a></li>
+              <li><a href="./PHP8245.html"><span>ANTHRAX VACCINE</span></a></li>
+              <li><a href="./PHP8480.html"><span>ANTI-D (RH<sub>0</sub>) IMMUNOGLOBULIN</span></a></li>
+              <li><a href="./PHP5620.html"><span>ANTITHYMOCYTE IMMUNOGLOBULIN (RABBIT)</span></a></li>
+              <li><a href="./PHP1508.html"><span>APIXABAN</span></a></li>
+              <li><a href="./PHP3063.html"><span>APOMORPHINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP7150.html"><span>APRACLONIDINE</span></a></li>
+              <li><a href="./PHP108184.html"><span>APREMILAST</span></a></li>
+              <li><a href="./PHP2568.html"><span>APREPITANT</span></a></li>
+              <li><a href="./PHP606.html"><span>ARACHIS OIL</span></a></li>
+              <li><a href="./PHP92565.html"><span>ARACHIS OIL WITH CHLOROBUTANOL </span></a></li>
+              <li><a href="./PHP18455.html"><span>ARGATROBAN MONOHYDRATE</span></a></li>
+              <li><a href="./PHP2271.html"><span>ARIPIPRAZOLE</span></a></li>
+              <li><a href="./PHP5431.html"><span>ARSENIC TRIOXIDE</span></a></li>
+              <li><a href="./PHP3935.html"><span>ARTEMETHER WITH LUMEFANTRINE</span></a></li>
+              <li><a href="./PHP18821.html"><span>ARTENIMOL WITH PIPERAQUINE PHOSPHATE</span></a></li>
+              <li><a href="./PHP6221.html"><span>ASCORBIC ACID</span></a></li>
+              <li><a href="./PHP2327.html"><span>ASENAPINE</span></a></li>
+              <li><a href="./PHP2596.html"><span>ASPIRIN</span></a></li>
+              <li><a href="./PHP85573.html"><span>ASPIRIN WITH CODEINE</span></a></li>
+              <li><a href="./PHP85575.html"><span>ASPIRIN WITH METOCLOPRAMIDE</span></a></li>
+              <li><a href="./PHP3800.html"><span>ATAZANAVIR</span></a></li>
+              <li><a href="./PHP954.html"><span>ATENOLOL</span></a></li>
+              <li><a href="./PHP85576.html"><span>ATENOLOL WITH NIFEDIPINE</span></a></li>
+              <li><a href="./PHP2473.html"><span>ATOMOXETINE</span></a></li>
+              <li><a href="./PHP1633.html"><span>ATORVASTATIN</span></a></li>
+              <li><a href="./PHP4793.html"><span>ATOSIBAN</span></a></li>
+              <li><a href="./PHP4000.html"><span>ATOVAQUONE</span></a></li>
+              <li><a href="./PHP3957.html"><span>ATOVAQUONE WITH PROGUANIL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP8614.html"><span>ATRACURIUM BESILATE</span></a></li>
+              <li><a href="./PHP356.html"><span>ATROPINE SULFATE</span></a></li>
+              <li><a href="./PHP104907.html"><span>AVANAFIL</span></a></li>
+              <li><a href="./PHP18848.html"><span>AXITINIB</span></a></li>
+              <li><a href="./PHP5360.html"><span>AZACITIDINE</span></a></li>
+              <li><a href="./PHP527.html"><span>AZATHIOPRINE</span></a></li>
+              <li><a href="./PHP7806.html"><span>AZELAIC ACID</span></a></li>
+              <li><a href="./PHP6904.html"><span>AZELASTINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP18478.html"><span>AZILSARTAN MEDOXOMIL</span></a></li>
+              <li><a href="./PHP3502.html"><span>AZITHROMYCIN</span></a></li>
+              <li><a href="./PHP3419.html"><span>AZTREONAM</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="B">
+        <div class="row">
+          <div class="span1">
+            <h2 title="79  begining with the letter B">B</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP5693.html"><span>BACILLUS CALMETTE-GU&#201;RIN</span></a></li>
+              <li><a href="./PHP8249.html"><span>BACILLUS CALMETTE-GU&#201;RIN VACCINE</span></a></li>
+              <li><a href="./PHP88060.html"><span>BACITRACIN WITH POLYMYXIN B </span></a></li>
+              <li><a href="./PHP6720.html"><span>BACLOFEN</span></a></li>
+              <li><a href="./PHP491.html"><span>BALSALAZIDE SODIUM</span></a></li>
+              <li><a href="./PHP1744.html"><span>BAMBUTEROL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP106449.html"><span>BARRIER CREAMS AND OINTMENTS</span></a></li>
+              <li><a href="./PHP5622.html"><span>BASILIXIMAB</span></a></li>
+              <li><a href="./PHP510.html"><span>BECLOMETASONE DIPROPIONATE</span></a></li>
+              <li><a href="./PHP85578.html"><span>BECLOMETASONE WITH FORMOTEROL</span></a></li>
+              <li><a href="./PHP93596.html"><span>BEDAQUILINE</span></a></li>
+              <li><a href="./PHP80611.html"><span>BEE VENOM EXTRACT</span></a></li>
+              <li><a href="./PHP5624.html"><span>BELATACEPT</span></a></li>
+              <li><a href="./PHP6635.html"><span>BELIMUMAB</span></a></li>
+              <li><a href="./PHP5253.html"><span>BENDAMUSTINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP780.html"><span>BENDROFLUMETHIAZIDE</span></a></li>
+              <li><a href="./PHP2211.html"><span>BENPERIDOL</span></a></li>
+              <li><a href="./PHP80615.html"><span>BENZALKONIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP88061.html"><span>BENZOIC ACID WITH SALICYLIC ACID</span></a></li>
+              <li><a href="./PHP34500.html"><span>BENZOIN TINCTURE</span></a></li>
+              <li><a href="./PHP7795.html"><span>BENZOYL PEROXIDE</span></a></li>
+              <li><a href="./PHP88050.html"><span>BENZOYL PEROXIDE WITH CLINDAMYCIN</span></a></li>
+              <li><a href="./PHP7348.html"><span>BENZYDAMINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP8069.html"><span>BENZYL BENZOATE</span></a></li>
+              <li><a href="./PHP92540.html"><span>BENZYL BENZOATE WITH BISMUTH OXIDE, BISMUTH SUBGALLATE, HYDROCORTISONE ACETATE, PERU BALSAM AND ZINC OXIDE </span></a></li>
+              <li><a href="./PHP92539.html"><span>BENZYL BENZOATE WITH BISMUTH OXIDE, HYDROCORTISONE ACETATE, PERU BALSAM, PRAMOCAINE HYDROCHLORIDE AND ZINC OXIDE </span></a></li>
+              <li><a href="./PHP3305.html"><span>BENZYLPENICILLIN SODIUM</span></a></li>
+              <li><a href="./PHP2584.html"><span>BETAHISTINE DIHYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP6347.html"><span>BETAINE</span></a></li>
+              <li><a href="./PHP4357.html"><span>BETAMETHASONE</span></a></li>
+              <li><a href="./PHP88042.html"><span>BETAMETHASONE WITH CLIOQUINOL</span></a></li>
+              <li><a href="./PHP88044.html"><span>BETAMETHASONE WITH CLOTRIMAZOLE</span></a></li>
+              <li><a href="./PHP88043.html"><span>BETAMETHASONE WITH FUSIDIC ACID</span></a></li>
+              <li><a href="./PHP88018.html"><span>BETAMETHASONE WITH NEOMYCIN</span></a></li>
+              <li><a href="./PHP88041.html"><span>BETAMETHASONE WITH SALICYLIC ACID </span></a></li>
+              <li><a href="./PHP6956.html"><span>BETAXOLOL</span></a></li>
+              <li><a href="./PHP5061.html"><span>BETHANECHOL CHLORIDE</span></a></li>
+              <li><a href="./PHP5436.html"><span>BEVACIZUMAB</span></a></li>
+              <li><a href="./PHP5439.html"><span>BEXAROTENE</span></a></li>
+              <li><a href="./PHP1672.html"><span>BEZAFIBRATE</span></a></li>
+              <li><a href="./PHP5789.html"><span>BICALUTAMIDE</span></a></li>
+              <li><a href="./PHP1909.html"><span>BILASTINE</span></a></li>
+              <li><a href="./PHP6982.html"><span>BIMATOPROST</span></a></li>
+              <li><a href="./PHP88010.html"><span>BIMATOPROST WITH TIMOLOL</span></a></li>
+              <li><a href="./PHP4091.html"><span>BIPHASIC INSULIN ASPART</span></a></li>
+              <li><a href="./PHP4093.html"><span>BIPHASIC INSULIN LISPRO</span></a></li>
+              <li><a href="./PHP4096.html"><span>BIPHASIC ISOPHANE INSULIN</span></a></li>
+              <li><a href="./PHP570.html"><span>BISACODYL</span></a></li>
+              <li><a href="./PHP971.html"><span>BISOPROLOL FUMARATE</span></a></li>
+              <li><a href="./PHP1471.html"><span>BIVALIRUDIN</span></a></li>
+              <li><a href="./PHP5301.html"><span>BLEOMYCIN</span></a></li>
+              <li><a href="./PHP3882.html"><span>BOCEPREVIR</span></a></li>
+              <li><a href="./PHP92563.html"><span>BORIC ACID WITH SALICYLIC ACID AND TANNIC ACID </span></a></li>
+              <li><a href="./PHP92542.html"><span>BORNEOL WITH CAMPHENE, CINEOLE, MENTHOL, MENTHONE AND PINENE</span></a></li>
+              <li><a href="./PHP5444.html"><span>BORTEZOMIB</span></a></li>
+              <li><a href="./PHP1044.html"><span>BOSENTAN</span></a></li>
+              <li><a href="./PHP33920.html"><span>BOSUTINIB</span></a></li>
+              <li><a href="./PHP3167.html"><span>BOTULINUM TOXIN TYPE A</span></a></li>
+              <li><a href="./PHP3174.html"><span>BOTULINUM TOXIN TYPE B</span></a></li>
+              <li><a href="./PHP34501.html"><span>BOTULISM ANTITOXIN</span></a></li>
+              <li><a href="./PHP18903.html"><span>BRENTUXIMAB VEDOTIN</span></a></li>
+              <li><a href="./PHP7004.html"><span>BRIMONIDINE TARTRATE</span></a></li>
+              <li><a href="./PHP88013.html"><span>BRIMONIDINE WITH TIMOLOL</span></a></li>
+              <li><a href="./PHP7020.html"><span>BRINZOLAMIDE</span></a></li>
+              <li><a href="./PHP88014.html"><span>BRINZOLAMIDE WITH TIMOLOL</span></a></li>
+              <li><a href="./PHP7152.html"><span>BROMFENAC</span></a></li>
+              <li><a href="./PHP3066.html"><span>BROMOCRIPTINE</span></a></li>
+              <li><a href="./PHP512.html"><span>BUDESONIDE</span></a></li>
+              <li><a href="./PHP85580.html"><span>BUDESONIDE WITH FORMOTEROL</span></a></li>
+              <li><a href="./PHP812.html"><span>BUMETANIDE</span></a></li>
+              <li><a href="./PHP8682.html"><span>BUPIVACAINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP88070.html"><span>BUPIVACAINE WITH ADRENALINE </span></a></li>
+              <li><a href="./PHP88071.html"><span>BUPIVACAINE WITH FENTANYL</span></a></li>
+              <li><a href="./PHP2680.html"><span>BUPRENORPHINE</span></a></li>
+              <li><a href="./PHP3223.html"><span>BUPRENORPHINE WITH NALOXONE</span></a></li>
+              <li><a href="./PHP3190.html"><span>BUPROPION HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP4735.html"><span>BUSERELIN</span></a></li>
+              <li><a href="./PHP2177.html"><span>BUSPIRONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP5255.html"><span>BUSULFAN</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="C">
+        <div class="row">
+          <div class="span1">
+            <h2 title="179  begining with the letter C">C</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP1988.html"><span>C1-ESTERASE INHIBITOR</span></a></li>
+              <li><a href="./PHP5557.html"><span>CABAZITAXEL</span></a></li>
+              <li><a href="./PHP3068.html"><span>CABERGOLINE</span></a></li>
+              <li><a href="./PHP93594.html"><span>CABOZANTINIB</span></a></li>
+              <li><a href="./PHP88098.html"><span>CALAMINE WITH ZINC OXIDE</span></a></li>
+              <li><a href="./PHP7709.html"><span>CALCIPOTRIOL</span></a></li>
+              <li><a href="./PHP88047.html"><span>CALCIPOTRIOL WITH BETAMETHASONE</span></a></li>
+              <li><a href="./PHP4646.html"><span>CALCITONIN (SALMON)</span></a></li>
+              <li><a href="./PHP6240.html"><span>CALCITRIOL</span></a></li>
+              <li><a href="./PHP104228.html"><span>CALCIUM ACETATE</span></a></li>
+              <li><a href="./PHP87996.html"><span>CALCIUM ACETATE WITH MAGNESIUM CARBONATE</span></a></li>
+              <li><a href="./PHP93602.html"><span>CALCIUM CARBONATE</span></a></li>
+              <li><a href="./PHP87994.html"><span>CALCIUM CARBONATE WITH CALCIUM LACTATE GLUCONATE </span></a></li>
+              <li><a href="./PHP93603.html"><span>CALCIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP93600.html"><span>CALCIUM GLUCONATE</span></a></li>
+              <li><a href="./PHP93601.html"><span>CALCIUM LACTATE</span></a></li>
+              <li><a href="./PHP107980.html"><span>CALCIUM PHOSPHATE</span></a></li>
+              <li><a href="./PHP104231.html"><span>CALCIUM POLYSTYRENE SULFONATE</span></a></li>
+              <li><a href="./PHP34485.html"><span>CANAGLIFLOZIN</span></a></li>
+              <li><a href="./PHP101223.html"><span>CANAGLIFLOZIN WITH METFORMIN</span></a></li>
+              <li><a href="./PHP5698.html"><span>CANAKINUMAB</span></a></li>
+              <li><a href="./PHP1209.html"><span>CANDESARTAN CILEXETIL</span></a></li>
+              <li><a href="./PHP108189.html"><span>CANGRELOR</span></a></li>
+              <li><a href="./PHP6725.html"><span>CANNABIS EXTRACT</span></a></li>
+              <li><a href="./PHP5362.html"><span>CAPECITABINE</span></a></li>
+              <li><a href="./PHP3599.html"><span>CAPREOMYCIN</span></a></li>
+              <li><a href="./PHP34494.html"><span>CAPSAICIN</span></a></li>
+              <li><a href="./PHP1138.html"><span>CAPTOPRIL</span></a></li>
+              <li><a href="./PHP2909.html"><span>CARBAMAZEPINE</span></a></li>
+              <li><a href="./PHP4765.html"><span>CARBETOCIN</span></a></li>
+              <li><a href="./PHP88082.html"><span>CARBIDOPA WITH ENTACAPONE AND LEVODOPA </span></a></li>
+              <li><a href="./PHP4314.html"><span>CARBIMAZOLE</span></a></li>
+              <li><a href="./PHP2020.html"><span>CARBOCISTEINE</span></a></li>
+              <li><a href="./PHP7065.html"><span>CARBOMERS</span></a></li>
+              <li><a href="./PHP5497.html"><span>CARBOPLATIN</span></a></li>
+              <li><a href="./PHP4767.html"><span>CARBOPROST</span></a></li>
+              <li><a href="./PHP6340.html"><span>CARGLUMIC ACID</span></a></li>
+              <li><a href="./PHP7074.html"><span>CARMELLOSE SODIUM</span></a></li>
+              <li><a href="./PHP5259.html"><span>CARMUSTINE</span></a></li>
+              <li><a href="./PHP6959.html"><span>CARTEOLOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP975.html"><span>CARVEDILOL</span></a></li>
+              <li><a href="./PHP3728.html"><span>CASPOFUNGIN</span></a></li>
+              <li><a href="./PHP88065.html"><span>CASTOR OIL WITH COLLODION AND COLOPHONY</span></a></li>
+              <li><a href="./PHP5447.html"><span>CATUMAXOMAB</span></a></li>
+              <li><a href="./PHP3365.html"><span>CEFACLOR</span></a></li>
+              <li><a href="./PHP3373.html"><span>CEFADROXIL</span></a></li>
+              <li><a href="./PHP3376.html"><span>CEFALEXIN</span></a></li>
+              <li><a href="./PHP3382.html"><span>CEFIXIME</span></a></li>
+              <li><a href="./PHP3384.html"><span>CEFOTAXIME</span></a></li>
+              <li><a href="./PHP3390.html"><span>CEFRADINE</span></a></li>
+              <li><a href="./PHP18798.html"><span>CEFTAROLINE FOSAMIL</span></a></li>
+              <li><a href="./PHP3393.html"><span>CEFTAZIDIME</span></a></li>
+              <li><a href="./PHP3397.html"><span>CEFTRIAXONE</span></a></li>
+              <li><a href="./PHP3400.html"><span>CEFUROXIME</span></a></li>
+              <li><a href="./PHP6415.html"><span>CELECOXIB</span></a></li>
+              <li><a href="./PHP978.html"><span>CELIPROLOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP6637.html"><span>CERTOLIZUMAB PEGOL</span></a></li>
+              <li><a href="./PHP1911.html"><span>CETIRIZINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP100017.html"><span>CETRIMIDE WITH UNDECENOIC ACID</span></a></li>
+              <li><a href="./PHP4723.html"><span>CETRORELIX</span></a></li>
+              <li><a href="./PHP5452.html"><span>CETUXIMAB</span></a></li>
+              <li><a href="./PHP182.html"><span>CHARCOAL, ACTIVATED</span></a></li>
+              <li><a href="./PHP2128.html"><span>CHLORAL HYDRATE</span></a></li>
+              <li><a href="./PHP5261.html"><span>CHLORAMBUCIL</span></a></li>
+              <li><a href="./PHP3531.html"><span>CHLORAMPHENICOL</span></a></li>
+              <li><a href="./PHP2167.html"><span>CHLORDIAZEPOXIDE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP8126.html"><span>CHLORHEXIDINE</span></a></li>
+              <li><a href="./PHP88115.html"><span>CHLORHEXIDINE GLUCONATE WITH ISOPROPYL ALCOHOL</span></a></li>
+              <li><a href="./PHP88066.html"><span>CHLORHEXIDINE WITH CETRIMIDE</span></a></li>
+              <li><a href="./PHP88025.html"><span>CHLORHEXIDINE WITH CHLOROBUTANOL</span></a></li>
+              <li><a href="./PHP88073.html"><span>CHLORHEXIDINE WITH LIDOCAINE</span></a></li>
+              <li><a href="./PHP88023.html"><span>CHLORHEXIDINE WITH NEOMYCIN </span></a></li>
+              <li><a href="./PHP88062.html"><span>CHLORHEXIDINE WITH NYSTATIN </span></a></li>
+              <li><a href="./PHP33727.html"><span>CHLOROPROCAINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3939.html"><span>CHLOROQUINE</span></a></li>
+              <li><a href="./PHP98624.html"><span>CHLOROQUINE WITH PROGUANIL</span></a></li>
+              <li><a href="./PHP1934.html"><span>CHLORPHENAMINE MALEATE</span></a></li>
+              <li><a href="./PHP2213.html"><span>CHLORPROMAZINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP785.html"><span>CHLORTALIDONE</span></a></li>
+              <li><a href="./PHP88100.html"><span>CHLORTETRACYCLINE WITH TRIAMCINOLONE </span></a></li>
+              <li><a href="./PHP8260.html"><span>CHOLERA VACCINE</span></a></li>
+              <li><a href="./PHP98382.html"><span>CHOLINE SALICYLATE</span></a></li>
+              <li><a href="./PHP4577.html"><span>CHORIOGONADOTROPIN ALFA</span></a></li>
+              <li><a href="./PHP4574.html"><span>CHORIONIC GONADOTROPHIN</span></a></li>
+              <li><a href="./PHP1867.html"><span>CICLESONIDE</span></a></li>
+              <li><a href="./PHP529.html"><span>CICLOSPORIN</span></a></li>
+              <li><a href="./PHP1396.html"><span>CILOSTAZOL</span></a></li>
+              <li><a href="./PHP404.html"><span>CIMETIDINE</span></a></li>
+              <li><a href="./PHP6107.html"><span>CINACALCET</span></a></li>
+              <li><a href="./PHP92541.html"><span>CINCHOCAINE HYDROCHLORIDE WITH FLUOCORTOLONE CAPROATE AND FLUOCORTOLONE PIVALATE </span></a></li>
+              <li><a href="./PHP85556.html"><span>CINCHOCAINE WITH HYDROCORTISONE</span></a></li>
+              <li><a href="./PHP85557.html"><span>CINCHOCAINE WITH PREDNISOLONE</span></a></li>
+              <li><a href="./PHP2515.html"><span>CINNARIZINE</span></a></li>
+              <li><a href="./PHP85584.html"><span>CINNARIZINE WITH DIMENHYDRINATE</span></a></li>
+              <li><a href="./PHP1683.html"><span>CIPROFIBRATE</span></a></li>
+              <li><a href="./PHP3665.html"><span>CIPROFLOXACIN</span></a></li>
+              <li><a href="./PHP8617.html"><span>CISATRACURIUM</span></a></li>
+              <li><a href="./PHP5499.html"><span>CISPLATIN</span></a></li>
+              <li><a href="./PHP2421.html"><span>CITALOPRAM</span></a></li>
+              <li><a href="./PHP34502.html"><span>CITRIC ACID</span></a></li>
+              <li><a href="./PHP88108.html"><span>CITRIC ACID WITH MAGNESIUM CARBONATE</span></a></li>
+              <li><a href="./PHP88088.html"><span>CITRIC ACID WITH POTASSIUM CITRATE </span></a></li>
+              <li><a href="./PHP5364.html"><span>CLADRIBINE</span></a></li>
+              <li><a href="./PHP3505.html"><span>CLARITHROMYCIN</span></a></li>
+              <li><a href="./PHP1937.html"><span>CLEMASTINE</span></a></li>
+              <li><a href="./PHP3526.html"><span>CLINDAMYCIN</span></a></li>
+              <li><a href="./PHP88019.html"><span>CLIOQUINOL WITH FLUMETASONE PIVALATE</span></a></li>
+              <li><a href="./PHP3007.html"><span>CLOBAZAM</span></a></li>
+              <li><a href="./PHP7641.html"><span>CLOBETASOL PROPIONATE</span></a></li>
+              <li><a href="./PHP92560.html"><span>CLOBETASOL PROPIONATE WITH NEOMYCIN SULFATE AND NYSTATIN </span></a></li>
+              <li><a href="./PHP7648.html"><span>CLOBETASONE BUTYRATE</span></a></li>
+              <li><a href="./PHP92561.html"><span>CLOBETASONE BUTYRATE WITH NYSTATIN AND OXYTETRACYCLINE </span></a></li>
+              <li><a href="./PHP5367.html"><span>CLOFARABINE</span></a></li>
+              <li><a href="./PHP3643.html"><span>CLOFAZIMINE</span></a></li>
+              <li><a href="./PHP2138.html"><span>CLOMETHIAZOLE</span></a></li>
+              <li><a href="./PHP4564.html"><span>CLOMIFENE CITRATE</span></a></li>
+              <li><a href="./PHP2369.html"><span>CLOMIPRAMINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3010.html"><span>CLONAZEPAM</span></a></li>
+              <li><a href="./PHP1072.html"><span>CLONIDINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1537.html"><span>CLOPIDOGREL</span></a></li>
+              <li><a href="./PHP7235.html"><span>CLOTRIMAZOLE</span></a></li>
+              <li><a href="./PHP2273.html"><span>CLOZAPINE</span></a></li>
+              <li><a href="./PHP843.html"><span>CO-AMILOFRUSE</span></a></li>
+              <li><a href="./PHP845.html"><span>CO-AMILOZIDE</span></a></li>
+              <li><a href="./PHP3337.html"><span>CO-AMOXICLAV</span></a></li>
+              <li><a href="./PHP3093.html"><span>CO-BENELDOPA</span></a></li>
+              <li><a href="./PHP3098.html"><span>CO-CARELDOPA</span></a></li>
+              <li><a href="./PHP2610.html"><span>CO-CODAMOL</span></a></li>
+              <li><a href="./PHP7860.html"><span>CO-CYPRINDIOL</span></a></li>
+              <li><a href="./PHP88131.html"><span>CO-DANTHRAMER</span></a></li>
+              <li><a href="./PHP88132.html"><span>CO-DANTHRUSATE</span></a></li>
+              <li><a href="./PHP2623.html"><span>CO-DYDRAMOL</span></a></li>
+              <li><a href="./PHP3345.html"><span>CO-FLUAMPICIL</span></a></li>
+              <li><a href="./PHP92567.html"><span>CO-FLUMACTONE</span></a></li>
+              <li><a href="./PHP88129.html"><span>CO-MAGALDROX</span></a></li>
+              <li><a href="./PHP464.html"><span>CO-PHENOTROPE</span></a></li>
+              <li><a href="./PHP98558.html"><span>CO-SIMALCITE</span></a></li>
+              <li><a href="./PHP983.html"><span>CO-TENIDONE</span></a></li>
+              <li><a href="./PHP98559.html"><span>CO-TRIAMTERZIDE</span></a></li>
+              <li><a href="./PHP3575.html"><span>CO-TRIMOXAZOLE</span></a></li>
+              <li><a href="./PHP92566.html"><span>CO-ZIDOCAPT</span></a></li>
+              <li><a href="./PHP105665.html"><span>COAL TAR</span></a></li>
+              <li><a href="./PHP92562.html"><span>COAL TAR WITH ARACHIS OIL EXTRACT OF COAL TAR, CADE OIL, LIGHT LIQUID PARAFFIN AND TAR </span></a></li>
+              <li><a href="./PHP97005.html"><span>COAL TAR WITH CALAMINE</span></a></li>
+              <li><a href="./PHP100016.html"><span>COAL TAR WITH COCONUT OIL AND SALICYLIC ACID</span></a></li>
+              <li><a href="./PHP88092.html"><span>COAL TAR WITH DITHRANOL AND SALICYLIC ACID </span></a></li>
+              <li><a href="./PHP88059.html"><span>COAL TAR WITH LECITHIN</span></a></li>
+              <li><a href="./PHP88048.html"><span>COAL TAR WITH SALICYLIC ACID</span></a></li>
+              <li><a href="./PHP100015.html"><span>COAL TAR WITH SALICYLIC ACID AND PRECIPITATED SULFUR</span></a></li>
+              <li><a href="./PHP104171.html"><span>COAL TAR WITH ZINC OXIDE</span></a></li>
+              <li><a href="./PHP106892.html"><span>COBICISTAT</span></a></li>
+              <li><a href="./PHP460.html"><span>CODEINE PHOSPHATE</span></a></li>
+              <li><a href="./PHP6662.html"><span>COLCHICINE</span></a></li>
+              <li><a href="./PHP6244.html"><span>COLECALCIFEROL</span></a></li>
+              <li><a href="./PHP88001.html"><span>COLECALCIFEROL WITH CALCIUM CARBONATE</span></a></li>
+              <li><a href="./PHP88002.html"><span>COLECALCIFEROL WITH CALCIUM PHOSPHATE</span></a></li>
+              <li><a href="./PHP1658.html"><span>COLESEVELAM HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1665.html"><span>COLESTIPOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP727.html"><span>COLESTYRAMINE</span></a></li>
+              <li><a href="./PHP3560.html"><span>COLISTIMETHATE SODIUM</span></a></li>
+              <li><a href="./PHP6746.html"><span>COLLAGENASE</span></a></li>
+              <li><a href="./PHP1990.html"><span>CONESTAT ALFA</span></a></li>
+              <li><a href="./PHP94653.html"><span>CONJUGATED OESTROGENS (EQUINE)</span></a></li>
+              <li><a href="./PHP85587.html"><span>CONJUGATED OESTROGENS WITH MEDROXYPROGESTERONE</span></a></li>
+              <li><a href="./PHP88087.html"><span>CONJUGATED OESTROGENS WITH NORGESTREL</span></a></li>
+              <li><a href="./PHP4579.html"><span>CORIFOLLITROPIN ALFA</span></a></li>
+              <li><a href="./PHP107559.html"><span>CRANBERRY JUICE</span></a></li>
+              <li><a href="./PHP5456.html"><span>CRISANTASPASE</span></a></li>
+              <li><a href="./PHP18995.html"><span>CRIZOTINIB</span></a></li>
+              <li><a href="./PHP7553.html"><span>CROTAMITON</span></a></li>
+              <li><a href="./PHP5872.html"><span>CYANOCOBALAMIN</span></a></li>
+              <li><a href="./PHP2522.html"><span>CYCLIZINE</span></a></li>
+              <li><a href="./PHP788.html"><span>CYCLOPENTHIAZIDE</span></a></li>
+              <li><a href="./PHP6934.html"><span>CYCLOPENTOLATE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP5265.html"><span>CYCLOPHOSPHAMIDE</span></a></li>
+              <li><a href="./PHP3602.html"><span>CYCLOSERINE</span></a></li>
+              <li><a href="./PHP1939.html"><span>CYPROHEPTADINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP4543.html"><span>CYPROTERONE ACETATE</span></a></li>
+              <li><a href="./PHP5369.html"><span>CYTARABINE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="D">
+        <div class="row">
+          <div class="span1">
+            <h2 title="102  begining with the letter D">D</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP1505.html"><span>DABIGATRAN ETEXILATE</span></a></li>
+              <li><a href="./PHP34376.html"><span>DABRAFENIB</span></a></li>
+              <li><a href="./PHP5461.html"><span>DACARBAZINE</span></a></li>
+              <li><a href="./PHP93588.html"><span>DACLATASVIR</span></a></li>
+              <li><a href="./PHP107561.html"><span>DAIRY PRODUCTS</span></a></li>
+              <li><a href="./PHP1458.html"><span>DALTEPARIN SODIUM</span></a></li>
+              <li><a href="./PHP1466.html"><span>DANAPAROID SODIUM</span></a></li>
+              <li><a href="./PHP4725.html"><span>DANAZOL</span></a></li>
+              <li><a href="./PHP6727.html"><span>DANTROLENE SODIUM</span></a></li>
+              <li><a href="./PHP18937.html"><span>DAPAGLIFLOZIN</span></a></li>
+              <li><a href="./PHP85589.html"><span>DAPAGLIFLOZIN WITH METFORMIN</span></a></li>
+              <li><a href="./PHP34155.html"><span>DAPOXETINE</span></a></li>
+              <li><a href="./PHP3641.html"><span>DAPSONE</span></a></li>
+              <li><a href="./PHP3547.html"><span>DAPTOMYCIN</span></a></li>
+              <li><a href="./PHP5886.html"><span>DARBEPOETIN ALFA</span></a></li>
+              <li><a href="./PHP5075.html"><span>DARIFENACIN</span></a></li>
+              <li><a href="./PHP3802.html"><span>DARUNAVIR</span></a></li>
+              <li><a href="./PHP5527.html"><span>DASATINIB</span></a></li>
+              <li><a href="./PHP5306.html"><span>DAUNORUBICIN</span></a></li>
+              <li><a href="./PHP18896.html"><span>DECITABINE</span></a></li>
+              <li><a href="./PHP5913.html"><span>DEFERASIROX</span></a></li>
+              <li><a href="./PHP5915.html"><span>DEFERIPRONE</span></a></li>
+              <li><a href="./PHP4362.html"><span>DEFLAZACORT</span></a></li>
+              <li><a href="./PHP5799.html"><span>DEGARELIX</span></a></li>
+              <li><a href="./PHP93595.html"><span>DELAMANID</span></a></li>
+              <li><a href="./PHP3442.html"><span>DEMECLOCYCLINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP4691.html"><span>DENOSUMAB</span></a></li>
+              <li><a href="./PHP213.html"><span>DESFERRIOXAMINE MESILATE</span></a></li>
+              <li><a href="./PHP8534.html"><span>DESFLURANE</span></a></li>
+              <li><a href="./PHP1913.html"><span>DESLORATADINE</span></a></li>
+              <li><a href="./PHP4622.html"><span>DESMOPRESSIN</span></a></li>
+              <li><a href="./PHP94654.html"><span>DESOGESTREL</span></a></li>
+              <li><a href="./PHP4364.html"><span>DEXAMETHASONE</span></a></li>
+              <li><a href="./PHP92555.html"><span>DEXAMETHASONE WITH FRAMYCETIN SULFATE AND GRAMICIDIN </span></a></li>
+              <li><a href="./PHP92557.html"><span>DEXAMETHASONE WITH GLACIAL ACETIC ACID AND NEOMYCIN SULFATE </span></a></li>
+              <li><a href="./PHP98628.html"><span>DEXAMETHASONE WITH HYPROMELLOSE, NEOMYCIN AND POLYMYXIN B SULPHATE</span></a></li>
+              <li><a href="./PHP88007.html"><span>DEXAMETHASONE WITH TOBRAMYCIN</span></a></li>
+              <li><a href="./PHP2475.html"><span>DEXAMFETAMINE SULFATE</span></a></li>
+              <li><a href="./PHP6420.html"><span>DEXIBUPROFEN</span></a></li>
+              <li><a href="./PHP6422.html"><span>DEXKETOPROFEN</span></a></li>
+              <li><a href="./PHP8603.html"><span>DEXMEDETOMIDINE</span></a></li>
+              <li><a href="./PHP5202.html"><span>DEXRAZOXANE</span></a></li>
+              <li><a href="./PHP88114.html"><span>DEXTRAN 70 WITH SODIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP2699.html"><span>DIAMORPHINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2159.html"><span>DIAZEPAM</span></a></li>
+              <li><a href="./PHP4229.html"><span>DIAZOXIDE</span></a></li>
+              <li><a href="./PHP6424.html"><span>DICLOFENAC POTASSIUM</span></a></li>
+              <li><a href="./PHP6427.html"><span>DICLOFENAC SODIUM</span></a></li>
+              <li><a href="./PHP88003.html"><span>DICLOFENAC SODIUM WITH MISOPROSTOL</span></a></li>
+              <li><a href="./PHP226.html"><span>DICOBALT EDETATE</span></a></li>
+              <li><a href="./PHP360.html"><span>DICYCLOVERINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP92536.html"><span>DICYCLOVERINE HYDROCHLORIDE WITH ALUMINIUM HYDROXIDE, MAGNESIUM OXIDE AND SIMETICONE</span></a></li>
+              <li><a href="./PHP3761.html"><span>DIDANOSINE</span></a></li>
+              <li><a href="./PHP94804.html"><span>DIENOGEST WITH ESTRADIOL VALERATE</span></a></li>
+              <li><a href="./PHP88104.html"><span>DIETHYL PHTHALATE WITH METHYL SALICYLATE</span></a></li>
+              <li><a href="./PHP104054.html"><span>DIETHYLCARBAMAZINE</span></a></li>
+              <li><a href="./PHP5731.html"><span>DIETHYLSTILBESTROL</span></a></li>
+              <li><a href="./PHP7653.html"><span>DIFLUCORTOLONE VALERATE</span></a></li>
+              <li><a href="./PHP752.html"><span>DIGOXIN</span></a></li>
+              <li><a href="./PHP34492.html"><span>DIGOXIN-SPECIFIC ANTIBODY</span></a></li>
+              <li><a href="./PHP2702.html"><span>DIHYDROCODEINE TARTRATE</span></a></li>
+              <li><a href="./PHP6268.html"><span>DIHYDROTACHYSTEROL</span></a></li>
+              <li><a href="./PHP3978.html"><span>DILOXANIDE FUROATE</span></a></li>
+              <li><a href="./PHP1320.html"><span>DILTIAZEM HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP34444.html"><span>DIMETHYL FUMARATE</span></a></li>
+              <li><a href="./PHP101781.html"><span>DIMETHYL SULFOXIDE</span></a></li>
+              <li><a href="./PHP8072.html"><span>DIMETICONE</span></a></li>
+              <li><a href="./PHP4769.html"><span>DINOPROSTONE</span></a></li>
+              <li><a href="./PHP93586.html"><span>DIPHTHERIA ANTITOXIN</span></a></li>
+              <li><a href="./PHP88117.html"><span>DIPHTHERIA WITH HAEMOPHILUS INFLUENZAE TYPE B VACCINE, PERTUSSIS, POLIOMYELITIS AND TETANUS </span></a></li>
+              <li><a href="./PHP88118.html"><span>DIPHTHERIA WITH PERTUSSIS, POLIOMYELITIS VACCINE AND TETANUS </span></a></li>
+              <li><a href="./PHP88119.html"><span>DIPHTHERIA WITH POLIOMYELITIS AND TETANUS VACCINE</span></a></li>
+              <li><a href="./PHP98627.html"><span>DIPIPANONE HYDROCHLORIDE WITH CYCLIZINE</span></a></li>
+              <li><a href="./PHP1541.html"><span>DIPYRIDAMOLE</span></a></li>
+              <li><a href="./PHP85574.html"><span>DIPYRIDAMOLE WITH ASPIRIN</span></a></li>
+              <li><a href="./PHP92547.html"><span>DISODIUM HYDROGEN CITRATE WITH GLUCOSE, POTASSIUM CHLORIDE AND SODIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP912.html"><span>DISOPYRAMIDE</span></a></li>
+              <li><a href="./PHP3185.html"><span>DISULFIRAM</span></a></li>
+              <li><a href="./PHP7745.html"><span>DITHRANOL</span></a></li>
+              <li><a href="./PHP88057.html"><span>DITHRANOL WITH SALICYLIC ACID AND ZINC OXIDE</span></a></li>
+              <li><a href="./PHP1412.html"><span>DOBUTAMINE</span></a></li>
+              <li><a href="./PHP5559.html"><span>DOCETAXEL</span></a></li>
+              <li><a href="./PHP581.html"><span>DOCUSATE SODIUM</span></a></li>
+              <li><a href="./PHP34479.html"><span>DOLUTEGRAVIR</span></a></li>
+              <li><a href="./PHP2544.html"><span>DOMPERIDONE</span></a></li>
+              <li><a href="./PHP3239.html"><span>DONEPEZIL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1414.html"><span>DOPAMINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1417.html"><span>DOPEXAMINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2027.html"><span>DORNASE ALFA</span></a></li>
+              <li><a href="./PHP7026.html"><span>DORZOLAMIDE</span></a></li>
+              <li><a href="./PHP88015.html"><span>DORZOLAMIDE WITH TIMOLOL</span></a></li>
+              <li><a href="./PHP2374.html"><span>DOSULEPIN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1999.html"><span>DOXAPRAM HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1089.html"><span>DOXAZOSIN</span></a></li>
+              <li><a href="./PHP2377.html"><span>DOXEPIN</span></a></li>
+              <li><a href="./PHP5310.html"><span>DOXORUBICIN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3445.html"><span>DOXYCYCLINE</span></a></li>
+              <li><a href="./PHP1607.html"><span>DRIED PROTHROMBIN COMPLEX</span></a></li>
+              <li><a href="./PHP904.html"><span>DRONEDARONE</span></a></li>
+              <li><a href="./PHP2532.html"><span>DROPERIDOL</span></a></li>
+              <li><a href="./PHP2442.html"><span>DULOXETINE</span></a></li>
+              <li><a href="./PHP4548.html"><span>DUTASTERIDE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="E">
+        <div class="row">
+          <div class="span1">
+            <h2 title="90  begining with the letter E">E</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP8022.html"><span>ECONAZOLE NITRATE</span></a></li>
+              <li><a href="./PHP5922.html"><span>ECULIZUMAB</span></a></li>
+              <li><a href="./PHP3822.html"><span>EFAVIRENZ</span></a></li>
+              <li><a href="./PHP7953.html"><span>EFLORNITHINE</span></a></li>
+              <li><a href="./PHP2846.html"><span>ELETRIPTAN</span></a></li>
+              <li><a href="./PHP5928.html"><span>ELTROMBOPAG</span></a></li>
+              <li><a href="./PHP6906.html"><span>EMEDASTINE</span></a></li>
+              <li><a href="./PHP105073.html"><span>EMOLLIENT BATH AND SHOWER PRODUCTS, ANTIMICROBIAL-CONTAINING</span></a></li>
+              <li><a href="./PHP105076.html"><span>EMOLLIENT BATH AND SHOWER PRODUCTS, COLLOIDAL OATMEAL-CONTAINING</span></a></li>
+              <li><a href="./PHP105072.html"><span>EMOLLIENT BATH AND SHOWER PRODUCTS, PARAFFIN-CONTAINING</span></a></li>
+              <li><a href="./PHP105075.html"><span>EMOLLIENT BATH AND SHOWER PRODUCTS, SOYA-BEAN OIL-CONTAINING</span></a></li>
+              <li><a href="./PHP105074.html"><span>EMOLLIENT BATH AND SHOWER PRODUCTS, TAR-CONTAINING</span></a></li>
+              <li><a href="./PHP105071.html"><span>EMOLLIENT CREAMS AND OINTMENTS, ANTIMICROBIAL-CONTAINING</span></a></li>
+              <li><a href="./PHP105077.html"><span>EMOLLIENT CREAMS AND OINTMENTS, COLLOIDAL OATMEAL-CONTAINING</span></a></li>
+              <li><a href="./PHP105070.html"><span>EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING</span></a></li>
+              <li><a href="./PHP105069.html"><span>EMOLLIENTS, UREA-CONTAINING</span></a></li>
+              <li><a href="./PHP101782.html"><span>EMPAGLIFLOZIN</span></a></li>
+              <li><a href="./PHP3763.html"><span>EMTRICITABINE</span></a></li>
+              <li><a href="./PHP1150.html"><span>ENALAPRIL MALEATE</span></a></li>
+              <li><a href="./PHP107407.html"><span>ENALAPRIL WITH HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP3832.html"><span>ENFUVIRTIDE</span></a></li>
+              <li><a href="./PHP1460.html"><span>ENOXAPARIN SODIUM</span></a></li>
+              <li><a href="./PHP764.html"><span>ENOXIMONE</span></a></li>
+              <li><a href="./PHP3122.html"><span>ENTACAPONE</span></a></li>
+              <li><a href="./PHP3872.html"><span>ENTECAVIR</span></a></li>
+              <li><a href="./PHP107562.html"><span>ENTERAL FEEDS</span></a></li>
+              <li><a href="./PHP33817.html"><span>ENZALUTAMIDE</span></a></li>
+              <li><a href="./PHP1421.html"><span>EPHEDRINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP6908.html"><span>EPINASTINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP5315.html"><span>EPIRUBICIN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP831.html"><span>EPLERENONE</span></a></li>
+              <li><a href="./PHP96719.html"><span>EPOETIN ALFA</span></a></li>
+              <li><a href="./PHP96720.html"><span>EPOETIN BETA</span></a></li>
+              <li><a href="./PHP96722.html"><span>EPOETIN ZETA</span></a></li>
+              <li><a href="./PHP1479.html"><span>EPOPROSTENOL</span></a></li>
+              <li><a href="./PHP1211.html"><span>EPROSARTAN</span></a></li>
+              <li><a href="./PHP1550.html"><span>EPTIFIBATIDE</span></a></li>
+              <li><a href="./PHP2022.html"><span>ERDOSTEINE</span></a></li>
+              <li><a href="./PHP6227.html"><span>ERGOCALCIFEROL</span></a></li>
+              <li><a href="./PHP88000.html"><span>ERGOCALCIFEROL WITH CALCIUM LACTATE AND CALCIUM PHOSPHATE</span></a></li>
+              <li><a href="./PHP4772.html"><span>ERGOMETRINE MALEATE</span></a></li>
+              <li><a href="./PHP85596.html"><span>ERGOMETRINE WITH OXYTOCIN</span></a></li>
+              <li><a href="./PHP2863.html"><span>ERGOTAMINE TARTRATE</span></a></li>
+              <li><a href="./PHP92544.html"><span>ERGOTAMINE TARTRATE WITH CAFFEINE HYDRATE AND CYCLIZINE HYDROCHLORIDE </span></a></li>
+              <li><a href="./PHP5467.html"><span>ERIBULIN</span></a></li>
+              <li><a href="./PHP5529.html"><span>ERLOTINIB</span></a></li>
+              <li><a href="./PHP3407.html"><span>ERTAPENEM</span></a></li>
+              <li><a href="./PHP3510.html"><span>ERYTHROMYCIN</span></a></li>
+              <li><a href="./PHP88052.html"><span>ERYTHROMYCIN WITH ZINC ACETATE</span></a></li>
+              <li><a href="./PHP2424.html"><span>ESCITALOPRAM</span></a></li>
+              <li><a href="./PHP2916.html"><span>ESLICARBAZEPINE ACETATE</span></a></li>
+              <li><a href="./PHP987.html"><span>ESMOLOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP434.html"><span>ESOMEPRAZOLE</span></a></li>
+              <li><a href="./PHP94655.html"><span>ESTRADIOL</span></a></li>
+              <li><a href="./PHP94805.html"><span>ESTRADIOL WITH DROSPIRENONE</span></a></li>
+              <li><a href="./PHP85592.html"><span>ESTRADIOL WITH DYDROGESTERONE</span></a></li>
+              <li><a href="./PHP92545.html"><span>ESTRADIOL WITH ESTRIOL AND ESTRONE </span></a></li>
+              <li><a href="./PHP94803.html"><span>ESTRADIOL WITH LEVONORGESTREL</span></a></li>
+              <li><a href="./PHP85597.html"><span>ESTRADIOL WITH MEDROXYPROGESTERONE</span></a></li>
+              <li><a href="./PHP88080.html"><span>ESTRADIOL WITH NOMEGESTROL</span></a></li>
+              <li><a href="./PHP85598.html"><span>ESTRADIOL WITH NORETHISTERONE</span></a></li>
+              <li><a href="./PHP85599.html"><span>ESTRADIOL WITH NORGESTREL</span></a></li>
+              <li><a href="./PHP5268.html"><span>ESTRAMUSTINE PHOSPHATE</span></a></li>
+              <li><a href="./PHP94656.html"><span>ESTRIOL</span></a></li>
+              <li><a href="./PHP1598.html"><span>ETAMSYLATE</span></a></li>
+              <li><a href="./PHP6639.html"><span>ETANERCEPT</span></a></li>
+              <li><a href="./PHP3604.html"><span>ETHAMBUTOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP4479.html"><span>ETHINYLESTRADIOL</span></a></li>
+              <li><a href="./PHP94809.html"><span>ETHINYLESTRADIOL WITH DESOGESTREL</span></a></li>
+              <li><a href="./PHP85590.html"><span>ETHINYLESTRADIOL WITH DROSPIRENONE</span></a></li>
+              <li><a href="./PHP85600.html"><span>ETHINYLESTRADIOL WITH ETONOGESTREL</span></a></li>
+              <li><a href="./PHP94806.html"><span>ETHINYLESTRADIOL WITH GESTODENE</span></a></li>
+              <li><a href="./PHP85601.html"><span>ETHINYLESTRADIOL WITH LEVONORGESTREL</span></a></li>
+              <li><a href="./PHP85602.html"><span>ETHINYLESTRADIOL WITH NORELGESTROMIN</span></a></li>
+              <li><a href="./PHP94807.html"><span>ETHINYLESTRADIOL WITH NORETHISTERONE</span></a></li>
+              <li><a href="./PHP94808.html"><span>ETHINYLESTRADIOL WITH NORGESTIMATE</span></a></li>
+              <li><a href="./PHP2923.html"><span>ETHOSUXIMIDE</span></a></li>
+              <li><a href="./PHP6443.html"><span>ETODOLAC</span></a></li>
+              <li><a href="./PHP8515.html"><span>ETOMIDATE</span></a></li>
+              <li><a href="./PHP97243.html"><span>ETONOGESTREL</span></a></li>
+              <li><a href="./PHP5408.html"><span>ETOPOSIDE</span></a></li>
+              <li><a href="./PHP6448.html"><span>ETORICOXIB</span></a></li>
+              <li><a href="./PHP3825.html"><span>ETRAVIRINE</span></a></li>
+              <li><a href="./PHP88105.html"><span>EUCALYPTUS WITH MENTHOL </span></a></li>
+              <li><a href="./PHP93585.html"><span>EUROPEAN VIPER SNAKE VENOM ANTISERUM</span></a></li>
+              <li><a href="./PHP5531.html"><span>EVEROLIMUS</span></a></li>
+              <li><a href="./PHP5754.html"><span>EXEMESTANE</span></a></li>
+              <li><a href="./PHP4184.html"><span>EXENATIDE</span></a></li>
+              <li><a href="./PHP100018.html"><span>EXTRACT OF COAL TAR WITH ARACHIS OIL</span></a></li>
+              <li><a href="./PHP1668.html"><span>EZETIMIBE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="F">
+        <div class="row">
+          <div class="span1">
+            <h2 title="85  begining with the letter F">F</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP1612.html"><span>FACTOR IX FRACTION, DRIED</span></a></li>
+              <li><a href="./PHP1609.html"><span>FACTOR VIIA (RECOMBINANT)</span></a></li>
+              <li><a href="./PHP1610.html"><span>FACTOR VIII FRACTION, DRIED</span></a></li>
+              <li><a href="./PHP1611.html"><span>FACTOR VIII INHIBITOR BYPASSING FRACTION</span></a></li>
+              <li><a href="./PHP1614.html"><span>FACTOR XIII FRACTION, DRIED</span></a></li>
+              <li><a href="./PHP3848.html"><span>FAMCICLOVIR</span></a></li>
+              <li><a href="./PHP407.html"><span>FAMOTIDINE</span></a></li>
+              <li><a href="./PHP6716.html"><span>FAMPRIDINE</span></a></li>
+              <li><a href="./PHP6673.html"><span>FEBUXOSTAT</span></a></li>
+              <li><a href="./PHP34498.html"><span>FELBINAC</span></a></li>
+              <li><a href="./PHP1338.html"><span>FELODIPINE</span></a></li>
+              <li><a href="./PHP1686.html"><span>FENOFIBRATE</span></a></li>
+              <li><a href="./PHP6454.html"><span>FENOPROFEN</span></a></li>
+              <li><a href="./PHP2713.html"><span>FENTANYL</span></a></li>
+              <li><a href="./PHP34504.html"><span>FENTICONAZOLE NITRATE</span></a></li>
+              <li><a href="./PHP5858.html"><span>FERRIC CARBOXYMALTOSE</span></a></li>
+              <li><a href="./PHP5839.html"><span>FERROUS FUMARATE</span></a></li>
+              <li><a href="./PHP87988.html"><span>FERROUS FUMARATE WITH FOLIC ACID</span></a></li>
+              <li><a href="./PHP5851.html"><span>FERROUS GLUCONATE</span></a></li>
+              <li><a href="./PHP5823.html"><span>FERROUS SULFATE</span></a></li>
+              <li><a href="./PHP87986.html"><span>FERROUS SULFATE WITH ASCORBIC ACID</span></a></li>
+              <li><a href="./PHP87987.html"><span>FERROUS SULFATE WITH FOLIC ACID</span></a></li>
+              <li><a href="./PHP5082.html"><span>FESOTERODINE FUMARATE</span></a></li>
+              <li><a href="./PHP1915.html"><span>FEXOFENADINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1615.html"><span>FIBRINOGEN, DRIED</span></a></li>
+              <li><a href="./PHP18386.html"><span>FIDAXOMICIN</span></a></li>
+              <li><a href="./PHP5944.html"><span>FILGRASTIM</span></a></li>
+              <li><a href="./PHP4551.html"><span>FINASTERIDE</span></a></li>
+              <li><a href="./PHP5701.html"><span>FINGOLIMOD</span></a></li>
+              <li><a href="./PHP5084.html"><span>FLAVOXATE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP917.html"><span>FLECAINIDE ACETATE</span></a></li>
+              <li><a href="./PHP3315.html"><span>FLUCLOXACILLIN</span></a></li>
+              <li><a href="./PHP3699.html"><span>FLUCONAZOLE</span></a></li>
+              <li><a href="./PHP3733.html"><span>FLUCYTOSINE</span></a></li>
+              <li><a href="./PHP5373.html"><span>FLUDARABINE PHOSPHATE</span></a></li>
+              <li><a href="./PHP4328.html"><span>FLUDROCORTISONE ACETATE</span></a></li>
+              <li><a href="./PHP7656.html"><span>FLUDROXYCORTIDE</span></a></li>
+              <li><a href="./PHP8653.html"><span>FLUMAZENIL</span></a></li>
+              <li><a href="./PHP33491.html"><span>FLUOCINOLONE ACETONIDE</span></a></li>
+              <li><a href="./PHP88045.html"><span>FLUOCINOLONE ACETONIDE WITH CLIOQUINOL</span></a></li>
+              <li><a href="./PHP88046.html"><span>FLUOCINOLONE ACETONIDE WITH NEOMYCIN</span></a></li>
+              <li><a href="./PHP7670.html"><span>FLUOCINONIDE</span></a></li>
+              <li><a href="./PHP7672.html"><span>FLUOCORTOLONE</span></a></li>
+              <li><a href="./PHP88099.html"><span>FLUOCORTOLONE HEXANOATE WITH FLUOCORTOLONE PIVALATE</span></a></li>
+              <li><a href="./PHP7142.html"><span>FLUORESCEIN SODIUM</span></a></li>
+              <li><a href="./PHP88016.html"><span>FLUORESCEIN WITH LIDOCAINE </span></a></li>
+              <li><a href="./PHP6881.html"><span>FLUOROMETHOLONE</span></a></li>
+              <li><a href="./PHP5376.html"><span>FLUOROURACIL</span></a></li>
+              <li><a href="./PHP88058.html"><span>FLUOROURACIL WITH SALICYLIC ACID</span></a></li>
+              <li><a href="./PHP2426.html"><span>FLUOXETINE</span></a></li>
+              <li><a href="./PHP2220.html"><span>FLUPENTIXOL</span></a></li>
+              <li><a href="./PHP2303.html"><span>FLUPENTIXOL DECANOATE</span></a></li>
+              <li><a href="./PHP2307.html"><span>FLUPHENAZINE DECANOATE</span></a></li>
+              <li><a href="./PHP2110.html"><span>FLURAZEPAM</span></a></li>
+              <li><a href="./PHP6456.html"><span>FLURBIPROFEN</span></a></li>
+              <li><a href="./PHP5796.html"><span>FLUTAMIDE</span></a></li>
+              <li><a href="./PHP1869.html"><span>FLUTICASONE</span></a></li>
+              <li><a href="./PHP88022.html"><span>FLUTICASONE WITH AZELASTINE</span></a></li>
+              <li><a href="./PHP85605.html"><span>FLUTICASONE WITH FORMOTEROL</span></a></li>
+              <li><a href="./PHP85606.html"><span>FLUTICASONE WITH SALMETEROL</span></a></li>
+              <li><a href="./PHP85607.html"><span>FLUTICASONE WITH VILANTEROL</span></a></li>
+              <li><a href="./PHP1636.html"><span>FLUVASTATIN</span></a></li>
+              <li><a href="./PHP2429.html"><span>FLUVOXAMINE MALEATE</span></a></li>
+              <li><a href="./PHP5874.html"><span>FOLIC ACID</span></a></li>
+              <li><a href="./PHP5210.html"><span>FOLINIC ACID</span></a></li>
+              <li><a href="./PHP98380.html"><span>FOLLITROPIN ALFA</span></a></li>
+              <li><a href="./PHP98631.html"><span>FOLLITROPIN ALFA WITH LUTROPIN ALFA</span></a></li>
+              <li><a href="./PHP98381.html"><span>FOLLITROPIN BETA</span></a></li>
+              <li><a href="./PHP1482.html"><span>FONDAPARINUX SODIUM</span></a></li>
+              <li><a href="./PHP7888.html"><span>FORMALDEHYDE</span></a></li>
+              <li><a href="./PHP1748.html"><span>FORMOTEROL FUMARATE</span></a></li>
+              <li><a href="./PHP3804.html"><span>FOSAMPRENAVIR</span></a></li>
+              <li><a href="./PHP2570.html"><span>FOSAPREPITANT</span></a></li>
+              <li><a href="./PHP3864.html"><span>FOSCARNET SODIUM</span></a></li>
+              <li><a href="./PHP101871.html"><span>FOSFOMYCIN</span></a></li>
+              <li><a href="./PHP1157.html"><span>FOSINOPRIL SODIUM</span></a></li>
+              <li><a href="./PHP3033.html"><span>FOSPHENYTOIN SODIUM</span></a></li>
+              <li><a href="./PHP7238.html"><span>FRAMYCETIN SULFATE</span></a></li>
+              <li><a href="./PHP1616.html"><span>FRESH FROZEN PLASMA</span></a></li>
+              <li><a href="./PHP2848.html"><span>FROVATRIPTAN</span></a></li>
+              <li><a href="./PHP5756.html"><span>FULVESTRANT</span></a></li>
+              <li><a href="./PHP815.html"><span>FUROSEMIDE</span></a></li>
+              <li><a href="./PHP88079.html"><span>FUROSEMIDE WITH POTASSIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP856.html"><span>FUROSEMIDE WITH TRIAMTERENE</span></a></li>
+              <li><a href="./PHP6825.html"><span>FUSIDIC ACID</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="G">
+        <div class="row">
+          <div class="span1">
+            <h2 title="35  begining with the letter G">G</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP2930.html"><span>GABAPENTIN</span></a></li>
+              <li><a href="./PHP3242.html"><span>GALANTAMINE</span></a></li>
+              <li><a href="./PHP6323.html"><span>GALSULFASE</span></a></li>
+              <li><a href="./PHP3859.html"><span>GANCICLOVIR</span></a></li>
+              <li><a href="./PHP4728.html"><span>GANIRELIX</span></a></li>
+              <li><a href="./PHP5534.html"><span>GEFITINIB</span></a></li>
+              <li><a href="./PHP6035.html"><span>GELATIN</span></a></li>
+              <li><a href="./PHP5378.html"><span>GEMCITABINE</span></a></li>
+              <li><a href="./PHP4778.html"><span>GEMEPROST</span></a></li>
+              <li><a href="./PHP1690.html"><span>GEMFIBROZIL</span></a></li>
+              <li><a href="./PHP3478.html"><span>GENTAMICIN</span></a></li>
+              <li><a href="./PHP88020.html"><span>GENTAMICIN WITH HYDROCORTISONE </span></a></li>
+              <li><a href="./PHP5704.html"><span>GLATIRAMER ACETATE</span></a></li>
+              <li><a href="./PHP4140.html"><span>GLIBENCLAMIDE</span></a></li>
+              <li><a href="./PHP4142.html"><span>GLICLAZIDE</span></a></li>
+              <li><a href="./PHP4148.html"><span>GLIMEPIRIDE</span></a></li>
+              <li><a href="./PHP4151.html"><span>GLIPIZIDE</span></a></li>
+              <li><a href="./PHP4226.html"><span>GLUCAGON</span></a></li>
+              <li><a href="./PHP6689.html"><span>GLUCOSAMINE</span></a></li>
+              <li><a href="./PHP6004.html"><span>GLUCOSE</span></a></li>
+              <li><a href="./PHP92549.html"><span>GLUCOSE WITH POTASSIUM CHLORIDE, SODIUM BICARBONATE AND SODIUM CHLORIDE </span></a></li>
+              <li><a href="./PHP7890.html"><span>GLUTARALDEHYDE</span></a></li>
+              <li><a href="./PHP586.html"><span>GLYCEROL</span></a></li>
+              <li><a href="./PHP88064.html"><span>GLYCEROL WITH MAGNESIUM SULFATE AND PHENOL</span></a></li>
+              <li><a href="./PHP705.html"><span>GLYCERYL TRINITRATE</span></a></li>
+              <li><a href="./PHP5132.html"><span>GLYCINE</span></a></li>
+              <li><a href="./PHP8204.html"><span>GLYCOPYRRONIUM BROMIDE</span></a></li>
+              <li><a href="./PHP34186.html"><span>GOLIMUMAB</span></a></li>
+              <li><a href="./PHP4615.html"><span>GONADORELIN</span></a></li>
+              <li><a href="./PHP4737.html"><span>GOSERELIN</span></a></li>
+              <li><a href="./PHP2558.html"><span>GRANISETRON</span></a></li>
+              <li><a href="./PHP107560.html"><span>GRAPEFRUIT JUICE</span></a></li>
+              <li><a href="./PHP80613.html"><span>GRASS POLLEN EXTRACT</span></a></li>
+              <li><a href="./PHP3736.html"><span>GRISEOFULVIN</span></a></li>
+              <li><a href="./PHP1086.html"><span>GUANETHIDINE MONOSULFATE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="H">
+        <div class="row">
+          <div class="span1">
+            <h2 title="41  begining with the letter H">H</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP6364.html"><span>HAEM ARGINATE</span></a></li>
+              <li><a href="./PHP88120.html"><span>HAEMOPHILUS INFLUENZAE TYPE B WITH MENINGOCOCCAL GROUP C VACCINE</span></a></li>
+              <li><a href="./PHP2226.html"><span>HALOPERIDOL</span></a></li>
+              <li><a href="./PHP80616.html"><span>HALOPERIDOL DECANOATE</span></a></li>
+              <li><a href="./PHP1447.html"><span>HEPARIN (UNFRACTIONATED)</span></a></li>
+              <li><a href="./PHP34505.html"><span>HEPARINOID</span></a></li>
+              <li><a href="./PHP88121.html"><span>HEPATITIS A AND B VACCINE</span></a></li>
+              <li><a href="./PHP8291.html"><span>HEPATITIS A VACCINE</span></a></li>
+              <li><a href="./PHP88122.html"><span>HEPATITIS A WITH TYPHOID VACCINE</span></a></li>
+              <li><a href="./PHP8462.html"><span>HEPATITIS B IMMUNOGLOBULIN</span></a></li>
+              <li><a href="./PHP8310.html"><span>HEPATITIS B VACCINE</span></a></li>
+              <li><a href="./PHP7419.html"><span>HEXETIDINE</span></a></li>
+              <li><a href="./PHP5707.html"><span>HISTAMINE DIHYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP6938.html"><span>HOMATROPINE HYDROBROMIDE</span></a></li>
+              <li><a href="./PHP8317.html"><span>HUMAN PAPILLOMAVIRUS VACCINES</span></a></li>
+              <li><a href="./PHP6749.html"><span>HYALURONIDASE</span></a></li>
+              <li><a href="./PHP1048.html"><span>HYDRALAZINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP107867.html"><span>HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP515.html"><span>HYDROCORTISONE</span></a></li>
+              <li><a href="./PHP7601.html"><span>HYDROCORTISONE BUTYRATE</span></a></li>
+              <li><a href="./PHP97004.html"><span>HYDROCORTISONE WITH BENZALKONIUM CHLORIDE, DIMETICONE AND NYSTATIN</span></a></li>
+              <li><a href="./PHP92559.html"><span>HYDROCORTISONE WITH CHLORHEXIDINE HYDROCHLORIDE AND NYSTATIN </span></a></li>
+              <li><a href="./PHP88037.html"><span>HYDROCORTISONE WITH CLOTRIMAZOLE</span></a></li>
+              <li><a href="./PHP88039.html"><span>HYDROCORTISONE WITH FUSIDIC ACID</span></a></li>
+              <li><a href="./PHP88106.html"><span>HYDROCORTISONE WITH LIDOCAINE </span></a></li>
+              <li><a href="./PHP88038.html"><span>HYDROCORTISONE WITH MICONAZOLE</span></a></li>
+              <li><a href="./PHP88040.html"><span>HYDROCORTISONE WITH OXYTETRACYCLINE </span></a></li>
+              <li><a href="./PHP85555.html"><span>HYDROCORTISONE WITH PRAMOCAINE</span></a></li>
+              <li><a href="./PHP88036.html"><span>HYDROCORTISONE WITH UREA</span></a></li>
+              <li><a href="./PHP7421.html"><span>HYDROGEN PEROXIDE</span></a></li>
+              <li><a href="./PHP2727.html"><span>HYDROMORPHONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP228.html"><span>HYDROXOCOBALAMIN</span></a></li>
+              <li><a href="./PHP5470.html"><span>HYDROXYCARBAMIDE</span></a></li>
+              <li><a href="./PHP6586.html"><span>HYDROXYCHLOROQUINE SULFATE</span></a></li>
+              <li><a href="./PHP7081.html"><span>HYDROXYETHYLCELLULOSE</span></a></li>
+              <li><a href="./PHP98630.html"><span>HYDROXYPROPYL GUAR WITH POLYETHYLENE GLYCOL AND PROPYLENE GLYCOL</span></a></li>
+              <li><a href="./PHP1945.html"><span>HYDROXYZINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP365.html"><span>HYOSCINE BUTYLBROMIDE</span></a></li>
+              <li><a href="./PHP2576.html"><span>HYOSCINE HYDROBROMIDE</span></a></li>
+              <li><a href="./PHP7090.html"><span>HYPROMELLOSE</span></a></li>
+              <li><a href="./PHP88017.html"><span>HYPROMELLOSE WITH DEXTRAN 70</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="I">
+        <div class="row">
+          <div class="span1">
+            <h2 title="64  begining with the letter I">I</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP4671.html"><span>IBANDRONIC ACID</span></a></li>
+              <li><a href="./PHP101780.html"><span>IBRUTINIB</span></a></li>
+              <li><a href="./PHP6461.html"><span>IBUPROFEN</span></a></li>
+              <li><a href="./PHP1992.html"><span>ICATIBANT</span></a></li>
+              <li><a href="./PHP7690.html"><span>ICHTHAMMOL</span></a></li>
+              <li><a href="./PHP88101.html"><span>ICHTHAMMOL WITH ZINC OXIDE</span></a></li>
+              <li><a href="./PHP5319.html"><span>IDARUBICIN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP93587.html"><span>IDELALISIB</span></a></li>
+              <li><a href="./PHP6325.html"><span>IDURSULFASE</span></a></li>
+              <li><a href="./PHP5270.html"><span>IFOSFAMIDE</span></a></li>
+              <li><a href="./PHP1052.html"><span>ILOPROST</span></a></li>
+              <li><a href="./PHP5536.html"><span>IMATINIB</span></a></li>
+              <li><a href="./PHP1159.html"><span>IMIDAPRIL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP6317.html"><span>IMIGLUCERASE</span></a></li>
+              <li><a href="./PHP3410.html"><span>IMIPENEM WITH CILASTATIN</span></a></li>
+              <li><a href="./PHP2379.html"><span>IMIPRAMINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP7897.html"><span>IMIQUIMOD</span></a></li>
+              <li><a href="./PHP1754.html"><span>INDACATEROL</span></a></li>
+              <li><a href="./PHP792.html"><span>INDAPAMIDE</span></a></li>
+              <li><a href="./PHP3806.html"><span>INDINAVIR</span></a></li>
+              <li><a href="./PHP6468.html"><span>INDOMETACIN</span></a></li>
+              <li><a href="./PHP1099.html"><span>INDORAMIN</span></a></li>
+              <li><a href="./PHP538.html"><span>INFLIXIMAB</span></a></li>
+              <li><a href="./PHP8321.html"><span>INFLUENZA VACCINE</span></a></li>
+              <li><a href="./PHP19243.html"><span>INGENOL MEBUTATE</span></a></li>
+              <li><a href="./PHP3851.html"><span>INOSINE PRANOBEX</span></a></li>
+              <li><a href="./PHP1398.html"><span>INOSITOL NICOTINATE</span></a></li>
+              <li><a href="./PHP4049.html"><span>INSULIN</span></a></li>
+              <li><a href="./PHP4060.html"><span>INSULIN ASPART</span></a></li>
+              <li><a href="./PHP33119.html"><span>INSULIN DEGLUDEC</span></a></li>
+              <li><a href="./PHP101222.html"><span>INSULIN DEGLUDEC WITH LIRAGLUTIDE</span></a></li>
+              <li><a href="./PHP4070.html"><span>INSULIN DETEMIR</span></a></li>
+              <li><a href="./PHP4072.html"><span>INSULIN GLARGINE</span></a></li>
+              <li><a href="./PHP4062.html"><span>INSULIN GLULISINE</span></a></li>
+              <li><a href="./PHP4064.html"><span>INSULIN LISPRO</span></a></li>
+              <li><a href="./PHP4076.html"><span>INSULIN ZINC SUSPENSION</span></a></li>
+              <li><a href="./PHP5667.html"><span>INTERFERON ALFA</span></a></li>
+              <li><a href="./PHP5679.html"><span>INTERFERON BETA</span></a></li>
+              <li><a href="./PHP5687.html"><span>INTERFERON GAMMA-1B</span></a></li>
+              <li><a href="./PHP4985.html"><span>INTRA-UTERINE CONTRACEPTIVE DEVICES (COPPER)</span></a></li>
+              <li><a href="./PHP4318.html"><span>IODIDE WITH IODINE</span></a></li>
+              <li><a href="./PHP5475.html"><span>IPILIMUMAB</span></a></li>
+              <li><a href="./PHP1791.html"><span>IPRATROPIUM BROMIDE</span></a></li>
+              <li><a href="./PHP85620.html"><span>IPRATROPIUM WITH SALBUTAMOL </span></a></li>
+              <li><a href="./PHP1213.html"><span>IRBESARTAN</span></a></li>
+              <li><a href="./PHP85608.html"><span>IRBESARTAN WITH HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP5568.html"><span>IRINOTECAN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP5860.html"><span>IRON DEXTRAN</span></a></li>
+              <li><a href="./PHP5862.html"><span>IRON ISOMALTOSIDE 1000</span></a></li>
+              <li><a href="./PHP5865.html"><span>IRON SUCROSE</span></a></li>
+              <li><a href="./PHP2404.html"><span>ISOCARBOXAZID</span></a></li>
+              <li><a href="./PHP8539.html"><span>ISOFLURANE</span></a></li>
+              <li><a href="./PHP3608.html"><span>ISONIAZID</span></a></li>
+              <li><a href="./PHP4079.html"><span>ISOPHANE INSULIN</span></a></li>
+              <li><a href="./PHP1283.html"><span>ISOSORBIDE DINITRATE</span></a></li>
+              <li><a href="./PHP1291.html"><span>ISOSORBIDE MONONITRATE</span></a></li>
+              <li><a href="./PHP7832.html"><span>ISOTRETINOIN</span></a></li>
+              <li><a href="./PHP88053.html"><span>ISOTRETINOIN WITH ERYTHROMYCIN</span></a></li>
+              <li><a href="./PHP550.html"><span>ISPAGHULA HUSK</span></a></li>
+              <li><a href="./PHP104053.html"><span>ISRADIPINE</span></a></li>
+              <li><a href="./PHP3702.html"><span>ITRACONAZOLE</span></a></li>
+              <li><a href="./PHP1385.html"><span>IVABRADINE</span></a></li>
+              <li><a href="./PHP33421.html"><span>IVACAFTOR</span></a></li>
+              <li><a href="./PHP34493.html"><span>IVERMECTIN</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="J">
+        <div class="row">
+          <div class="span1">
+            <h2 title="1  begining with the letter J">J</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP8340.html"><span>JAPANESE ENCEPHALITIS VACCINE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="K">
+        <div class="row">
+          <div class="span1">
+            <h2 title="8  begining with the letter K">K</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP457.html"><span>KAOLIN</span></a></li>
+              <li><a href="./PHP88110.html"><span>KAOLIN WITH MORPHINE</span></a></li>
+              <li><a href="./PHP8518.html"><span>KETAMINE</span></a></li>
+              <li><a href="./PHP8028.html"><span>KETOCONAZOLE</span></a></li>
+              <li><a href="./PHP6473.html"><span>KETOPROFEN</span></a></li>
+              <li><a href="./PHP88004.html"><span>KETOPROFEN WITH OMEPRAZOLE</span></a></li>
+              <li><a href="./PHP7160.html"><span>KETOROLAC TROMETAMOL</span></a></li>
+              <li><a href="./PHP1948.html"><span>KETOTIFEN</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="L">
+        <div class="row">
+          <div class="span1">
+            <h2 title="72  begining with the letter L">L</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP989.html"><span>LABETALOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1343.html"><span>LACIDIPINE</span></a></li>
+              <li><a href="./PHP2936.html"><span>LACOSAMIDE</span></a></li>
+              <li><a href="./PHP34506.html"><span>LACTIC ACID</span></a></li>
+              <li><a href="./PHP613.html"><span>LACTULOSE</span></a></li>
+              <li><a href="./PHP3767.html"><span>LAMIVUDINE</span></a></li>
+              <li><a href="./PHP2939.html"><span>LAMOTRIGINE</span></a></li>
+              <li><a href="./PHP5804.html"><span>LANREOTIDE</span></a></li>
+              <li><a href="./PHP438.html"><span>LANSOPRAZOLE</span></a></li>
+              <li><a href="./PHP6145.html"><span>LANTHANUM</span></a></li>
+              <li><a href="./PHP5538.html"><span>LAPATINIB</span></a></li>
+              <li><a href="./PHP6327.html"><span>LARONIDASE</span></a></li>
+              <li><a href="./PHP6988.html"><span>LATANOPROST</span></a></li>
+              <li><a href="./PHP88011.html"><span>LATANOPROST WITH TIMOLOL</span></a></li>
+              <li><a href="./PHP6596.html"><span>LEFLUNOMIDE</span></a></li>
+              <li><a href="./PHP5713.html"><span>LENALIDOMIDE</span></a></li>
+              <li><a href="./PHP5950.html"><span>LENOGRASTIM</span></a></li>
+              <li><a href="./PHP1345.html"><span>LERCANIDIPINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP5758.html"><span>LETROZOLE</span></a></li>
+              <li><a href="./PHP4740.html"><span>LEUPRORELIN ACETATE</span></a></li>
+              <li><a href="./PHP13152.html"><span>LEVAMISOLE</span></a></li>
+              <li><a href="./PHP2944.html"><span>LEVETIRACETAM</span></a></li>
+              <li><a href="./PHP6961.html"><span>LEVOBUNOLOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP8693.html"><span>LEVOBUPIVACAINE</span></a></li>
+              <li><a href="./PHP6310.html"><span>LEVOCARNITINE</span></a></li>
+              <li><a href="./PHP1918.html"><span>LEVOCETIRIZINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3668.html"><span>LEVOFLOXACIN</span></a></li>
+              <li><a href="./PHP5218.html"><span>LEVOFOLINIC ACID</span></a></li>
+              <li><a href="./PHP7559.html"><span>LEVOMENTHOL</span></a></li>
+              <li><a href="./PHP2234.html"><span>LEVOMEPROMAZINE</span></a></li>
+              <li><a href="./PHP5025.html"><span>LEVONORGESTREL</span></a></li>
+              <li><a href="./PHP4302.html"><span>LEVOTHYROXINE SODIUM</span></a></li>
+              <li><a href="./PHP928.html"><span>LIDOCAINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP88072.html"><span>LIDOCAINE WITH ADRENALINE</span></a></li>
+              <li><a href="./PHP88076.html"><span>LIDOCAINE WITH PHENYLEPHRINE</span></a></li>
+              <li><a href="./PHP88074.html"><span>LIDOCAINE WITH PRILOCAINE</span></a></li>
+              <li><a href="./PHP88075.html"><span>LIDOCAINE WITH TETRACAINE</span></a></li>
+              <li><a href="./PHP33678.html"><span>LINACLOTIDE</span></a></li>
+              <li><a href="./PHP4188.html"><span>LINAGLIPTIN</span></a></li>
+              <li><a href="./PHP85624.html"><span>LINAGLIPTIN WITH METFORMIN</span></a></li>
+              <li><a href="./PHP3551.html"><span>LINEZOLID</span></a></li>
+              <li><a href="./PHP4306.html"><span>LIOTHYRONINE SODIUM</span></a></li>
+              <li><a href="./PHP107704.html"><span>LIPEGFILGRASTIM</span></a></li>
+              <li><a href="./PHP608.html"><span>LIQUID PARAFFIN</span></a></li>
+              <li><a href="./PHP88109.html"><span>LIQUID PARAFFIN WITH MAGNESIUM HYDROXIDE </span></a></li>
+              <li><a href="./PHP92556.html"><span>LIQUID PARAFFIN WITH WHITE SOFT PARAFFIN AND WOOL ALCOHOLS </span></a></li>
+              <li><a href="./PHP4190.html"><span>LIRAGLUTIDE</span></a></li>
+              <li><a href="./PHP2478.html"><span>LISDEXAMFETAMINE MESILATE</span></a></li>
+              <li><a href="./PHP1161.html"><span>LISINOPRIL</span></a></li>
+              <li><a href="./PHP85609.html"><span>LISINOPRIL WITH HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP2337.html"><span>LITHIUM CARBONATE</span></a></li>
+              <li><a href="./PHP2344.html"><span>LITHIUM CITRATE</span></a></li>
+              <li><a href="./PHP33516.html"><span>LIXISENATIDE</span></a></li>
+              <li><a href="./PHP6913.html"><span>LODOXAMIDE</span></a></li>
+              <li><a href="./PHP2381.html"><span>LOFEPRAMINE</span></a></li>
+              <li><a href="./PHP3230.html"><span>LOFEXIDINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP34372.html"><span>LOMITAPIDE</span></a></li>
+              <li><a href="./PHP5272.html"><span>LOMUSTINE</span></a></li>
+              <li><a href="./PHP469.html"><span>LOPERAMIDE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP85552.html"><span>LOPERAMIDE WITH SIMETICONE </span></a></li>
+              <li><a href="./PHP3809.html"><span>LOPINAVIR WITH RITONAVIR</span></a></li>
+              <li><a href="./PHP2112.html"><span>LOPRAZOLAM</span></a></li>
+              <li><a href="./PHP1921.html"><span>LORATADINE</span></a></li>
+              <li><a href="./PHP2170.html"><span>LORAZEPAM</span></a></li>
+              <li><a href="./PHP2114.html"><span>LORMETAZEPAM</span></a></li>
+              <li><a href="./PHP1219.html"><span>LOSARTAN POTASSIUM</span></a></li>
+              <li><a href="./PHP85610.html"><span>LOSARTAN WITH HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP6885.html"><span>LOTEPREDNOL ETABONATE</span></a></li>
+              <li><a href="./PHP33886.html"><span>LUBIPROSTONE</span></a></li>
+              <li><a href="./PHP93592.html"><span>LURASIDONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP4597.html"><span>LUTROPIN ALFA</span></a></li>
+              <li><a href="./PHP3451.html"><span>LYMECYCLINE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="M">
+        <div class="row">
+          <div class="span1">
+            <h2 title="92  begining with the letter M">M</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP34437.html"><span>MACITENTAN</span></a></li>
+              <li><a href="./PHP98623.html"><span>MACROGOL 3350 WITH ANHYDROUS SODIUM SULFATE, ASCORBIC ACID, POTASSIUM CHLORIDE, SODIUM ASCORBATE AND SODIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP97000.html"><span>MACROGOL 3350 WITH ANHYDROUS SODIUM SULFATE, POTASSIUM CHLORIDE, SODIUM BICARBONATE AND SODIUM CHLORIDE </span></a></li>
+              <li><a href="./PHP96999.html"><span>MACROGOL 3350 WITH POTASSIUM CHLORIDE, SODIUM BICARBONATE AND SODIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP14090.html"><span>MAGNESIUM ASPARTATE</span></a></li>
+              <li><a href="./PHP298.html"><span>MAGNESIUM CARBONATE</span></a></li>
+              <li><a href="./PHP661.html"><span>MAGNESIUM CITRATE WITH SODIUM PICOSULFATE</span></a></li>
+              <li><a href="./PHP14092.html"><span>MAGNESIUM GLYCEROPHOSPHATE</span></a></li>
+              <li><a href="./PHP104230.html"><span>MAGNESIUM HYDROXIDE</span></a></li>
+              <li><a href="./PHP6120.html"><span>MAGNESIUM SULFATE</span></a></li>
+              <li><a href="./PHP304.html"><span>MAGNESIUM TRISILICATE</span></a></li>
+              <li><a href="./PHP88111.html"><span>MAGNESIUM TRISILICATE WITH MAGNESIUM CARBONATE AND SODIUM BICARBONATE</span></a></li>
+              <li><a href="./PHP8075.html"><span>MALATHION</span></a></li>
+              <li><a href="./PHP880.html"><span>MANNITOL</span></a></li>
+              <li><a href="./PHP3834.html"><span>MARAVIROC</span></a></li>
+              <li><a href="./PHP8349.html"><span>MEASLES, MUMPS AND RUBELLA VACCINE, LIVE</span></a></li>
+              <li><a href="./PHP4009.html"><span>MEBENDAZOLE</span></a></li>
+              <li><a href="./PHP378.html"><span>MEBEVERINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP85551.html"><span>MEBEVERINE WITH ISPAGHULA HUSK</span></a></li>
+              <li><a href="./PHP4491.html"><span>MEDROXYPROGESTERONE ACETATE</span></a></li>
+              <li><a href="./PHP6486.html"><span>MEFENAMIC ACID</span></a></li>
+              <li><a href="./PHP3948.html"><span>MEFLOQUINE</span></a></li>
+              <li><a href="./PHP5741.html"><span>MEGESTROL ACETATE</span></a></li>
+              <li><a href="./PHP2149.html"><span>MELATONIN</span></a></li>
+              <li><a href="./PHP6489.html"><span>MELOXICAM</span></a></li>
+              <li><a href="./PHP5274.html"><span>MELPHALAN</span></a></li>
+              <li><a href="./PHP3248.html"><span>MEMANTINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP6278.html"><span>MENADIOL SODIUM PHOSPHATE</span></a></li>
+              <li><a href="./PHP88126.html"><span>MENINGOCOCCAL GROUP B VACCINE (RDNA, COMPONENT, ADSORBED)</span></a></li>
+              <li><a href="./PHP99985.html"><span>MENINGOCOCCAL GROUP C VACCINE</span></a></li>
+              <li><a href="./PHP88125.html"><span>MENINGOCOCCAL GROUPS A WITH C AND W135 AND Y VACCINE</span></a></li>
+              <li><a href="./PHP97244.html"><span>MENOTROPHIN</span></a></li>
+              <li><a href="./PHP3987.html"><span>MEPACRINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP8726.html"><span>MEPIVACAINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP88077.html"><span>MEPIVACAINE WITH ADRENALINE </span></a></li>
+              <li><a href="./PHP2180.html"><span>MEPROBAMATE</span></a></li>
+              <li><a href="./PHP2731.html"><span>MEPTAZINOL</span></a></li>
+              <li><a href="./PHP6330.html"><span>MERCAPTAMINE</span></a></li>
+              <li><a href="./PHP531.html"><span>MERCAPTOPURINE</span></a></li>
+              <li><a href="./PHP3413.html"><span>MEROPENEM</span></a></li>
+              <li><a href="./PHP493.html"><span>MESALAZINE</span></a></li>
+              <li><a href="./PHP5234.html"><span>MESNA</span></a></li>
+              <li><a href="./PHP4537.html"><span>MESTEROLONE</span></a></li>
+              <li><a href="./PHP1424.html"><span>METARAMINOL</span></a></li>
+              <li><a href="./PHP4161.html"><span>METFORMIN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2065.html"><span>METHADONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3689.html"><span>METHENAMINE HIPPURATE</span></a></li>
+              <li><a href="./PHP6736.html"><span>METHOCARBAMOL</span></a></li>
+              <li><a href="./PHP533.html"><span>METHOTREXATE</span></a></li>
+              <li><a href="./PHP5906.html"><span>METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA</span></a></li>
+              <li><a href="./PHP558.html"><span>METHYLCELLULOSE</span></a></li>
+              <li><a href="./PHP1077.html"><span>METHYLDOPA</span></a></li>
+              <li><a href="./PHP665.html"><span>METHYLNALTREXONE BROMIDE</span></a></li>
+              <li><a href="./PHP2479.html"><span>METHYLPHENIDATE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP4371.html"><span>METHYLPREDNISOLONE</span></a></li>
+              <li><a href="./PHP88006.html"><span>METHYLPREDNISOLONE WITH LIDOCAINE</span></a></li>
+              <li><a href="./PHP18437.html"><span>METHYLTHIONINIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP2547.html"><span>METOCLOPRAMIDE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP799.html"><span>METOLAZONE</span></a></li>
+              <li><a href="./PHP993.html"><span>METOPROLOL TARTRATE</span></a></li>
+              <li><a href="./PHP3647.html"><span>METRONIDAZOLE</span></a></li>
+              <li><a href="./PHP4751.html"><span>METYRAPONE</span></a></li>
+              <li><a href="./PHP2390.html"><span>MIANSERIN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3730.html"><span>MICAFUNGIN</span></a></li>
+              <li><a href="./PHP7386.html"><span>MICONAZOLE</span></a></li>
+              <li><a href="./PHP3037.html"><span>MIDAZOLAM</span></a></li>
+              <li><a href="./PHP5718.html"><span>MIFAMURTIDE</span></a></li>
+              <li><a href="./PHP4787.html"><span>MIFEPRISTONE</span></a></li>
+              <li><a href="./PHP6351.html"><span>MIGLUSTAT</span></a></li>
+              <li><a href="./PHP767.html"><span>MILRINONE</span></a></li>
+              <li><a href="./PHP3453.html"><span>MINOCYCLINE</span></a></li>
+              <li><a href="./PHP1055.html"><span>MINOXIDIL</span></a></li>
+              <li><a href="./PHP33109.html"><span>MIRABEGRON</span></a></li>
+              <li><a href="./PHP2449.html"><span>MIRTAZAPINE</span></a></li>
+              <li><a href="./PHP428.html"><span>MISOPROSTOL</span></a></li>
+              <li><a href="./PHP5321.html"><span>MITOMYCIN</span></a></li>
+              <li><a href="./PHP5478.html"><span>MITOTANE</span></a></li>
+              <li><a href="./PHP5323.html"><span>MITOXANTRONE</span></a></li>
+              <li><a href="./PHP8620.html"><span>MIVACURIUM</span></a></li>
+              <li><a href="./PHP1923.html"><span>MIZOLASTINE</span></a></li>
+              <li><a href="./PHP2410.html"><span>MOCLOBEMIDE</span></a></li>
+              <li><a href="./PHP2486.html"><span>MODAFINIL</span></a></li>
+              <li><a href="./PHP1174.html"><span>MOEXIPRIL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1875.html"><span>MOMETASONE FUROATE</span></a></li>
+              <li><a href="./PHP1887.html"><span>MONTELUKAST</span></a></li>
+              <li><a href="./PHP2740.html"><span>MORPHINE</span></a></li>
+              <li><a href="./PHP85588.html"><span>MORPHINE WITH CYCLIZINE</span></a></li>
+              <li><a href="./PHP3671.html"><span>MOXIFLOXACIN</span></a></li>
+              <li><a href="./PHP1400.html"><span>MOXISYLYTE</span></a></li>
+              <li><a href="./PHP1081.html"><span>MOXONIDINE</span></a></li>
+              <li><a href="./PHP7973.html"><span>MUPIROCIN</span></a></li>
+              <li><a href="./PHP5608.html"><span>MYCOPHENOLATE MOFETIL</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="N">
+        <div class="row">
+          <div class="span1">
+            <h2 title="46  begining with the letter N">N</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP2573.html"><span>NABILONE</span></a></li>
+              <li><a href="./PHP6492.html"><span>NABUMETONE</span></a></li>
+              <li><a href="./PHP1001.html"><span>NADOLOL</span></a></li>
+              <li><a href="./PHP4743.html"><span>NAFARELIN</span></a></li>
+              <li><a href="./PHP1402.html"><span>NAFTIDROFURYL OXALATE</span></a></li>
+              <li><a href="./PHP3673.html"><span>NALIDIXIC ACID</span></a></li>
+              <li><a href="./PHP33535.html"><span>NALMEFENE</span></a></li>
+              <li><a href="./PHP202.html"><span>NALOXONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3233.html"><span>NALTREXONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP4556.html"><span>NANDROLONE</span></a></li>
+              <li><a href="./PHP6495.html"><span>NAPROXEN</span></a></li>
+              <li><a href="./PHP88005.html"><span>NAPROXEN WITH ESOMEPRAZOLE</span></a></li>
+              <li><a href="./PHP88090.html"><span>NAPROXEN WITH MISOPROSTOL</span></a></li>
+              <li><a href="./PHP2850.html"><span>NARATRIPTAN</span></a></li>
+              <li><a href="./PHP5724.html"><span>NATALIZUMAB</span></a></li>
+              <li><a href="./PHP4192.html"><span>NATEGLINIDE</span></a></li>
+              <li><a href="./PHP1003.html"><span>NEBIVOLOL</span></a></li>
+              <li><a href="./PHP1882.html"><span>NEDOCROMIL SODIUM</span></a></li>
+              <li><a href="./PHP2661.html"><span>NEFOPAM HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP5388.html"><span>NELARABINE</span></a></li>
+              <li><a href="./PHP3489.html"><span>NEOMYCIN SULFATE</span></a></li>
+              <li><a href="./PHP6699.html"><span>NEOSTIGMINE</span></a></li>
+              <li><a href="./PHP88068.html"><span>NEOSTIGMINE WITH GLYCOPYRRONIUM BROMIDE</span></a></li>
+              <li><a href="./PHP7162.html"><span>NEPAFENAC</span></a></li>
+              <li><a href="./PHP3827.html"><span>NEVIRAPINE</span></a></li>
+              <li><a href="./PHP1348.html"><span>NICARDIPINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1387.html"><span>NICORANDIL</span></a></li>
+              <li><a href="./PHP6210.html"><span>NICOTINAMIDE</span></a></li>
+              <li><a href="./PHP3201.html"><span>NICOTINE</span></a></li>
+              <li><a href="./PHP1696.html"><span>NICOTINIC ACID</span></a></li>
+              <li><a href="./PHP1353.html"><span>NIFEDIPINE</span></a></li>
+              <li><a href="./PHP5540.html"><span>NILOTINIB</span></a></li>
+              <li><a href="./PHP1369.html"><span>NIMODIPINE</span></a></li>
+              <li><a href="./PHP6336.html"><span>NITISINONE</span></a></li>
+              <li><a href="./PHP2106.html"><span>NITRAZEPAM</span></a></li>
+              <li><a href="./PHP3683.html"><span>NITROFURANTOIN</span></a></li>
+              <li><a href="./PHP8546.html"><span>NITROUS OXIDE</span></a></li>
+              <li><a href="./PHP410.html"><span>NIZATIDINE</span></a></li>
+              <li><a href="./PHP34507.html"><span>NONOXINOL</span></a></li>
+              <li><a href="./PHP1428.html"><span>NORADRENALINE/NOREPINEPHRINE</span></a></li>
+              <li><a href="./PHP4497.html"><span>NORETHISTERONE</span></a></li>
+              <li><a href="./PHP94810.html"><span>NORETHISTERONE WITH MESTRANOL</span></a></li>
+              <li><a href="./PHP3675.html"><span>NORFLOXACIN</span></a></li>
+              <li><a href="./PHP8436.html"><span>NORMAL IMMUNOGLOBULIN</span></a></li>
+              <li><a href="./PHP2383.html"><span>NORTRIPTYLINE</span></a></li>
+              <li><a href="./PHP7390.html"><span>NYSTATIN</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="O">
+        <div class="row">
+          <div class="span1">
+            <h2 title="34  begining with the letter O">O</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP93593.html"><span>OBINUTUZUMAB</span></a></li>
+              <li><a href="./PHP33811.html"><span>OCRIPLASMIN</span></a></li>
+              <li><a href="./PHP5807.html"><span>OCTREOTIDE</span></a></li>
+              <li><a href="./PHP5660.html"><span>OFATUMUMAB</span></a></li>
+              <li><a href="./PHP3678.html"><span>OFLOXACIN</span></a></li>
+              <li><a href="./PHP2277.html"><span>OLANZAPINE</span></a></li>
+              <li><a href="./PHP2313.html"><span>OLANZAPINE EMBONATE</span></a></li>
+              <li><a href="./PHP97246.html"><span>OLIVE OIL</span></a></li>
+              <li><a href="./PHP1227.html"><span>OLMESARTAN MEDOXOMIL</span></a></li>
+              <li><a href="./PHP85570.html"><span>OLMESARTAN WITH AMLODIPINE</span></a></li>
+              <li><a href="./PHP100019.html"><span>OLMESARTAN WITH AMLODIPINE AND HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP85611.html"><span>OLMESARTAN WITH HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP104906.html"><span>OLODATEROL</span></a></li>
+              <li><a href="./PHP6918.html"><span>OLOPATADINE</span></a></li>
+              <li><a href="./PHP502.html"><span>OLSALAZINE SODIUM</span></a></li>
+              <li><a href="./PHP1967.html"><span>OMALIZUMAB</span></a></li>
+              <li><a href="./PHP1704.html"><span>OMEGA-3-ACID ETHYL ESTERS</span></a></li>
+              <li><a href="./PHP441.html"><span>OMEPRAZOLE</span></a></li>
+              <li><a href="./PHP2561.html"><span>ONDANSETRON</span></a></li>
+              <li><a href="./PHP2496.html"><span>ORLISTAT</span></a></li>
+              <li><a href="./PHP3144.html"><span>ORPHENADRINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3896.html"><span>OSELTAMIVIR</span></a></li>
+              <li><a href="./PHP5501.html"><span>OXALIPLATIN</span></a></li>
+              <li><a href="./PHP2173.html"><span>OXAZEPAM</span></a></li>
+              <li><a href="./PHP2918.html"><span>OXCARBAZEPINE</span></a></li>
+              <li><a href="./PHP34590.html"><span>OXERUTINS</span></a></li>
+              <li><a href="./PHP1006.html"><span>OXPRENOLOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP7051.html"><span>OXYBUPROCAINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP5086.html"><span>OXYBUTYNIN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2766.html"><span>OXYCODONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2775.html"><span>OXYCODONE WITH NALOXONE</span></a></li>
+              <li><a href="./PHP104993.html"><span>OXYMETHOLONE</span></a></li>
+              <li><a href="./PHP3460.html"><span>OXYTETRACYCLINE</span></a></li>
+              <li><a href="./PHP4780.html"><span>OXYTOCIN</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="P">
+        <div class="row">
+          <div class="span1">
+            <h2 title="136  begining with the letter P">P</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP5562.html"><span>PACLITAXEL</span></a></li>
+              <li><a href="./PHP5228.html"><span>PALIFERMIN</span></a></li>
+              <li><a href="./PHP2280.html"><span>PALIPERIDONE</span></a></li>
+              <li><a href="./PHP3902.html"><span>PALIVIZUMAB</span></a></li>
+              <li><a href="./PHP2564.html"><span>PALONOSETRON</span></a></li>
+              <li><a href="./PHP4668.html"><span>PAMIDRONATE DISODIUM</span></a></li>
+              <li><a href="./PHP732.html"><span>PANCREATIN</span></a></li>
+              <li><a href="./PHP8622.html"><span>PANCURONIUM BROMIDE</span></a></li>
+              <li><a href="./PHP5481.html"><span>PANITUMUMAB</span></a></li>
+              <li><a href="./PHP445.html"><span>PANTOPRAZOLE</span></a></li>
+              <li><a href="./PHP2777.html"><span>PAPAVERETUM</span></a></li>
+              <li><a href="./PHP85615.html"><span>PAPAVERETUM WITH HYOSCINE HYDROBROMIDE</span></a></li>
+              <li><a href="./PHP2632.html"><span>PARACETAMOL</span></a></li>
+              <li><a href="./PHP92543.html"><span>PARACETAMOL WITH BUCLIZINE HYDROCHLORIDE AND CODEINE PHOSPHATE</span></a></li>
+              <li><a href="./PHP92568.html"><span>PARACETAMOL WITH ISOMETHEPTENE</span></a></li>
+              <li><a href="./PHP85630.html"><span>PARACETAMOL WITH METOCLOPRAMIDE</span></a></li>
+              <li><a href="./PHP85632.html"><span>PARACETAMOL WITH TRAMADOL </span></a></li>
+              <li><a href="./PHP7109.html"><span>PARAFFIN, YELLOW, SOFT</span></a></li>
+              <li><a href="./PHP4648.html"><span>PARATHYROID HORMONE</span></a></li>
+              <li><a href="./PHP8589.html"><span>PARECOXIB</span></a></li>
+              <li><a href="./PHP106444.html"><span>PARENTERAL NUTRITION SUPPLEMENTS</span></a></li>
+              <li><a href="./PHP6270.html"><span>PARICALCITOL</span></a></li>
+              <li><a href="./PHP2432.html"><span>PAROXETINE</span></a></li>
+              <li><a href="./PHP18715.html"><span>PASIREOTIDE</span></a></li>
+              <li><a href="./PHP5542.html"><span>PAZOPANIB</span></a></li>
+              <li><a href="./PHP7167.html"><span>PEGAPTANIB SODIUM</span></a></li>
+              <li><a href="./PHP5953.html"><span>PEGFILGRASTIM</span></a></li>
+              <li><a href="./PHP5670.html"><span>PEGINTERFERON ALFA</span></a></li>
+              <li><a href="./PHP104905.html"><span>PEGINTERFERON BETA-1A</span></a></li>
+              <li><a href="./PHP4609.html"><span>PEGVISOMANT</span></a></li>
+              <li><a href="./PHP5390.html"><span>PEMETREXED</span></a></li>
+              <li><a href="./PHP6302.html"><span>PENICILLAMINE</span></a></li>
+              <li><a href="./PHP4003.html"><span>PENTAMIDINE ISETIONATE</span></a></li>
+              <li><a href="./PHP2783.html"><span>PENTAZOCINE</span></a></li>
+              <li><a href="./PHP5485.html"><span>PENTOSTATIN</span></a></li>
+              <li><a href="./PHP1405.html"><span>PENTOXIFYLLINE</span></a></li>
+              <li><a href="./PHP385.html"><span>PEPPERMINT OIL</span></a></li>
+              <li><a href="./PHP18940.html"><span>PERAMPANEL</span></a></li>
+              <li><a href="./PHP3072.html"><span>PERGOLIDE</span></a></li>
+              <li><a href="./PHP2238.html"><span>PERICYAZINE</span></a></li>
+              <li><a href="./PHP1178.html"><span>PERINDOPRIL ARGININE</span></a></li>
+              <li><a href="./PHP97001.html"><span>PERINDOPRIL ARGININE WITH INDAPAMIDE</span></a></li>
+              <li><a href="./PHP1176.html"><span>PERINDOPRIL ERBUMINE</span></a></li>
+              <li><a href="./PHP8080.html"><span>PERMETHRIN</span></a></li>
+              <li><a href="./PHP2240.html"><span>PERPHENAZINE</span></a></li>
+              <li><a href="./PHP33676.html"><span>PERTUZUMAB</span></a></li>
+              <li><a href="./PHP2785.html"><span>PETHIDINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2399.html"><span>PHENELZINE</span></a></li>
+              <li><a href="./PHP1501.html"><span>PHENINDIONE</span></a></li>
+              <li><a href="./PHP2950.html"><span>PHENOBARBITAL</span></a></li>
+              <li><a href="./PHP701.html"><span>PHENOL</span></a></li>
+              <li><a href="./PHP1117.html"><span>PHENOXYBENZAMINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3310.html"><span>PHENOXYMETHYLPENICILLIN</span></a></li>
+              <li><a href="./PHP1120.html"><span>PHENTOLAMINE MESILATE</span></a></li>
+              <li><a href="./PHP1432.html"><span>PHENYLEPHRINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP88009.html"><span>PHENYLEPHRINE WITH TROPICAMIDE</span></a></li>
+              <li><a href="./PHP2958.html"><span>PHENYTOIN</span></a></li>
+              <li><a href="./PHP2060.html"><span>PHOLCODINE</span></a></li>
+              <li><a href="./PHP14097.html"><span>PHOSPHATE</span></a></li>
+              <li><a href="./PHP6281.html"><span>PHYTOMENADIONE</span></a></li>
+              <li><a href="./PHP7039.html"><span>PILOCARPINE</span></a></li>
+              <li><a href="./PHP7778.html"><span>PIMECROLIMUS</span></a></li>
+              <li><a href="./PHP2244.html"><span>PIMOZIDE</span></a></li>
+              <li><a href="./PHP1013.html"><span>PINDOLOL</span></a></li>
+              <li><a href="./PHP100020.html"><span>PINDOLOL WITH CLOPAMIDE</span></a></li>
+              <li><a href="./PHP4194.html"><span>PIOGLITAZONE</span></a></li>
+              <li><a href="./PHP85626.html"><span>PIOGLITAZONE WITH METFORMIN</span></a></li>
+              <li><a href="./PHP3350.html"><span>PIPERACILLIN WITH TAZOBACTAM</span></a></li>
+              <li><a href="./PHP3158.html"><span>PIRACETAM</span></a></li>
+              <li><a href="./PHP33262.html"><span>PIRFENIDONE</span></a></li>
+              <li><a href="./PHP6508.html"><span>PIROXICAM</span></a></li>
+              <li><a href="./PHP3357.html"><span>PIVMECILLINAM HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP33922.html"><span>PIXANTRONE</span></a></li>
+              <li><a href="./PHP2882.html"><span>PIZOTIFEN</span></a></li>
+              <li><a href="./PHP5956.html"><span>PLERIXAFOR</span></a></li>
+              <li><a href="./PHP8373.html"><span>PNEUMOCOCCAL VACCINE</span></a></li>
+              <li><a href="./PHP7899.html"><span>PODOPHYLLOTOXIN</span></a></li>
+              <li><a href="./PHP7979.html"><span>POLYMYXINS</span></a></li>
+              <li><a href="./PHP5853.html"><span>POLYSACCHARIDE-IRON COMPLEX</span></a></li>
+              <li><a href="./PHP7111.html"><span>POLYVINYL ALCOHOL</span></a></li>
+              <li><a href="./PHP34116.html"><span>POMALIDOMIDE</span></a></li>
+              <li><a href="./PHP33907.html"><span>PONATINIB</span></a></li>
+              <li><a href="./PHP5505.html"><span>PORFIMER SODIUM</span></a></li>
+              <li><a href="./PHP3707.html"><span>POSACONAZOLE</span></a></li>
+              <li><a href="./PHP34497.html"><span>POTASSIUM AMINOBENZOATE</span></a></li>
+              <li><a href="./PHP87991.html"><span>POTASSIUM BICARBONATE WITH POTASSIUM ACID TARTRATE </span></a></li>
+              <li><a href="./PHP5965.html"><span>POTASSIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP92564.html"><span>POTASSIUM CHLORIDE WITH CALCIUM CHLORIDE AND SODIUM CHLORIDE AND SODIUM LACTATE</span></a></li>
+              <li><a href="./PHP88113.html"><span>POTASSIUM CHLORIDE WITH CALCIUM CHLORIDE DIHYDRATE AND SODIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP87992.html"><span>POTASSIUM CHLORIDE WITH GLUCOSE</span></a></li>
+              <li><a href="./PHP87993.html"><span>POTASSIUM CHLORIDE WITH GLUCOSE AND SODIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP87989.html"><span>POTASSIUM CHLORIDE WITH POTASSIUM BICARBONATE</span></a></li>
+              <li><a href="./PHP92548.html"><span>POTASSIUM CHLORIDE WITH RICE POWDER, SODIUM CHLORIDE AND SODIUM CITRATE </span></a></li>
+              <li><a href="./PHP87990.html"><span>POTASSIUM CHLORIDE WITH SODIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP8172.html"><span>POTASSIUM PERMANGANATE</span></a></li>
+              <li><a href="./PHP8156.html"><span>POVIDONE-IODINE</span></a></li>
+              <li><a href="./PHP250.html"><span>PRALIDOXIME CHLORIDE</span></a></li>
+              <li><a href="./PHP3075.html"><span>PRAMIPEXOLE</span></a></li>
+              <li><a href="./PHP1552.html"><span>PRASUGREL</span></a></li>
+              <li><a href="./PHP1642.html"><span>PRAVASTATIN SODIUM</span></a></li>
+              <li><a href="./PHP34496.html"><span>PRAZIQUANTEL</span></a></li>
+              <li><a href="./PHP1107.html"><span>PRAZOSIN</span></a></li>
+              <li><a href="./PHP519.html"><span>PREDNISOLONE</span></a></li>
+              <li><a href="./PHP4378.html"><span>PREDNISONE</span></a></li>
+              <li><a href="./PHP2933.html"><span>PREGABALIN</span></a></li>
+              <li><a href="./PHP8734.html"><span>PRILOCAINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP88078.html"><span>PRILOCAINE WITH FELYPRESSIN</span></a></li>
+              <li><a href="./PHP3951.html"><span>PRIMAQUINE</span></a></li>
+              <li><a href="./PHP2954.html"><span>PRIMIDONE</span></a></li>
+              <li><a href="./PHP5511.html"><span>PROCARBAZINE</span></a></li>
+              <li><a href="./PHP2247.html"><span>PROCHLORPERAZINE</span></a></li>
+              <li><a href="./PHP3148.html"><span>PROCYCLIDINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP88102.html"><span>PROFLAVINE</span></a></li>
+              <li><a href="./PHP4504.html"><span>PROGESTERONE</span></a></li>
+              <li><a href="./PHP3954.html"><span>PROGUANIL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2251.html"><span>PROMAZINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1950.html"><span>PROMETHAZINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2527.html"><span>PROMETHAZINE TEOCLATE</span></a></li>
+              <li><a href="./PHP923.html"><span>PROPAFENONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP6846.html"><span>PROPAMIDINE ISETIONATE</span></a></li>
+              <li><a href="./PHP369.html"><span>PROPANTHELINE BROMIDE</span></a></li>
+              <li><a href="./PHP5096.html"><span>PROPIVERINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP8520.html"><span>PROPOFOL</span></a></li>
+              <li><a href="./PHP944.html"><span>PROPRANOLOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP4323.html"><span>PROPYLTHIOURACIL</span></a></li>
+              <li><a href="./PHP1517.html"><span>PROTAMINE SULFATE</span></a></li>
+              <li><a href="./PHP4088.html"><span>PROTAMINE ZINC INSULIN</span></a></li>
+              <li><a href="./PHP1617.html"><span>PROTEIN C CONCENTRATE</span></a></li>
+              <li><a href="./PHP7053.html"><span>PROXYMETACAINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP668.html"><span>PRUCALOPRIDE</span></a></li>
+              <li><a href="./PHP2089.html"><span>PSEUDOEPHEDRINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3612.html"><span>PYRAZINAMIDE</span></a></li>
+              <li><a href="./PHP6709.html"><span>PYRIDOSTIGMINE BROMIDE</span></a></li>
+              <li><a href="./PHP6206.html"><span>PYRIDOXINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3961.html"><span>PYRIMETHAMINE</span></a></li>
+              <li><a href="./PHP3964.html"><span>PYRIMETHAMINE WITH SULFADOXINE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="Q">
+        <div class="row">
+          <div class="span1">
+            <h2 title="5  begining with the letter Q">Q</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP2284.html"><span>QUETIAPINE</span></a></li>
+              <li><a href="./PHP4720.html"><span>QUINAGOLIDE</span></a></li>
+              <li><a href="./PHP1184.html"><span>QUINAPRIL</span></a></li>
+              <li><a href="./PHP85612.html"><span>QUINAPRIL WITH HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP3968.html"><span>QUININE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="R">
+        <div class="row">
+          <div class="span1">
+            <h2 title="52  begining with the letter R">R</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP448.html"><span>RABEPRAZOLE SODIUM</span></a></li>
+              <li><a href="./PHP8470.html"><span>RABIES IMMUNOGLOBULIN</span></a></li>
+              <li><a href="./PHP8391.html"><span>RABIES VACCINE</span></a></li>
+              <li><a href="./PHP18900.html"><span>RACECADOTRIL</span></a></li>
+              <li><a href="./PHP4484.html"><span>RALOXIFENE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3836.html"><span>RALTEGRAVIR</span></a></li>
+              <li><a href="./PHP5392.html"><span>RALTITREXED</span></a></li>
+              <li><a href="./PHP1191.html"><span>RAMIPRIL</span></a></li>
+              <li><a href="./PHP85604.html"><span>RAMIPRIL WITH FELODIPINE</span></a></li>
+              <li><a href="./PHP7169.html"><span>RANIBIZUMAB</span></a></li>
+              <li><a href="./PHP413.html"><span>RANITIDINE</span></a></li>
+              <li><a href="./PHP1390.html"><span>RANOLAZINE</span></a></li>
+              <li><a href="./PHP3114.html"><span>RASAGILINE</span></a></li>
+              <li><a href="./PHP6685.html"><span>RASBURICASE</span></a></li>
+              <li><a href="./PHP2454.html"><span>REBOXETINE</span></a></li>
+              <li><a href="./PHP34179.html"><span>REGORAFENIB</span></a></li>
+              <li><a href="./PHP8600.html"><span>REMIFENTANIL</span></a></li>
+              <li><a href="./PHP4201.html"><span>REPAGLINIDE</span></a></li>
+              <li><a href="./PHP7983.html"><span>RETAPAMULIN</span></a></li>
+              <li><a href="./PHP1580.html"><span>RETEPLASE</span></a></li>
+              <li><a href="./PHP2964.html"><span>RETIGABINE</span></a></li>
+              <li><a href="./PHP104992.html"><span>RETINOL PALMITATE WITH WHITE SOFT PARAFFIN AND LIGHT LIQUID PARAFFIN AND LIQUID PARAFFIN AND WOOL</span></a></li>
+              <li><a href="./PHP88024.html"><span>RHUBARB EXTRACT WITH SALICYLIC ACID</span></a></li>
+              <li><a href="./PHP3904.html"><span>RIBAVIRIN</span></a></li>
+              <li><a href="./PHP3616.html"><span>RIFABUTIN</span></a></li>
+              <li><a href="./PHP3619.html"><span>RIFAMPICIN</span></a></li>
+              <li><a href="./PHP97002.html"><span>RIFAMPICIN WITH ETHAMBUTOL, ISONIAZID AND PYRAZINAMIDE</span></a></li>
+              <li><a href="./PHP85622.html"><span>RIFAMPICIN WITH ISONIAZID</span></a></li>
+              <li><a href="./PHP85621.html"><span>RIFAMPICIN WITH ISONIAZID AND PYRAZINAMIDE</span></a></li>
+              <li><a href="./PHP3567.html"><span>RIFAXIMIN</span></a></li>
+              <li><a href="./PHP3830.html"><span>RILPIVIRINE</span></a></li>
+              <li><a href="./PHP3160.html"><span>RILUZOLE</span></a></li>
+              <li><a href="./PHP6894.html"><span>RIMEXOLONE</span></a></li>
+              <li><a href="./PHP93590.html"><span>RIOCIGUAT</span></a></li>
+              <li><a href="./PHP4675.html"><span>RISEDRONATE SODIUM</span></a></li>
+              <li><a href="./PHP98622.html"><span>RISEDRONATE WITH CALCIUM CARBONATE AND COLECALCIFEROL</span></a></li>
+              <li><a href="./PHP2288.html"><span>RISPERIDONE</span></a></li>
+              <li><a href="./PHP3813.html"><span>RITONAVIR</span></a></li>
+              <li><a href="./PHP5662.html"><span>RITUXIMAB</span></a></li>
+              <li><a href="./PHP1513.html"><span>RIVAROXABAN</span></a></li>
+              <li><a href="./PHP3250.html"><span>RIVASTIGMINE</span></a></li>
+              <li><a href="./PHP2852.html"><span>RIZATRIPTAN</span></a></li>
+              <li><a href="./PHP8624.html"><span>ROCURONIUM BROMIDE</span></a></li>
+              <li><a href="./PHP1892.html"><span>ROFLUMILAST</span></a></li>
+              <li><a href="./PHP5930.html"><span>ROMIPLOSTIM</span></a></li>
+              <li><a href="./PHP3080.html"><span>ROPINIROLE</span></a></li>
+              <li><a href="./PHP8746.html"><span>ROPIVACAINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1645.html"><span>ROSUVASTATIN</span></a></li>
+              <li><a href="./PHP8396.html"><span>ROTAVIRUS VACCINE</span></a></li>
+              <li><a href="./PHP3087.html"><span>ROTIGOTINE</span></a></li>
+              <li><a href="./PHP2967.html"><span>RUFINAMIDE</span></a></li>
+              <li><a href="./PHP18720.html"><span>RUXOLITINIB</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="S">
+        <div class="row">
+          <div class="span1">
+            <h2 title="79  begining with the letter S">S</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP1756.html"><span>SALBUTAMOL</span></a></li>
+              <li><a href="./PHP7754.html"><span>SALICYLIC ACID</span></a></li>
+              <li><a href="./PHP88056.html"><span>SALICYLIC ACID WITH LACTIC ACID </span></a></li>
+              <li><a href="./PHP104172.html"><span>SALICYLIC ACID WITH ZINC OXIDE</span></a></li>
+              <li><a href="./PHP1771.html"><span>SALMETEROL</span></a></li>
+              <li><a href="./PHP6077.html"><span>SAPROPTERIN DIHYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3816.html"><span>SAQUINAVIR</span></a></li>
+              <li><a href="./PHP4208.html"><span>SAXAGLIPTIN</span></a></li>
+              <li><a href="./PHP85627.html"><span>SAXAGLIPTIN WITH METFORMIN</span></a></li>
+              <li><a href="./PHP3116.html"><span>SELEGILINE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP6176.html"><span>SELENIUM</span></a></li>
+              <li><a href="./PHP588.html"><span>SENNA</span></a></li>
+              <li><a href="./PHP85553.html"><span>SENNA WITH ISPAGHULA HUSK</span></a></li>
+              <li><a href="./PHP2435.html"><span>SERTRALINE</span></a></li>
+              <li><a href="./PHP93604.html"><span>SEVELAMER</span></a></li>
+              <li><a href="./PHP8542.html"><span>SEVOFLURANE</span></a></li>
+              <li><a href="./PHP1059.html"><span>SILDENAFIL</span></a></li>
+              <li><a href="./PHP93597.html"><span>SILTUXIMAB</span></a></li>
+              <li><a href="./PHP7893.html"><span>SILVER NITRATE</span></a></li>
+              <li><a href="./PHP7985.html"><span>SILVER SULFADIAZINE</span></a></li>
+              <li><a href="./PHP106893.html"><span>SIMEPREVIR</span></a></li>
+              <li><a href="./PHP11104.html"><span>SIMETICONE</span></a></li>
+              <li><a href="./PHP92534.html"><span>SIMETICONE WITH ALUMINIUM HYDROXIDE AND MAGNESIUM HYDROXIDE</span></a></li>
+              <li><a href="./PHP1647.html"><span>SIMVASTATIN</span></a></li>
+              <li><a href="./PHP85603.html"><span>SIMVASTATIN WITH EZETIMIBE</span></a></li>
+              <li><a href="./PHP5637.html"><span>SIROLIMUS</span></a></li>
+              <li><a href="./PHP4210.html"><span>SITAGLIPTIN</span></a></li>
+              <li><a href="./PHP85628.html"><span>SITAGLIPTIN WITH METFORMIN</span></a></li>
+              <li><a href="./PHP88107.html"><span>SODIUM ACID PHOSPHATE WITH SODIUM PHOSPHATE</span></a></li>
+              <li><a href="./PHP85548.html"><span>SODIUM ALGINATE WITH CALCIUM CARBONATE AND SODIUM BICARBONATE</span></a></li>
+              <li><a href="./PHP85549.html"><span>SODIUM ALGINATE WITH POTASSIUM BICARBONATE</span></a></li>
+              <li><a href="./PHP6560.html"><span>SODIUM AUROTHIOMALATE</span></a></li>
+              <li><a href="./PHP5118.html"><span>SODIUM BICARBONATE</span></a></li>
+              <li><a href="./PHP88026.html"><span>SODIUM BICARBONATE WITH SODIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP5143.html"><span>SODIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP88112.html"><span>SODIUM CHLORIDE WITH GLUCOSE</span></a></li>
+              <li><a href="./PHP5120.html"><span>SODIUM CITRATE</span></a></li>
+              <li><a href="./PHP4681.html"><span>SODIUM CLODRONATE</span></a></li>
+              <li><a href="./PHP541.html"><span>SODIUM CROMOGLICATE</span></a></li>
+              <li><a href="./PHP5855.html"><span>SODIUM FEREDETATE</span></a></li>
+              <li><a href="./PHP6152.html"><span>SODIUM FLUORIDE</span></a></li>
+              <li><a href="./PHP7122.html"><span>SODIUM HYALURONATE</span></a></li>
+              <li><a href="./PHP230.html"><span>SODIUM NITRITE</span></a></li>
+              <li><a href="./PHP1065.html"><span>SODIUM NITROPRUSSIDE</span></a></li>
+              <li><a href="./PHP2146.html"><span>SODIUM OXYBATE</span></a></li>
+              <li><a href="./PHP6344.html"><span>SODIUM PHENYLBUTYRATE</span></a></li>
+              <li><a href="./PHP594.html"><span>SODIUM PICOSULFATE</span></a></li>
+              <li><a href="./PHP104232.html"><span>SODIUM POLYSTYRENE SULFONATE</span></a></li>
+              <li><a href="./PHP3991.html"><span>SODIUM STIBOGLUCONATE</span></a></li>
+              <li><a href="./PHP1714.html"><span>SODIUM TETRADECYL SULFATE</span></a></li>
+              <li><a href="./PHP232.html"><span>SODIUM THIOSULFATE</span></a></li>
+              <li><a href="./PHP2978.html"><span>SODIUM VALPROATE</span></a></li>
+              <li><a href="./PHP34491.html"><span>SOFOSBUVIR</span></a></li>
+              <li><a href="./PHP5100.html"><span>SOLIFENACIN SUCCINATE</span></a></li>
+              <li><a href="./PHP4600.html"><span>SOMATROPIN</span></a></li>
+              <li><a href="./PHP5544.html"><span>SORAFENIB</span></a></li>
+              <li><a href="./PHP1020.html"><span>SOTALOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP33749.html"><span>SOYBEAN OIL</span></a></li>
+              <li><a href="./PHP834.html"><span>SPIRONOLACTONE</span></a></li>
+              <li><a href="./PHP85563.html"><span>SPIRONOLACTONE WITH FUROSEMIDE</span></a></li>
+              <li><a href="./PHP107558.html"><span>ST. JOHN'S WORT</span></a></li>
+              <li><a href="./PHP3773.html"><span>STAVUDINE</span></a></li>
+              <li><a href="./PHP561.html"><span>STERCULIA</span></a></li>
+              <li><a href="./PHP108051.html"><span>STERCULIA WITH FRANGULA</span></a></li>
+              <li><a href="./PHP1582.html"><span>STREPTOKINASE</span></a></li>
+              <li><a href="./PHP3636.html"><span>STREPTOMYCIN</span></a></li>
+              <li><a href="./PHP4695.html"><span>STRONTIUM RANELATE</span></a></li>
+              <li><a href="./PHP424.html"><span>SUCRALFATE</span></a></li>
+              <li><a href="./PHP108188.html"><span>SUCROFERRIC OXYHYDROXIDE</span></a></li>
+              <li><a href="./PHP8649.html"><span>SUGAMMADEX</span></a></li>
+              <li><a href="./PHP3581.html"><span>SULFADIAZINE</span></a></li>
+              <li><a href="./PHP504.html"><span>SULFASALAZINE</span></a></li>
+              <li><a href="./PHP6680.html"><span>SULFINPYRAZONE</span></a></li>
+              <li><a href="./PHP6515.html"><span>SULINDAC</span></a></li>
+              <li><a href="./PHP2253.html"><span>SULPIRIDE</span></a></li>
+              <li><a href="./PHP2854.html"><span>SUMATRIPTAN</span></a></li>
+              <li><a href="./PHP5546.html"><span>SUNITINIB</span></a></li>
+              <li><a href="./SUPERDRUG2.html"><span>SUPERDRUG ETHINYLESTRADIOL WITH ETONOGESTREL</span></a></li>
+              <li><a href="./PHP8631.html"><span>SUXAMETHONIUM CHLORIDE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="T">
+        <div class="row">
+          <div class="span1">
+            <h2 title="113  begining with the letter T">T</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP7717.html"><span>TACALCITOL</span></a></li>
+              <li><a href="./PHP5639.html"><span>TACROLIMUS</span></a></li>
+              <li><a href="./PHP1067.html"><span>TADALAFIL</span></a></li>
+              <li><a href="./PHP33558.html"><span>TAFAMIDIS</span></a></li>
+              <li><a href="./PHP6994.html"><span>TAFLUPROST</span></a></li>
+              <li><a href="./PHP5761.html"><span>TAMOXIFEN</span></a></li>
+              <li><a href="./PHP5050.html"><span>TAMSULOSIN HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP85591.html"><span>TAMSULOSIN WITH DUTASTERIDE</span></a></li>
+              <li><a href="./PHP85634.html"><span>TAMSULOSIN WITH SOLIFENACIN</span></a></li>
+              <li><a href="./PHP2789.html"><span>TAPENTADOL</span></a></li>
+              <li><a href="./PHP7720.html"><span>TAZAROTENE</span></a></li>
+              <li><a href="./PHP18400.html"><span>TEGAFUR WITH GIMERACIL AND OTERACIL</span></a></li>
+              <li><a href="./PHP3544.html"><span>TEICOPLANIN</span></a></li>
+              <li><a href="./PHP3884.html"><span>TELAPREVIR</span></a></li>
+              <li><a href="./PHP93598.html"><span>TELAVANCIN</span></a></li>
+              <li><a href="./PHP3874.html"><span>TELBIVUDINE</span></a></li>
+              <li><a href="./PHP3520.html"><span>TELITHROMYCIN</span></a></li>
+              <li><a href="./PHP1239.html"><span>TELMISARTAN</span></a></li>
+              <li><a href="./PHP85613.html"><span>TELMISARTAN WITH HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP2116.html"><span>TEMAZEPAM</span></a></li>
+              <li><a href="./PHP3320.html"><span>TEMOCILLIN</span></a></li>
+              <li><a href="./PHP5507.html"><span>TEMOPORFIN</span></a></li>
+              <li><a href="./PHP5463.html"><span>TEMOZOLOMIDE</span></a></li>
+              <li><a href="./PHP5548.html"><span>TEMSIROLIMUS</span></a></li>
+              <li><a href="./PHP1584.html"><span>TENECTEPLASE</span></a></li>
+              <li><a href="./PHP3775.html"><span>TENOFOVIR DISOPROXIL</span></a></li>
+              <li><a href="./PHP85586.html"><span>TENOFOVIR WITH COBICISTAT, ELVITEGRAVIR AND EMTRICITABINE</span></a></li>
+              <li><a href="./PHP85593.html"><span>TENOFOVIR WITH EFAVIRENZ AND EMTRICITABINE</span></a></li>
+              <li><a href="./PHP97003.html"><span>TENOFOVIR WITH EMTRICITABINE</span></a></li>
+              <li><a href="./PHP85595.html"><span>TENOFOVIR WITH EMTRICITABINE AND RILPIVIRINE</span></a></li>
+              <li><a href="./PHP6517.html"><span>TENOXICAM</span></a></li>
+              <li><a href="./PHP1112.html"><span>TERAZOSIN</span></a></li>
+              <li><a href="./PHP3739.html"><span>TERBINAFINE</span></a></li>
+              <li><a href="./PHP1775.html"><span>TERBUTALINE SULFATE</span></a></li>
+              <li><a href="./PHP34469.html"><span>TERIFLUNOMIDE</span></a></li>
+              <li><a href="./PHP4650.html"><span>TERIPARATIDE</span></a></li>
+              <li><a href="./PHP4629.html"><span>TERLIPRESSIN ACETATE</span></a></li>
+              <li><a href="./PHP100921.html"><span>TESTOSTERONE</span></a></li>
+              <li><a href="./PHP106634.html"><span>TESTOSTERONE DECANOATE, ISOCAPROATE, PHENYLPROPIONATE AND PROPIONATE</span></a></li>
+              <li><a href="./PHP100922.html"><span>TESTOSTERONE ENANTATE</span></a></li>
+              <li><a href="./PHP100923.html"><span>TESTOSTERONE PROPIONATE</span></a></li>
+              <li><a href="./PHP100924.html"><span>TESTOSTERONE UNDECANOATE</span></a></li>
+              <li><a href="./PHP8473.html"><span>TETANUS IMMUNOGLOBULIN</span></a></li>
+              <li><a href="./PHP3163.html"><span>TETRABENAZINE</span></a></li>
+              <li><a href="./PHP8752.html"><span>TETRACAINE</span></a></li>
+              <li><a href="./PHP4570.html"><span>TETRACOSACTIDE</span></a></li>
+              <li><a href="./PHP3439.html"><span>TETRACYCLINE</span></a></li>
+              <li><a href="./PHP104233.html"><span>TETRASTARCH</span></a></li>
+              <li><a href="./PHP5715.html"><span>THALIDOMIDE</span></a></li>
+              <li><a href="./PHP1803.html"><span>THEOPHYLLINE</span></a></li>
+              <li><a href="./PHP6202.html"><span>THIAMINE</span></a></li>
+              <li><a href="./PHP8523.html"><span>THIOPENTAL SODIUM</span></a></li>
+              <li><a href="./PHP5276.html"><span>THIOTEPA</span></a></li>
+              <li><a href="./PHP4612.html"><span>THYROTROPIN ALFA</span></a></li>
+              <li><a href="./PHP2971.html"><span>TIAGABINE</span></a></li>
+              <li><a href="./PHP6520.html"><span>TIAPROFENIC ACID</span></a></li>
+              <li><a href="./PHP4475.html"><span>TIBOLONE</span></a></li>
+              <li><a href="./PHP1554.html"><span>TICAGRELOR</span></a></li>
+              <li><a href="./PHP3354.html"><span>TICARCILLIN WITH CLAVULANIC ACID</span></a></li>
+              <li><a href="./PHP8407.html"><span>TICK-BORNE ENCEPHALITIS VACCINE, INACTIVATED</span></a></li>
+              <li><a href="./PHP3463.html"><span>TIGECYCLINE</span></a></li>
+              <li><a href="./PHP1025.html"><span>TIMOLOL MALEATE</span></a></li>
+              <li><a href="./PHP85568.html"><span>TIMOLOL WITH AMILORIDE AND HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP85579.html"><span>TIMOLOL WITH BENDROFLUMETHIAZIDE</span></a></li>
+              <li><a href="./PHP3655.html"><span>TINIDAZOLE</span></a></li>
+              <li><a href="./PHP1463.html"><span>TINZAPARIN SODIUM</span></a></li>
+              <li><a href="./PHP8048.html"><span>TIOCONAZOLE</span></a></li>
+              <li><a href="./PHP5397.html"><span>TIOGUANINE</span></a></li>
+              <li><a href="./PHP1798.html"><span>TIOTROPIUM</span></a></li>
+              <li><a href="./PHP3818.html"><span>TIPRANAVIR</span></a></li>
+              <li><a href="./PHP1557.html"><span>TIROFIBAN</span></a></li>
+              <li><a href="./PHP6731.html"><span>TIZANIDINE</span></a></li>
+              <li><a href="./PHP3492.html"><span>TOBRAMYCIN</span></a></li>
+              <li><a href="./PHP6653.html"><span>TOCILIZUMAB</span></a></li>
+              <li><a href="./PHP4156.html"><span>TOLBUTAMIDE</span></a></li>
+              <li><a href="./PHP3124.html"><span>TOLCAPONE</span></a></li>
+              <li><a href="./PHP2833.html"><span>TOLFENAMIC ACID</span></a></li>
+              <li><a href="./PHP5102.html"><span>TOLTERODINE TARTRATE</span></a></li>
+              <li><a href="./PHP4640.html"><span>TOLVAPTAN</span></a></li>
+              <li><a href="./PHP2974.html"><span>TOPIRAMATE</span></a></li>
+              <li><a href="./PHP5571.html"><span>TOPOTECAN</span></a></li>
+              <li><a href="./PHP818.html"><span>TORASEMIDE</span></a></li>
+              <li><a href="./PHP5765.html"><span>TOREMIFENE</span></a></li>
+              <li><a href="./PHP5576.html"><span>TRABECTEDIN</span></a></li>
+              <li><a href="./PHP2795.html"><span>TRAMADOL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP1198.html"><span>TRANDOLAPRIL</span></a></li>
+              <li><a href="./PHP1600.html"><span>TRANEXAMIC ACID</span></a></li>
+              <li><a href="./PHP2406.html"><span>TRANYLCYPROMINE</span></a></li>
+              <li><a href="./PHP5581.html"><span>TRASTUZUMAB</span></a></li>
+              <li><a href="./PHP104229.html"><span>TRASTUZUMAB EMTANSINE</span></a></li>
+              <li><a href="./PHP6996.html"><span>TRAVOPROST</span></a></li>
+              <li><a href="./PHP88012.html"><span>TRAVOPROST WITH TIMOLOL</span></a></li>
+              <li><a href="./PHP2392.html"><span>TRAZODONE HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP80614.html"><span>TREE POLLEN EXTRACT</span></a></li>
+              <li><a href="./PHP5279.html"><span>TREOSULFAN</span></a></li>
+              <li><a href="./PHP5584.html"><span>TRETINOIN</span></a></li>
+              <li><a href="./PHP88055.html"><span>TRETINOIN WITH CLINDAMYCIN</span></a></li>
+              <li><a href="./PHP88054.html"><span>TRETINOIN WITH ERYTHROMYCIN</span></a></li>
+              <li><a href="./PHP7303.html"><span>TRIAMCINOLONE ACETONIDE</span></a></li>
+              <li><a href="./PHP94657.html"><span>TRIAMCINOLONE HEXACETONIDE</span></a></li>
+              <li><a href="./PHP827.html"><span>TRIAMTERENE</span></a></li>
+              <li><a href="./PHP85562.html"><span>TRIAMTERENE WITH CHLORTALIDONE</span></a></li>
+              <li><a href="./PHP6304.html"><span>TRIENTINE DIHYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP2258.html"><span>TRIFLUOPERAZINE</span></a></li>
+              <li><a href="./PHP3153.html"><span>TRIHEXYPHENIDYL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP3586.html"><span>TRIMETHOPRIM</span></a></li>
+              <li><a href="./PHP2386.html"><span>TRIMIPRAMINE</span></a></li>
+              <li><a href="./PHP422.html"><span>TRIPOTASSIUM DICITRATOBISMUTHATE</span></a></li>
+              <li><a href="./PHP4745.html"><span>TRIPTORELIN</span></a></li>
+              <li><a href="./PHP6940.html"><span>TROPICAMIDE</span></a></li>
+              <li><a href="./PHP5106.html"><span>TROSPIUM CHLORIDE</span></a></li>
+              <li><a href="./PHP34509.html"><span>TUBERCULIN PURIFIED PROTEIN DERIVATIVE</span></a></li>
+              <li><a href="./PHP8411.html"><span>TYPHOID VACCINE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="U">
+        <div class="row">
+          <div class="span1">
+            <h2 title="10  begining with the letter U">U</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP18445.html"><span>ULIPRISTAL ACETATE</span></a></li>
+              <li><a href="./PHP93591.html"><span>UMECLIDINIUM</span></a></li>
+              <li><a href="./PHP88081.html"><span>UMECLIDINIUM WITH VILANTEROL</span></a></li>
+              <li><a href="./PHP88063.html"><span>UNDECENOIC ACID WITH ZINC UNDECENOATE</span></a></li>
+              <li><a href="./PHP93599.html"><span>UREA (13C)</span></a></li>
+              <li><a href="./PHP34510.html"><span>UREA HYDROGEN PEROXIDE</span></a></li>
+              <li><a href="./PHP97245.html"><span>UROFOLLITROPIN</span></a></li>
+              <li><a href="./PHP1586.html"><span>UROKINASE</span></a></li>
+              <li><a href="./PHP718.html"><span>URSODEOXYCHOLIC ACID</span></a></li>
+              <li><a href="./PHP34014.html"><span>USTEKINUMAB</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="V">
+        <div class="row">
+          <div class="span1">
+            <h2 title="35  begining with the letter V">V</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP3853.html"><span>VALACICLOVIR</span></a></li>
+              <li><a href="./PHP3866.html"><span>VALGANCICLOVIR</span></a></li>
+              <li><a href="./PHP2331.html"><span>VALPROIC ACID</span></a></li>
+              <li><a href="./PHP1245.html"><span>VALSARTAN</span></a></li>
+              <li><a href="./PHP85614.html"><span>VALSARTAN WITH HYDROCHLOROTHIAZIDE</span></a></li>
+              <li><a href="./PHP3541.html"><span>VANCOMYCIN</span></a></li>
+              <li><a href="./PHP18390.html"><span>VANDETANIB</span></a></li>
+              <li><a href="./PHP5169.html"><span>VARDENAFIL</span></a></li>
+              <li><a href="./PHP3208.html"><span>VARENICLINE</span></a></li>
+              <li><a href="./PHP8476.html"><span>VARICELLA-ZOSTER IMMUNOGLOBULIN</span></a></li>
+              <li><a href="./PHP8420.html"><span>VARICELLA-ZOSTER VACCINE</span></a></li>
+              <li><a href="./PHP4632.html"><span>VASOPRESSIN</span></a></li>
+              <li><a href="./PHP8627.html"><span>VECURONIUM BROMIDE</span></a></li>
+              <li><a href="./PHP93589.html"><span>VEDOLIZUMAB</span></a></li>
+              <li><a href="./PHP6319.html"><span>VELAGLUCERASE ALFA</span></a></li>
+              <li><a href="./PHP17983.html"><span>VEMURAFENIB</span></a></li>
+              <li><a href="./PHP2459.html"><span>VENLAFAXINE</span></a></li>
+              <li><a href="./PHP1372.html"><span>VERAPAMIL HYDROCHLORIDE</span></a></li>
+              <li><a href="./PHP7171.html"><span>VERTEPORFIN</span></a></li>
+              <li><a href="./PHP3000.html"><span>VIGABATRIN</span></a></li>
+              <li><a href="./PHP4216.html"><span>VILDAGLIPTIN</span></a></li>
+              <li><a href="./PHP85629.html"><span>VILDAGLIPTIN WITH METFORMIN</span></a></li>
+              <li><a href="./PHP5412.html"><span>VINBLASTINE SULFATE</span></a></li>
+              <li><a href="./PHP5415.html"><span>VINCRISTINE SULFATE</span></a></li>
+              <li><a href="./PHP5418.html"><span>VINDESINE SULFATE</span></a></li>
+              <li><a href="./PHP5420.html"><span>VINFLUNINE</span></a></li>
+              <li><a href="./PHP5422.html"><span>VINORELBINE</span></a></li>
+              <li><a href="./PHP33877.html"><span>VISMODEGIB</span></a></li>
+              <li><a href="./PHP6190.html"><span>VITAMIN A</span></a></li>
+              <li><a href="./PHP106446.html"><span>VITAMIN B COMPLEX</span></a></li>
+              <li><a href="./PHP106445.html"><span>VITAMIN B SUBSTANCES WITH ASCORBIC ACID</span></a></li>
+              <li><a href="./PHP14143.html"><span>VITAMINS A AND D</span></a></li>
+              <li><a href="./PHP92553.html"><span>VITAMINS A, C AND D</span></a></li>
+              <li><a href="./PHP106448.html"><span>VITAMINS WITH MINERALS AND TRACE ELEMENTS</span></a></li>
+              <li><a href="./PHP3709.html"><span>VORICONAZOLE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="W">
+        <div class="row">
+          <div class="span1">
+            <h2 title="2  begining with the letter W">W</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP1494.html"><span>WARFARIN SODIUM</span></a></li>
+              <li><a href="./PHP80612.html"><span>WASP VENOM EXTRACT</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="X">
+        <div class="row">
+          <div class="span1">
+            <h2 title="2  begining with the letter X">X</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP803.html"><span>XIPAMIDE</span></a></li>
+              <li><a href="./PHP7319.html"><span>XYLOMETAZOLINE HYDROCHLORIDE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="Y">
+        <div class="row">
+          <div class="span1">
+            <h2 title="1  begining with the letter Y">Y</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP8427.html"><span>YELLOW FEVER VACCINE, LIVE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="Z">
+        <div class="row">
+          <div class="span1">
+            <h2 title="15  begining with the letter Z">Z</h2>
+          </div>
+          <div class="span11">
+            <ul class="index grid3">
+              <li><a href="./PHP1889.html"><span>ZAFIRLUKAST</span></a></li>
+              <li><a href="./PHP2119.html"><span>ZALEPLON</span></a></li>
+              <li><a href="./PHP3898.html"><span>ZANAMIVIR</span></a></li>
+              <li><a href="./PHP3786.html"><span>ZIDOVUDINE</span></a></li>
+              <li><a href="./PHP85623.html"><span>ZIDOVUDINE WITH LAMIVUDINE</span></a></li>
+              <li><a href="./PHP6306.html"><span>ZINC ACETATE</span></a></li>
+              <li><a href="./PHP6172.html"><span>ZINC SULFATE</span></a></li>
+              <li><a href="./PHP4687.html"><span>ZOLEDRONIC ACID</span></a></li>
+              <li><a href="./PHP2859.html"><span>ZOLMITRIPTAN</span></a></li>
+              <li><a href="./PHP2121.html"><span>ZOLPIDEM TARTRATE</span></a></li>
+              <li><a href="./PHP3003.html"><span>ZONISAMIDE</span></a></li>
+              <li><a href="./PHP2124.html"><span>ZOPICLONE</span></a></li>
+              <li><a href="./PHP2261.html"><span>ZUCLOPENTHIXOL</span></a></li>
+              <li><a href="./PHP2264.html"><span>ZUCLOPENTHIXOL ACETATE</span></a></li>
+              <li><a href="./PHP2321.html"><span>ZUCLOPENTHIXOL DECANOATE</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  
+  <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+          <div style="margin:0 auto; width: 900px">
+            <ul class="nav nav-pills">
+              <li><a href="/dentalpractitionersformulary" title="Dental Practitioners' Formulary"><i class="icon-nice-chevron-right"></i>&nbsp;&nbsp;<span>Dental Practitioners' Formulary</span></a></li>
+              <li><a href="/nurseprescribersformulary" title="Nurse Prescribers' Formulary"><i class="icon-nice-chevron-right"></i>&nbsp;&nbsp;<span>Nurse Prescribers' Formulary</span></a></li>
+              <li><a href="/guidance" title="Medicines Guidance"><i class="icon-nice-chevron-right"></i>&nbsp;&nbsp;<span>Medicines Guidance</span></a></li>
+              <li><a href="/about" title="About BNF"><i class="icon-nice-chevron-right"></i>&nbsp;&nbsp;<span>About BNF</span></a></li>
+            </ul>
+          </div>
+      </div>
+  </div>
+  
+  <footer class="footer-wrapper">
+    <div class="footer">
+      <div class="container">
+        <a href="http://www.nice.org.uk" class="footer-logo"><i class="logo icon-nice-logo"></i></a>
+  
+          <ul class="nav nav-services">
+              <li><a href="http://pathways.nice.org.uk"><i class="icon-nice-pathways"></i> NICE Pathways</a></li>
+              <li><a href="http://www.nice.org.uk/guidance"><i class="icon-nice-guidance"></i> Guidance</a></li>
+              <li><a href="http://www.nice.org.uk/standards-and-indicators"><i class="icon-nice-standards"></i> Standards &amp;&nbsp;Indicators</a></li>
+              <li><a href="http://www.evidence.nhs.uk"><i class="icon-nice-evidence"></i> Evidence services</a></li>
+          </ul>
+  
+          <div class="legal-panel">
+              <div class="social-panel">
+                  <!-- AddThis Button BEGIN -->
+                  <p class="social-follow addthis_toolbox">
+                  Follow Us
+                  <a class="addthis_button_twitter_follow" addthis:userid="nicecomms" target="_blank" title="Follow on Twitter" href="#">
+                    <i class="icon-twitter"></i>
+                  </a></p>
+                  <!-- AddThis Button END -->
+              </div>
+  
+              <ul class="nav nav-legal">
+                  <li><a href="http://www.evidence.nhs.uk/sitemap">Sitemap</a></li>
+                  <li><a href="https://accounts.nice.org.uk/terms-and-conditions" target="_blank">Terms and Conditions</a></li>
+                  <li><a href="http://www.evidence.nhs.uk/contact-us">Contact Us</a></li>
+                  <li><a href="http://www.evidence.nhs.uk/frequently-asked-questions" title="Frequently Asked Questions">FAQs</a></li>
+                  <li><a href="http://www.evidence.nhs.uk/help-and-support">Help</a></li>
+              </ul>
+  
+            <p class="legal-copyright">Copyright &copy; BMJ Group and the Royal Pharmaceutical Society of Great Britain 2014. All rights reserved.
+                &ndash; <a href="http://www.nice.org.uk" rel="provider">Provided by NICE</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap  -->
+  <script src="css_1/NICE.TopHat.dev.js"
+          data-evidence="bnf"
+          data-environment="Test"
+          data-search="http://bnf.spike.api.nice.org.uk/api/search/%q"
+          data-typeaheadtype="remote"
+          data-typeaheadsource="http://bnf.spike.api.nice.org.uk/api/typeahead/%term"
+          async></script>
+  <script src="css_1/jquery-1.10.2.min.js"></script>
+  <script src="css_1/twitter.bootstrap.min.js"></script>
+  <script src="css_1/NICE.bootstrap.min.js"></script>
+  <script src="css_1/NICE.EventTracking.js"></script>
+  
+  <script src="/s/remoteload.js"></script>
+  <script src="/s/NICE.bnf.js"></script>
+  <script>
+    (function( $ ) {
+      $(function() {
+        var $backToTop = $( '#backToTop' );
+        var $win = $( window );
+        var opt = { min: 500, fadeSpeed: 100, scrollSpeed: 300 };
+  
+        $( document.body ).on('click', '#backToTop', function( ev ) {
+          ev.preventDefault();
+  
+          $( "html, body" ).animate({ scrollTop: 0 }, opt.scrollSpeed );
+        });
+  
+        $win.on('scroll', function() {
+          $backToTop[ 'fade' + ( $win.scrollTop() >= opt.min ? 'In' : 'Out' ) ]( opt.fadeSpeed );
+        });
+      });
+    })( jQuery );
+  </script>
+  
+  <!-- 3rd Party Scripts -->
+  <script src="css_1/addthis_widget.js" type="text/javascript"></script>
+</body>
+</html>
