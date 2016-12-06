@@ -7013,9 +7013,12 @@ body.homepage .about-panel-nav ul a {
     }
 }
 
+<!-- tophat-inner START-->
+
 body.homepage #nice-global {
-    background-color: #264965;
+    background-color: #004650;
 }
+<!-- tophat-inner END-->
 
 body.homepage #nice-global .nice-search button {
     background-color: #dcdcdc;
