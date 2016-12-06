@@ -6359,7 +6359,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 }
 
 #homepage.alt .guidance-panel-container .guidance-panel h1,#homepage.alt .guidance-panel-container .guidance-panel a,#homepage.alt .guidance-panel-container .guidance-panel {
-    color: #fff
+    color: #222222
 }
 
 @media only screen and (max-width: 979px) {
