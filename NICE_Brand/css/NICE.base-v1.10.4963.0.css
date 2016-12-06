@@ -7167,7 +7167,7 @@ body #nice-global.nice-global .menu {
 
 body>div.nice-tophat>.blackbar {
     min-height: 72px;
-    background-color: #ffffff !Important;
+    background-color: #333
 }
 
 body>div.nice-tophat>:last-child {
