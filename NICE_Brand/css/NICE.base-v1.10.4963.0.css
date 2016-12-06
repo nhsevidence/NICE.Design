@@ -7013,12 +7013,11 @@ body.homepage .about-panel-nav ul a {
     }
 }
 
-<!-- tophat-inner START-->
 
 body.homepage #nice-global {
-    background-color: red;
+    background-color: #264965;
 }
-<!-- tophat-inner END-->
+
 
 body.homepage #nice-global .nice-search button {
     background-color: #dcdcdc;
