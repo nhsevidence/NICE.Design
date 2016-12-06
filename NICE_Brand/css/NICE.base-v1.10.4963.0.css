@@ -7014,7 +7014,7 @@ body.homepage .about-panel-nav ul a {
 }
 
 body.homepage #nice-global {
-    background-color: #264965;
+    background-color: #004650
 }
 
 
@@ -7176,7 +7176,7 @@ body>div.nice-tophat>:last-child {
 }
 
 body.homepage>div.nice-tophat>:last-child {
-    background-color: red;
+    background-color: #264965
 }
 
 @media only screen and (max-width: 979px) {
