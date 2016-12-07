@@ -6772,9 +6772,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     font-size: 15px;
     vertical-align: inherit
 }
-
+/* About NICE panel: color change */
 #homepage.homepage .about-panel-nav {
-    background-color: #264965;
+    background-color: #e9e9e9;
     margin-bottom: 12px
 }
 
