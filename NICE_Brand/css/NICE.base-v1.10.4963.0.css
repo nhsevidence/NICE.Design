@@ -6373,10 +6373,10 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         margin-right:70px
     }
 }
-
+/* Browse guidance by area: background: color change */
 #homepage.alt .about-panel-container {
-    background-color: #2f577a;
-    border: 24px solid #2f577a;
+    background-color: #FFFFFF;
+    border: 24px solid #FFFFFF;
     margin-left: 0
 }
 
