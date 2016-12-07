@@ -6379,9 +6379,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     border: 24px solid #FFFFFF;
     margin-left: 0
 }
-
+/* Browse guidance by area: background: color change */
 #homepage.alt .about-panel-container .about-panel {
-    background-color: #2f577a;
+    background-color: #FFFFFF;
     margin-top: 0;
     padding: 24px 24px
 }
