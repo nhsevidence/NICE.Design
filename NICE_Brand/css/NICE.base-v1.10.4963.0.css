@@ -6865,7 +6865,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     }
 /* About NICE panel border right color min-width: color change */
     #homepage.homepage .about-panel-nav ul li:nth-child(odd)>a {
-        border-right: 1px solid #adadad
+        border-right: 1px solid #2f577a
     }
 
     #homepage.homepage .about-panel-nav ul li:last-child:nth-child(odd) {
