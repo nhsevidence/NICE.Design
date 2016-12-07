@@ -6667,9 +6667,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     #homepage.homepage #header .about-panel-container {
         margin-left:0
     }
-
+/* Guidance panel Chevron icons color change */
     #homepage.homepage #header .about-panel-container i {
-        color: #66c2ff;
+        color: #004650;
         font-size: 18px;
         vertical-align: baseline;
         font-weight: 100;
