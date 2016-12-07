@@ -6522,10 +6522,10 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         padding-left:12px
     }
 }
-
+/* Guidance panel background: color change */
 @media only screen and (min-width: 980px) {
     #homepage .header-panel.alt .guidance-panel-container {
-        border:48px solid #2f577a
+        border:48px solid #ffffff
     }
 }
 
