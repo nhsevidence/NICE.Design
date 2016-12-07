@@ -6882,23 +6882,23 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         float:none
     }
 }
-
+/* About NICE panel FONT color: color change */
 #homepage.homepage .about-panel-nav ul li a {
     font-size: 18px;
     line-height: 18px;
-    color: #fff
+    color: #0E0E0E
 }
-
+/* About NICE panel hover color: color change */
 #homepage.homepage .about-panel-nav ul a:hover {
-    background-color: #264965
+    background-color: #d6d6d6
 }
 
 #homepage.homepage .about-panel-nav ul a:hover span {
     text-decoration: underline
 }
-
+/* About NICE panel active color: color change */
 #homepage.homepage .about-panel-nav ul a:active {
-    background-color: #264965
+    background-color: #d6d6d6
 }
 
 #homepage.homepage .about-panel-nav ul i {
@@ -7002,9 +7002,9 @@ body.homepage #layout-messages .alert {
 body.homepage #layout-messages {
     background-color: #2f577a
 }
-
+/* About NICE panel background color: color change */
 body.homepage .about-panel-nav ul a {
-    background-color: #264965
+    background-color: #e9e9e9
 }
 
 @media only screen and (min-width: 980px) {
