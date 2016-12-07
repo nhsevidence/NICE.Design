@@ -6331,10 +6331,10 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     background-color: #2f577a;
     border-right: 48px solid #2f577a
 }
-
+/* Browse guidance by area: background: color change */
 #homepage.alt .guidance-panel-container {
     background-color: inherit;
-    border: 24px solid #2f577a;
+    border: 24px solid #FFFFFF;
     border-right-width: 0
 }
 
