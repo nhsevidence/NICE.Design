@@ -5876,11 +5876,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     padding-right: 12px;
     padding-bottom: 0
 }
-
+/* Guidance panel main message: font weight change */
 #homepage .guidance-panel .guidance-panel-title {
     font-size: 48px;
     line-height: 60px;
-    font-weight: 400
+    font-weight: 700
 }
 
 @media only screen and (max-width: 767px) {
