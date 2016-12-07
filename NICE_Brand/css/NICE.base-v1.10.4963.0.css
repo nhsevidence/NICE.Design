@@ -5240,9 +5240,11 @@ footer.footer-wrapper-new a:hover>i {
 footer.footer-wrapper-new .span3 {
     padding: 20px
 }
-
+/* Footer background color added: color change */
 footer.footer-wrapper-new .footer {
-    overflow: hidden
+    overflow: hidden;
+    color: #ffffff;
+    background-color: #222222
 }
 
 footer.footer-wrapper-new .footer-nicelogo {
