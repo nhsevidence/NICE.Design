@@ -6331,7 +6331,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     background-color: #2f577a;
     border-right: 48px solid #2f577a
 }
-/* Browse guidance by area: background: color change */
+/* Browse guidance by area (max-width: 767px) : background: color change */
 #homepage.alt .guidance-panel-container {
     background-color: inherit;
     border: 24px solid #FFFFFF;
