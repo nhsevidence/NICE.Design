@@ -6505,11 +6505,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     margin-top: 0;
     margin-bottom: 24px
 }
-
+/* Guidance panel background: color change */
 #homepage .header-panel.alt {
     border: 0;
     margin-left: 0;
-    background-color: #2f577a
+    background-color: #ffffff
 }
 
 #homepage .header-panel.alt .guidance-panel-container {
