@@ -5863,9 +5863,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         margin-bottom: 0
     }
 }
-
+/* Find NICE Guidance button background color change: color change */
 #homepage .btn-successalt {
-    background-color: #1a9908;
+    background-color: #222222;
     color: #fff;
     padding: 8px 18px
 }
@@ -6749,11 +6749,12 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 #homepage.homepage #header .how-container h1,#homepage.homepage #header .how-container h2,#homepage.homepage #header .how-container h3,#homepage.homepage #header .how-container h4,#homepage.homepage #header .how-container h5,#homepage.homepage #header .how-container h6 {
     font-weight: normal
 }
-
+/* Find NICE Guidance button TEXT color added: color change */
 #homepage.homepage #header .btn-successalt {
     border: 1px solid #fff;
     margin-top: 24px;
-    margin-bottom: 12px
+    margin-bottom: 12px;
+    color: #FFFFFF
 }
 
 @media only screen and (max-width: 767px) {
