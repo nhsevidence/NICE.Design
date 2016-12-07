@@ -6900,9 +6900,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 #homepage.homepage .about-panel-nav ul a:active {
     background-color: #d6d6d6
 }
-
+/* About NICE panel chevron icon color: color change */
 #homepage.homepage .about-panel-nav ul i {
-    color: #66c2ff;
+    color: #004650;
     vertical-align: middle;
     font-size: 18px;
     font-weight: 100
