@@ -6357,7 +6357,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 #homepage.alt .guidance-panel-container .guidance-panel a {
     text-decoration: underline
 }
-
+/* Guidance Panel text colour change */
 #homepage.alt .guidance-panel-container .guidance-panel h1,#homepage.alt .guidance-panel-container .guidance-panel a,#homepage.alt .guidance-panel-container .guidance-panel {
     color: #222222
 }
