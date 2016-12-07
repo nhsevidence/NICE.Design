@@ -6751,7 +6751,6 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 }
 /* Find NICE Guidance button TEXT color added: color change */
 #homepage.homepage #header .btn-successalt {
-    border: 1px solid #fff;
     margin-top: 24px;
     margin-bottom: 12px;
     color: #FFFFFF
