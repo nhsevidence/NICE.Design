@@ -6821,9 +6821,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         border-left:none
     }
 }
-
+/* About NICE panel border left color: color change */
 #homepage.homepage .about-panel-nav ul>li:first-child {
-    border-left: 1px solid #2f577a
+    border-left: 1px solid #adadad
 }
 
 @media screen and (max-width: 1136px) {
@@ -6837,11 +6837,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         border-right:0
     }
 }
-
+/* About NICE panel border right color: color change */
 #homepage.homepage .about-panel-nav ul li {
     display: inline-block;
     float: none;
-    border-right: 1px solid #2f577a
+    border-right: 1px solid #adadad
 }
 
 @media only screen and (max-width: 979px) {
@@ -6863,9 +6863,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         width: 50%;
         border-right-width: 0
     }
-
+/* About NICE panel border right color min-width: color change */
     #homepage.homepage .about-panel-nav ul li:nth-child(odd)>a {
-        border-right: 1px solid #2f577a
+        border-right: 1px solid #adadad
     }
 
     #homepage.homepage .about-panel-nav ul li:last-child:nth-child(odd) {
