@@ -6405,9 +6405,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         margin-top:15px
     }
 }
-
+/* Browse guidance by area list: color change */
 #homepage.alt .about-panel-container .about-panel h4 a,#homepage.alt .about-panel-container .about-panel,#homepage.alt .about-panel-container .about-panel a {
-    color: #fff
+    color: #0E0E0E
 }
 
 #homepage.alt .about-panel-container .about-panel i {
