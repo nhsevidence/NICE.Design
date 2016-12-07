@@ -6559,11 +6559,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         line-height: 18px
     }
 }
-
+/* Guidance panel Browse guidance by area:: font weight change */
 #homepage .header-panel.alt .about-panel-container .about-panel .about-panel-title {
     font-size: 22px;
     line-height: 24px;
-    font-weight: normal
+    font-weight: 700
 }
 
 @media only screen and (max-width: 767px) {
