@@ -6845,9 +6845,10 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 }
 
 @media only screen and (max-width: 979px) {
+/* About NICE panel border bottom color: color change */
     #homepage.homepage .about-panel-nav ul li {
         text-align:left;
-        border-bottom: 1px solid #2f577a
+        border-bottom: 1px solid #adadad
     }
 }
 
