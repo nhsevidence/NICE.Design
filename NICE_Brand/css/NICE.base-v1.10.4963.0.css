@@ -6409,12 +6409,12 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 #homepage.alt .about-panel-container .about-panel h4 a,#homepage.alt .about-panel-container .about-panel,#homepage.alt .about-panel-container .about-panel a {
     color: #0E0E0E
 }
-
+/* Guidance panel list Chevron icons color change */
 #homepage.alt .about-panel-container .about-panel i {
     font-size: 18px;
     vertical-align: baseline;
     font-weight: 100;
-    color: #66c2ff;
+    color: #004650;
     float: left;
     line-height: 16px;
     margin-top: 4px
