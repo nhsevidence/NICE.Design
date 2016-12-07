@@ -6864,7 +6864,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         width: 50%;
         border-right-width: 0
     }
-/* About NICE panel border right color min-width: color change */
+/* About NICE panel border right color: color change */
     #homepage.homepage .about-panel-nav ul li:nth-child(odd)>a {
         border-right: 1px solid #adadad
     }
