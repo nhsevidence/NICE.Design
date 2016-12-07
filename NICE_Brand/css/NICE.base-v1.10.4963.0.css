@@ -6675,10 +6675,10 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         font-weight: 100;
         margin-top: 4px
     }
-
+/* Guidance panel list Chevron icons color change */
     @media only screen and (min-width: 768px) and (max-width:979px) {
         #homepage.homepage #header .about-panel-container i {
-            color:#66c2ff
+            color: #004650
         }
     }
 }
@@ -6687,9 +6687,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     #homepage.homepage #header .about-panel-container {
         margin-left:0
     }
-
+/* Guidance panel list Chevron icons color change */
     #homepage.homepage #header .about-panel-container i {
-        color: #66c2ff;
+        color: #004650;
         font-size: 18px;
         vertical-align: baseline;
         font-weight: 100;
