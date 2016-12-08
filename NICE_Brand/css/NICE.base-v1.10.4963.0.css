@@ -7020,10 +7020,10 @@ body.homepage #nice-global {
     background-color: #004650;
 }
 
-
+/* search BUTTON background colour change */
 body.homepage #nice-global .nice-search button {
-    background-color: #dcdcdc;
-    color: #000;
+    background-color: #222222;
+    color: #FFFFFF;
     border-left-width: 2px
 }
 
@@ -7146,12 +7146,12 @@ body #nice-global .nice-search .tt-suggestion .title {
 body #nice-global .nice-search .tt-suggestion.tt-cursor {
     background-color: #2f577a
 }
-
+/* search BUTTON Border colour change */
 body #nice-global .nice-search button {
     height: 60px;
     width: 60px;
-    background-color: #2f577a;
-    border-color: #dcdcdc;
+    background-color: #222222;
+    border-color: #222222;
     color: #fff
 }
 
