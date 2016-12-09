@@ -5397,9 +5397,9 @@ footer.footer-wrapper-new #social {
     footer.footer-wrapper-new .no-left-margin {
         margin-left: 0
     }
-
+/* Get Involved colour change @media only screen and (max-width: 767px) */
     footer.footer-wrapper-new #get-involved>div {
-        background-color: #043d4e;
+        background-color: #004650;
         width: 1000px
     }
 }
