@@ -6116,7 +6116,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 }
 /* Homepage button color: colour change */
 #homepage .btn-outline {
-    padding: 6px 12px;
+    padding: 12px 12px;
     font-weight: bold;
     font-size: 16px;
     background-color: #222222;
