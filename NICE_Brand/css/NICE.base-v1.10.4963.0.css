@@ -6606,11 +6606,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         margin-top:24px
     }
 }
-
+/* Homepage h2: font-size change */
 #homepage .guidance-consultations .widget-title h2 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 24px;
     font-weight: bold;
     color: #4a4a4a;
