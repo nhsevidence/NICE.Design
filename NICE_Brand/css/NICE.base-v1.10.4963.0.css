@@ -7172,10 +7172,10 @@ body>div.nice-tophat>.blackbar {
     min-height: 72px;
     background-color: #333
 }
-
+/* Search Bar background color on child pages: color change */
 body>div.nice-tophat>:last-child {
     min-height: 108px;
-    background-color: #eff1f3
+    background-color: #cecece
 }
 
 body.homepage>div.nice-tophat>:last-child {
