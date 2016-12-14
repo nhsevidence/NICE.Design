@@ -4901,13 +4901,13 @@ input::-ms-clear {
     display: block;
     color: #999
 }
-
+/* zone-content key link glyth color change */
 .zone-content .key-link:before {
     font-family: "NICE.Glyphs";
     content: "\e03a";
     padding-right: .5em;
     font-weight: normal;
-    color: red
+    color: #004650
 }
 
 .zone-content .key-link:hover {
