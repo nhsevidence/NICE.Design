@@ -2120,11 +2120,11 @@ li.quality-standards-summary a {
     margin-left: 0;
     vertical-align: middle
 }
-
+/* Guidance panel groups: removed padding left and right */
 .guidance-panel-group,.advice-panel-group,.collections-panel-group {
     margin: 24px 0;
-    padding-left: 20px;
-    padding-right: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-bottom: 0;
     margin-left: 0
 }
