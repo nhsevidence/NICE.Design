@@ -7026,6 +7026,7 @@ body.homepage #nice-global {
 body.homepage #nice-global .nice-search button {
     background-color: #d6d6d6;
     color: #222222;
+    border-color: #d6d6d6;
     border-left-width: 2px
 }
 
