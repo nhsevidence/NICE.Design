@@ -4908,7 +4908,7 @@ input::-ms-clear {
     content: "\e03a";
     padding-right: .5em;
     font-weight: normal;
-    color: #004650
+    color: inherit
 }
 
 .zone-content .key-link:hover {
