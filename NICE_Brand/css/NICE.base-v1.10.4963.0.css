@@ -1958,20 +1958,20 @@ li.quality-standards-summary a {
 #guidancehome-pills .pills #findGuidance .nav:after {
     clear: both
 }
-
+/* guidance-pilss padding changes */
 #guidancehome-pills .pills #findGuidance .nav>li {
-    width: 30%;
+    width: 31%;
     background: #fff;
     margin-right: 24px;
     margin-bottom: 24px
 }
-
+/* guidance-pilss padding changes */
 #guidancehome-pills .pills #findGuidance .nav>li a {
     background-color: #0189b6;
     color: #fff;
     font-size: 16px!important;
-    line-height: 48px;
-    padding-left: 10px;
+    line-height: 24px;
+    padding: 14px 24px;
     border: 0
 }
 
