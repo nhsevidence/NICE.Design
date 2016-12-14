@@ -2126,7 +2126,8 @@ li.quality-standards-summary a {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0;
-    margin-left: 0
+    margin-left: 0;
+    border-bottom: 2px solid #adadad
 }
 
 .guidance-panel-group h2,.advice-panel-group h2,.collections-panel-group h2 {
