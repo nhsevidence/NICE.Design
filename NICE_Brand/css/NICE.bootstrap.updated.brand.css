@@ -1137,8 +1137,9 @@ body {
   line-height: 24px;
   color: #0e0e0e;
 }
+/* link color and hover state color change: body text links */
 a {
-  color: #005ea5;
+  color: #005f76;
   text-decoration: underline;
 }
 a:focus {
@@ -1146,10 +1147,11 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+/* link color and hover state color change: body text links */
 a:hover,
 a:focus {
   outline: 0;
-  color: #2e8aca;
+  color: #086ab;
   text-decoration: underline;
 
 }
