@@ -7023,8 +7023,8 @@ body.homepage #nice-global {
 
 /* search BUTTON background colour change */
 body.homepage #nice-global .nice-search button {
-    background-color: #222222;
-    color: #FFFFFF;
+    background-color: #d6d6d6;
+    color: #222222;
     border-left-width: 2px
 }
 
@@ -7151,9 +7151,9 @@ body #nice-global .nice-search .tt-suggestion.tt-cursor {
 body #nice-global .nice-search button {
     height: 60px;
     width: 60px;
-    background-color: #222222;
-    border-color: #222222;
-    color: #fff
+    background-color: #d6d6d6;
+    border-color: #d6d6d6;
+    color: #222222
 }
 
 @media only screen and (max-width: 767px) {
