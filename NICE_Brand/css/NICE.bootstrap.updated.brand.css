@@ -1164,8 +1164,9 @@ div.product-page li a {
   text-decoration: underline  !Important;
 }
 .span4 h2 a {
-  color: #005ea5;
-  /*text-decoration: none;*/
+  color: #0e0e0e;
+  text-decoration: none;
+  font-weight: 700;
 }
 .span4 h2 a:focus {
   outline: thin dotted #333;
@@ -1175,8 +1176,8 @@ div.product-page li a {
 .span4 h2 a:hover,
 .span4 h2 a:focus {
   outline: 0;
-  color: #2e8aca;
-  text-decoration: underline;
+  color: #0e0e0e;
+  text-decoration: none;
 }
 .span6 h2 a {
   color: #005ea5;
