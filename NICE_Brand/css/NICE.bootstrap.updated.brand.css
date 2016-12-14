@@ -1167,6 +1167,7 @@ div.product-page li a {
   color: #0e0e0e;
   text-decoration: none;
   font-weight: 700;
+  border-bottom: 2px solid #adadad;
 }
 .span4 h2 a:focus {
   outline: thin dotted #333;
