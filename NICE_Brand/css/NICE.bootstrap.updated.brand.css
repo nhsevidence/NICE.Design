@@ -1267,6 +1267,7 @@ em {
 cite {
   font-style: normal;
 }
+/* headers: color change */
 h1,
 h2,
 h3,
@@ -1277,7 +1278,7 @@ h6 {
   font-family: inherit;
   font-weight: 400;
   line-height: 26px;
-  color: #374248;
+  color: #0e0e0e;
   text-rendering: optimizelegibility;
 }
 h1 strong,
