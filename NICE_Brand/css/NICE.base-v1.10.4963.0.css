@@ -5883,7 +5883,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 #homepage .guidance-panel .guidance-panel-title {
     font-size: 48px;
     line-height: 60px;
-    font-weight: 700
+    font-weight: 800
 }
 
 @media only screen and (max-width: 767px) {
