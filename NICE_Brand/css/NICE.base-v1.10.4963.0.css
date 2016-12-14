@@ -1958,25 +1958,25 @@ li.quality-standards-summary a {
 #guidancehome-pills .pills #findGuidance .nav:after {
     clear: both
 }
-/* guidance-pilss padding changes */
+/* guidance-pills padding changes, width change */
 #guidancehome-pills .pills #findGuidance .nav>li {
     width: 31%;
     background: #fff;
     margin-right: 24px;
     margin-bottom: 24px
 }
-/* guidance-pilss padding changes */
+/* guidance-pilols padding changes, color change */
 #guidancehome-pills .pills #findGuidance .nav>li a {
-    background-color: #0189b6;
+    background-color: #222222;
     color: #fff;
     font-size: 16px!important;
     line-height: 24px;
     padding: 14px 24px;
     border: 0
 }
-
+/* guidance-pills hover color change */
 #guidancehome-pills .pills #findGuidance .nav>li a:hover {
-    background-color: #333;
+    background-color: #666666;
     color: #fff!important
 }
 
