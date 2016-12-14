@@ -7152,9 +7152,9 @@ body #nice-global .nice-search .tt-suggestion.tt-cursor {
 body #nice-global .nice-search button {
     height: 60px;
     width: 60px;
-    background-color: #d6d6d6;
-    border-color: #d6d6d6;
-    color: #222222
+    background-color: #222222;
+    border-color: #222222;
+    color: #ffffff
 }
 
 @media only screen and (max-width: 767px) {
