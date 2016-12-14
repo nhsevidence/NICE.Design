@@ -4938,9 +4938,10 @@ a[class=btn] {
 #tabbed-news-menu {
     overflow: hidden
 }
-
+/* guidance homepage panel links: border bottom added */
 #guidancehome-pills {
-    margin-top: 26px
+    margin-top: 26px;
+    margin-bottom: 24px
 }
 
 #tabbed-news-menu #findGuidance {
