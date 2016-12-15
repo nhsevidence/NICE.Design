@@ -2976,14 +2976,14 @@ main.browse .link-content {
 #InformationForThePublic-Menu>li>a:hover,#Guidance-Menu>li>a:hover,#ResourceChapters-Menu>li>a:hover,#Overview-Menu>li>a:hover,#InformationForThePublic-Menu>li>a:focus,#Guidance-Menu>li>a:focus,#ResourceChapters-Menu>li>a:focus,#Overview-Menu>li>a:focus,#InformationForThePublic-Menu>li>a:active,#Guidance-Menu>li>a:active,#ResourceChapters-Menu>li>a:active,#Overview-Menu>li>a:active {
     color: #000
 }
-
+/* Active guidance chapter menu container: active color change */
 #InformationForThePublic-Menu>.active>a,#Guidance-Menu>.active>a,#ResourceChapters-Menu>.active>a,#Overview-Menu>.active>a,#InformationForThePublic-Menu>.active>a:hover,#Guidance-Menu>.active>a:hover,#ResourceChapters-Menu>.active>a:hover,#Overview-Menu>.active>a:hover,#InformationForThePublic-Menu>.active>a:focus,#Guidance-Menu>.active>a:focus,#ResourceChapters-Menu>.active>a:focus,#Overview-Menu>.active>a:focus,#InformationForThePublic-Menu>.active>a:active,#Guidance-Menu>.active>a:active,#ResourceChapters-Menu>.active>a:active,#Overview-Menu>.active>a:active {
     color: #fff;
-    background-color: #11779b
+    background-color: #004650
 }
-
+/* Active guidance chapter menu container: active color change */
 #InformationForThePublic-Menu>.active>a:after,#Guidance-Menu>.active>a:after,#ResourceChapters-Menu>.active>a:after,#Overview-Menu>.active>a:after,#InformationForThePublic-Menu>.active>a:hover:after,#Guidance-Menu>.active>a:hover:after,#ResourceChapters-Menu>.active>a:hover:after,#Overview-Menu>.active>a:hover:after,#InformationForThePublic-Menu>.active>a:focus:after,#Guidance-Menu>.active>a:focus:after,#ResourceChapters-Menu>.active>a:focus:after,#Overview-Menu>.active>a:focus:after,#InformationForThePublic-Menu>.active>a:active:after,#Guidance-Menu>.active>a:active:after,#ResourceChapters-Menu>.active>a:active:after,#Overview-Menu>.active>a:active:after {
-    border-left-color: #11779b
+    border-left-color: #004650
 }
 
 #InformationForThePublic-Menu .active-child>a,#Guidance-Menu .active-child>a,#ResourceChapters-Menu .active-child>a,#Overview-Menu .active-child>a,#InformationForThePublic-Menu .active .nav-list>li>a,#Guidance-Menu .active .nav-list>li>a,#ResourceChapters-Menu .active .nav-list>li>a,#Overview-Menu .active .nav-list>li>a,#InformationForThePublic-Menu .active-child .nav-list>li>a,#Guidance-Menu .active-child .nav-list>li>a,#ResourceChapters-Menu .active-child .nav-list>li>a,#Overview-Menu .active-child .nav-list>li>a {
