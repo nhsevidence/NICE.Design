@@ -2678,18 +2678,18 @@ main.browse .browse-panes #root ul a:hover,main.browse .browse-panes.subsection 
     color: #11779b;
     background-color: #f6f6f6
 }
-
+/* Browse color change */
 main.browse .browse-panes #root ul li.active a,main.browse .browse-panes.subsection #root ul li.active a,main.browse .browse-panes #section ul li.active a,main.browse .browse-panes.subsection #section ul li.active a,main.browse .browse-panes #subsection ul li.active a,main.browse .browse-panes.subsection #subsection ul li.active a {
-    background-color: #11779b;
+    background-color:  #004650;
     color: white
 }
 
 main.browse .browse-panes #root ul li.active a h3,main.browse .browse-panes.subsection #root ul li.active a h3,main.browse .browse-panes #section ul li.active a h3,main.browse .browse-panes.subsection #section ul li.active a h3,main.browse .browse-panes #subsection ul li.active a h3,main.browse .browse-panes.subsection #subsection ul li.active a h3,main.browse .browse-panes #root ul li.active a p,main.browse .browse-panes.subsection #root ul li.active a p,main.browse .browse-panes #section ul li.active a p,main.browse .browse-panes.subsection #section ul li.active a p,main.browse .browse-panes #subsection ul li.active a p,main.browse .browse-panes.subsection #subsection ul li.active a p {
     color: white
 }
-
+/* Browse hover color change */
 main.browse .browse-panes #root ul li.active a:hover,main.browse .browse-panes.subsection #root ul li.active a:hover,main.browse .browse-panes #section ul li.active a:hover,main.browse .browse-panes.subsection #section ul li.active a:hover,main.browse .browse-panes #subsection ul li.active a:hover,main.browse .browse-panes.subsection #subsection ul li.active a:hover {
-    background-color: #11779b;
+    background-color: #004650;
     color: white
 }
 
