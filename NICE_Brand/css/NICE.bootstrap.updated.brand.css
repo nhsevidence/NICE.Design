@@ -5252,6 +5252,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
       padding-top: .75em;
       background-color: lighten(@grayLighter, 2%);*/
 }
+/* Guidance taps bottom border color: color change */
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus,
 .nav-tabs > .active > a {
@@ -5262,7 +5263,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
     padding-top: .75em;*/
   background-color: #f6f6f6;
   -webkit-box-shadow: inset 0 -4px 0 0 #007dba;
-  box-shadow: inset 0 -4px 0 0 #007dba;
+  box-shadow: inset 0 -4px 0 0 #004650;
 }
 .tabbable {
   background-color: #fafafb;
