@@ -6839,23 +6839,24 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .pagination li {
   display: inline;
 }
+/* Guidance page next button: color background and hover change */
 .pagination li > a,
 .pagination li > span {
   display: inline-block;
   padding: 5px 14px;
   color: #ffffff;
-  background-color: #0093da;
-  border: 1px solid #0093da;
+  background-color: #00506a;
+  border: 1px solid #00506a;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 .pagination li > a:hover,
 .pagination li > a:focus {
-  text-decoration: none;
+  text-decoration: none !Important;
   color: #ffffff;
-  border: 1px solid #007dba;
-  background-color: #007dba;
+  border: 1px solid #004650;
+  background-color: #004650;
 }
 .pagination .next > a,
 .pagination .next > span {
