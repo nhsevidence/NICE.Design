@@ -2673,9 +2673,9 @@ main.browse .browse-panes #root ul a p,main.browse .browse-panes.subsection #roo
     color: #4a4a4a;
     margin-bottom: 0
 }
-
+/* Browse hover color change */
 main.browse .browse-panes #root ul a:hover,main.browse .browse-panes.subsection #root ul a:hover,main.browse .browse-panes #section ul a:hover,main.browse .browse-panes.subsection #section ul a:hover,main.browse .browse-panes #subsection ul a:hover,main.browse .browse-panes.subsection #subsection ul a:hover {
-    color: #11779b;
+    color: #005f76;
     background-color: #f6f6f6
 }
 /* Browse color change */
