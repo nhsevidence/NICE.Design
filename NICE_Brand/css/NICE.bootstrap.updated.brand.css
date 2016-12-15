@@ -1155,9 +1155,6 @@ a:focus {
   text-decoration: underline;
 
 }
-div.product-page li a {
-    text-decoration: underline  !Important;
-}
 
 .inline a {
     text-decoration: underline  !Important;
