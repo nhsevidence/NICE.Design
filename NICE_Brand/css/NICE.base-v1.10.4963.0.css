@@ -3039,7 +3039,6 @@ main.browse .link-content {
 }
 /* background and font color change, added h4 class */
 .panel-pathways>.panel-heading> h4 {
-    background-color: #004650;
     color: #ffffff;
     border-color: #fff;
 }
