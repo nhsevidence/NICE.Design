@@ -7769,9 +7769,10 @@ body .media-list a:hover .icon-stack-references .icon-stack-base {
   text-decoration: none;
   color: #11779b;
 }
+/* Pathways icon color change */
 body .media-list .icon-stack-pathways,
 body .media-list a .icon-stack-pathways {
-  color: #FC781F;
+  color: #004650;
   text-decoration: none;
 }
 body .media-list .icon-stack-pathways .icon-stack-base,
