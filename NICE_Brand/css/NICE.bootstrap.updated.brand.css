@@ -5538,10 +5538,11 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .navbar .nav > li {
   float: left;
 }
+/* font color change */
 .navbar .nav > li > a {
   float: none;
   padding: 12px 15px 12px;
-  color: #374248;
+  color: #0e0e0e;
   text-decoration: none;
   text-shadow: 0 1px 0 #fafafb;
 }
@@ -6632,6 +6633,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   /* IE7 inline-block hack */
   *zoom: 1;
 }
+/* breadcrumb divider color change */
 .breadcrumb li > .divider {
   padding: 0 5px;
   color: #004650;
