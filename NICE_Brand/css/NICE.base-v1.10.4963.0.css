@@ -2718,11 +2718,11 @@ main.browse .link-content {
     margin: 0 .5em 1em 0;
     line-height: normal
 }
-
+/* new border bottom color change */
 .newupdmessage div.newcount {
-    border-bottom: .5em solid #99ff8b
+    border-bottom: .5em solid #451551
 }
-/* border bottom color change */
+/* update border bottom color change */
 .newupdmessage div.updcount {
     border-bottom: .5em solid #233746
 }
