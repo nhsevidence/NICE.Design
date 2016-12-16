@@ -3075,11 +3075,10 @@ main.browse .link-content {
     width: 100%;
     padding: 6px 12px
 }
-/* rollover width color change */
+
 .panel .media-pathway .media-heading>a:hover {
     background: #f6f6f6;
     text-decoration: none;
-    width: 100%
 }
 
 @media(min-width: 767px) {
