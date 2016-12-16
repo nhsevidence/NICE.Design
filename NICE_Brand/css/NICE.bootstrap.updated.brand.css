@@ -7381,8 +7381,9 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   border-color: #ffffff;
   background-color: #ededed;
 }
+/* background color change */
 .panel-pathways > .panel-heading {
-  background-color: #ffc100;
+  background-color: #004650;
   color: #000000;
   border-color: #ffffff;
   padding: 6px 12px;
