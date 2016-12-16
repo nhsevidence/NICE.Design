@@ -5112,8 +5112,9 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   margin-left: -15px;
   margin-right: -15px;
 }
+/* font weight set to inherit */
 .nav-list .nav-list > li > a {
-  font-weight: 200;
+  font-weight: inherit;
   padding-left: 36px;
 }
 .nav-list .nav-list > .active > a,
