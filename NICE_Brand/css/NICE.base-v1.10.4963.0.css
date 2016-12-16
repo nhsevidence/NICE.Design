@@ -3110,11 +3110,11 @@ main.browse .link-content {
     color: #9d261d;
     font-weight: bold
 }
-
+/* new border left color change */
 .media-list .media-pathway.media-new .media-body,.media-list .media-resource.media-new .media-body {
     margin-left: -12px;
     padding-left: 6px;
-    border-left: 6px solid #99ff8b
+    border-left: 6px solid #451551
 }
 
 .media-list .media-pathway.media-update .media-body,.media-list .media-resource.media-update .media-body {
