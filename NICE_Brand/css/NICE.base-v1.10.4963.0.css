@@ -2720,15 +2720,15 @@ main.browse .link-content {
 }
 /* new border bottom color change */
 .newupdmessage div.newcount {
-    border-bottom: .5em solid #517489 
-}
+    border-bottom: .5em solid #451551 
+ }
 /* update border bottom color change */
 .newupdmessage div.updcount {
-    border-bottom: .5em solid #233746
+    border-bottom: .5em solid #517489
 }
-
+/* update border bottom color change */
 .consultation-highlight-count {
-    border-bottom: .5em solid #fe7801
+    border-bottom: .5em solid #adadad
 }
 
 .typeprefix {
