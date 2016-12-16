@@ -5128,9 +5128,10 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .nav-list .nav-list .nav-list .nav-list > li > a {
   padding-left: 72px;
 }
+/* Nav list topic page: background color change */
 .nav-list .active > a {
   position: relative;
-  background-color: #1167b7;
+  background-color: ##004650;
   color: #ffffff;
 }
 .nav-list .active > a:after {
