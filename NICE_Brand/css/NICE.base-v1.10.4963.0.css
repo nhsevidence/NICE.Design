@@ -3037,12 +3037,11 @@ main.browse .link-content {
     border-color: #fff;
     background-color: #ededed
 }
-
-.panel-pathways>.panel-heading {
-    background-color: #ffc100;
-    color: #000;
+/* background and font color change, added h4 class */
+.panel-pathways>.panel-heading> h4 {
+    background-color: #004650;
+    color: #ffffff;
     border-color: #fff;
-    padding: 6px 12px
 }
 
 .panel-pathways>.panel-heading+.panel-collapse .panel-body {
