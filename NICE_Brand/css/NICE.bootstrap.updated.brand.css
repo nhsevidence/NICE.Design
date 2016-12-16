@@ -5132,7 +5132,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 /* Nav list topic page: background color change */
 .nav-list .active > a {
   position: relative;
-  background-color: ##004650;
+  background-color: #004650;
   color: #ffffff;
 }
 .nav-list .active > a:after {
@@ -5144,7 +5144,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   top: 50%;
   margin-top: -10px;
   border: 10px solid transparent;
-  border-left-color: #1167b7;
+  border-left-color: #004650;
 }
 .nav-list > li .active > a {
   background-color: #00a7df;
