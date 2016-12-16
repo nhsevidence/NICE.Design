@@ -5098,13 +5098,14 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .nav-list [class*=" icon-"] {
   margin-right: 2px;
 }
+/* Nav list topic page: background hover color change */
 .nav-list > .active > a,
 .nav-list > .active > a:hover,
 .nav-list > .active > a:active,
 .nav-list > .active > a:focus {
   color: #ffffff;
   text-shadow: none;
-  background-color: #1167b7;
+  background-color: #004650;
 }
 .nav-list .nav-list {
   margin-top: 1px;
