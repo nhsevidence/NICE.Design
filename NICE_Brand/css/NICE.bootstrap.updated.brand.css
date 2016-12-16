@@ -5135,6 +5135,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   background-color: #004650;
   color: #ffffff;
 }
+/* arrow: background color change */
 .nav-list .active > a:after {
   content: "";
   position: absolute;
@@ -6633,7 +6634,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 }
 .breadcrumb li > .divider {
   padding: 0 5px;
-  color: #374248;
+  color: #004650;
 }
 .breadcrumb li:before {
   display: none;
