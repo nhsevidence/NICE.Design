@@ -2836,7 +2836,7 @@ main.browse .link-content {
 }
 
 .guidancetypearea .panel .media-pathway .media-heading>a {
-    width: auto
+    /* width: auto */
 }
 
 #LatestGuidance .product-highlight,#MostViewed .product-highlight {
