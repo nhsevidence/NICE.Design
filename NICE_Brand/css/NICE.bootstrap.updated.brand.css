@@ -5091,7 +5091,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 }
 .nav-list > li > a,
 .nav-list .nav-header {
-  color: #374248;
+  color: #0e0e0e;
   text-shadow: none;
 }
 .nav-list [class^="icon-"],
