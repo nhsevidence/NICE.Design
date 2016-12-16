@@ -2974,7 +2974,7 @@ main.browse .link-content {
 }
 
 #InformationForThePublic-Menu>li>a:hover,#Guidance-Menu>li>a:hover,#ResourceChapters-Menu>li>a:hover,#Overview-Menu>li>a:hover,#InformationForThePublic-Menu>li>a:focus,#Guidance-Menu>li>a:focus,#ResourceChapters-Menu>li>a:focus,#Overview-Menu>li>a:focus,#InformationForThePublic-Menu>li>a:active,#Guidance-Menu>li>a:active,#ResourceChapters-Menu>li>a:active,#Overview-Menu>li>a:active {
-    color: #000
+    color: #0e0e0e
 }
 /* Active guidance chapter menu container: active color change */
 #InformationForThePublic-Menu>.active>a,#Guidance-Menu>.active>a,#ResourceChapters-Menu>.active>a,#Overview-Menu>.active>a,#InformationForThePublic-Menu>.active>a:hover,#Guidance-Menu>.active>a:hover,#ResourceChapters-Menu>.active>a:hover,#Overview-Menu>.active>a:hover,#InformationForThePublic-Menu>.active>a:focus,#Guidance-Menu>.active>a:focus,#ResourceChapters-Menu>.active>a:focus,#Overview-Menu>.active>a:focus,#InformationForThePublic-Menu>.active>a:active,#Guidance-Menu>.active>a:active,#ResourceChapters-Menu>.active>a:active,#Overview-Menu>.active>a:active {
