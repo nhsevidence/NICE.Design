@@ -2722,9 +2722,9 @@ main.browse .link-content {
 .newupdmessage div.newcount {
     border-bottom: .5em solid #99ff8b
 }
-
+/* border bottom color change */
 .newupdmessage div.updcount {
-    border-bottom: .5em solid #11527c
+    border-bottom: .5em solid #233746
 }
 
 .consultation-highlight-count {
