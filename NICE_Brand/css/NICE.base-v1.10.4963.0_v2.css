@@ -379,9 +379,9 @@ table.rowlink td:not(.rowlink-skip),table>tbody.rowlink td:not(.rowlink-skip) {
 .local-practice-page tr:last-child td,.savingsAndProductivity-page tr:last-child td,.guidance-table-container tr:last-child td {
     border-bottom: 0
 }
-
+/* background color to white */
 .local-practice-page tbody,.savingsAndProductivity-page tbody,.guidance-table-container tbody {
-    background-color: #f8f8f8
+    background-color: #ffffff
 }
 
 .guidance-table-container .row [class*="span"] {
