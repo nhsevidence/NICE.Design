@@ -1,6 +1,7 @@
 ﻿#homepage .indepth article footer p a,#homepage .indepth-highlight article footer p a{
   color: #005f76;
   display: flex;
+  text-decoration: underline;
 }
 #homepage .indepth-highlight article footer p i,#homepage .indepth article footer p i{
   float: left;
