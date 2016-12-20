@@ -6037,9 +6037,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         padding-bottom: 11px
     }
 }
-
+/* border left made white */
 #homepage .row.indepth-highlight>div {
-    border-color: #d9e0e6
+    border-color: #ffffff
 }
 
 #homepage .row.indepth.nobackground {
