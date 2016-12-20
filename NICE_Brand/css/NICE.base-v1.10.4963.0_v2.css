@@ -6587,9 +6587,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 #homepage .guidance-consultations {
     margin-bottom: 24px
 }
-
+/* background made white */
 #homepage .guidance-consultations>div {
-    background-color: #d9e0e6
+    background-color: #ffffff
 }
 
 #homepage .guidance-consultations>div .btn-outline.desktop {
