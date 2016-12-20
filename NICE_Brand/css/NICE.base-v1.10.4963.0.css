@@ -6020,7 +6020,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 
 /* border top and bottom removed */
 #homepage .row.indepth-highlight {
-    background-color: #ffffff
+    background-color: #ffffff;
 }
 
 @media only screen and (max-width: 767px) {
