@@ -5766,10 +5766,12 @@ body.homepage>.layout .restrict-width {
     margin-left: auto;
     margin-right: auto
 }
-
+/* width to auto, padding left and right added */
 body.homepage>.layout .restrict-width>.row {
-    width: 100%;
-    max-width: 1170px
+    width: auto;
+    max-width: 1170px;
+    padding-left: 24px;
+    padding-right: 24px
 }
 
 @media only screen and (max-width: 767px) {
