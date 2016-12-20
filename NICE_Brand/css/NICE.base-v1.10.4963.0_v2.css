@@ -5779,17 +5779,17 @@ body.homepage>.layout .restrict-width>.row {
         border-left:12px solid #f6f6f6
     }
 }
-
+/* in depth section border left to none */
 body.homepage>.layout .restrict-width>.row>div:first-child {
-    border-left: 24px solid #f6f6f6
+    border-left: none
 }
-
+/* in depth section border left to none */
 body.homepage>.layout .restrict-width>.row>div.last-child {
-    border-right: 24px solid #f6f6f6
+    border-right: none
 }
-
+/* in depth section border left to none */
 body.homepage>.layout .restrict-width>.row>div:last-child {
-    border-right: 24px solid #f6f6f6
+    border-right: none
 }
 
 @media only screen and (max-width: 767px) {
