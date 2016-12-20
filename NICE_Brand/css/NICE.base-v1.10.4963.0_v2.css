@@ -6197,10 +6197,10 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         border-width:12px 13px 12px 12px;
         border-right: 0
     }
-
+/* border top and bottom to white */
     #homepage .row.indepth-highlight {
-        border-top: 13px solid #d9e0e6;
-        border-bottom: 13px solid #d9e0e6;
+        border-top: 13px solid #ffffff;
+        border-bottom: 13px solid #ffffff;
         border-right: 0
     }
 
