@@ -6020,9 +6020,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     margin-bottom: 24px
 }
 
-/* border top and bottom removed */
+/* set borders to zero */
 #homepage .row.indepth-highlight {
-    background-color: #ffffff;
+    background-color: #fff;
+    border-top: 0px solid #fff;
+    border-bottom: 0px solid #fff;
 }
 
 @media only screen and (max-width: 767px) {
