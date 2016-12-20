@@ -6012,11 +6012,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     font-size: 18px;
     line-height: 24px
 }
-
+/* in depth header background color to white */
 #homepage .row.indepth {
-    background-color: #f6f6f6;
-    border-top: 24px solid #f6f6f6;
-    border-bottom: 24px solid #f6f6f6;
+    background-color: #fff;
+    border-top: 24px solid #fff;
+    border-bottom: 24px solid #fff;
     margin-bottom: 24px
 }
 
