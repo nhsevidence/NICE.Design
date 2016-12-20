@@ -6120,7 +6120,8 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     font-weight: bold;
     font-size: 16px;
     background-color: #222222;
-    color: #FFFFFF
+    color: #FFFFFF;
+    text-decoration: none
 }
 
 #homepage .consultation-widget {
