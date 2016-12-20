@@ -6002,9 +6002,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 #homepage article footer p a {
     color: #4a4a4a
 }
-
+/* font size change */
 #homepage article.primary-article footer p {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 32px
 }
 
