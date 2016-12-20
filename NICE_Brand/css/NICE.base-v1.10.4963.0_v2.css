@@ -6587,7 +6587,6 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 }
 /* border bottom added */
 #homepage .guidance-consultations {
-    margin-bottom: 24px;
     padding-bottom: 24px;
     border-bottom: 2px solid #adadad
 }
