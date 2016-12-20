@@ -6585,9 +6585,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     font-weight: normal;
     margin-top: 0
 }
-
+/* border bottom added */
 #homepage .guidance-consultations {
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #adadad
 }
 /* background made white */
 #homepage .guidance-consultations>div {
