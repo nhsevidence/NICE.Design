@@ -6053,11 +6053,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     border-left-width: 48px;
     border-right-width: 48px
 }
-
+/* margin-bottom added to indepth header */
 #homepage .row.indepth.header {
     border-bottom: 0;
     border-top: 0;
-    margin-bottom: 0
+    margin-bottom: 12px
 }
 
 @media only screen and (max-width: 767px) {
