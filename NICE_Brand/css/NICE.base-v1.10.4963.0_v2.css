@@ -4922,15 +4922,15 @@ input::-ms-clear {
     background: #ebebeb;
     outline: 0
 }
-
+/* background color change */
 .btn:hover,.btn:focus,.btn.active,.btn:active {
     color: #fff;
-    background: #333
+    background: #0e0e0e
 }
-
+/* background hover state color change */
 a[class=btn] {
     color: #fff;
-    background: #11779b
+    background: #393939
 }
 
 #tabbed-news-menu {
