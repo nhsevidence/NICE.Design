@@ -4916,10 +4916,10 @@ input::-ms-clear {
 .zone-content .key-link>i {
     display: none
 }
-
+/* background color change */
 .btn {
     color: #333;
-    background: #ebebeb;
+    background: #666666;
     outline: 0
 }
 /* background color change */
@@ -4930,7 +4930,7 @@ input::-ms-clear {
 /* background hover state color change */
 a[class=btn] {
     color: #fff;
-    background: #11779b
+    background: #393939
 }
 
 #tabbed-news-menu {
