@@ -6126,7 +6126,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     color: #FFFFFF;
     text-decoration: none
 }
-
+/* added hover and focus style */
+#homepage .btn-outline:hover,.btn-outline:focus {
+    background-color: #666666;
+    color: #fff!important;
+}
 #homepage .consultation-widget {
     background-color: #eeeded;
     border: 24px solid #eeeded;
