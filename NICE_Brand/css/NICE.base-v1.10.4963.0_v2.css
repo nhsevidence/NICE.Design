@@ -1976,7 +1976,7 @@ li.quality-standards-summary a {
 }
 /* guidance-pills hover color change */
 #guidancehome-pills .pills #findGuidance .nav>li a:hover {
-    background-color: #666666;
+    background-color: #0e0e0e;
     color: #fff!important
 }
 
