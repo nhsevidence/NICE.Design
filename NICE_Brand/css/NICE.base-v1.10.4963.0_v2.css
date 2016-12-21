@@ -4927,6 +4927,11 @@ input::-ms-clear {
     color: #fff;
     background: #0e0e0e
 }
+/* btn-primary hover state color added */
+.btn-primary:hover,.btn:focus,.btn.active,.btn:active {
+    color: #fff;
+    background: red
+}
 /* background hover state color change */
 a[class=btn] {
     color: #fff;
