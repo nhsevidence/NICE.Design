@@ -6122,13 +6122,13 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     padding: 12px 12px;
     font-weight: bold;
     font-size: 16px;
-    background-color: #222222;
+    background-color: #393939;
     color: #FFFFFF;
     text-decoration: none
 }
 /* added hover and focus style */
 #homepage .btn-outline:hover,.btn-outline:focus {
-    background-color: #666666;
+    background-color: #0e0e0e;
     color: #fff!important;
 }
 #homepage .consultation-widget {
