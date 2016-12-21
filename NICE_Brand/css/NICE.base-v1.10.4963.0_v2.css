@@ -6207,8 +6207,8 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     }
 /* border top and bottom to white */
     #homepage .row.indepth-highlight {
-        border-top: 13px solid #ffffff;
-        border-bottom: 13px solid #ffffff;
+        border-top: 13px solid #fff;
+        border-bottom: 13px solid #fff;
         border-right: 0
     }
 
@@ -6227,10 +6227,10 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
         border-width:12px 10px 12px 12px;
         border-right: 0
     }
-
+/* border top and bottom to white */
     #homepage .row.indepth-highlight {
-        border-top: 10px solid #d9e0e6;
-        border-bottom: 10px solid #d9e0e6;
+        border-top: 10px solid #fff;
+        border-bottom: 10px solid #fff;
         border-right: 0
     }
 
