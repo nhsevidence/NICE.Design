@@ -7436,7 +7436,6 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 /* margin bottom added */
 .media,
 .media .media {
-  margin-top: 6px;
   margin-bottom: 6px;
 }
 .media:first-child {
@@ -7484,6 +7483,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 /* border color change */
 .media-list .media,
 .media-list .media:first-child {
+  padding-bottom: 12px;
   border-bottom: 1px solid #d6d6d6;
 }
 .downloads {
