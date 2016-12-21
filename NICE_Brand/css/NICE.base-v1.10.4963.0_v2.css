@@ -4916,9 +4916,9 @@ input::-ms-clear {
 .zone-content .key-link>i {
     display: none
 }
-/* background color change */
+/* background color change and font color change */
 .btn {
-    color: #333;
+    color: #fff;
     background: #666666;
     outline: 0
 }
