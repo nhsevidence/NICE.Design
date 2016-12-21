@@ -1369,10 +1369,11 @@ a > h1,a > h2,a > h3,a > h4,a > h5,a >h6 {
   h3 {
     font-size: 18px;
   }
+/* font size to 18px */
   h4,
   h5,
   h6 {
-    font-size: 16px;
+    font-size: 18px;
   }
   h1 small {
     font-size: 18px;
