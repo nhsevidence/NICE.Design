@@ -1415,11 +1415,11 @@ ol ul {
             ul.alt > li li {
                 text-indent: 0;
             }
-
+/* bullet point color change */
             ul.alt > li:before {
                 content: '\2022 ';
                 font-size: 1.5em;
-                color: #ffc40d;
+                color: #004650;
                 padding-right: .3em;
                 vertical-align: bottom;
             }
