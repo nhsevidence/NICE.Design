@@ -5382,8 +5382,10 @@ span.link-action {
 }
 
 /* line 44, ../../sass-src/screen/screen.scss */
+/* font and color change */
 body {
-  font-family: arial, helvetica, verdana;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0e0e0e;
   font-size: 62.5%;
 }
 /* line 48, ../../sass-src/screen/screen.scss */
