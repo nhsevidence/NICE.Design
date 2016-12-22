@@ -1577,16 +1577,16 @@ body {
 #guidanceTabs-product li,#guidanceTabs li {
     margin-bottom: 0
 }
-
+/* text link color change */
 #guidanceTabs-product li a,#guidanceTabs li a {
     border-top: 0;
     padding-top: 1em;
-    color: #11779b;
+    color: #005f76;
     background-color: none
 }
-
+/* text link color change */
 #guidanceTabs-product li.active a,#guidanceTabs li.active a {
-    color: #4a4a4a;
+    color: #0e0e0e;
     background-color: #f6f6f6
 }
 
