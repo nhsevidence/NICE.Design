@@ -3301,7 +3301,7 @@ body.homepage div#mobile-homepage-content {
 /* line 34, ../../sass-src/partials/_header.scss */
 /* background color change */
 #fullwidth {
-  background-color: #004650;
+  background-color: #cecece;
   color: white;
   font-size: large;
   position: relative;
@@ -3991,11 +3991,13 @@ div.scrollbar-handle {
 }
 
 /* line 141, ../../sass-src/partials/_controls.scss */
+/* background color change */
 .mainheader {
   position: relative;
   width: 100%;
   height: 108px;
   overflow: hidden;
+  background-color: #cecece;
 }
 
 /* line 149, ../../sass-src/partials/_controls.scss */
