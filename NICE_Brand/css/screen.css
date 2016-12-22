@@ -3299,8 +3299,9 @@ body.homepage div#mobile-homepage-content {
 }
 
 /* line 34, ../../sass-src/partials/_header.scss */
+/* background color change */
 #fullwidth {
-  background-color: #f6f6f6;
+  background-color: #004650;
   color: white;
   font-size: large;
   position: relative;
