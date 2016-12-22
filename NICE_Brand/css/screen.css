@@ -152,9 +152,10 @@ dl dt, dl dd {
 }
 
 /* line 96, ../../sass-src/partials/_text.scss */
+/* link color change */
 a {
   /* @include hover-link; */
-  color: #11779b;
+  color: #005f76;
   font-weight: bold;
   text-decoration: none;
 }
