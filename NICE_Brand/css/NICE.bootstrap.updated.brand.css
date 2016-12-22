@@ -9167,13 +9167,15 @@ input.search-query {
   float: left;
   width: 33.33333333333333%;
 }
+/* color change */
 .navbar-corporate .nav > li > a,
 .navbar-corporate .nav > li > a:hover {
   display: table;
-  color: #0093da;
+  color: #005f76;
   padding: 10px 10px;
   border: 0;
 }
+/* hover color change */
 .navbar-corporate .nav > li > a:hover,
 .navbar-corporate .nav > li > a:hover:hover,
 .navbar-corporate .nav > li > a:active,
@@ -9181,18 +9183,20 @@ input.search-query {
 .navbar-corporate .nav > li > a:focus,
 .navbar-corporate .nav > li > a:hover:focus {
   background: none;
-  color: #007dba;
+  color: #007ea1;
 }
+/* icon color change , font weight change to bolder */
 .navbar-corporate .nav > li > a:before,
 .navbar-corporate .nav > li > a:hover:before {
   font-family: "NICE.Glyphs";
+  font-weight: bolder;
   content: "\e032";
   width: 18px;
   line-height: 1;
   vertical-align: baseline;
   text-align: left;
   display: table-cell;
-  color: #81939e;
+  color: #0e0e0e;
 }
 .navbar-corporate .navbar-toggle {
   display: none;
