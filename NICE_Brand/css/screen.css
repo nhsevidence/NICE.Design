@@ -2984,6 +2984,7 @@ body.homepage div#mobile-homepage-content {
 }
 /* line 812, ../../sass-src/partials/_pathwaysfinder.scss */
 /* font, background color change */
+#homepage-pathways .finder-button.ln-selected {
   background-color: #004650;
   color: #fff;
 }
