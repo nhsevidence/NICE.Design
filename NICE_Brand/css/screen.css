@@ -2283,8 +2283,10 @@ body.homepage div#mobile-homepage-content {
   z-index: 100;
 }
 /* line 36, ../../sass-src/partials/_pathwaysfinder.scss */
+/* font, background color change */
 #homepage-pathways #tabButtons .tabBtn.active {
-  background-color: #f5b805;
+  background-color: #004650;
+  color: #fff;
 }
 /* line 39, ../../sass-src/partials/_pathwaysfinder.scss */
 #homepage-pathways #tabButtons .tabBtn.active span {
