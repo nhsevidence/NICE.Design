@@ -5263,7 +5263,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus,
 .nav-tabs > .active > a {
-  color: #007dba;
+  color: #0e0e0e;
   padding-top: 12px;
   border: 0;
   /*border-top: .25em solid @keyActionColor;
