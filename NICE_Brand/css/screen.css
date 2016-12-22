@@ -121,8 +121,9 @@ h6 {
 }
 
 /* line 68, ../../sass-src/partials/_text.scss */
+/* font and color change */
 div.p, p, ul, ol {
-  font-family: arial, helvetica, verdana;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   margin-bottom: 12px;
