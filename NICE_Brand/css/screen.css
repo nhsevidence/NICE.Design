@@ -2273,12 +2273,13 @@ body.homepage div#mobile-homepage-content {
   margin-right: 6px;
 }
 /* line 25, ../../sass-src/partials/_pathwaysfinder.scss */
+/* arrow color change */
 #homepage-pathways #tabButtons .tabBtn span {
   position: absolute;
   margin-top: -8px;
   left: 50%;
   margin-left: -9px;
-  color: #f5b805;
+  color: #004650;
   display: none;
   z-index: 100;
 }
