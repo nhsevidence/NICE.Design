@@ -4857,8 +4857,10 @@ div.scrollbar-handle {
   top: -60px;
 }
 /* line 301, ../../sass-src/partials/_controls.scss */
+/* background color change */
 #btnSearch span {
   font-size: 30px;
+  color: #fff;
 }
 
 /* line 306, ../../sass-src/partials/_controls.scss */
