@@ -3370,8 +3370,9 @@ body.homepage div#mobile-homepage-content {
 }
 
 /* line 103, ../../sass-src/partials/_header.scss */
+/* background color change */
 #btnSearch {
-  background-color: #FFC003;
+  background-color: #222222;
   border: 0;
   height: 60px;
   float: left;
