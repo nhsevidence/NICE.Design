@@ -2977,8 +2977,9 @@ body.homepage div#mobile-homepage-content {
   font-weight: bold;
 }
 /* line 808, ../../sass-src/partials/_pathwaysfinder.scss */
+/* font color change */
 #homepage-pathways .finder-button.ln-disabled {
-  color: #c0c0c0;
+  color: #adadad;
 }
 /* line 812, ../../sass-src/partials/_pathwaysfinder.scss */
 /* font, background color change */
