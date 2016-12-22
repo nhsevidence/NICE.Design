@@ -5237,8 +5237,9 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 #eventTypeTabs > li{
   margin-right: 6px;
 }
+/* text link color change */
 .nav-tabs > li > a {
-  color: #0093da;
+  color: #005f76;
   padding: 12px 24px;
   margin: 0;
   border: 0;
