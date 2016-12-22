@@ -5250,9 +5250,10 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   -moz-border-radius: 0;
   border-radius: 0;
 }
+/* text hover color change */
 .nav-tabs > li > a:hover,
 .nav-tabs > li > a:focus {
-  color: #007dba;
+  color: #007ea1;
   border: 0;
   background-color: #d6d6d6;
   /*border-top: .25em solid @keyActionColorHighlight;
