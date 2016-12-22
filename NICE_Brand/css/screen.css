@@ -6822,7 +6822,7 @@ body.ultra-tiny-mode #viewport div.view.path h1 {
   font-weight: 400;
 }
 
-/* Mobile icons patch from paul */
+/* Mobile icons patch from paul 1 */
 /* line 668, ../../sass-src/screen/screen.scss */
 #content .divider.mobile ul li a [class^=icon-],
 #content .divider.mobile ul li a [class*=" icon-"] {
