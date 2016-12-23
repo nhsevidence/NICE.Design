@@ -2499,10 +2499,11 @@ body.homepage div#mobile-homepage-content {
   border-left: 0px;
 }
 /* line 281, ../../sass-src/partials/_pathwaysfinder.scss */
+/* color changes */
 #homepage-pathways #tabs #catstab div.scroll.active.level0 li:hover {
-  background-color: #f6f6f6;
-  color: #08455b;
-  border-left: 4px solid #08455b;
+  background-color: #e9e9e9;
+  color: #0e0e0e;
+  border-left: 4px solid #004650;
   padding-left: 14px;
 }
 /* line 287, ../../sass-src/partials/_pathwaysfinder.scss */
