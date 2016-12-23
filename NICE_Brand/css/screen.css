@@ -5421,8 +5421,9 @@ html > body {
 }
 
 /* line 70, ../../sass-src/screen/screen.scss */
+/* outline color change */
 a:focus {
-  outline: 1px dotted #ffc003;
+  outline: 1px #004650;
 }
 
 /* line 75, ../../sass-src/screen/screen.scss */
