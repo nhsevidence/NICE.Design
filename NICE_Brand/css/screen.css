@@ -1764,8 +1764,9 @@ body {
   color: #ccd6dd;
 }
 /* line 1128, ../../sass-src/partials/_readerpanel.scss */
+/* color change */
 #content #npw-reader-panel .pathway-information-menu-nav ul li a {
-  color: #01769d;
+  color: #005f76;
   padding: 0 0 0 24px;
   display: block;
 }
