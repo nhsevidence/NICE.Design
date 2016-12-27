@@ -1733,9 +1733,10 @@ body {
   padding-left: 39px !important;
 }
 /* line 1100, ../../sass-src/partials/_readerpanel.scss */
+/* background color change */
 #content #npw-reader-panel .pathway-information-menu-nav {
   color: #fff;
-  background: #f5f8fa;
+  background: #e9e9e9;
   padding: 18px 0;
   clear: both;
   position: relative;
