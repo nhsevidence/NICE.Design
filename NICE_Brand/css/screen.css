@@ -748,11 +748,12 @@ body {
   padding-left: 39px;
 }
 /* line 160, ../../sass-src/partials/_readerpanel.scss */
+/* background color change */
 #content #npw-reader-panel .reader-panel-page a.quality-statement,
 #content #npw-reader-panel .reader-panel-page a.effective-interventions-library-detail {
   padding: 10px;
   display: block;
-  background: #eee;
+  background: #e9e9e9;
   font-size: 16px;
   font-weight: 400;
   font-family: Lato;
