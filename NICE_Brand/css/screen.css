@@ -869,10 +869,11 @@ body {
   margin-left: 10px;
 }
 /* line 274, ../../sass-src/partials/_readerpanel.scss */
+/* background color change */
 #content #npw-reader-panel .reader-panel-page a.glossary {
   text-decoration: none;
   cursor: help;
-  background: #ACDEEF;
+  background: #d6d6d6;
   padding: 2px 6px;
   margin: 0 2px;
   font-size: inherit;
