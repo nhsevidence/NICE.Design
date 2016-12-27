@@ -1551,11 +1551,12 @@ body {
   margin-bottom: 0px;
 }
 /* line 927, ../../sass-src/partials/_readerpanel.scss */
+/* border top and bottom color change */
 #content #npw-reader-panel .pathway-information-menu #path-info-index {
   width: 100%;
   margin: 0;
-  border-bottom: 1px solid #d5d5d5;
-  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #adadad;
+  border-top: 1px solid #adadad;
   margin: 20px 0px;
 }
 /* line 934, ../../sass-src/partials/_readerpanel.scss */
