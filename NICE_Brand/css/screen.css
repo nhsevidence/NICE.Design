@@ -6696,12 +6696,13 @@ a.notresolved {
   bottom: 6px;
 }
 /* line 305, ../../sass-src/partials/_graph.scss */
+/* color change */
 .path-view-container .node div div {
   font-size: inherit;
   line-height: 1.3em;
   padding: 2px 2px 3px 3px;
   font-weight: bold;
-  color: #07324e;
+  color: #0e0e0e;
   margin: 0;
 }
 /* line 313, ../../sass-src/partials/_graph.scss */
