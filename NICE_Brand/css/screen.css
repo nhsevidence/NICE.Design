@@ -6705,6 +6705,7 @@ a.notresolved {
   font-weight: bold;
   color: #005f76;
   margin: 0;
+  background-color: #fff;
 }
 /* line 313, ../../sass-src/partials/_graph.scss */
 .path-view-container .node div div.selected {
