@@ -6585,8 +6585,9 @@ a.notresolved {
   background: #004650;
 }
 /* line 153, ../../sass-src/partials/_graph.scss */
+/* link color change */
 .path-view-container .node.interactive.offmapreference div, .path-view-container .node.interactive.offmapreference div.p, .path-view-container .node.interactive.offmapreference p {
-  color: #07324e;
+  color: #005f76;
   background: white;
 }
 /* line 158, ../../sass-src/partials/_graph.scss */
