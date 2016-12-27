@@ -416,9 +416,10 @@ body {
   display: block;
 }
 /* line 68, ../../sass-src/partials/_pathwaycontent.scss */
+/* background color change */
 #content .view #npm-rp-header {
   display: none;
-  background-color: #f5f8fa;
+  background-color: #e9e9e9;
   /*padding: 14px;*/
   width: 100%;
   overflow: auto;
@@ -1582,7 +1583,7 @@ body {
   font-size: 30px;
 }
 /* line 959, ../../sass-src/partials/_readerpanel.scss */
-/* color and background color change*/
+/* color and background color change */
 #content #npw-reader-panel .pathway-information-menu #path-info-index li a:hover {
   background-color: #d6d6d6;
   color: #004650;
