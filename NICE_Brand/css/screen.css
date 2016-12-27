@@ -916,10 +916,11 @@ body {
   padding-right: 0;
 }
 /* line 318, ../../sass-src/partials/_readerpanel.scss */
+/* color change on link */
 #content #npw-reader-panel .reader-panel-page div.top a.top {
   font-size: 10pt;
   float: right;
-  color: black;
+  color: #005f76;
   margin-right: 14px;
 }
 /* line 323, ../../sass-src/partials/_readerpanel.scss */
