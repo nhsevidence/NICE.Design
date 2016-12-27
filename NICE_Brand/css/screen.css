@@ -1758,11 +1758,12 @@ body {
   list-style: none;
 }
 /* line 1121, ../../sass-src/partials/_readerpanel.scss */
+/* chevron down color change */
 #content #npw-reader-panel .pathway-information-menu-nav ul li .icon {
   position: absolute;
   left: 0;
   top: 4px;
-  color: #ccd6dd;
+  color: #adadad;
 }
 /* line 1128, ../../sass-src/partials/_readerpanel.scss */
 /* color change */
