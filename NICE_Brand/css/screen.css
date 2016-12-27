@@ -834,26 +834,28 @@ body {
   padding: 7px 0 0px 16px;
 }
 /* line 233, ../../sass-src/partials/_readerpanel.scss */
+/* color and background color change */
 #content #npw-reader-panel .reader-panel-page a > h1 {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-  background: #e1e8ed;
+  background: #e9e9e9;
   display: inline-block;
   padding: 9px 24px;
   margin: 0 0 18px;
-  color: #66737c;
+  color: #0e0e0e;
 }
 /* line 246, ../../sass-src/partials/_readerpanel.scss */
+/* color and background color change */
 #content #npw-reader-panel .reader-panel-page h2 {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-  background: #e1e8ed;
+  background: #e9e9e9;
   display: inline-block;
   padding: 9px 24px;
   margin: 0 0 18px;
-  color: #66737c;
+  color: #0e0e0e;
 }
 /* line 259, ../../sass-src/partials/_readerpanel.scss */
 #content #npw-reader-panel .reader-panel-page h3 {
