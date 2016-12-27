@@ -1582,18 +1582,20 @@ body {
   font-size: 30px;
 }
 /* line 959, ../../sass-src/partials/_readerpanel.scss */
+/* color and background color change*/
 #content #npw-reader-panel .pathway-information-menu #path-info-index li a:hover {
-  background-color: #ededed;
-  color: #08455b;
+  background-color: #d6d6d6;
+  color: #004650;
 }
 /* line 963, ../../sass-src/partials/_readerpanel.scss */
 #content #npw-reader-panel .pathway-information-menu #path-info-index li a:hover span.arrow {
   text-decoration: none;
 }
 /* line 968, ../../sass-src/partials/_readerpanel.scss */
+/* color and background color change*/
 #content #npw-reader-panel .pathway-information-menu #path-info-index li a.current {
   color: #ffffff;
-  background-color: #1794c6;
+  background-color: #004650;
 }
 /* line 973, ../../sass-src/partials/_readerpanel.scss */
 #content #npw-reader-panel .pathway-information-menu #path-info-index li a span.arrow {
