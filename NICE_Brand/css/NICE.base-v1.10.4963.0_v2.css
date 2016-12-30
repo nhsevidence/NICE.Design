@@ -4747,7 +4747,7 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
 #guidance-tabs-container .pagination .previous {
     margin-right: 2px
 }
-
+/* link text color change */
 .pager.pager-centered li>a,#localPracticeTable li>a,#savingsAndProductivityTable li>a,.pager.pager-centered li>span,#localPracticeTable li>span,#savingsAndProductivityTable li>span {
     display: inline-block;
     padding: 5px 14px;
@@ -4757,7 +4757,7 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
     -moz-border-radius: 0;
     border-radius: 0;
     margin-right: 2px;
-    color: #11779b
+    color: #005f76
 }
 /* background color change */
 .pager.pager-centered li>a:hover,#localPracticeTable li>a:hover,#savingsAndProductivityTable li>a:hover,.pager.pager-centered li>span:hover,#localPracticeTable li>span:hover,#savingsAndProductivityTable li>span:hover {
