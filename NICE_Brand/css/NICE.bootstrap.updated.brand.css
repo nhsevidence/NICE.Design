@@ -7518,12 +7518,13 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .panel .downloads .download {
   padding: 12px 24px;
 }
+/* text color change */
 .stats {
   float: right;
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  color: #81939e;
+  color: #222222;
   display: block;
   margin: 0;
 }
