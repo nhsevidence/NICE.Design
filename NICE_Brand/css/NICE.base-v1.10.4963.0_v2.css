@@ -4759,11 +4759,11 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
     margin-right: 2px;
     color: #11779b
 }
-
+/* background color change */
 .pager.pager-centered li>a:hover,#localPracticeTable li>a:hover,#savingsAndProductivityTable li>a:hover,.pager.pager-centered li>span:hover,#localPracticeTable li>span:hover,#savingsAndProductivityTable li>span:hover {
     color: #fff;
-    background-color: #555;
-    border: 1px solid #555
+    background-color: #0e0e0e;
+    border: 1px solid #0e0e0e
 }
 
 .pager.pager-centered li>span,#localPracticeTable li>span,#savingsAndProductivityTable li>span {
