@@ -4894,11 +4894,11 @@ input::-ms-clear {
 .panel-guidelines a.indevelopment .code {
     display: none
 }
-
+/* text color change */
 .panel-guidelines .type {
     clear: left;
     display: block;
-    color: #999
+    color: #0e0e0e
 }
 /* zone-content key link glyth color change */
 .zone-content .key-link:before {
