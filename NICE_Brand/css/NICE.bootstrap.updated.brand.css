@@ -7463,8 +7463,9 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 /* 4:3 */
 /* 16:9 */
 /* Media Lists extensions */
+/* color change */
 .media .media-date {
-  color: #81939e;
+  color: #0e0e0e;
   font-size: 12px;
   line-height: 24px;
 }
