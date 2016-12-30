@@ -4779,11 +4779,11 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
 .pager.pager-centered li>span .active:hover,#localPracticeTable li>span .active:hover,#savingsAndProductivityTable li>span .active:hover {
     color: #0189b6
 }
-
+/* background color change */
 .pager.pager-centered li.active>span,#localPracticeTable li.active>span,#savingsAndProductivityTable li.active>span,.pager.pager-centered li.active>a,#localPracticeTable li.active>a,#savingsAndProductivityTable li.active>a {
     color: #fff!important;
-    background-color: #11779b;
-    border: 1px solid #11779b
+    background-color: #004650;
+    border: 1px solid #004650
 }
 
 .pager.pager-centered li.disabled>span,#localPracticeTable li.disabled>span,#savingsAndProductivityTable li.disabled>span,.pager.pager-centered li.disabled>a,#localPracticeTable li.disabled>a,#savingsAndProductivityTable li.disabled>a {
