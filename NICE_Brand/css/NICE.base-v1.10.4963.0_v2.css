@@ -4529,13 +4529,13 @@ div.emptyresults .searchtext {
 #resourceTypePanels li .row-fluid {
     border-bottom: 1px solid #ddd
 }
-
+/* border bottom color change */
 #donotdo-detail h2.context-heading {
-    border-bottom: .3em solid #1167b7
+    border-bottom: .3em solid #004650
 }
-
+/* border bottom color change */
 #shared-learning-detail h2.context-heading {
-    border-bottom: .3em solid #1167b7
+    border-bottom: .3em solid #004650
 }
 
 #shared-learning-detail a.chapter-links {
