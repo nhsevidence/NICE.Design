@@ -1,0 +1,147 @@
+﻿html, html body {
+  height: 100%;
+  width: 100%;
+}
+@media (min-width: 767px) {
+  .nice-tophat {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:3000;
+  }
+}
+.nice-tophat .nice-global {
+  display: none;
+}
+
+.evidence-hero {
+    display: table;
+    width: 100%;
+    height: 90%;
+    min-height: 450px;
+    background: url(https://www.evidence.nhs.uk/content/nice/molecules1100.jpg) no-repeat center center;
+    background-size: cover;
+}
+.evidence-hero .hero-inner {
+  display: table-cell;
+  vertical-align: middle;
+  background: url(https://www.evidence.nhs.uk/content/nice/EvidenceEye.png) no-repeat center center;
+}
+@media (min-width:0) {
+  .evidence-hero {
+      height: 100%;
+  }
+  .evidence-hero .hero-inner {
+    background-image: url(https://www.evidence.nhs.uk/content/nice/EvidenceEye.svg);
+    background-size: 150%;
+  }
+}
+@media (min-width:980px) {
+  .evidence-hero .hero-inner {
+    background-size: 100%;
+  }
+}
+@media (max-width:460px) {
+  .evidence-hero {
+      height: 450px;
+      background: #fff;
+  }
+  .evidence-hero .hero-inner {
+    background-position: 20% center;
+    background-size: 200%;
+  }
+}
+.evidence-hero h1 {
+  color: white;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+    margin-top: 24px;
+}
+.evidence-hero .lead {
+  color: white;
+  font-size: 19px;
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+.evidence-hero .strap {
+  color: #ddd;
+  font-size: 12px;
+  line-height: 18px;
+  max-width: 310px;
+}
+.evidence-hero .strap-top {
+  color: #ddd;
+  font-size: 16px;
+  line-height: 18px;
+  max-width: 310px;
+  margin-bottom: 0;
+}
+.evidence-hero .evidence-search {
+  margin: 0 auto;
+  width: 54%;
+}
+.evidence-search .nice-search {
+  border: 5px solid white;
+  width: 60%;
+  margin: 0;
+}
+@media (min-width: 1200px) {
+  .evidence-hero h1 {
+      font-size: 36px;
+      line-height: 40px;
+  }
+  .evidence-hero .lead {
+      font-size: 24px;
+  }
+}
+@media (max-width: 979px) {
+  .evidence-hero .evidence-search {
+    margin: 0 40% 0 10%;
+    width: auto;
+  }
+  .evidence-search .nice-search {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .evidence-hero .evidence-search {
+    margin: 0 0 0 12px;
+    width: 400px;
+  }
+
+    .evidence-hero .strap {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (max-width: 460px) {
+  .evidence-hero .evidence-search {
+    width: auto;
+    margin: 0 17px;
+  }stra
+  .evidence-search .nice-search {
+    width: 100%;
+    margin: 0 -5px;
+  }
+}
+
+
+.evidence-search .nice-search input {
+    line-height: 36px;
+  border-color: white;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+.evidence-search .twitter-typeahead {
+  width: 100%;
+  display: block !important;
+}
+.evidence-search .icon-search {
+  font-size: 24px;
+    color: #fff !important;
+}
