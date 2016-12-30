@@ -4368,13 +4368,13 @@ div.emptyresults .searchtext {
         width: 70%
     }
 }
-
+/* text color change */
 .search-list .header-container .search-header-horizontal {
     padding-top: 8px;
     font-size: 18px;
     line-height: 32px;
     vertical-align: top;
-    color: #999
+    color: #0e0e0e
 }
 
 @media only screen and (max-width: 979px) {
