@@ -6651,8 +6651,9 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .breadcrumb li:before {
   display: none;
 }
+/* color change */
 .breadcrumb a {
-  color: #506470;
+  color: #0e0e0e;
 }
 .breadcrumb a:hover,
 .breadcrumb a:active,
