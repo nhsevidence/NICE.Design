@@ -1293,15 +1293,16 @@ h5 b,
 h6 b {
   font-weight: 800;
 }
+/* color and font weight change */
 h1 small,
 h2 small,
 h3 small,
 h4 small,
 h5 small,
 h6 small {
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1;
-  color: #81939e;
+  color: #0e0e0e;
 }
 h1 {
   line-height: 54px;
