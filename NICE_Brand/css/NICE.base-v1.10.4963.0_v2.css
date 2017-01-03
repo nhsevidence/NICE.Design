@@ -3302,10 +3302,10 @@ body .media-list a:hover .icon-stack-pathways .icon-stack-base {
     margin: 1%;
     width: 23%
 }
-
+/* background and  color change */
 .nav-glossary>li>a {
-    color: #999;
-    background-color: #f6f6f6;
+    color: #0e0e0e;
+    background-color: #e9e9e9;
     font-size: 2.4em;
     line-height: 1.5em;
     text-align: center
