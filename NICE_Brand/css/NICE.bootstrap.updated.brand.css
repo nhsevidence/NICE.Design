@@ -5202,7 +5202,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .nav-glossary > li.active > a,
 .nav-glossary > li.active > a:hover,
 .nav-glossary > li > a:hover {
-  color: #374248;
+  color: #fff;
   background: #004650;
 }
 .nav-glossary > li.disabled > a {
