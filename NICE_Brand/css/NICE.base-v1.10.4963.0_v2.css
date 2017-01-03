@@ -3315,10 +3315,10 @@ body .media-list a:hover .icon-stack-pathways .icon-stack-base {
     color: #fff;
     background-color: #004650
 }
-
+/* background color change */
 .nav-glossary>li.active>a:hover,.nav-glossary>li>a:hover {
     color: #fff;
-    background-color: #ffc100
+    background-color: #004650
 }
 
 #CarouselPanel .videoContainer iframe {
