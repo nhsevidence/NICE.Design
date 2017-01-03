@@ -5192,11 +5192,12 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   line-height: 1.5em;
   text-align: center;
 }
+/* background and color change */
 .nav-glossary > li > a:hover,
 .nav-glossary > li > a:focus,
 .nav-glossary > li > a:active {
-  background: #ffc100;
-  color: #374248;
+  background: #004650;
+  color: #fff;
 }
 /* background color change */
 .nav-glossary > li.active > a,
