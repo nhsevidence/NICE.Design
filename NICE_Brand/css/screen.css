@@ -2772,8 +2772,9 @@ body.homepage div#mobile-homepage-content {
   color: #00a7df;
 }
 /* line 544, ../../sass-src/partials/_pathwaysfinder.scss */
+/* color change */
 #homepage-pathways #tabs #catstab div.scroll.level1 ul li span.icon-nice-pathways {
-  color: #01769d;
+  color: #fff;
 }
 /* line 553, ../../sass-src/partials/_pathwaysfinder.scss */
 #homepage-pathways #tabs #catstab div.scroll.level2 ul li {
