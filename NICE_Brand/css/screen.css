@@ -2294,14 +2294,14 @@ body.homepage div#mobile-homepage-content {
   margin-top: -8px;
   left: 50%;
   margin-left: -9px;
-  color: #004650;
+  color: #393939;
   display: none;
   z-index: 100;
 }
 /* line 36, ../../sass-src/partials/_pathwaysfinder.scss */
 /* font, background color change */
 #homepage-pathways #tabButtons .tabBtn.active {
-  background-color: #004650;
+  background-color: #393939;
   color: #fff;
 }
 /* line 39, ../../sass-src/partials/_pathwaysfinder.scss */
