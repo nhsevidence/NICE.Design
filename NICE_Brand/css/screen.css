@@ -2282,6 +2282,7 @@ body.homepage div#mobile-homepage-content {
   background-color: #adadad;
   position: relative;
   width: 80px;
+  font-weight: bold;
   text-align: center;
   float: left;
   clear: none;
