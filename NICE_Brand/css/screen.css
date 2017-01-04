@@ -2516,7 +2516,7 @@ body.homepage div#mobile-homepage-content {
 /* color changes */
 #homepage-pathways #tabs #catstab div.scroll.active.level0 li:hover {
   background-color: #e9e9e9;
-  color: #0e0e0e;
+  color: #005f76;
   border-left: 4px solid #004650;
   padding-left: 14px;
 }
