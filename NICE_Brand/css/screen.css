@@ -2781,8 +2781,9 @@ body.homepage div#mobile-homepage-content {
   color: #393939;
 }
 /* line 553, ../../sass-src/partials/_pathwaysfinder.scss */
+/* border bottom color change */
 #homepage-pathways #tabs #catstab div.scroll.level2 ul li {
-  border-bottom: 1px solid #016486;
+  border-bottom: 1px solid #18646e;
   color: white;
 }
 /* line 557, ../../sass-src/partials/_pathwaysfinder.scss */
