@@ -2596,8 +2596,9 @@ body.homepage div#mobile-homepage-content {
   text-decoration: underline;
 }
 /* line 361, ../../sass-src/partials/_pathwaysfinder.scss */
+/* background color change */
 #homepage-pathways #tabs #catstab div.scroll.active.level2 {
-  background-color: #01769d;
+  background-color: #004650;
   color: white;
 }
 /* line 365, ../../sass-src/partials/_pathwaysfinder.scss */
