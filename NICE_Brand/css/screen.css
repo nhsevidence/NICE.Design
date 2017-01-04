@@ -2651,10 +2651,11 @@ body.homepage div#mobile-homepage-content {
   color: #08455b;
 }
 /* line 417, ../../sass-src/partials/_pathwaysfinder.scss */
+/* background and border color */
 #homepage-pathways #tabs #catstab div.scroll.active.level2 li.active {
-  background-color: #08455b;
+  background-color: #18646e;
   color: white;
-  border-left: 4px solid #073B4D;
+  border-left: 4px solid #004650;
   padding-left: 14px;
 }
 /* line 423, ../../sass-src/partials/_pathwaysfinder.scss */
