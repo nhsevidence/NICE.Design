@@ -314,7 +314,7 @@ ol li {
     background-position: 50%;
     background-repeat: no-repeat;
 }
-
+/* background and color change */
 .nice-tophat .nice-global .menu>li>a,		
 .nice-tophat .nice-global .menu>li>a:active,		
 .nice-tophat .nice-global .menu>li>a:hover,		
@@ -323,7 +323,7 @@ ol li {
 .nice-tophat .nice-global .menu>.active>a:active,		
 .nice-tophat .nice-global .menu>.active>a:hover,		
 .nice-tophat .nice-global .menu>.active>a:focus {		
-    color: #fff;		
+    color: #0e0e0e;		
 }
 
 #_atssh {
