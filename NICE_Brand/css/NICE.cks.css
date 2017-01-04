@@ -42,10 +42,11 @@
     color: #000;
     background: #f6f6f6;
 }
+/* background hover color change  */
 .nav-glossary > li > a:hover,
 .nav-glossary > li > a:focus {
     color: #fff;
-    background: #0F5AA0;
+    background: #004650;
 }
 .nav-glossary > li.disabled > a,
 .nav-glossary > li.disabled > a:hover,
