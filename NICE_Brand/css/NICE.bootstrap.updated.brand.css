@@ -5186,10 +5186,12 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   margin: 1%;
   width: 23%;
 }
+/* font weight change */
 .nav-glossary > li > a {
   color: #81939e;
   background: #fafafb;
   font-size: 2.4em;
+  font-weight: bold;
   line-height: 1.5em;
   text-align: center;
 }
