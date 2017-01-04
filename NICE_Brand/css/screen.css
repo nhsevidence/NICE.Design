@@ -2546,11 +2546,12 @@ body.homepage div#mobile-homepage-content {
   color: #767676;
 }
 /* line 311, ../../sass-src/partials/_pathwaysfinder.scss */
+/* border and color change */
 #homepage-pathways #tabs #catstab div.scroll.active.level1 li:hover {
-  background-color: #f6f6f6;
-  color: #08455b;
-  border-left: 4px solid #08455b;
-  padding-left: 14px;
+    background-color: #f6f6f6;
+    color: #005f76;
+    border-left: 4px solid #004650;
+    padding-left: 14px;
 }
 /* line 318, ../../sass-src/partials/_pathwaysfinder.scss */
 #homepage-pathways #tabs #catstab div.scroll.active.level1 li:hover span.icon-stack span.icon-stack-base {
@@ -2761,8 +2762,9 @@ body.homepage div#mobile-homepage-content {
   color: white;
 }
 /* line 536, ../../sass-src/partials/_pathwaysfinder.scss */
+/* color change */
 #homepage-pathways #tabs #catstab div.scroll.level1 ul li {
-  color: #01769d;
+  color: #005f76;
   border-bottom: 1px solid #d5d5d5;
 }
 /* line 540, ../../sass-src/partials/_pathwaysfinder.scss */
