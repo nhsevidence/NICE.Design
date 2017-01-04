@@ -2739,8 +2739,10 @@ body.homepage div#mobile-homepage-content {
   display: none;
 }
 /* line 495, ../../sass-src/partials/_pathwaysfinder.scss */
+/* color and arrow font-weight change */
 #homepage-pathways #tabs #catstab div.scroll ul li span.arrow {
-  color: #767676;
+  color: #005f76;
+  font-weight: bold;
 }
 /* line 499, ../../sass-src/partials/_pathwaysfinder.scss */
 #homepage-pathways #tabs #catstab div.scroll ul li span.text {
