@@ -323,7 +323,7 @@ ol li {
 .nice-tophat .nice-global .menu>.active>a:active,		
 .nice-tophat .nice-global .menu>.active>a:hover,		
 .nice-tophat .nice-global .menu>.active>a:focus {		
-    color: #0e0e0e;		
+    color: #fff;		
 }
 
 #_atssh {
