@@ -48,11 +48,12 @@
     color: #fff;
     background: #004650;
 }
+/* color change  */
 .nav-glossary > li.disabled > a,
 .nav-glossary > li.disabled > a:hover,
 .nav-glossary > li.disabled > a:focus,
 .nav-glossary > li.disabled > a:active {
-    color: #ddd;
+    color: #adadad;
     background: transparent;
 }
 /* background color change  */
