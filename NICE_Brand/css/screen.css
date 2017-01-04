@@ -2797,8 +2797,9 @@ body.homepage div#mobile-homepage-content {
   color: #00a7df;
 }
 /* line 570, ../../sass-src/partials/_pathwaysfinder.scss */
+/* border bottom color */
 #homepage-pathways #tabs #catstab div.scroll.level3 ul li {
-  border-bottom: 1px solid #073B4D;
+  border-bottom: 1px solid #004650;
 }
 /* line 573, ../../sass-src/partials/_pathwaysfinder.scss */
 #homepage-pathways #tabs #catstab div.scroll.level3 ul li span.icon-stack-base {
