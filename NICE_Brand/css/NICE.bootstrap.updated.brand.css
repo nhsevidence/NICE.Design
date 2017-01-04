@@ -5217,8 +5217,9 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   background: transparent;
   color: #b6c2c9;
 }
+/* background color change */
 .tab-pane .nav-glossary > li > a {
-  background: #ffffff;
+  background: #e9e9e9;
 }
 .tab-pane .nav-glossary > li > a.active > a,
 .tab-pane .nav-glossary > li > a.active > a:hover,
