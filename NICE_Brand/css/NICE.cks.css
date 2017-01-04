@@ -310,7 +310,7 @@ ol li {
 }
 
 .nice-tophat .nice-global {
-    background-image: url('/img/cks-bg.png');
+    background-image: url('https://cks.nice.org.uk//img/cks-bg.png');
     background-position: 50%;
     background-repeat: no-repeat;
 }
