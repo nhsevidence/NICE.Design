@@ -2691,8 +2691,9 @@ body.homepage div#mobile-homepage-content {
   color: white;
 }
 /* line 454, ../../sass-src/partials/_pathwaysfinder.scss */
+/* background color change */
 #homepage-pathways #tabs #catstab div.scroll.active.level3 li:hover {
-  background-color: #073B4D;
+  background-color: #004650;
 }
 /* line 456, ../../sass-src/partials/_pathwaysfinder.scss */
 #homepage-pathways #tabs #catstab div.scroll.active.level3 li:hover span.icon-stack-base {
