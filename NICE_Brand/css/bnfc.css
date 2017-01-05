@@ -30,12 +30,13 @@ a:hover {
 .nice-tophat .nice-global .tt-dropdown-menu {
 	color: black !important;
 }
+/* color change */
 .nice-search button:focus,
 .nice-search button:active,
 .nice-search button {
 	background-color: #8F1F8D !important;
 	border: 1px solid #8F1F8D !important;
-	color: #ddd !important;
+	color: #fff !important;
 }
 .nice-search button:focus,
 .nice-search button:active {
