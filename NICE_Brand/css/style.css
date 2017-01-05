@@ -714,13 +714,15 @@ tm[tmtype=trade]::before {
 	margin-top: 0;
   margin-bottom: 4px;
 }
+/* color change */
 .main-menu-link,
 .main-menu-link .title {
-	color: #0093da;
+	color: #005f76;
 }
+/* hover color change */
 .main-menu-link:hover,
 .main-menu-link:hover .title {
-	color: #007dba;
+	color: #007ea1;
 }
 .standout-panel .main-menu-link,
 .standout-panel .main-menu-link .title {
