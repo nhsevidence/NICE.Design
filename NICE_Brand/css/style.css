@@ -58,13 +58,13 @@ section.target-section {
 	margin: 0;
 	color: #374248;
 }
-
+/* color change */
 h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 24px;
 	font-family: inherit;
 	font-weight: 600;
 	line-height: normal;
-	color: #4a4a4a;
+	color: #0e0e0e;
 	text-rendering: optimizelegibility;
 }
 h1 {
