@@ -1,0 +1,51 @@
+﻿/*
+	Specific styles for BNFc
+*/
+.main-row .standout-panel {
+	background-color: #8B84D7;
+}
+/* link color change */
+.main-menu-link, .main-menu-link .title {
+	color: #005f76;
+}
+
+.nav-subtopics li.active {
+	// background-color: #8B84D7;
+}
+// a:visited,
+a {
+	color: #8B84D7;
+}
+a:active,
+a:hover {
+	color: #82176F;
+}
+
+.nice-tophat .nice-global {
+	background-color: #8B84D7 !important; /* gah, sorry for all the !important tags */
+  color: white !important;
+}
+.nice-tophat .nice-global .tt-dropdown-menu {
+	color: black !important;
+}
+.nice-search button:focus,
+.nice-search button:active,
+.nice-search button {
+	background-color: #8F1F8D !important;
+	border: 1px solid #8F1F8D !important;
+	color: #ddd !important;
+}
+.nice-search button:focus,
+.nice-search button:active {
+	outline: none;
+}
+.nice-search button:hover {
+	color: white !important;
+	outline: none;
+}
+.nice-tophat .nice-global a {
+  color: #ddd;
+}
+.nice-tophat .nice-global a:hover {
+  color: white;
+}
