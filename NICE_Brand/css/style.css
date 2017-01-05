@@ -17,6 +17,15 @@ body[data-release=beta] {
 a.visited {
 	color: purple;
 }
+/* link color change */
+.nice-tophat .nice-global a {
+  color: #fff;
+  text-decoration: underline;
+}
+.nice-tophat .nice-global a:hover {
+  color: white;
+  text-decoration: underline;
+}
 
 /* background color change */
 .nice-tophat .nice-global {
