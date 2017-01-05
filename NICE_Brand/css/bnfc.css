@@ -1,8 +1,10 @@
 ﻿/*
 	Specific styles for BNFc
 */
+
+/* background color change */
 .main-row .standout-panel {
-	background-color: #8B84D7;
+	background-color:  #451551;
 }
 /* link color change */
 .main-menu-link, .main-menu-link .title {
