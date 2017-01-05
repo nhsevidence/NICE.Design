@@ -726,9 +726,10 @@ tm[tmtype=trade]::before {
 .main-menu-link:hover .title {
 	color: #007ea1;
 }
+/* color change */
 .standout-panel .main-menu-link,
 .standout-panel .main-menu-link .title {
-	color: #eeeeee;
+	color: #fff;
 }
 .standout-panel .main-menu-link:hover,
 .standout-panel .main-menu-link:hover .title {
