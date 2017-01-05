@@ -32,6 +32,19 @@ a.visited {
   background-color: #00506a !important; /* gah, sorry for all the !important tags */
   color: white !important;
 }
+/* added in search box styling */
+.nice-search button:focus,
+.nice-search button:active,
+.nice-search button {
+	background-color: #d6d6d6 !important;
+	border: 1px solid #d6d6d6 !important;
+	color: #222222 !important;
+}
+/* added in search box styling */
+.nice-search button:focus,
+.nice-search button:active {
+	outline: none;
+}
 section.target-section {
 	padding: 10px;
 	border-radius: 20px;
