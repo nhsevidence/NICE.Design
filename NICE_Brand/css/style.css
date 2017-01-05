@@ -17,6 +17,12 @@ body[data-release=beta] {
 a.visited {
 	color: purple;
 }
+}
+/* background color change */
+.nice-tophat .nice-global {
+  background-color: #004650 !important; /* gah, sorry for all the !important tags */
+  color: white !important;
+}
 section.target-section {
 	padding: 10px;
 	border-radius: 20px;
