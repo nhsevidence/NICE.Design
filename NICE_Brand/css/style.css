@@ -735,8 +735,9 @@ tm[tmtype=trade]::before {
 .main-menu-link:hover .title {
 	text-decoration: underline;
 }
+/* link color change */
 .main-menu-link p {
-	color: #374248;
+	color: #005f76;
 }
 .standout-panel .main-menu-link p {
 	color: #dddddd;
