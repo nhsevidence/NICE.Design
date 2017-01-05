@@ -8,10 +8,10 @@ body {
 	background-size: 50% !important;
 }
 body[data-release=alpha] {
-	background-image: url('/../../../../../../../images/bnf-alpha-watermark.png') !important;
+	background-image: url('http://beta-bnf.nice.org.uk/images//bnf-alpha-watermark.png') !important;
 }
 body[data-release=beta] {
-	background-image: url('/../../../../../../../images/bnf-beta-watermark.png') !important;
+	background-image: url('http://beta-bnf.nice.org.uk/images//bnf-beta-watermark.png') !important;
 }
 /*a:visited,*/
 a.visited {
