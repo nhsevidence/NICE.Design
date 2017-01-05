@@ -748,8 +748,9 @@ tm[tmtype=trade]::before {
 .main-menu-link p {
 	color: #005f76;
 }
+/* color change */
 .standout-panel .main-menu-link p {
-	color: #dddddd;
+	color: #fff;
 }
 .main-menu-link .icon-chevron-right {
 	position: absolute;
