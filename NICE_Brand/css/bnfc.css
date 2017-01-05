@@ -34,16 +34,12 @@ a:hover {
 .nice-search button:focus,
 .nice-search button:active,
 .nice-search button {
-	background-color: #8F1F8D !important;
-	border: 1px solid #8F1F8D !important;
-	color: #fff !important;
+	background-color: #d6d6d6 !important;
+	border: 1px solid #d6d6d6 !important;
+	color: #222222 !important;
 }
 .nice-search button:focus,
 .nice-search button:active {
-	outline: none;
-}
-.nice-search button:hover {
-	color: white !important;
 	outline: none;
 }
 /* link color change */
