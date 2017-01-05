@@ -683,13 +683,15 @@ tm[tmtype=trade]::before {
 	background-color: #004650;
 	color: #fff;
 }
+/* color change */
 .main-row .standout-panel h1,
 .main-row .standout-panel h2,
 .main-row .standout-panel h3 {
-	color: #eeeeee;
+	color: #fff;
 }
+/* color change */
 .main-row .standout-panel a {
-	color: #eeeeee;
+	color: #fff;
 }
 .main-row .standout-panel a:hover {
 	color: white;
