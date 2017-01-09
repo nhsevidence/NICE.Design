@@ -6559,7 +6559,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 12px;
-    margin-left: 22px
+    margin-left: 0px
 }
 
 @media only screen and (min-width: 980px) {
