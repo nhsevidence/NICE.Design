@@ -6423,7 +6423,13 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 }
 /* Browse guidance by area list: color change */
 #homepage.alt .about-panel-container .about-panel h4 a,#homepage.alt .about-panel-container .about-panel,#homepage.alt .about-panel-container .about-panel a {
-    color: #0E0E0E
+    color: #005f76;
+    text-decoration: underline
+}
+/* Browse guidance by area list H4: color change */
+#homepage.alt .about-panel-container .about-panel h4 a,#homepage.alt .about-panel-container .about-panel,#homepage.alt .about-panel-container .about-panel .h4 a {
+    color: #0e0e0e;
+    text-decoration: none
 }
 /* Guidance panel list Chevron icons color change */
 #homepage.alt .about-panel-container .about-panel i {
