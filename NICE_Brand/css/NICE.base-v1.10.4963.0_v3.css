@@ -7032,14 +7032,14 @@ body.homepage .about-panel-nav ul a {
 }
 /* Change search background colour change */
 body.homepage #nice-global {
-    background-color: #004650;
+    background-color: #d6d6d6;
 }
 
 /* search BUTTON background colour change */
 body.homepage #nice-global .nice-search button {
-    background-color: #d6d6d6;
-    color: #222222;
-    border-color: #d6d6d6;
+    background-color: #222222;
+    color: #fff;
+    border-color: #222222;
     border-left-width: 2px
 }
 
