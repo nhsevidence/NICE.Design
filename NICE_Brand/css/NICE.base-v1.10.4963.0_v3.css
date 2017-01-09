@@ -6431,7 +6431,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     vertical-align: baseline;
     font-weight: 100;
     color: #004650;
-    float: left;
+    float: inherit;
     line-height: 16px;
     margin-top: 4px
 }
