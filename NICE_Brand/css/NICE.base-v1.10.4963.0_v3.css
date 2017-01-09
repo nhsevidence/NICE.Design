@@ -6426,6 +6426,10 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     color: #005f76;
     text-decoration: underline
 }
+/* Browse guidance by area list hover: color change */
+#homepage.alt .about-panel-container .about-panel h4 a,#homepage.alt .about-panel-container .about-panel,#homepage.alt .about-panel-container .about-panel a:hover {
+    color: #007ea1;
+} 
 /* Browse guidance by area list H4: color change */
 #homepage.alt .about-panel-container .about-panel h4 a,#homepage.alt .about-panel-container .about-panel,#homepage.alt .about-panel-container .about-panel .h4 a {
     color: #0e0e0e;
