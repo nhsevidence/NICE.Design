@@ -5779,15 +5779,15 @@ body.homepage>.layout .restrict-width>.row {
 }
 
 body.homepage>.layout .restrict-width>.row>div:first-child {
-    border-left: 24px solid #f6f6f6
+    border-left: 24px solid #e9e9e9
 }
 
 body.homepage>.layout .restrict-width>.row>div.last-child {
-    border-right: 24px solid #f6f6f6
+    border-right: 24px solid #e9e9e9
 }
 
 body.homepage>.layout .restrict-width>.row>div:last-child {
-    border-right: 24px solid #f6f6f6
+    border-right: 24px solid #e9e9e9
 }
 
 @media only screen and (max-width: 767px) {
