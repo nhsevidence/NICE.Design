@@ -6976,7 +6976,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 @media only screen and (min-width: 980px) {
     #homepage.homepage .btn-successalt {
         line-height:24px;
-        padding: 12px 24px
+        padding: 16px 24px
     }
 }
 
