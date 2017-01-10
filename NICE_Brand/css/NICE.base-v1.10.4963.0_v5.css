@@ -6020,9 +6020,9 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 }
 /* in depth header background color to white */
 #homepage .row.indepth {
-    background-color: #fff;
-    border-top: 24px solid #fff;
-    border-bottom: 24px solid #fff;
+    background-color: #e9e9e9;
+    border-top: 24px solid #e9e9e9;
+    border-bottom: 24px solid #e9e9e9;
     margin-bottom: 24px
 }
 
@@ -6065,7 +6065,7 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
 #homepage .row.indepth.header {
     border-bottom: 0;
     border-top: 0;
-    margin-bottom: 12px
+    margin-bottom: 0
 }
 
 @media only screen and (max-width: 767px) {
@@ -6597,6 +6597,11 @@ body.homepage>.layout .restrict-width>.row>div:last-child {
     font-weight: normal;
     margin-top: 0
 }
+
+#homepage .guidance-consultations {
+    margin-bottom: 24px;
+}
+
 /* border bottom added and changed selector */
 #homepage .row.indepth-highlight.guidance-consultations {
     padding-bottom: 24px;
