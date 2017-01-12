@@ -104,18 +104,20 @@
     color: #11779B;
     background-color: #CAE4EE;
 }
+/* background color change */
 .toc .nav .active-child a,
 .toc .nav .active > .nav-list a {
-    background-color: #DDEEF4;
+    background-color: #e9e9e9;
 }
+/* background and text color change */
 .toc .nav .active-child a:hover,
 .toc .nav .active-child a:focus,
 .toc .nav .active-child a:active,
 .toc .nav .active > .nav-list a:hover,
 .toc .nav .active > .nav-list a:focus,
 .toc .nav .active > .nav-list a:active {
-    color: #11779B;
-    background-color: #CAE4EE;
+    color: #0e0e0e;
+    background-color: #d6d6d6;
 }
 .toc .nav .active-child .active > a,
 .toc .nav .active-child .active > a:hover,
