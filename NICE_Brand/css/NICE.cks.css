@@ -216,12 +216,13 @@
   color: #fff;
   background: #004650;
 }
+/* active color change */
 .nav-list > .active > a,
 .nav-list > .active > a:hover,
 .nav-list > .active > a:focus,
 .nav-list > .active > a:active {
   color: #fff;
-  background: #1167B7;
+  background: #004650;
 }
 .nav-list > .active > a:after {
     display: none;
