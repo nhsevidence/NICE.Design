@@ -133,9 +133,10 @@
   border: 0;
   color: white;
 }
+/* color change */
 .share-links .navbar-inner .nav > li > a:hover .icon-stack-base,
 .share-links .navbar-inner .nav > li > a:focus .icon-stack-base {
-  color: #094256;
+  color: #004650;
 }
 .share-links .navbar-inner .nav > li.dropdown.open > a.dropdown-toggle,
 .share-links .navbar-inner .nav > li.dropdown .active > a.dropdown-toggle,
