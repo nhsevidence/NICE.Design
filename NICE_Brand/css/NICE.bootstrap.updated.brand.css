@@ -6605,13 +6605,15 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
   -moz-box-shadow: none;
   box-shadow: none;
 }
+/* color change */
 .share-links .navbar-inner .nav > li > a {
   padding: 0 5px;
   line-height: 2.4em;
-  color: #506470;
+  color: #393939;
 }
+/* color change */
 .share-links .navbar-inner .nav > li > a .icon-stack-base {
-  color: #b6c2c9;
+  color: #adadad;
 }
 .share-links .navbar-inner .nav .dropdown-menu [class^="icon-"],
 .share-links .navbar-inner .nav .dropdown-menu [class*=" icon-"] {
