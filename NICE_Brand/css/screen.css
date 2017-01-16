@@ -543,9 +543,10 @@ body {
   display: none;
 }
 /* line 201, ../../sass-src/partials/_pathwaycontent.scss */
+/* color change */
 #content .divider.mobile {
   border: 0;
-  background: #01769d;
+  background: #004650;
 }
 /* line 204, ../../sass-src/partials/_pathwaycontent.scss */
 #content .divider.mobile ul {
