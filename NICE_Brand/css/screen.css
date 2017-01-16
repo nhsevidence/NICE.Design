@@ -1686,8 +1686,9 @@ body {
   color: white;
 }
 /* line 1069, ../../sass-src/partials/_readerpanel.scss */
+/* color change */
 #content #npw-reader-panel #pathway-index .pathway-index-menu ul li.active a:hover {
-  background: #01769d;
+  background: #004650;
   color: white;
 }
 /* line 1076, ../../sass-src/partials/_readerpanel.scss */
