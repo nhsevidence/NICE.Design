@@ -1678,10 +1678,11 @@ body {
   display: inline-block;
 }
 /* line 1063, ../../sass-src/partials/_readerpanel.scss */
+/* color and border change */
 #content #npw-reader-panel #pathway-index .pathway-index-menu ul li.active a {
-  background: #01769d;
-  border-top: 1px solid #01769d;
-  border-left: 1px solid #01769d;
+  background: #004650;
+  border-top: 1px solid #004650;
+  border-left: 1px solid #004650;
   color: white;
 }
 /* line 1069, ../../sass-src/partials/_readerpanel.scss */
