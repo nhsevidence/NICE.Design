@@ -3248,6 +3248,7 @@ body.homepage div#mobile-homepage-content {
   /* background color change */
   body.homepage div#mobile-homepage-content div.mobile-search-box form button.btnSearch {
     background-color: #222222;
+    color: #fff;
     border: 0;
     height: 64px;
     margin-left: 0;
