@@ -1789,24 +1789,26 @@ body {
   margin-bottom: 20px;
 }
 /* line 1145, ../../sass-src/partials/_readerpanel.scss */
+/* background and colour change */
 #content #npw-reader-panel .pathway-index-your-responsibilities #pathway-index-your-responsibilities-btn {
-  background: #e1e8ed;
+  background: #666666;
   height: 48px;
   width: 100%;
   font-family: inherit;
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
-  color: #66737C;
+  color: #fff;
   text-align: center;
   vertical-align: middle;
   line-height: 48px;
   border-style: none;
 }
 /* line 1159, ../../sass-src/partials/_readerpanel.scss */
+/* colour change */
 #content #npw-reader-panel .pathway-index-your-responsibilities #pathway-index-your-responsibilities-btn:hover {
-  background: #01769d;
-  color: white;
+  background: #333333;
+  color: #fff;
 }
 /* line 293, ../../sass-src/partials/_pathwaycontent.scss */
 /* border and background color change */
