@@ -1730,8 +1730,9 @@ body {
   color: white;
 }
 /* line 32, ../../sass-src/partials/_pathwaylink.scss */
+/* color change */
 #content #npw-reader-panel #pathway-index .pathway-index-menu ul li a span.icon-nice-pathways {
-  color: #01769d;
+  color: #004650;
 }
 /* line 1090, ../../sass-src/partials/_readerpanel.scss */
 #content #npw-reader-panel #pathway-index .pathway-index-menu ul li span.text {
