@@ -1719,8 +1719,9 @@ body {
   background-color: white;
 }
 /* line 19, ../../sass-src/partials/_pathwaylink.scss */
+/* color change */
 #content #npw-reader-panel #pathway-index .pathway-index-menu ul li a:hover span.icon-stack-base {
-  color: #08455b;
+  color: #004650;
 }
 /* line 23, ../../sass-src/partials/_pathwaylink.scss */
 #content #npw-reader-panel #pathway-index .pathway-index-menu ul li a:hover span.icon-nice-pathways {
