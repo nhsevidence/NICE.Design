@@ -3245,8 +3245,9 @@ body.homepage div#mobile-homepage-content {
     -webkit-appearance: none;
   }
   /* line 243, ../../sass-src/partials/_home.scss */
+  /* background color change */
   body.homepage div#mobile-homepage-content div.mobile-search-box form button.btnSearch {
-    background-color: #FFC003;
+    background-color: #222222;
     border: 0;
     height: 64px;
     margin-left: 0;
