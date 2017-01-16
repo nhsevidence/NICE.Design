@@ -561,8 +561,9 @@ body {
   margin: 0;
 }
 /* line 212, ../../sass-src/partials/_pathwaycontent.scss */
+/* color change */
 #content .divider.mobile ul li a {
-  color: #acdeef;
+  color: #fff;
   font-size: 30px;
 }
 /* line 217, ../../sass-src/partials/_pathwaycontent.scss */
