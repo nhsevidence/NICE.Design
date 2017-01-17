@@ -3292,8 +3292,9 @@ body.homepage div#mobile-homepage-content {
     color: white;
   }
   /* line 281, ../../sass-src/partials/_home.scss */
+  /* color change */
   body.homepage div#mobile-homepage-content div.mobile-browse-box ul#mob-atoz li a span.icon-nice-pathways {
-    color: #01769d;
+    color: #004650;
   }
   /* line 288, ../../sass-src/partials/_home.scss */
   body.homepage div#mobile-homepage-content div.mobile-browse-box ul.abc-index {
