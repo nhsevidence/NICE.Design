@@ -3157,8 +3157,9 @@ body.homepage div#mobile-homepage-content {
 
 @media screen and (max-width: 680px) {
   /* line 158, ../../sass-src/partials/_home.scss */
+  /* background color change */
   body.homepage {
-    background: #e1e8ed;
+    background: #d6d6d6;
   }
   /* line 162, ../../sass-src/partials/_home.scss */
   body.homepage ul.mob-tab-headers {
@@ -3221,8 +3222,9 @@ body.homepage div#mobile-homepage-content {
     line-height: 36px;
   }
   /* line 222, ../../sass-src/partials/_home.scss */
+  /* background color change */
   body.homepage div#mobile-homepage-content div.mobile-search-box {
-    background: #e1e8ed;
+    background: #d6d6d6;
     padding: 20px 20px 120px;
   }
   /* line 226, ../../sass-src/partials/_home.scss */
