@@ -6215,9 +6215,11 @@ span.no-break {
   font-size: 40px;
 }
 /* line 19, ../../sass-src/partials/_searchResults.scss */
+/* font weight added */
 #nonpathwaypage.public-search-results p.search-header-horizontal {
   float: left;
   font-size: 16px;
+  font-weight: bold;
 }
 /* line 23, ../../sass-src/partials/_searchResults.scss */
 #nonpathwaypage.public-search-results div.divider {
