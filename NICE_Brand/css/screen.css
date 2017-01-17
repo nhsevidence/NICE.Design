@@ -6244,10 +6244,11 @@ span.no-break {
   display: none;
 }
 /* line 42, ../../sass-src/partials/_searchResults.scss */
+/* background and color change */
 #nonpathwaypage.public-search-results div.pager ul li span {
   padding: 10px;
-  color: #11779b;
-  background: #eee;
+  color: #005ea5;
+  background: #e9e9e9;
 }
 /* line 48, ../../sass-src/partials/_searchResults.scss */
 /* color change */
