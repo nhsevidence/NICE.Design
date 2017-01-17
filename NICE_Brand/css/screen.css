@@ -6303,17 +6303,19 @@ span.no-break {
   color: #08455b;
 }
 /* line 104, ../../sass-src/partials/_searchResults.scss */
+/* colour change */
 #nonpathwaypage.public-search-results ul .pathway-link > a {
   display: block;
-  color: #01769d;
+  color: #005ea5;
   font-size: 24px;
   font-family: lato;
   font-weight: 300;
 }
 /* line 110, ../../sass-src/partials/_searchResults.scss */
+/* colour change */
 #nonpathwaypage.public-search-results ul .pathway-link > a:hover {
   text-decoration: underline;
-  color: #08455b;
+  color: #2e8aca;
 }
 /* line 114, ../../sass-src/partials/_searchResults.scss */
 #nonpathwaypage.public-search-results ul .pathway-link > a:hover span.icon-nice-pathways {
