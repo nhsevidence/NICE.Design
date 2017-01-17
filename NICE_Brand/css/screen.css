@@ -6289,9 +6289,10 @@ span.no-break {
   margin-right: 0.5ex;
 }
 /* line 89, ../../sass-src/partials/_searchResults.scss */
+/* background color change */
 #nonpathwaypage.public-search-results ul .pathway-link {
   padding: 10px 10px 10px 10px;
-  background: #ededed;
+  background: #d6d6d6;
   color: #11779b;
   font-size: 24px;
   display: block;
@@ -6334,9 +6335,10 @@ span.no-break {
   margin: 0;
 }
 /* line 130, ../../sass-src/partials/_searchResults.scss */
+/* background color change */
 #nonpathwaypage.public-search-results ul li ul {
   margin: 0;
-  background-color: #f6f6f6;
+  background-color: #e9e9e9;
   overflow: hidden;
 }
 /* line 136, ../../sass-src/partials/_searchResults.scss */
