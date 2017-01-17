@@ -3183,6 +3183,7 @@ body.homepage div#mobile-homepage-content {
     padding: 15px;
   }
   /* line 181, ../../sass-src/partials/_home.scss */
+  /* background color change */
   body.homepage ul.mob-tab-headers li.mob-tab-head.active {
     background: #e1e8ed;
   }
