@@ -3276,10 +3276,11 @@ body.homepage div#mobile-homepage-content {
     list-style: none;
   }
   /* line 266, ../../sass-src/partials/_home.scss */
+  /* background color change */
   body.homepage div#mobile-homepage-content div.mobile-browse-box ul#mob-atoz li a {
     padding: 10px;
     display: block;
-    background: #f5f8fa;
+    background: #e9e9e9;
     font-size: 16px;
     font-weight: 400;
     font-family: Lato;
