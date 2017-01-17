@@ -31,11 +31,11 @@
 	<link rel="shortcut icon" href="https://pathways.nice.org.uk/favicon.ico">
 	<link rel="apple-touch-icon-precomposed" href="https://pathways.nice.org.uk/favicon-152.png">
 	
-	<title>NICE Pathways
+	<title>NICE Pathways - Search
 	</title>
 
 	<meta http-equiv="Page-Enter" content="Alpha(opacity=100)"/>
-	<meta name="description" content="NICE Pathways is an interactive tool for health and social care professionals providing fast access to NICE guidance and associated products."/>
+	<meta name="description" content="Search"/>
 	
 	<!-- Build number : 470.0.0.0 on WIN-4UCK99OO6VJ in mode Live/Release -->
 		 
@@ -78,6 +78,16 @@
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
 
+
+	<link rel="stylesheet" type="text/css" href="https://pathways.nice.org.uk/media/stylesheets/print/search.css" media="print"/>
+	
+	<style>
+		.center
+		{
+		margin:auto;
+		width:20%;
+		}
+	</style>	
 </head>
 
 <body class="one-column taxonomy layout-fill">
@@ -87,64 +97,15 @@
 
 
 	<a id="top"></a>
-	
+	<div class="alert alert-info clearboth" id="cookieWarning">
+    <a class="close" data-dismiss="alert" href="#">×</a>
+    <span>NICE uses cookies to make the site better. </span>
+    <a href="https://accounts.nice.org.uk/terms-and-conditions">&nbsp;Learn more</a>    
+</div>
 	
 	<script type="text/javascript">document.body.className += " js"</script>
 
 
-	<div id="fullwidth">
-			<div class="mainheader">		<div class="global-search environmentheader">
-			<form action="/Search" class="form-search" method="get" id="frmSearch">
-          <input id="publicsearchbox" type="search" autocomplete="off" spellcheck="false" name="q" placeholder="Search NICE's interactive flowcharts ..." maxlength="250" class="input-large search-query"/>
-        <input type="hidden" id="pwbu" name="pwbu" value=""/>
-          <div id="applicationModeLive"></div>
-          <button type="submit" value="go" title="Search" id="btnSearch">
-            <span class="icon-nice-search"></span>
-          </button>
-			</form>
-		</div>
-
-
-
-                
-				<div class="pathwaycontrols">
-					<ul>
-
-
-	<li>
-	  <div id="leavefeedback" title="Leave feedback">
-		<a href="http://www.nice.org.uk/NICE-Pathways-feedback" target="_blank">Leave feedback</a>
-	  </div>
-	</li>
-
-
-<li>
-  <div id="recentlyviewedmenu" title="Recently viewed" style="display:none;">
-    <a rel="rels/view-recently-viewed" href="#recently-viewed">Recently viewed</a>
-  </div>
-</li>
-
-<li>
-	<div id="activatepathwayselection" title="Browse pathways">
-		<a href="/">Browse pathways</a>
-	</div>
-</li>
-
-
-
-
-					</ul>
-				</div>
-			</div>
-
-
-
-
-
-
-
-			<div class="clear"></div>
-	</div>
 
 	<div id="container">
 		<div id="content">
@@ -176,10 +137,10 @@
 
 			
 		</ul>
-	</div>		<div class="global-search environmentheader" style="width: 1552px;">
+	</div>		<div class="global-search environmentheader">
 			<form action="/Search" class="form-search" method="get" id="frmSearch">
-          <input id="publicsearchbox" type="search" autocomplete="off" spellcheck="false" name="q" placeholder="Search NICE's interactive flowcharts ..." maxlength="250" class="input-large search-query menu-search-box">
-        <input type="hidden" id="pwbu" name="pwbu" value="">
+          <input id="publicsearchbox" type="search" autocomplete="off" spellcheck="false" name="q" placeholder="Search NICE's interactive flowcharts ..." maxlength="250" class="input-large search-query"/>
+        <input type="hidden" id="pwbu" name="pwbu" value=""/>
           <div id="applicationModeLive"></div>
           <button type="submit" value="go" title="Search" id="btnSearch">
             <span class="icon-nice-search"></span>
@@ -274,7 +235,7 @@
               <a href="/pathways/food-allergy-in-under-19s" class="link" title="Browse to Food allergy in under 19s">Allergy, food (see food allergy in children and young people)</a>
             </li>
             <li>
-              <a href="/pathways/dementia" class="link" title="Browse to Dementia">Alzheimer's disease (see dementia)</a>
+              <a href="/pathways/dementia" class="link" title="Browse to Dementia">Alzheimer&#39;s disease (see dementia)</a>
             </li>
             <li>
               <a href="/pathways/motor-neurone-disease" class="link" title="Browse to Motor neurone disease">Amyotrophic lateral sclerosis (see motor neurone disease)</a>
@@ -463,7 +424,7 @@
               <a href="/pathways/fertility-pregnancy-and-childbirth" class="link" title="Browse to Fertility, pregnancy and childbirth">Childbirth (see fertility, pregnancy and childbirth)</a>
             </li>
             <li>
-              <a href="/pathways/attachment-difficulties-in-children-and-young-people" class="link" title="Browse to Attachment difficulties in children and young people">Children's attachment (see attachment difficulties in children and young people)</a>
+              <a href="/pathways/attachment-difficulties-in-children-and-young-people" class="link" title="Browse to Attachment difficulties in children and young people">Children&#39;s attachment (see attachment difficulties in children and young people)</a>
             </li>
             <li>
               <a href="/pathways/gallstone-disease" class="link" title="Browse to Gallstone disease">Cholelithiasis, cholecystitis and choledocholithiasis (see gallstone disease)</a>
@@ -850,7 +811,7 @@
               <a href="/pathways/prophylaxis-against-infective-endocarditis" class="link" title="Browse to Prophylaxis against infective endocarditis">Infective endocarditis, prophylaxis</a>
             </li>
             <li>
-              <a href="/pathways/crohns-disease" class="link" title="Browse to Crohn’s disease">Inflammatory bowel disease (see Crohn's disease)</a>
+              <a href="/pathways/crohns-disease" class="link" title="Browse to Crohn’s disease">Inflammatory bowel disease (see Crohn&#39;s disease)</a>
             </li>
             <li>
               <a href="/pathways/ulcerative-colitis" class="link" title="Browse to Ulcerative colitis">Inflammatory bowel disease (see ulcerative colitis)</a>
@@ -949,7 +910,7 @@
               <a href="/pathways/blood-and-bone-marrow-cancers" class="link" title="Browse to Blood and bone marrow cancers">Lymphoma (see blood and bone marrow cancers)</a>
             </li>
             <li>
-              <a href="/pathways/non-hodgkins-lymphoma" class="link" title="Browse to Non-Hodgkin’s lymphoma">Lymphoma, non-Hodgkin's</a>
+              <a href="/pathways/non-hodgkins-lymphoma" class="link" title="Browse to Non-Hodgkin’s lymphoma">Lymphoma, non-Hodgkin&#39;s</a>
             </li>
             <li>
               <a href="/pathways/managing-long-term-sickness-and-incapacity-for-work" class="link" title="Browse to Managing long-term sickness and incapacity for work">Managing long-term sickness and incapacity for work</a>
@@ -1432,7 +1393,7 @@
               <a href="/pathways/transition-between-inpatient-hospital-settings-and-community-or-care-home-settings-for-adults-with-social-care-needs" class="link" title="Browse to Transition between inpatient hospital settings and community or care home settings for adults with social care needs">Transition between inpatient hospital settings and community or care home settings for adults with social care needs</a>
             </li>
             <li>
-              <a href="/pathways/transition-from-childrens-to-adults-services" class="link" title="Browse to Transition from children's to adults' services">Transition from children's to adults' services</a>
+              <a href="/pathways/transition-from-childrens-to-adults-services" class="link" title="Browse to Transition from children&#39;s to adults&#39; services">Transition from children&#39;s to adults&#39; services</a>
             </li>
             <li>
               <a href="/pathways/trauma" class="link" title="Browse to Trauma">Trauma</a>
@@ -1530,7 +1491,7 @@
                 </span>
                 <div class="latestitem">
                     <span class="latestdate">Added: 29 November 2016</span>
-                    <br>
+                    <br/>
                     <span class="text">Coexisting severe mental illness and substance misuse: community health and social care services</span>
                 </div>
             </a>
@@ -1545,7 +1506,7 @@
                 </span>
                 <div class="latestitem">
                     <span class="latestdate">Added: 29 November 2016</span>
-                    <br>
+                    <br/>
                     <span class="text">Chest pain</span>
                 </div>
             </a>
@@ -1560,7 +1521,7 @@
                 </span>
                 <div class="latestitem">
                     <span class="latestdate">Added: 11 November 2016</span>
-                    <br>
+                    <br/>
                     <span class="text">Community engagement</span>
                 </div>
             </a>
@@ -1575,7 +1536,7 @@
                 </span>
                 <div class="latestitem">
                     <span class="latestdate">Added: 02 November 2016</span>
-                    <br>
+                    <br/>
                     <span class="text">Health of people in the criminal justice system</span>
                 </div>
             </a>
@@ -5969,8 +5930,8 @@
               <span class="icon-stack-base icon-circle"></span>
               <span class="icon icon-nice-pathways"></span>
             </span>
-            <span class="linko-text" onclick="$(this).trackevent('topic link', { action: 'Transition from children's to adults' services', label: 'pathways/transition-from-childrens-to-adults-services' });">
-              Transition from children's to adults' services
+            <span class="linko-text" onclick="$(this).trackevent('topic link', { action: 'Transition from children&#39;s to adults&#39; services', label: 'pathways/transition-from-childrens-to-adults-services' });">
+              Transition from children&#39;s to adults&#39; services
             </span>
           </a>
         </li>
@@ -6538,8 +6499,8 @@
               <span class="icon-stack-base icon-circle"></span>
               <span class="icon icon-nice-pathways"></span>
             </span>
-            <span class="linko-text" onclick="$(this).trackevent('topic link', { action: 'Transition from children's to adults' services', label: 'pathways/transition-from-childrens-to-adults-services' });">
-              Transition from children's to adults' services
+            <span class="linko-text" onclick="$(this).trackevent('topic link', { action: 'Transition from children&#39;s to adults&#39; services', label: 'pathways/transition-from-childrens-to-adults-services' });">
+              Transition from children&#39;s to adults&#39; services
             </span>
           </a>
         </li>
@@ -7195,8 +7156,8 @@
               <span class="icon-stack-base icon-circle"></span>
               <span class="icon icon-nice-pathways"></span>
             </span>
-            <span class="linko-text" onclick="$(this).trackevent('topic link', { action: 'Transition from children's to adults' services', label: 'pathways/transition-from-childrens-to-adults-services' });">
-              Transition from children's to adults' services
+            <span class="linko-text" onclick="$(this).trackevent('topic link', { action: 'Transition from children&#39;s to adults&#39; services', label: 'pathways/transition-from-childrens-to-adults-services' });">
+              Transition from children&#39;s to adults&#39; services
             </span>
           </a>
         </li>
@@ -9008,18 +8969,18 @@
   </div>
 </div>
 
+  
+	
 
 
 	
-	<script src="https://cdn.nice.org.uk/jquery-1.11.1.min.js"></script>
+	<script src="https:https://cdn.nice.org.uk/jquery-1.11.1.min.js"></script>
 		<script src="https://pathways.nice.org.uk/Scripts/pathwaysui/f69de581.build.min.js"></script>
 	
-	<script defer src="https://cdn.nice.org.uk/V2/Scripts/twitter.bootstrap.min.js"></script>
-	<script async src="https://cdn.nice.org.uk/V3/Scripts/nice/NICE.EventTracking.js"></script>
-
+	<script defer src="https:https://cdn.nice.org.uk/V2/Scripts/twitter.bootstrap.min.js"></script>
+	<script async src="https:https://cdn.nice.org.uk/V3/Scripts/nice/NICE.EventTracking.js"></script>
 
 	<script type="text/javascript">	
-    new PATHWAYS.Application({});
 	</script>
 		
 		<script src="http://nhsevidence.github.io/NICE.Design/NICE_Brand/Scripts/NICE.TopHat.dev.js"
@@ -9031,4 +8992,3 @@
 </body>
 
 </html>
-
