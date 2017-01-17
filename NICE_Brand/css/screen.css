@@ -6250,8 +6250,9 @@ span.no-break {
   background: #eee;
 }
 /* line 48, ../../sass-src/partials/_searchResults.scss */
+/* color change */
 #nonpathwaypage.public-search-results div.pager ul li a {
-  color: #11779b;
+  color: #005ea5;
   /* background-color: #f6f6f6; */
 }
 /* line 53, ../../sass-src/partials/_searchResults.scss */
