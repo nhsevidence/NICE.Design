@@ -6304,13 +6304,13 @@ span.no-break {
   color: #08455b;
 }
 /* line 104, ../../sass-src/partials/_searchResults.scss */
-/* colour change */
+/* colour change and font weight */
 #nonpathwaypage.public-search-results ul .pathway-link > a {
   display: block;
   color: #005ea5;
   font-size: 24px;
   font-family: lato;
-  font-weight: 300;
+  font-weight: 500;
 }
 /* line 110, ../../sass-src/partials/_searchResults.scss */
 /* colour change */
@@ -6353,10 +6353,10 @@ span.no-break {
   display: none;
 }
 /* line 149, ../../sass-src/partials/_searchResults.scss */
-/* color change */
+/* colour change and font weight */
 #nonpathwaypage.public-search-results ul li ul li.path-link > a {
   font-family: lato;
-  font-weight: 300;
+  font-weight: 500;
   color: #005ea5;
   font-size: 18px;
   padding-left: 60px;
