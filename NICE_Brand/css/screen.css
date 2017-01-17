@@ -6305,13 +6305,14 @@ span.no-break {
   color: #08455b;
 }
 /* line 104, ../../sass-src/partials/_searchResults.scss */
-/* colour change and font size and weight */
+/* colour change and font size and weight, line height */
 #nonpathwaypage.public-search-results ul .pathway-link > a {
   display: block;
   color: #005ea5;
   font-size: 22px;
   font-family: lato;
   font-weight: 500;
+  line-height: 28px;
 }
 /* line 110, ../../sass-src/partials/_searchResults.scss */
 /* colour change */
