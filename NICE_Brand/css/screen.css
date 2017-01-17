@@ -6305,11 +6305,11 @@ span.no-break {
   color: #08455b;
 }
 /* line 104, ../../sass-src/partials/_searchResults.scss */
-/* colour change and font weight */
+/* colour change and font size and weight */
 #nonpathwaypage.public-search-results ul .pathway-link > a {
   display: block;
   color: #005ea5;
-  font-size: 24px;
+  font-size: 22px;
   font-family: lato;
   font-weight: 500;
 }
@@ -6355,12 +6355,12 @@ span.no-break {
   display: none;
 }
 /* line 149, ../../sass-src/partials/_searchResults.scss */
-/* colour change and font weight */
+/* colour change and font weight and size */
 #nonpathwaypage.public-search-results ul li ul li.path-link > a {
   font-family: lato;
   font-weight: 500;
   color: #005ea5;
-  font-size: 18px;
+  font-size: 16px;
   padding-left: 60px;
   display: block;
 }
