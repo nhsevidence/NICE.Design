@@ -5330,11 +5330,12 @@ label {
 }
 
 /* line 8, ../../sass-src/partials/_publicsearch.scss */
+/* background color change */
 .showhide {
   cursor: pointer;
   float: right;
   padding: 6px;
-  background-color: #5BC0DE;
+  background-color: #666666;
   color: white;
   margin-right: 10px;
   display: block;
