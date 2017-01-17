@@ -3185,7 +3185,7 @@ body.homepage div#mobile-homepage-content {
   /* line 181, ../../sass-src/partials/_home.scss */
   /* background color change */
   body.homepage ul.mob-tab-headers li.mob-tab-head.active {
-    background: #e1e8ed;
+    background: #d6d6d6;
   }
   /* line 188, ../../sass-src/partials/_home.scss */
   body.homepage ul.mob-tab-bodies {
