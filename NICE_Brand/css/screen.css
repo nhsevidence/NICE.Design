@@ -3263,8 +3263,9 @@ body.homepage div#mobile-homepage-content {
     font-size: 38px;
   }
   /* line 256, ../../sass-src/partials/_home.scss */
+  /* background color change */
   body.homepage div#mobile-homepage-content div.mobile-browse-box {
-    background: #e1e8ed;
+    background: #d6d6d6;
     padding: 20px 20px 120px;
   }
   /* line 261, ../../sass-src/partials/_home.scss */
