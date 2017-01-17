@@ -6273,9 +6273,10 @@ span.no-break {
   color: white;
 }
 /* line 75, ../../sass-src/partials/_searchResults.scss */
+/* color change */
 #nonpathwaypage.public-search-results ul span.icon-nice-pathways,
 #nonpathwaypage.public-search-results ul span.icon-nice-pathways-ndoe {
-  color: #01769d;
+  color: #004650;
 }
 /* line 79, ../../sass-src/partials/_searchResults.scss */
 #nonpathwaypage.public-search-results ul .showhide span[class*=icon] {
