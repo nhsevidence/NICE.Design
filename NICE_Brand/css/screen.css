@@ -6353,10 +6353,11 @@ span.no-break {
   display: none;
 }
 /* line 149, ../../sass-src/partials/_searchResults.scss */
+/* color change */
 #nonpathwaypage.public-search-results ul li ul li.path-link > a {
   font-family: lato;
   font-weight: 300;
-  color: #11779b;
+  color: #005ea5;
   font-size: 18px;
   padding-left: 60px;
   display: block;
@@ -6371,9 +6372,10 @@ span.no-break {
   color: #474747;
 }
 /* line 166, ../../sass-src/partials/_searchResults.scss */
+/* color change */
 #nonpathwaypage.public-search-results ul li ul li.path-link > a:hover {
   text-decoration: underline;
-  color: #08455b;
+  color: #2e8aca;
 }
 /* line 171, ../../sass-src/partials/_searchResults.scss */
 #nonpathwaypage.public-search-results ul li ul li.path-link > a span.icon-nice-pathways-node {
