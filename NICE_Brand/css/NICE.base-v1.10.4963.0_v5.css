@@ -4864,9 +4864,9 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
 .nav-tabs>li.link-about {
     float: right!important
 }
-
+/* color change */
 .nav-tabs>li.link-about>a {
-    color: #11779b;
+    color:  #005f76;
     padding-left: 10px;
     padding-right: 10px
 }
@@ -4876,11 +4876,11 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
         padding-left:24px
     }
 }
-
+/* color change */
 .nav-tabs>li.link-about>a:hover,.nav-tabs>li.link-about>a:focus {
     background-color: transparent;
     border-color: transparent;
-    color: #0189b6;
+    color: #007ea1;
     text-decoration: underline
 }
 
