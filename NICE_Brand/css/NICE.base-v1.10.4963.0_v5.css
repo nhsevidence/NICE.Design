@@ -4534,9 +4534,9 @@ div.emptyresults .searchtext {
 #donotdo-detail h2.context-heading {
     border-bottom: .3em solid #004650
 }
-/* border bottom color change */
+/* border bottom color change and height */
 #shared-learning-detail h2.context-heading {
-    border-bottom: .3em solid #004650
+    border-bottom: 4px solid #004650
 }
 
 #shared-learning-detail a.chapter-links {
