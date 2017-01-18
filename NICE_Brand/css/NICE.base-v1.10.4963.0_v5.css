@@ -4800,17 +4800,17 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
 .pager {
     text-align: center
 }
-
+/* background and color change */
 .dataTables_paginate>ul>li>a {
     display: inline-block;
     padding: 5px 14px;
-    background-color: #ebebeb;
-    border: 1px solid #ebebeb;
+    background-color: #d6d6d6;
+    border: 1px solid #d6d6d6;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
     margin-right: 3px;
-    color: #11779b
+    color: #005f76
 }
 
 .dataTables_paginate>ul>li>a:hover {
