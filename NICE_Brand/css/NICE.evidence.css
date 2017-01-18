@@ -63,9 +63,9 @@
         padding: 10px 0
     }
 }
-
+/* a link color removed, clashes with bootstrap */
 a {
-    color: #1167b7;
+    /* color: #1167b7; */
 }
 
 .search-results .media-heading a:visited,
