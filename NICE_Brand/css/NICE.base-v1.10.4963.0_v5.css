@@ -4812,11 +4812,11 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
     margin-right: 3px;
     color: #005f76
 }
-
+/* color change */
 .dataTables_paginate>ul>li>a:hover {
     color: #fff;
-    background-color: #555;
-    border: 1px solid #555
+    background-color: #0e0e0e;
+    border: 1px solid #0e0e0e
 }
 
 .dataTables_paginate>ul>li a.paginate_active {
