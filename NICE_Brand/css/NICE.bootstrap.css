@@ -1006,7 +1006,7 @@ a:focus {
 a:hover,a:focus {
     outline: 0;
     color: #2e8aca;
-    text-decoration: none
+    text-decoration: underline
 }
 
 p {
