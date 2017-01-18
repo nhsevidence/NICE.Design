@@ -7,7 +7,7 @@
         <meta content="IE=edge,chrome=1" name="X-UA-Compatible" />
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
         <!-- Timestamp: 19/12/2016 14:21:53 LIVE-WEB07B-->
-        <title>Local practice | Savings and Productivity and Local Practice Collections | NICE</title>
+        <title>Published | Guidance | NICE</title>
         
         <script src="https://cdn.optimizely.com/js/2225620398.js"></script> 
         <link href="//fonts.googleapis.com/css?family=Lato:200normal,200italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic" rel="stylesheet" type="text/css" />
@@ -92,11 +92,11 @@
     
 <div id="printpane"></div>
 
-<header class="page-header">
+<header class="page-header  hidden-phone">
 <div class="zone zone-breadcrumb">
 
 
-<input id="Token" name="Token" type="hidden" value="rfUXSgPkHEkJ95_jrvdVUAzAE81ORNxsMX9x_hAjBgZQy9ldTgVRZgOeg3LIMqmJsHpUigoAj-BEO3eIuNWPmD7VfEE1">
+<input id="Token" name="Token" type="hidden" value="bcxlB5JmWfEACQXDOKK_Z5gB2x5srFbnkuYt6Wkkp6YeTWXbAptYHF8-Sun1TqqDlJb1hkAntNN3hlYHxJhAdOv9zEE1">
 <div class="container" id="global-breadcrumb">
     <ol class="breadcrumb">
         <li><a href="/" data-track="guidancebreadcrumb">Home</a>
@@ -106,8 +106,8 @@
                 <a href="/guidance" data-track="guidancebreadcrumb">NICE Guidance</a>
             </li>
     </ol>
-    <h1></h1>
-</div></div>           
+    <h1>Guidance and advice list</h1>
+</div></div>            
 </header>
 
 
@@ -117,438 +117,344 @@
 
 
 <div class="zone zone-content">
-
-
-<div id="savingsAndProductivity-tabs-container">
+<input id="TotalRowCount" name="TotalRowCount" type="hidden" value="264">
+<div id="guidance-tabs-container">
     <div class="tabbable">
-        <ul class="nav nav-tabs" id="savingsAndProductivityTabs" data-provide="tab-drop"><li class="dropdown pull-right tabdrop hide"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> <b class="caret"></b></a><ul class="dropdown-menu"></ul></li>
-            <li class="">
-                <a id="linkSavingsAndProductivity" data-page-title="Savings and productivity | Savings and Productivity and Local Practice Collections | NICE" href="/savingsandproductivity/collection" class="active" data-toggle="tab" data-target="#SavingsAndProductivityCollection" data-infourl="/about/What-we-do/Our-Programmes/Savings-And-Productivity-Collection">Savings and productivity</a>
+        <ul class="nav nav-tabs" id="guidanceTabs">
+            <li class="active main">
+                <a id="linkPublished" href="/guidance/published" class="active listTab">Published</a>
             </li>
-            <li class="active">
-                <a id="linkLocalPractice" data-page-title="Local practice | Savings and Productivity and Local Practice Collections | NICE" href="/localpractice/collection" data-toggle="tab" data-target="#LocalPracticeCollection" data-infourl="/about/What-we-do/Our-Programmes/Local-Practice-Collection">Local practice</a>
+            <li class="indevelopment">
+                <a id="linkUpdatedGuidance" href="/guidance/indevelopment" class="listTab"><span>In development</span></a>
             </li>
-           <li class="link-about">
-                 <a id="linkHelp" href="/about/What-we-do/Our-Programmes/Local-Practice-Collection" class="help-button"><i class="helpindicator"></i>&nbsp;<span>About the collection</span></a>
-             </li>
+            <li class="inconsultation">
+                <a id="linkConsultations" href="/guidance/inconsultation" class="listTab"><span>In consultation</span></a>
+            </li>
+            <li id="aboutniceguidancelink" class="pull-right visible-desktop visible-tablet">
+                <a href="/about/what-we-do/our-programmes">About NICE guidance</a>
+            </li>
         </ul>
+        <div class="dropdown-header tabs" data-target="tab">
+            <a href="#">
+                Status (Published)
+            </a>
+        </div>
+        <div id="guidance-tabs-dropdown" class="mobile-dropdown" data-display="tab">
+            <label class="dropdown-heading">Select status:</label>
+            <label class="radio">
+                <input type="radio" value="/guidance/published" name="tab-option" checked="">
+                Published
+            </label>
+            <label class="radio">
+                <input type="radio" value="/guidance/indevelopment" name="tab-option">
+                In development
+            </label>
+            <label class="radio">
+                <input type="radio" value="/guidance/inconsultation" name="tab-option">
+                In consultation
+            </label>
+            <button class="btn">Apply</button>
+        </div>
         <div class="tab-content">
-            <div class="tab-pane fade" id="SavingsAndProductivityCollection">
-                <form id="savingsAndProductivitySearchForm" onsubmit="return false;" action="/savingsandproductivity/list" method="GET">
-    <input id="AntiForgeryTokenD" name="AntiForgeryTokenD" type="hidden" value="wX5_zPhAuf7cYNKjmJEOfKHq3FojFNyxkU1d1ehOqf6lBbtwdN7Vs5b7kvb64i-NGLOUpnWWxEN2NoSKc72GKtiogKo1">
-    <input id="ProductCode" name="ProductCode" type="hidden" value="">
-    <div class="savingsAndProductivity-page row-fluid">
-        <table class="savingsAndProductivity-table table table-condensed table-hover table-striped" id="savingsAndProductivityTable">
-            <thead>
-                <tr>
-                    <th>
-                        <span class="input-append" style="display:table-cell">
-                            <input type="search" id="SavingsAndProductivityTitleSearchText" name="TitleSearchText" placeholder="Filter by Title" value="">
-                            <button class="btn" type="button">Filter</button>
-                        </span>
-                       
-                    </th>
-                    <th>
-                        <select id="SavingsAndProductivityType" name="SelectedSavingsAndProductivityType"><option value="">Type</option><option value="Cost Saving Guidance">Cost Saving Guidance</option><option value="Do not do">Do not do</option><option value="Key Therapeutic Topic">Key Therapeutic Topic</option><option value="Public Health ROI tool">Public Health ROI tool</option><option value="QP Case Study">QP Case Study</option><option value="Cochrane Topic">Cochrane Topic</option></select>
-                    </th>
-                    <th>
-                        <select class="input-validation-error" id="SavingsAndProductivityPublicationYear" name="SelectedPublicationYear"><option value="">Published</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option></select>
-                    </th>
-                    <th>
-                        <select id="SavingsAndProductivityImpactLevel" name="SelectedImpactLevel"><option value="">Impact Level</option><option value="Very Low">Very Low</option><option value="Low">Low</option><option value="High">High</option><option value="Very High">Very High</option><option value="Unclassified">Unclassified</option><option value="Exclude">Exclude</option><option value="Varies locally">Varies locally</option></select>
-                    </th>
-                </tr>
-            </thead>
-                    <tbody><tr>
-                        <td>
-                                <a href="https://www.nice.org.uk/advice/ktt19">KTT19: Psychotropic medicines in people with learning disabilities whose behaviour challenges</a>
-                        </td>
-                        <td>
-                            Key Therapeutic Topic
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                        <td>
-                            Unclassified
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href="https://www.nice.org.uk/advice/ktt21">KTT21: Medicines optimisation in long-term pain</a>
-                        </td>
-                        <td>
-                            Key Therapeutic Topic
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                        <td>
-                            Unclassified
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href="https://www.nice.org.uk/advice/ktt18">KTT18: Multimorbidity and polypharmacy</a>
-                        </td>
-                        <td>
-                            Key Therapeutic Topic
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                        <td>
-                            Unclassified
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href="https://www.nice.org.uk/advice/ktt20">KTT20: Safer insulin prescribing</a>
-                        </td>
-                        <td>
-                            Key Therapeutic Topic
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                        <td>
-                            Unclassified
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href="http://www.nice.org.uk/donotdo/do-not-routinely-offer-self-monitoring-of-blood-glucose-levels-for-adults-with-type-2-diabetes-unless-the-person-is-on-insulin-or-there-is-evidence-of-hypoglycaemic-episodes-or-the-person-is-on-oral-medication-that-may-increase-their-risk-of-hypoglycaemia">Do not routinely offer self-monitoring of blood glucose levels for adults with type 2 diabetes unless: the person is on insulin or there is evidence of hypoglycaemic episodes or the person is on oral medication that may increase their risk of hypoglycaemia while driving or operating machinery or the person is pregnant, or is planning to become pregnant. For more information, see the NICE guideline on diabetes in pregnancy. [new 2015]</a>
-                        </td>
-                        <td>
-                            Do not do recommendation
-                        </td>
-                        <td>
-                            December 2016
-                        </td>
-                        <td>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href="http://www.nice.org.uk/donotdo/do-not-offer-aspirin-for-the-primary-prevention-of-cardiovascular-disease-to-adults-with-type-1-diabetes">Do not offer aspirin for the primary prevention of cardiovascular disease to adults with type 1 diabetes.</a>
-                        </td>
-                        <td>
-                            Do not do recommendation
-                        </td>
-                        <td>
-                            December 2016
-                        </td>
-                        <td>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href="http://www.nice.org.uk/donotdo/men-with-idiopathic-semen-abnormalities-should-not-be-offered-antioestrogens-gonadotrophins-androgens-bromocriptine-or-kinin-enhancing-drugs-because-they-have-not-been-shown-to-be-effective">Men with idiopathic semen abnormalities should not be offered antioestrogens, gonadotrophins, androgens, bromocriptine or kinin-enhancing drugs because they have not been shown to be effective.</a>
-                        </td>
-                        <td>
-                            Do not do recommendation
-                        </td>
-                        <td>
-                            December 2016
-                        </td>
-                        <td>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href="http://www.nice.org.uk/donotdo/testing-for-y-chromosome-microdeletions-should-not-be-regarded-as-a-routine-investigation-before-icsi-however-it-is-likely-that-a-significant-proportion-of-male-infertility-results-from-abnormalities-of-genes-on-the-y-chromosome-involved-in-the-regulation">Testing for Y chromosome microdeletions should not be regarded as a routine investigation before ICSI. However, it is likely that a significant proportion of male infertility results from abnormalities of genes on the Y chromosome involved in the regulation of spermatogenesis, and couples should be informed of this.</a>
-                        </td>
-                        <td>
-                            Do not do recommendation
-                        </td>
-                        <td>
-                            December 2016
-                        </td>
-                        <td>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href="http://www.nice.org.uk/donotdo/replacement-of-embryos-into-a-uterine-cavity-with-an-endometrium-of-less-than-5-mm-thickness-is-unlikely-to-result-in-a-pregnancy-and-is-therefore-not-recommended">Replacement of embryos into a uterine cavity with an endometrium of less than 5 mm thickness is unlikely to result in a pregnancy and is therefore not recommended.</a>
-                        </td>
-                        <td>
-                            Do not do recommendation
-                        </td>
-                        <td>
-                            December 2016
-                        </td>
-                        <td>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href="http://www.nice.org.uk/donotdo/the-use-of-basal-body-temperature-charts-to-confirm-ovulation-does-not-reliably-predict-ovulation-and-is-not-recommended">The use of basal body temperature charts to confirm ovulation does not reliably predict ovulation and is not recommended.</a>
-                        </td>
-                        <td>
-                            Do not do recommendation
-                        </td>
-                        <td>
-                            December 2016
-                        </td>
-                        <td>
-                            
-                        </td>
-                    </tr>
-                <tr>
-                    <td colspan="4">
-                        <input id="savingsAndProductivityCurrentPage" name="PageContext.CurrentPage" type="hidden" value="1">
-                        
-
-    <div class="pager">
-        <ul>
-            <li id="page_prev" class="disabled"><a href="#">Previous</a></li>
-                <li id="page_1" class="active"><a href="#">1</a></li>
-                <li id="page_2" class=""><a href="#">2</a></li>
-                <li id="page_3" class=""><a href="#">3</a></li>
-                <li id="page_4" class=""><a href="#">4</a></li>
-                <li id="page_5" class=""><a href="#">5</a></li>
-                <li id="page_6" class=""><a href="#">6</a></li>
-                <li id="page_7" class=""><a href="#">7</a></li>
-                <li id="page_8" class=""><a href="#">8</a></li>
-                <li id="page_9" class=""><a href="#">9</a></li>
-                <li id="page_10" class=""><a href="#">10</a></li>
-                <li id="page_11" class=""><a href="#">11</a></li>
-            <li id="page_next" class=""><a href="#">Next</a></li>
-        </ul>
-    </div>
-
-                    </td>
-                </tr>
-        </tbody></table>
-        <div id="table-length" class="dataTables_length" style="margin-left:20px">
-            <label>
-                Show 
-                 <select id="PageSize" name="PageSize"><option selected="selected" value="10">10</option>
-<option value="25">25</option>
-<option value="50">50</option>
-<option value="2000">All</option>
-</select>
-
-            </label>
-        </div>
-    </div>
-
-
-
-</form>
-
-                        
-            </div>
-                <div class="tab-pane fade active in" id="LocalPracticeCollection">
+            <div class="tab-pane fade active in" id="Published">
                 
-<form id="localPracticeSearchForm" onsubmit="return false;" action="/localpractice/list" method="GET">
-<input id="AntiForgeryTokenLP" name="AntiForgeryTokenLP" type="hidden" value="su4QpaxD0jBcM01Ncv9_91POKiMe7DmCly2tZnntm7ktQIqY8ByjNCgafsaaUpGLHlg8aichaAMPTE66H1d_W_KXTRY1">
-
-    <div class="local-practice-page row-fluid">
-        <table class="local-practice-table table table-condensed table-hover table-striped" id="localPracticeTable">
-
-            <thead>
-                <tr class="form">
-                    <th>
-                        <span class="input-append" style="display:table-cell">
-                            <input type="hidden" name="ProductCode" value="" id="productCode">
-                            <input type="search" id="LocalPracticeTitleSearchText" name="TitleSearchText" placeholder="Filter by Title" value="">
-                            <button class="btn" type="button">Filter</button>
-                        </span>
-                        
-                    </th>
-                    <th>
-                        <select id="LocalPracticeType" name="SelectedLocalPracticeType"><option value="">Type</option>
-<option value="QP Case Study">QP Case Study</option>
-<option value="Shared Learning">Shared Learning</option>
-</select>
-                    </th>
-                    <th>
-                        <select id="LocalPracticePublicationYear" name="SelectedPublicationYear"><option value="">Published</option>
-<option value="2017">2017</option>
-<option value="2016">2016</option>
-<option value="2015">2015</option>
-<option value="2014">2014</option>
-<option value="2013">2013</option>
-<option value="2012">2012</option>
-<option value="2011">2011</option>
-<option value="2010">2010</option>
-<option value="2009">2009</option>
-<option value="2008">2008</option>
-</select>
-                    </th>
-                </tr>
-            </thead>
-                    <tbody><tr>
-
-                        <td>
-                                <a href="/sharedlearning/rheumatology-referral-prioritisation-the-right-care-in-the-right-place-at-the-right-time">Rheumatology referral prioritisation: the right care in the right place at the right time</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                                <a href="/sharedlearning/shape-supporting-health-and-promoting-exercise-in-young-people-with-psychosis">SHAPE: Supporting Health And Promoting Exercise in Young People with Psychosis</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                                <a href="/sharedlearning/oasis-group-improving-quality-of-life-in-patients-with-lower-limb-osteoarthritis">OASIS Group: improving quality of life in patients with lower limb Osteoarthritis</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                                <a href="/sharedlearning/innovative-ways-to-support-smokers-requiring-nicotine-management-in-a-mental-health-organisation">Innovative ways to support smokers requiring nicotine management in a mental health organisation</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                                <a href="/sharedlearning/successful-implementation-of-nice-ssi-guidance-and-quality-standard">Successful implementation of NICE SSI guidance and quality standard</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                                <a href="/sharedlearning/hypertension-improving-blood-pressure-management-in-primary-care">Hypertension: Improving blood pressure management in primary care</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                                <a href="/sharedlearning/incorporating-nice-guidance-into-the-sepsis-care-pathway-at-tameside-improving-patient-care-safety-and-mortality-in-relation-to-sepsis">Incorporating NICE guidance into the Sepsis Care Pathway at Tameside: improving patient care, safety and mortality in relation to sepsis</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                                <a href="/sharedlearning/enhancing-the-quality-of-heart-failure-care">Enhancing the Quality of Heart Failure Care</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                                <a href="/sharedlearning/blackburn-with-darwen-integrated-wellbeing-service-what-we-have-working-better">Blackburn with Darwen Integrated Wellbeing Service</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>
-                                <a href="/sharedlearning/new-iv-fluids-very-nice">New IV Fluids: Very NICE</a>
-                        </td>
-                        <td>
-                            Shared Learning
-                        </td>
-                        <td>
-                            January 2017
-                        </td>
-                    </tr>
-                <tr>
-                    <td colspan="3">
-                        <input id="localPracticeCurrentPage" name="PageContext.CurrentPage" type="hidden" value="1">
-                        
-
-    <div class="pager">
-        <ul>
-            <li id="page_prev" class="disabled"><a href="#">Previous</a></li>
-                <li id="page_1" class="active"><a href="#">1</a></li>
-                <li id="page_2" class=""><a href="#">2</a></li>
-                <li id="page_3" class=""><a href="#">3</a></li>
-                <li id="page_4" class=""><a href="#">4</a></li>
-                <li id="page_5" class=""><a href="#">5</a></li>
-                <li id="page_6" class=""><a href="#">6</a></li>
-                <li id="page_7" class=""><a href="#">7</a></li>
-                <li id="page_8" class=""><a href="#">8</a></li>
-                <li id="page_9" class=""><a href="#">9</a></li>
-                <li id="page_10" class=""><a href="#">10</a></li>
-                <li id="page_11" class=""><a href="#">11</a></li>
-            <li id="page_next" class=""><a href="#">Next</a></li>
-        </ul>
+<script> // (won't work in script file - changes for each ajax tab load)
+    $(function () { 
+        $('.removex').attr('href', document.location.pathname);
+    });
+</script>
+<div class="guidance-table-container">
+    <input type="hidden" id="reloadValue">
+    <div id="titleDropdownHeader" class="dropdown-header" data-target="title">
+        <a href="#">
+            Filter by title (<span id="titleValue">enter title</span>)
+        </a>
     </div>
-
-                    </td>
-                </tr>
-        </tbody></table>
-         <div id="table-length" class="dataTables_length" style="margin-left:20px">
-            <label>
-                Show 
-                 <select id="PageSize" name="PageSize"><option selected="selected" value="10">10</option>
-<option value="25">25</option>
-<option value="50">50</option>
-<option value="2000">All</option>
-</select>
-
-            </label>
+    <div id="title-dropdown-container" class="mobile-dropdown" data-display="title">
+        <div class="filterrow">
+            <div>
+                <label for="titleFilter">Filter by title</label>
+                <div style="position: relative;" class="clear_input_div"><input type="text" id="titleFilter" class="titleFilter" placeholder="Enter title or keyword" autocomplete="off"><a style="position: absolute; cursor: pointer; display: none; left: 583px;" class="clear_input">×</a></div>
+          
+            </div>
         </div>
     </div>
 
-</form>
+        <div class="table-filters-dropdown-container">
+            <div class="dropdown-header type-filter" data-target="type">
+                <a href="#">
+                    View filters (6 in use)
+                </a>
+            </div>
+            <div class="dropdown-header sort" data-target="sort">
+                <a href="#">
+                    Sort by: Last updated (Newest)
+                </a>
+            </div>
+        </div>
+        <div class="table-contents">
+            <div id="sort-dropdown-container" class="mobile-dropdown" data-display="sort">
+                <label class="dropdown-heading">Sort by:</label>
+                    <label class="radio">
+                        <input type="radio" value="0-asc" name="sort-radio" data-sort="Title (A - Z)" data-select="Title (A - Z)" autocomplete="off">
+                        Title (A - Z)
+                    </label>
+                    <label class="radio">
+                        <input type="radio" value="0-desc" name="sort-radio" data-sort="Title (Z - A)" data-select="Title (Z - A)" autocomplete="off">
+                        Title (Z - A)
+                    </label>
+                    <label class="radio">
+                        <input type="radio" value="2-asc" name="sort-radio" data-sort="Ref (A - Z)" data-select="Reference number (A - Z)" autocomplete="off">
+                        Reference number (A - Z)
+                    </label>
+                    <label class="radio">
+                        <input type="radio" value="2-desc" name="sort-radio" data-sort="Ref (Z - A)" data-select="Reference number (Z - A)" autocomplete="off">
+                        Reference number (Z - A)
+                    </label>
+                    <label class="radio">
+                        <input type="radio" value="4-desc" name="sort-radio" data-sort="Published (Newest)" data-select="Published (Newest)" autocomplete="off">
+                        Published (Newest)
+                    </label>
+                    <label class="radio">
+                        <input type="radio" value="4-asc" name="sort-radio" data-sort="Published (Oldest)" data-select="Published (Oldest)" autocomplete="off">
+                        Published (Oldest)
+                    </label>
+                    <label class="radio">
+                        <input type="radio" value="6-desc" name="sort-radio" data-sort="Last updated (Newest)" data-select="Last updated (Newest)" checked="" autocomplete="off">
+                        Last updated (Newest)
+                    </label>
+                    <label class="radio">
+                        <input type="radio" value="6-asc" name="sort-radio" data-sort="Last updated (Oldest)" data-select="Last updated (Oldest)" autocomplete="off">
+                        Last updated (Oldest)
+                    </label>
+                <button class="btn">Apply sort</button>
+            </div>
+            <div class="row">
+                <div id="filters-responsive" class="mobile-dropdown span3" data-display="type">
+                        <button id="clear-filter" class="btn show" data-clearurl="Published">Clear filters</button>
+                    
+                    <div class="filter-title-container">
+                        <div class="type-buttons top">
+                            <button id="clearFilterMobile" class="btn">Clear filters</button>
+                            <button class="btn">Apply filters</button>
+                        </div>
+                        <h4 class="filter-title dropdown-heading"><span>Filter by  last updated date</span></h4>
                         
+<form autocomplete="off" id="checkBoxForm">
+    <div class="date-filter-container">
+        <input type="hidden" id="startDate" name="startDate" value="2000-03-01T00:00:00">
+        <input type="hidden" id="endDate" name="endDate" value="2017-01-18T11:24:35">
+        <input type="hidden" id="defaultStartDate" name="defaultStartDate" value="2000-03-01T00:00:00">
+        <input type="hidden" id="defaultEndDate" name="defaultEndDate" value="2017-01-18T11:24:35">
+        <input type="hidden" id="csv" name="csv" value="csg,cg,mpg,ph,sg,sc">
+        <input type="hidden" class="hidden-date-filter" id="fromDate" name="fromDate" value="">
+        <input type="hidden" class="hidden-date-filter" id="toDate" name="toDate" value="">
+        <div class="input-group input-daterange">
+            <p class="invalid-date-error">Please enter a valid month/year e.g. 01/2015</p>
+            <p class="date-out-of-range-error">Pick a date between <span class="earlist-start-date">March 2000</span> and <span class="earlist-end-date">January 2017</span></p>
+            <div class="input-append date do-not-print nice-datepicker" id="fromDatePicker" data-date-update="fromDate">            
+                <label for="fromDateButtonText" class="control-label">From</label>
+                <div class="datepicker-container controls">
+                    <div style="position: relative;" class="clear_input_div"><input type="text" class="date-input" placeholder="e.g. 01/2015" id="fromDateButtonText" name="fromDateButtonText" value=""><a style="position: absolute; cursor: pointer; display: none; left: 144px;" class="clear_input">×</a></div>
+                    <span class="add-on"><i class="icon-nice-calendar"></i></span>
+                </div>
+            </div>
+            <div class="input-append date do-not-print nice-datepicker " id="toDatePicker" data-date-update="toDate">
+                <label for="toDateButtonText" class="control-label">To</label>
+                <div class="datepicker-container controls">
+                    <div style="position: relative;" class="clear_input_div"><input type="text" class="date-input" placeholder="e.g. 01/2016" id="toDateButtonText" name="toDateButtonText" value=""><a style="position: absolute; cursor: pointer; display: none; left: 144px;" class="clear_input">×</a></div>
+                    <span class="add-on"><i class="icon-nice-calendar"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="type-filter-container">
+        <h4 class="filter-title dropdown-heading"><span>Filter by type</span></h4>
+        <div class="guidance-filters">
+            <label class="checkbox filter-main top-checkbox">
+                <input data-text="Guidance" id="GuidanceCheckbox" name="ProductTypes.Guidance.Selected" type="checkbox" value="Guidance"><input name="ProductTypes.Guidance.Selected" type="hidden" value="false"> <span>Guidance</span>
+            </label>
+            <div class="filter-subset guidance">
+                <label class="checkbox top-checkbox">
+                    <input checked="checked" data-parent="GuidanceCheckbox" data-text="NICE guidelines" id="guidelinesCheckbox" name="ProductTypes.Guidance.Child.Selected" type="checkbox" value="NICE guidelines"><input name="ProductTypes.Guidance.Child.Selected" type="hidden" value="false"> NICE guidelines
+                </label>
+                <div class="filter-subset-secondary guidelines">
+                        <label class="checkbox">
+                            <input checked="checked" data-parent="guidelinesCheckbox" data-text="Cancer service guidelines" id="CSG" name="productType.Selected" type="checkbox" value="CSG"><input name="productType.Selected" type="hidden" value="false">  Cancer service guidelines
+                        </label>
+                        <label class="checkbox">
+                            <input checked="checked" data-parent="guidelinesCheckbox" data-text="Clinical guidelines" id="CG" name="productType.Selected" type="checkbox" value="CG"><input name="productType.Selected" type="hidden" value="false">  Clinical guidelines
+                        </label>
+                        <label class="checkbox">
+                            <input checked="checked" data-parent="guidelinesCheckbox" data-text="Medicines practice guidelines" id="MPG" name="productType.Selected" type="checkbox" value="MPG"><input name="productType.Selected" type="hidden" value="false">  Medicines practice guidelines
+                        </label>
+                        <label class="checkbox">
+                            <input checked="checked" data-parent="guidelinesCheckbox" data-text="Public health guidelines" id="PH" name="productType.Selected" type="checkbox" value="PH"><input name="productType.Selected" type="hidden" value="false">  Public health guidelines
+                        </label>
+                        <label class="checkbox">
+                            <input checked="checked" data-parent="guidelinesCheckbox" data-text="Safe staffing guidelines" id="SG" name="productType.Selected" type="checkbox" value="SG"><input name="productType.Selected" type="hidden" value="false">  Safe staffing guidelines
+                        </label>
+                        <label class="checkbox">
+                            <input checked="checked" data-parent="guidelinesCheckbox" data-text="Social care guidelines" id="SC" name="productType.Selected" type="checkbox" value="SC"><input name="productType.Selected" type="hidden" value="false">  Social care guidelines
+                        </label>
+                </div>
+                    <label class="checkbox">
+                        <input data-parent="GuidanceCheckbox" data-text="Diagnostics guidance" id="DG" name="productType.Selected" type="checkbox" value="DG"><input name="productType.Selected" type="hidden" value="false">  Diagnostics guidance
+                    </label>
+                    <label class="checkbox">
+                        <input data-parent="GuidanceCheckbox" data-text="Highly specialised technologies guidance" id="HST" name="productType.Selected" type="checkbox" value="HST"><input name="productType.Selected" type="hidden" value="false">  Highly specialised technologies guidance
+                    </label>
+                    <label class="checkbox">
+                        <input data-parent="GuidanceCheckbox" data-text="Interventional procedures guidance" id="IPG" name="productType.Selected" type="checkbox" value="IPG"><input name="productType.Selected" type="hidden" value="false">  Interventional procedures guidance
+                    </label>
+                    <label class="checkbox">
+                        <input data-parent="GuidanceCheckbox" data-text="Medical technologies guidance" id="MTG" name="productType.Selected" type="checkbox" value="MTG"><input name="productType.Selected" type="hidden" value="false">  Medical technologies guidance
+                    </label>
+                    <label class="checkbox">
+                        <input data-parent="GuidanceCheckbox" data-text="Quality standards" id="QS" name="productType.Selected" type="checkbox" value="QS"><input name="productType.Selected" type="hidden" value="false">  Quality standards
+                    </label>
+                    <label class="checkbox">
+                        <input data-parent="GuidanceCheckbox" data-text="Technology appraisal guidance" id="TA" name="productType.Selected" type="checkbox" value="TA"><input name="productType.Selected" type="hidden" value="false">  Technology appraisal guidance
+                    </label>
+            </div>
+
+        </div>
+        <div class="advice-filters ">
+            <label class="checkbox filter-main top-checkbox">
+                <input data-text="NICE advice" id="adviceCheckbox" name="ProductTypes.Advice.Selected" type="checkbox" value="NICE advice"><input name="ProductTypes.Advice.Selected" type="hidden" value="false"> <span>NICE advice</span>
+            </label>
+            <div class="filter-subset advice">
+                    <label class="checkbox">
+                        <input data-parent="adviceCheckbox" data-text="Evidence summaries" id="ES" name="productType.Selected" type="checkbox" value="ES"><input name="productType.Selected" type="hidden" value="false">  Evidence summaries
+                    </label>
+                    <label class="checkbox">
+                        <input data-parent="adviceCheckbox" data-text="Key therapeutic topics" id="KTT" name="productType.Selected" type="checkbox" value="KTT"><input name="productType.Selected" type="hidden" value="false">  Key therapeutic topics
+                    </label>
+                    <label class="checkbox">
+                        <input data-parent="adviceCheckbox" data-text="Local government briefings" id="LGB" name="productType.Selected" type="checkbox" value="LGB"><input name="productType.Selected" type="hidden" value="false">  Local government briefings
+                    </label>
+                    <label class="checkbox">
+                        <input data-parent="adviceCheckbox" data-text="Medtech innovation briefings" id="MIB" name="productType.Selected" type="checkbox" value="MIB"><input name="productType.Selected" type="hidden" value="false">  Medtech innovation briefings
+                    </label>
+            </div>
+        </div>
+        <div class="type-buttons bottom">
+            <button id="clearFilterMobile" class="btn">Clear filters</button>
+            <button class="btn">Apply filters</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+
+                <div class="table-responsive span9" id="clipboard-target">
+                    <div class="table-information serverside pull-left">
+                        
+                    <div class="dataTables_info">Showing 1 to 10 of 264</div><div class="dataTables_info" id="guidanceList_info">Showing 1 to 10 of 264</div></div>
+                    <div id="guidanceList_wrapper" class="dataTables_wrapper form-inline" role="grid"><div class=""><div id="guidanceList_processing" class="dataTables_processing" style="visibility: hidden;"><i class="icon-spinner icon-spin"></i><p>Updating results</p></div></div><table class="guidance-list-table dataTable table table-condensed table-striped table-hover tablesaw-stack initialised" id="guidanceList" data-table="PublishedTable" aria-describedby="guidanceList_info">
+                        <caption class="hidden">
+                            <a href="/guidance/published?type=csg,cg,mpg,ph,sg,sc" id="table-caption">Published NICE advice and guidance<span id="table-caption-datefilter"></span></a>
+                            <br>
+                            <span id="table-caption-filters"></span>
+                            <br>
+                            <span id="table-caption-information"></span>
+                        </caption>
+                        <thead>
+                        <tr role="row"><th data-filtercolumn="true" data-sortproperty="ProductTitle" data-sortbycolumnname="ProductTitle" class="sorting" role="columnheader" tabindex="0" aria-controls="guidanceList" rowspan="1" colspan="1" aria-label="Title: activate to sort column ascending">Title</th><th data-sortnextcolumn="true" data-sortproperty="ReferenceNumber" data-sortbycolumnname="ReferenceNumberSortable" data-sclass="rn" class="rn sorting" role="columnheader" tabindex="0" aria-controls="guidanceList" rowspan="1" colspan="1" aria-label="Reference number: activate to sort column ascending">Reference number</th><th data-sortnextcolumn="true" class="data-date dt sorting_desc" data-sortproperty="FirstDateToDisplay" data-sortbycolumnname="FirstDateToSortBy" data-sclass="dt" role="columnheader" tabindex="0" aria-controls="guidanceList" rowspan="1" colspan="1" aria-label="Published: activate to sort column ascending">Published</th><th data-sortnextcolumn="true" class="data-date dt sorting_desc" data-sortproperty="SecondDateToDisplay" data-sortbycolumnname="SecondDateToSortBy" data-sclass="dt" role="columnheader" tabindex="0" aria-controls="guidanceList" rowspan="1" colspan="1" aria-label="Last updated: activate to sort column ascending">Last updated</th></tr>
+                        </thead>
+                        
+                    <tbody data-link="row" class="rowlink" role="alert" aria-live="polite" aria-relevant="all"><tr class="odd">
+                                        <td class=" "><a href="/guidance/cg135">Organ donation for transplantation: improving donor identification and consent rates for deceased organ donation</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>CG135</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>December 2011</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>December 2016</td>
+                                            
+                                    </tr><tr class="even">
+                                        <td class=" "><a href="/guidance/cg174">Intravenous fluid therapy in adults in hospital</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>CG174</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>December 2013</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>December 2016</td>
+                                            
+                                    </tr><tr class="odd">
+                                        <td class=" "><a href="/guidance/cg65">Hypothermia: prevention and management in adults having surgery</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>CG65</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>April 2008</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>December 2016</td>
+                                            
+                                    </tr><tr class="even">
+                                        <td class=" "><a href="/guidance/ng61">End of life care for infants, children and young people with life-limiting conditions: planning and management</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>NG61</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>December 2016</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>December 2016</td>
+                                            
+                                    </tr><tr class="odd">
+                                        <td class=" "><a href="/guidance/ng60">HIV testing: increasing uptake among people who may have undiagnosed HIV (Joint NICE and Public Health England guideline)</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>NG60</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>December 2016</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>December 2016</td>
+                                            
+                                    </tr><tr class="even">
+                                        <td class=" "><a href="/guidance/cg95">Chest pain of recent onset: assessment and diagnosis</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>CG95</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>March 2010</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>November 2016</td>
+                                            
+                                    </tr><tr class="odd">
+                                        <td class=" "><a href="/guidance/ng58">Coexisting severe mental illness and substance misuse: community health and social care services</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>NG58</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>November 2016</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>November 2016</td>
+                                            
+                                    </tr><tr class="even">
+                                        <td class=" "><a href="/guidance/ng59">Low back pain and sciatica in over 16s: assessment and management</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>NG59</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>November 2016</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>November 2016</td>
+                                            
+                                    </tr><tr class="odd">
+                                        <td class=" "><a href="/guidance/cg145">Spasticity in under 19s: management</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>CG145</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>July 2012</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>November 2016</td>
+                                            
+                                    </tr><tr class="even">
+                                        <td class=" "><a href="/guidance/cg190">Intrapartum care for healthy women and babies</a></td>
+                                                                                    <td class="rn  rn"><b>Reference number:</b>CG190</td>
+                                            
+                                            <td class="dt  dt sorting_2"><b>Published:</b>December 2014</td>
+                                            
+                                            <td class="dt  dt sorting_1"><b>Last updated:</b>November 2016</td>
+                                            
+                                    </tr></tbody></table><div class=""><div class="dataTables_paginate paging_bootstrap pager"><ul class=""><li class="prev disabled"><a href="#"> Previous</a></li><li class="active"><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li class="next"><a href="#">Next </a></li></ul></div><div class="hidden"><div class="dataTables_filter" id="guidanceList_filter"><label>Filter table <input type="text" aria-controls="guidanceList"></label></div></div></div><div id="guidanceList_length" class="dataTables_length"><button class="btn do-not-print datatable-footer" data-clipboardsource="#clipboard-target" data-trigger="click" data-toggle="tooltip" data-placement="top" style="">Copy to clipboard</button><label>Show <select size="1" name="guidanceList_length" aria-controls="guidanceList"><option value="10" selected="selected">10</option><option value="25">25</option><option value="50">50</option><option value="-1">All</option></select></label></div></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
             </div>
         </div>
     </div>
 </div>
+
 </div>
             </div>
     </div>
