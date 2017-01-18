@@ -14,10 +14,10 @@
 .nice-tophat .menu-search {
     display: none;
 }
-
+/* font size and line height change */
 .search-header {
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 32px;
     font-weight: 700;
     margin: 3px 24px 0 57px;
 }
@@ -27,11 +27,11 @@
         margin-right: 0;
     }
 }
-
+/* font size and line height change */
 .search-header .search-heading {
     margin: 0;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .search-header .search-summary {
