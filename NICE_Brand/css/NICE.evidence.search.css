@@ -205,7 +205,7 @@ div.read-summary {
 .filter {
 
 }
-
+/* text decoration none */
 .filter-fixed,
 .filter-toggle,
 .filter-toggle:hover,
@@ -215,6 +215,7 @@ div.read-summary {
     width: 91%;
     padding: 12px 2% 12px 7%;
     color: black;
+    text-decoration: none;
 }
 
     .filter-toggle:before {
