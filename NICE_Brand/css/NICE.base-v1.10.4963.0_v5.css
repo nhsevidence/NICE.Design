@@ -4786,9 +4786,9 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
     background-color: #004650;
     border: 1px solid #004650
 }
-
+/* color change */
 .pager.pager-centered li.disabled>span,#localPracticeTable li.disabled>span,#savingsAndProductivityTable li.disabled>span,.pager.pager-centered li.disabled>a,#localPracticeTable li.disabled>a,#savingsAndProductivityTable li.disabled>a {
-    color: #555;
+    color: #0e0e0e;
     background-color: transparent;
     border: 1px solid transparent
 }
