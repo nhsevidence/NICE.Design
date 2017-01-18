@@ -4748,12 +4748,12 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
 #guidance-tabs-container .pagination .previous {
     margin-right: 2px
 }
-/* link text color change */
+/* link text color change and background color change */
 .pager.pager-centered li>a,#localPracticeTable li>a,#savingsAndProductivityTable li>a,.pager.pager-centered li>span,#localPracticeTable li>span,#savingsAndProductivityTable li>span {
     display: inline-block;
     padding: 5px 14px;
-    background-color: #ebebeb;
-    border: 1px solid #ebebeb;
+    background-color: #d6d6d6;
+    border: 1px solid #d6d6d6;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
