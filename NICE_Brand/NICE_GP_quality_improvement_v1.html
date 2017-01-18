@@ -288,8 +288,8 @@
             data-search="/search?q=%term"
             data-typeaheadtype="remote"
             data-typeaheadsource="/autocomplete?%query"
-                        async></script>
-
+              data-service="standards"                    async></script>
+              
     <script type="text/javascript">
         $(document).ajaxSend(function (event, jqxhr, settings) {
             if (settings.url.indexOf("?") >= 0) {
