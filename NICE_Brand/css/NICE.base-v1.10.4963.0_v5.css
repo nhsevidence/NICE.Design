@@ -4834,15 +4834,15 @@ body .nav-tabs .icon-stack i[class*='icon-'] {
     background-color: transparent;
     border: 1px solid transparent
 }
-
+/* background color change */
 .dataTables_paginate>ul>li.active a {
     color: #fff;
-    background-color: #11779b;
-    border: 1px solid #11779b
+    background-color: #004650;
+    border: 1px solid #004650
 }
-
+/* color change */
 .dataTables_paginate>ul>li.active a:hover {
-    color: #0189b6
+    color: #fff
 }
 
 .dataTables_paginate>ul>li.active a.disabled {
