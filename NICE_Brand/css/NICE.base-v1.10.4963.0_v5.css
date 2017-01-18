@@ -1722,12 +1722,12 @@ body {
     margin: 1em 24px;
     line-height: 20px
 }
-/* background color change */
+/* background color change - border radius zero */
 .mobile-dropdown button {
     width: 90%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 0px;
     background-color: #666666;
     color: #fff;
     padding: 10px 0;
