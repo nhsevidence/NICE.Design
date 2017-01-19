@@ -150,10 +150,10 @@
   line-height: 24px;
   text-decoration: underline;
 }
-
+/* underline added to text decoration */
 .media .media-meta > a:hover,
 .media .media-meta > a:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .media .media-meta .popover {
