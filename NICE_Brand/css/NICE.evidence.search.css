@@ -46,12 +46,13 @@
 .search-results .media {
     position: relative;
 }
-
+/* padding and border bottom added */
 .search-results .media-body {
-    padding: 0 0 30px 6px;
+    padding: 0 0 40px 6px;
     margin: 12px 24px 12px 36px;
     border-left: 10px solid white;
     clear: both;
+    border-bottom: 1px solid #ddd;
 }
 
 @media (max-width: 460px) {
