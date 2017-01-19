@@ -2,7 +2,7 @@
 
 .nice-tophat .nice-global .tophat-inner {
     min-height: 65px;
-    background-image: url('/../../../../../../../content/nice/Evidence-bg.jpg');
+    background-image: url('https://www.evidence.nhs.uk//content/nice/Evidence-bg.jpg');
     background-size: cover;
     background-position: 50%;
 }
