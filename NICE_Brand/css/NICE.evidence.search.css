@@ -360,11 +360,11 @@ div.read-summary {
     font-size: 13px;
     line-height: 18px;
 }
-/* color change */
+/* color change - font weigh removed */
 .pager ul > .active > a,
 .pager ul > .active > span {
     color: #fff;
-    font-weight: 700;
+/* font-weight: 700; */
 }
 
 
