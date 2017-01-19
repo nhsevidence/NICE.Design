@@ -138,10 +138,11 @@
 .media .popover {
     width: 300px;
 }
-/* #006621 google color*/
+/* #006621 google color */
+/* color change */
 .media .media-meta {
     margin: 5px 0 4px 0;
-    color: #38981a;
+    color: #222222;
     line-height: 24px;
 }
 .media .media-meta > a {
