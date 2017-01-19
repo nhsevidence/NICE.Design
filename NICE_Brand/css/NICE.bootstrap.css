@@ -6639,9 +6639,9 @@ button.btn.btn-mini,input[type=submit].btn.btn-mini {
     border: 1px solid transparent;
     border-left-width: 0
 }
-
+/* background color change */
 .pager ul>li>a:hover,.pager ul>li>a:focus,.pager ul>.active>a,.pager ul>.active>span {
-    background-color: #fafafb
+    background-color: #004650
 }
 
 .pager ul>.active>a,.pager ul>.active>span {
