@@ -145,8 +145,9 @@
     color: #222222;
     line-height: 24px;
 }
+/* color change */
 .media .media-meta > a {
-  color: #38981a;
+  color: #005ea5;
   line-height: 24px;
   text-decoration: underline;
 }
