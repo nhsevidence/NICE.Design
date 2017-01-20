@@ -1139,7 +1139,7 @@ body {
 }
 /* link color and hover state color change: body text links */
 a {
-  color: #005f76;
+  color: #005ea5;
   text-decoration: underline;
 }
 a:focus {
@@ -1151,7 +1151,7 @@ a:focus {
 a:hover,
 a:focus {
   outline: 0;
-  color: #007ea1;
+  color: #2e8aca;
   text-decoration: underline;
 
 }
