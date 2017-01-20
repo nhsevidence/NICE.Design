@@ -9185,7 +9185,7 @@ input.search-query {
 .navbar-corporate .nav > li > a,
 .navbar-corporate .nav > li > a:hover {
   display: table;
-  color: #005f76;
+  color: #005ea5;
   padding: 10px 10px;
   border: 0;
 }
@@ -9197,7 +9197,7 @@ input.search-query {
 .navbar-corporate .nav > li > a:focus,
 .navbar-corporate .nav > li > a:hover:focus {
   background: none;
-  color: #007ea1;
+  color: #2e8aca;
 }
 /* icon color change , font weight change to bolder */
 .navbar-corporate .nav > li > a:before,
