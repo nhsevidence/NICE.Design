@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link href="//fonts.googleapis.com/css?family=Lato:200normal,200italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--[if lt IE 9]>
+    	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+		html, body {
+			font-family: 'Lato', sans-serif;
+		}
+		
+		.btn,
+		.form-control,
+		.nav-tabs>li>a,
+		.input-group-addon {
+			border-radius: 0;
+		}
+		.navbar-medtech {
+			border-radius: 0;
+		}
+		.nav-tabs-medtech {
+			border-bottom: 0;
+		}
+		.nav-tabs-medtech > li > a {
+			border-bottom: 0;
+			color: #fff;
+		}
+		.nav-tabs-medtech > li > a:hover {
+			color: #333;
+		}
+			
+		.arrow-top {
+			position: relative;
+		}
+		.arrow-top:before {
+			content: '';
+			width: 30px;
+			height: 30px;
+			display: block;
+			position: absolute;
+			top:-15px;
+			left:50%;
+			margin-left: -15px;
+			transform: rotate(45deg);
+			background-color: #ccc;
+		}
+		
+		#hero {
+			background-image: url(background.jpg);
+			background-size: cover;
+		}
+		
+		.benefits-number {
+			background-color: darkblue;
+			border-radius: 13px;
+			width: 26px;
+			height: 26px;
+			line-height: 26px;
+			display: inline-block;
+			color: #fff;
+			text-align: center;
+			float: left;
+			margin-right: 10px;
+		}
+		
+/*
+		.full-border {
+			position: relative;
+		}
+		.full-border:after {
+			content: '';
+			display: block;
+			bottom: 0px;
+			position:absolute;
+			width: 100%;
+			height: 1px;
+			background-color: #ccc;
+			z-index: -1;
+		}
+*/
+		.white {
+			color: #fff;
+		}
+		.medtech-blue {
+			background-color: #2f577a;
+		}
+		.medtech-grey {
+			background-color: #ccc;
+		}
+		.medtech-dark-grey {
+			background-color: #444;
+		}
+		.medtech-darker-grey {
+			background-color: #222;
+		}
+		
+		.remove-margin {
+			margin: 0;
+		}
+		.padding-vertical-20 {
+			padding: 20px 0;
+		}
+		.padding-vertical-30 {
+			padding: 30px 0;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse remove-margin">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">MedTech</a>
+			</div>
+		</div>
+	</nav>
+	
+	<section id="hero" class="full medtech-blue padding-vertical-30 white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<h1>Medtech Early Technical Assessment</h1>
+					<p class="lead">
+						META offers a gap analysis of the evidence supporting your products. The META service identifies evidence gaps, indicates if products are likely to offer a return on investment and could reduce the time taken to generate evidence.
+					</p>
+					<p>
+						<a href="#" class="btn btn-success">Register</a>
+						<a href="#" class="btn btn-default">Log in</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="tabs">
+		<div class="full-border medtech-blue">
+			<div class="container">
+				<ul class="nav nav-tabs nav-tabs-medtech" role="tablist">
+					<li role="presentation" class="active"><a href="#what" aria-controls="what" role="tab" data-toggle="tab">What is META?</a></li>
+					<li role="presentation"><a href="#how" aria-controls="how" role="tab" data-toggle="tab">How does META work?</a></li>
+					<li role="presentation"><a href="#benefits" aria-controls="benefits" role="tab" data-toggle="tab">Benefits</a></li>
+				</ul>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="tab-content padding-vertical-30">
+				<div role="tabpanel" class="tab-pane active" id="what">
+					<h2>What is META?</h2>
+					<p>The NICE Scientific Advice META service helps medical device and diagnostic companies make cost-effective decisions anout investment in evidence generation.</p>
+					<p>Our META service is designed to help:</p>
+					<ul>
+						<li>Guide future development strategy</li>
+						<li>prepare for potential NICE evaluations</li>
+						<li>aid future discusssions with payers or commissioners</li>
+						<li>with budgets in care stretched more than ever before purchasers need to be sure that products are clinically and cost effective.</li>
+					</ul>
+					<p>Developers of medical technologies need to produce robust evidence that shows the value of their products to purchasers. Our META service will help you to build an evidence base that supports your product.</p>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="how">
+					<h2>How does META work?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus porro sit earum totam dolore pariatur ex magni minima, dolorem, officiis. Animi culpa qui nam amet autem repellat labore cumque sint.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nihil, magnam nam, consequuntur at ipsum tempora facilis quos aperiam soluta dolorum eveniet odit doloremque sapiente accusantium, dolore fugit quia praesentium.</p>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="benefits">
+					<h2>META is a 3-step process:</h2>
+					<div class="row padding-vertical-20">
+						<div class="col-md-4">
+							<p>
+								<span class="benefits-number">1</span>
+								Structured gap analysis of the evidence generation plans for new and existing Medtech products.
+							</p>
+						</div>
+						<div class="col-md-4">
+							<p>
+								<span class="benefits-number">2</span>
+								Face to face session with a NICE facilitator to discuss your evidence generation plans
+							</p>
+						</div>
+						<div class="col-md-4">
+							<p>
+								<span class="benefits-number">3</span>
+								You will receive a report that highlights gaps in your current evidence generation plans
+							</p>
+						</div>
+					</div>
+					<p>By identifying evidence gaps you can reduce the cost of product development and get faster product uptake within the NHS. Sign-up to preview the synopsis and book a call-back with one of our expert advisers.</p>
+				</div>
+			</div>
+		</div>
+	</section>	
+		
+	<section id="clients" class="full medtech-grey padding-vertical-30 arrow-top">
+		<div class="container">
+			<h2>Companies that are also using META Tool</h2>
+			<div class="row padding-vertical-20">
+				<div class="col-sm-6 col-md-3">
+					<img class="img-responsive" src="http://lorempixel.com/400/200/" /><p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore pariatur unde nam reprehenderit.</strong></p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img class="img-responsive" src="http://lorempixel.com/400/200/" /><p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam esse quam dolorem, voluptates.</strong></p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img class="img-responsive" src="http://lorempixel.com/400/200/" /><p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, fugit harum doloremque fuga unde.</strong></p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img class="img-responsive" src="http://lorempixel.com/400/200/" /><p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet mollitia, nobis dignissimos adipisci</strong></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="form" class="medtech-dark-grey white padding-vertical-30">
+		<div class="container">
+			<h2>Request a callback</h2>
+			<form>
+				<div class="row">
+					<div class="form-group col-sm-6">
+						<label for="exampleInputName2">Name</label>
+						<input type="text" class="form-control" id="exampleInputName2">
+					</div>
+					<div class="form-group col-sm-6">
+						<label for="exampleInputEmail2">Company</label>
+						<input type="email" class="form-control" id="exampleInputEmail2">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail2">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail2">
+				</div>
+				<div class="row">
+					<div class="form-group col-sm-6 col-md-4">
+						<label for="exampleInputEmail2">Telephone number</label>
+						<div class="input-group">
+							<div class="input-group-addon">+44</div>
+							<input type="email" class="form-control" id="exampleInputEmail2" />
+						</div>
+					</div>			
+				</div>
+				<button class="btn btn-default">Submit</button>
+			</form>			
+		</div>
+	</section>
+	
+	<section id="footer" class="medtech-darker-grey white">
+		<div class="container">
+			<h2>Contact</h2>
+			<address>
+				<strong>NICE</strong><br>
+				Level 1A, City Tower<br>
+				Piccadilly Plaza<br>
+				Manchester<br>
+				M1 4BT<br>
+				Telephone: +44 (0)300 323 0140<br>
+				Fax: +44(0)300 323 0149
+			</address>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
