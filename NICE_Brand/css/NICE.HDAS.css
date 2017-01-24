@@ -1148,6 +1148,7 @@ a:hover .nice-icon {
 .nav-tabs > li > a:hover {
     border-top: 5px solid #336;
 }
+/* border top color change; */
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
     color: #4a4a4a;
     padding-top: 11px;
