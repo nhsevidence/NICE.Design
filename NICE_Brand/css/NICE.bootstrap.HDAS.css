@@ -4821,10 +4821,10 @@ button.btn.btn-mini,input[type=submit].btn.btn-mini {
     background-color: transparent;
     padding: 0
 }
-
+/* color change */
 .btn-link {
     border-color: transparent;
-    color: #11779b
+    color: #005ea5
 }
 /* color change */
 .btn-link:hover,.btn-link:focus {
