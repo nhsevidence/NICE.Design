@@ -46,7 +46,7 @@ a {
 /* drop shadow removed and border added */
 @media (min-width: 769px) {
     #search-form-container {
-            border: 2px solid #e9e9e9;
+        border: 2px solid #e9e9e9;
     }
 }
 
@@ -55,9 +55,10 @@ a {
     margin-bottom: 30px;
     border: 0px;
 }
+/* drop shadow removed and border added */
 @media (min-width: 769px) {
     #show-searches {
-        box-shadow: 0px 10px 16px #ddd;
+        border: 2px solid #e9e9e9;
     }
 }
 
