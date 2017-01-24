@@ -44,13 +44,14 @@
         #header .navbar-inner.navbar-first-row .brand i:before {
             display: none;
         }
-
+/* color, font size, line height and weight change */
         #header .navbar-inner.navbar-first-row .tagline {
-            color: #222;
-            font-size: 16px;
-            line-height: 22px;
-            margin-top: 12px;
-        }
+            color: #0e0e0e;
+            font-size: 18px;
+            line-height: 20px;
+            margin-top: 15px;
+            font-weight: 400;
+         }
 
             #header .navbar-inner.navbar-first-row .brand:hover,
             #header .navbar-inner.navbar-first-row .tagline:hover {
