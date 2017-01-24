@@ -1,0 +1,245 @@
+﻿.col {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    background-color: #ffc;
+}
+
+.col-wrap {
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .container.full-when-xs {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+/*
+    HEADER
+*/
+#header .navbar-inner {
+    filter: none !important;
+}
+
+    #header .navbar-inner.navbar-first-row {
+        background-color: #fff;
+        background-image: none;
+    }
+
+        #header .navbar-inner.navbar-first-row .brand,
+        #header .navbar-inner.navbar-first-row .tagline {
+            display: inline-block;
+            color: white;
+            line-height: 24px;
+        }
+
+        #header .navbar-inner.navbar-first-row .brand {
+            color: #222;
+            font-size: 48px;
+            margin-top: 0;
+            width: 104px;
+        }
+        #header .navbar-inner.navbar-first-row .brand i:before {
+            display: none;
+        }
+
+        #header .navbar-inner.navbar-first-row .tagline {
+            color: #222;
+            font-size: 16px;
+            line-height: 22px;
+            margin-top: 12px;
+        }
+
+            #header .navbar-inner.navbar-first-row .brand:hover,
+            #header .navbar-inner.navbar-first-row .tagline:hover {
+                color: #222;
+                text-decoration: none;
+            }
+
+@media (max-width: 768px) {
+    #header .navbar-inner.navbar-first-row .tagline {
+        display: none;
+    }
+}
+
+#header .navbar-inner.navbar-first-row ul.nav li.open a.profile-link,
+#header .navbar-inner.navbar-first-row ul.nav li.active a.profile-link,
+#header .navbar-inner.navbar-first-row ul.nav li a.profile-link {
+    color: #222;
+}
+
+    #header .navbar-inner.navbar-first-row ul.nav li.open a.profile-link,
+    #header .navbar-inner.navbar-first-row ul.nav li.active a.profile-link,
+    #header .navbar-inner.navbar-first-row ul.nav li a.profile-link:hover {
+        color: #0E0E0E;
+    }
+
+    #header .navbar-inner.navbar-first-row ul.nav li a.profile-link:hover {
+        background-color: #fff;
+        border-bottom: 5px solid transparent;
+    }
+    #header .navbar-inner.navbar-first-row ul.nav li a.profile-link:hover i {
+        color: #d6d6d6;
+    }
+
+#header .navbar-inner.navbar-second-row {
+    background-color: #e9e9e9;
+    background-image: none;
+}
+
+#header .navbar-second-row.navbar-inner {
+    min-height: auto;
+}
+
+#header .navbar-second-row ul.nav li a {
+    padding: 8px 15px;
+    color: #0E0E0E;
+}
+
+    #header .navbar-second-row ul.nav li a,
+    #header .navbar-second-row ul.nav li a:hover,
+    #header .navbar-second-row ul.nav li a:active,
+    #header .navbar-second-row ul.nav li.active a,
+    #header .navbar-second-row ul.nav li.active a:hover,
+    #header .navbar-second-row ul.nav li.active a:active {
+        color: #0E0E0E;
+        border-bottom: 0px;
+        padding-bottom: 8px;
+    }
+
+#header .navbar-second-row ul.nav li a {
+    background-color: transparent;
+}
+
+    #header .navbar-second-row ul.nav li a:hover {
+        background-color: #d6d6d6;
+    }
+
+#header .navbar-second-row ul.nav li.active a {
+    background-color: #004650;
+    color: #fff;
+}
+
+    #header .navbar-second-row ul.nav li.active a:hover {
+        background-color: #004650;
+        color: #fff;
+    }
+
+
+    /* rebrand changes. temporary apparently - until the real tophat is put in here. */
+
+#dropdown-menu {
+    width: 250px;
+    background-color: #e9e9e9;
+    border: 1px solid #adadad;
+    padding: 0 0;
+}
+
+#dropdown-menu li {
+    border-top: 1px solid #d6d6d6;
+}
+
+#dropdown-menu li:first-child {
+    border-top: none;
+}
+
+#dropdown-menu li a {
+    padding: 12px 12px;
+}
+#dropdown-menu li a:hover {
+    background-color: #d6d6d6;
+    background-image: none;
+    color: #4a4a4a;
+}
+.navbar .nav>li>#dropdown-menu:after {
+    border-bottom-color: #000;
+}
+
+/*
+    COOKIES CONTAINER
+*/
+.cookies-container {
+    background-color: #ccc;
+}
+
+    .cookies-container .container {
+        padding: 12px 24px;
+    }
+
+/*
+    STATUS CONTAINER
+*/
+.status-container {
+    background-color: #FEEFB3;
+}
+
+    .status-container .container {
+        padding: 24px 24px;
+        color: #9F6000;
+        font-size: 1.2em;
+    }
+
+        .status-container .container .fa {
+            font-size: 2em;
+        }
+
+        .status-container .container .status-content {
+            line-height: 2em;
+        }
+
+/*
+    FOOTER
+*/
+#footer {
+    margin-top: 130px;
+    color: #eee;
+}
+
+    #footer a.brand {
+        display: inline-block;
+        line-height: 24px;
+        color: #eee;
+        font-size: 48px;
+        font-weight: 800;
+        padding: 11px 15px;
+        margin: 0 0 0 -5px;
+        margin-top: 6px;
+        margin-bottom: 24px;
+    }
+
+    #footer h3 {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 24px;
+    }
+
+    #footer a {
+        color: #eee;
+    }
+
+        #footer a:hover {
+            color: white;
+        }
+
+    #footer .footer-plain {
+        background-color: #262626;
+    }
+
+    #footer .footer-standout {
+        background-color: #023D4F;
+        min-height: 100%;
+    }
+
+    #footer .footer-content {
+        padding: 24px;
+    }
+
+    #footer .footer-tail {
+        border-top: 1px solid #999999;
+    }
+
+        #footer .footer-tail a {
+            margin-right: 16px;
+        }
