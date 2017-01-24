@@ -4714,9 +4714,9 @@ button.btn.btn-mini,input[type=submit].btn.btn-mini {
     -moz-border-radius: 0;
     border-radius: 0
 }
-
+/* color change */
 .btn-link:hover,.btn-link:focus {
-    color: #094256;
+    color: #2e8aca;
     text-decoration: underline;
     background-color: transparent
 }
@@ -4826,9 +4826,9 @@ button.btn.btn-mini,input[type=submit].btn.btn-mini {
     border-color: transparent;
     color: #11779b
 }
-
+/* color change */
 .btn-link:hover,.btn-link:focus {
-    color: #094256;
+    color: #005ea5;
     background-color: transparent
 }
 
