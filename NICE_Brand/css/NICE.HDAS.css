@@ -647,10 +647,11 @@ tr.search-history-row.viewed.active:hover td {
     .tab-pane tbody tr {
         border-bottom: 1px solid #eee;
     }
-
+/* color, font weight change */
 .nav-tab-link {
     background-color: #eee !important;
-    color: #11779b !important;
+    color: #005ea5 !important;
+    font-weight: bold;
 }
 
 li.active .nav-tab-link {
