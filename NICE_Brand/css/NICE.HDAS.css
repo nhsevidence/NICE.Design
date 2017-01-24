@@ -1179,15 +1179,15 @@ a:hover .nice-icon {
 .btn.btn-link:disabled {
     background-color: transparent;
 }
-
+/* color change */
 .sidepanel-info-icon {
     margin-left: -20px;
     margin-top: 12px;
-    color: #ccc;
+    color: #adadad;
 }
-
+/* color change */
 a:hover .sidepanel-info-icon {
-    color: #11779b;
+    color: #00506a;
 }
 
 
