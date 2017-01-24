@@ -92,12 +92,12 @@
 #header .navbar-second-row.navbar-inner {
     min-height: auto;
 }
-
+/* padding removed */
 #header .navbar-second-row ul.nav li a {
-    padding: 8px 15px;
+    padding: 12px 15px;
     color: #0E0E0E;
 }
-
+/* padding top added */
     #header .navbar-second-row ul.nav li a,
     #header .navbar-second-row ul.nav li a:hover,
     #header .navbar-second-row ul.nav li a:active,
@@ -106,7 +106,7 @@
     #header .navbar-second-row ul.nav li.active a:active {
         color: #0E0E0E;
         border-bottom: 0px;
-        padding-bottom: 8px;
+        /* padding-bottom: 8px; */
     }
 
 #header .navbar-second-row ul.nav li a {
