@@ -81,8 +81,9 @@
         background-color: #fff;
         border-bottom: 5px solid transparent;
     }
+/* color change */
     #header .navbar-inner.navbar-first-row ul.nav li a.profile-link:hover i {
-        color: #d6d6d6;
+        color: #adadad;
     }
 
 #header .navbar-inner.navbar-second-row {
