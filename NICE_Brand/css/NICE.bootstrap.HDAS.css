@@ -161,12 +161,12 @@ body {
 }
 /* color change */
 a {
-    color: #005ea5;
+    color: #005ea5 !Important;
     text-decoration: none
 }
 /* color change */
 a:hover,a:focus {
-    color: #2e8aca;
+    color: #2e8aca !Important;
     text-decoration: underline
 }
 
