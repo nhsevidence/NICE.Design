@@ -4345,11 +4345,11 @@ button.close {
 .panel-success .panel-heading h1>a,.panel-warning .panel-heading h1>a,.panel-error .panel-heading h1>a,.panel-danger .panel-heading h1>a,.panel-info .panel-heading h1>a,.panel-success .panel-heading h2>a,.panel-warning .panel-heading h2>a,.panel-error .panel-heading h2>a,.panel-danger .panel-heading h2>a,.panel-info .panel-heading h2>a,.panel-success .panel-heading h3>a,.panel-warning .panel-heading h3>a,.panel-error .panel-heading h3>a,.panel-danger .panel-heading h3>a,.panel-info .panel-heading h3>a,.panel-success .panel-heading h4>a,.panel-warning .panel-heading h4>a,.panel-error .panel-heading h4>a,.panel-danger .panel-heading h4>a,.panel-info .panel-heading h4>a,.panel-success .panel-heading h5>a,.panel-warning .panel-heading h5>a,.panel-error .panel-heading h5>a,.panel-danger .panel-heading h5>a,.panel-info .panel-heading h5>a,.panel-success .panel-heading h6>a,.panel-warning .panel-heading h6>a,.panel-error .panel-heading h6>a,.panel-danger .panel-heading h6>a,.panel-info .panel-heading h6>a,.panel-success .panel-heading .panel-title>a,.panel-warning .panel-heading .panel-title>a,.panel-error .panel-heading .panel-title>a,.panel-danger .panel-heading .panel-title>a,.panel-info .panel-heading .panel-title>a {
     color: inherit
 }
-
+/* removed display inline */
 .btn {
     display: inline-block;
     *border-bottom: 0 none rgba(0,0,0,0);
-	display: inline;
+	/* display: inline; */
     *zoom:1;padding: 4px 12px;
     margin-bottom: 0;
     font-size: 16px;
