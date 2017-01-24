@@ -159,14 +159,14 @@ body {
     color: #4a4a4a;
     background-color: #fff
 }
-
+/* color change */
 a {
-    color: #11779b;
+    color: #005ea5;
     text-decoration: none
 }
-
+/* color change */
 a:hover,a:focus {
-    color: #094256;
+    color: #2e8aca;
     text-decoration: underline
 }
 
