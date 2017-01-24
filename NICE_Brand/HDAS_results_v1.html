@@ -59,8 +59,8 @@
                         <li><a id="profile-link" class="profile-link gtm-login-link" href="/auth/protected.aspx?returnurl=%2fstrategy%2f110182%2f1"><i class="fa fa-user"></i> Login to OpenAthens</a></li>
                 </ul>
                 
-                <a href="http://www.nice.org.uk" class="brand"><i class="icon-nice-logo">&#xe01a;</i></a>
-                <a href="/" class="tagline"><span>Healthcare Databases</span><br /><span>Advanced Search</span></a>
+                <a href="http://www.nice.org.uk" class="brand"><i class="icon-nice-logo"></i></a>
+                <a href="/" class="tagline"><span>Healthcare Databases</span><br><span>Advanced Search</span></a>
             </div>
         </div>
         <div class="navbar-inner navbar-second-row">
@@ -106,7 +106,7 @@
                     <span>or</span>
                     <a class="btn btn-default" data-toggle="collapse" data-target=".cookies-container">Hide this message</a>
                     <span>or</span>
-                    <a class="btn btn-default hide-cookies-message" onClick="window.setHideCookieWarning()">Never view again</a>
+                    <a class="btn btn-default hide-cookies-message" onclick="window.setHideCookieWarning()">Never view again</a>
                 </p>
             </div>
             <script type="text/javascript">
@@ -127,7 +127,7 @@
     <div id="status-outer-container">
 <div class="container topgap">
     <div class="alert alert-info" style="color:#3a87ad;">
-        <button type="button" class="close close-header-alert" data-dismiss="alert">&times;</button>
+        <button type="button" class="close close-header-alert" data-dismiss="alert">×</button>
         <span class="icon-stack pull-left">
             <i aria-hidden="true" class="icon-nice-circle icon-stack-base"></i>
             <i aria-hidden="true" class="icon-nice-information" style="color:white"></i>
@@ -135,7 +135,7 @@
         <h3><strong>Welcome to the new HDAS.</strong></h3>
        
 <p>
- <p><strong> Please visit the help file for tips, guides and videos on how the new features work. </strong></p>
+ </p><p><strong> Please visit the help file for tips, guides and videos on how the new features work. </strong></p>
 
     </div>
 </div>
@@ -154,7 +154,7 @@
             <!-- Search input textbox and button -->
             <div class="row" id="search-row">
                 <span class="span1 offset1 text-left row-label">
-                    <a href="/help#syntax-help" class="inline-block" data-toggle="tooltip" data-placement="right" title="Get search syntax help">
+                    <a href="/help#syntax-help" class="inline-block" data-toggle="tooltip" data-placement="right" title="" data-original-title="Get search syntax help">
                         <span class="fa fa-info-circle pull-left sidepanel-info-icon"></span>
                         Search
                     </a>
@@ -162,13 +162,11 @@
                 <span class="span9">
                     <div class="row center-xs">
                         <span class="span8" style="position:relative;">
-                            <input type="hidden" id="term" name="term" value="cancer" />
-                            <textarea type="text" id="term-text" class="form-control input-lg" autocomplete="off" rows="1"
-                                   placeholder="Enter keywords to search PubMed"
-                                   data-assistant-function="updateMainButtons" data-disable-target=".search-button">cancer</textarea>
-                            <input type="hidden" id="StrategyId" name="StrategyId" value="110182" />
-                            <input type="hidden" id="SearchId" value="1" />
-                            <input type="hidden" name="overviewid" value="1" />
+                            <input type="hidden" id="term" name="term" value="cancer">
+                            <textarea type="text" id="term-text" class="form-control input-lg" autocomplete="off" rows="1" placeholder="Enter keywords to search PubMed" data-assistant-function="updateMainButtons" data-disable-target=".search-button" style="height: 40px;">cancer</textarea>
+                            <input type="hidden" id="StrategyId" name="StrategyId" value="110182">
+                            <input type="hidden" id="SearchId" value="1">
+                            <input type="hidden" name="overviewid" value="1">
                             <i id="search-resetter" class="fa fa-times"></i>
                         </span>
                         <span class="no-margin span4 half-xs">
@@ -184,7 +182,7 @@
             <!-- Error panel -->
             <div class="row text-left collapse " id="syntax-container">
                 <span class="span1 offset1 text-left row-label">
-                    <a href="/help#syntax-errors" class="inline-block" data-toggle="tooltip" data-placement="right" title="Syntax errors and fixes">
+                    <a href="/help#syntax-errors" class="inline-block" data-toggle="tooltip" data-placement="right" title="" data-original-title="Syntax errors and fixes">
                         <span class="fa fa-info-circle pull-left sidepanel-info-icon"></span>
                         Syntax
                     </a>
@@ -230,19 +228,19 @@
             <tr class="thesaurus-row-template" data-term="" data-expanduri="">
                 <td class="text-center check-column">
                     <label class="checkbox search-builder">
-                        <input type="checkbox" class="term-check thesaurus-checkbox" value="" data-action="select" />
+                        <input type="checkbox" class="term-check thesaurus-checkbox" value="" data-action="select">
                         <span></span>
                     </label>
                 </td>
                 <td class="text-center check-column">
                     <label class="checkbox search-builder">
-                        <input type="checkbox" class="term-check thesaurus-checkbox" value="" data-action="explode" />
+                        <input type="checkbox" class="term-check thesaurus-checkbox" value="" data-action="explode">
                         <span></span>
                     </label>
                 </td>
                 <td class="text-center check-column major-column">
                     <label class="checkbox search-builder">
-                        <input type="checkbox" class="term-check thesaurus-checkbox" value="" data-action="major" />
+                        <input type="checkbox" class="term-check thesaurus-checkbox" value="" data-action="major">
                         <span></span>
                     </label>
                 </td>
@@ -268,7 +266,7 @@
     </table>
     <div class="panel-footer collapse">
         <button type="button" class="btn btn-default btn-subthesaurus-to-thesaurus pull-left hidden" style="display:none;">Back</button>
-        <div class="fixed-top fixed-if-below thesaurus-queries" data-target=".thesaurus-marker" style="padding: 12px 0 0 0">
+        <div class="fixed-top fixed-if-below thesaurus-queries fixed" data-target=".thesaurus-marker" style="padding: 12px 0px 0px;">
             <div class="row">
                 <span class="span12 text-left" style="padding: 0 20px;">
                     <button type="button" class="btn btn-link pull-right close-thesaurus" data-toggle="collapse" data-target="#thesaurus-container"><i class="fa fa-times"></i></button>
@@ -280,11 +278,11 @@
             </div>
             <div class="row">
                 <span class="span12 text-right" style="padding: 0 20px;">
-                    <button type="button" class="btn btn-default pull-left btn-clear-thesaurus-checks" disabled>Clear Selection</button>
+                    <button type="button" class="btn btn-default pull-left btn-clear-thesaurus-checks" disabled="">Clear Selection</button>
                     <button type="button" class="btn btn-link pull-left close-thesaurus" data-toggle="collapse" data-target="#thesaurus-container"><i class="fa fa-times"></i> Close Thesaurus</button>
                     <span class="no-wrap">
-                        <label class="radio"><input type="radio" value="OR" class="thesaurus-search-operator" name="thesaurus-search-operator" checked="checked" /><span>Or</span></label>
-                        <label class="radio"><input type="radio" value="AND" class="thesaurus-search-operator" name="thesaurus-search-operator" /><span>And</span></label>
+                        <label class="radio"><input type="radio" value="OR" class="thesaurus-search-operator" name="thesaurus-search-operator" checked="checked"><span>Or</span></label>
+                        <label class="radio"><input type="radio" value="AND" class="thesaurus-search-operator" name="thesaurus-search-operator"><span>And</span></label>
                         &nbsp;
                         <button type="button" class="btn btn-default btn-thesaurus-search gtm-thesauraus-search-now">Search Now</button>
                     </span>
@@ -307,7 +305,7 @@
     </div>
 </div>
 
-<div class="thesaurus-marker no-resize"></div>
+<div class="thesaurus-marker no-resize" style="height: 0px;"></div>
 
 
 <script type="text/javascript" src="/Scripts/_Thesaurus.js?v=2"></script>
@@ -318,13 +316,13 @@
             <!-- Databases selection -->
             <div class="row distinguish-row text-left">
                 <span class="span1 offset1 text-left row-label">
-                    <a href="/help#databases" class="inline-block" data-toggle="tooltip" data-placement="right" title="Get databases info">
+                    <a href="/help#databases" class="inline-block" data-toggle="tooltip" data-placement="right" title="" data-original-title="Get databases info">
                         <span class="pull-left fa fa-info-circle sidepanel-info-icon"></span>
                         Databases
                     </a>
                 </span>
                 <span class="span9">
-                        <input type="hidden" id="databases" name="databases" value="PubMed" />
+                        <input type="hidden" id="databases" name="databases" value="PubMed">
                         <p class="nudge-info-row">
                             <a class="btn btn-link" href="/auth/protected.aspx?returnurl=%2fstrategy%2f110182">Login for all databases</a>
                         </p>                        
@@ -344,8 +342,8 @@
                                 <span class="distinguish placeholder underlined"><i class="icon-chevron-down"></i> Lower Search Panel</span>
                         </a>
                     </span>
-                    <label class="inline radio"><input type="radio" name="showResults" value="true" checked=checked /><span>Results</span></label>
-                    <label class="inline radio"><input type="radio" name="showResults" value="false"  /><span>Search History Only</span></label>
+                    <label class="inline radio"><input type="radio" name="showResults" value="true" checked="checked"><span>Results</span></label>
+                    <label class="inline radio"><input type="radio" name="showResults" value="false"><span>Search History Only</span></label>
                 </span>
             </div>
 
@@ -365,18 +363,18 @@
     </div>
     <div id="searches-list-section">
             <div id="show-results"></div>
-        <div class="back-to-top-container fixed-if-below" data-target=".back-to-top-marker">
+        <div class="back-to-top-container fixed-if-below fixed" data-target=".back-to-top-marker">
             <a class="btn btn-default only-when-fixed back-to-top">Back to top <span class="icon-chevron-up" style="padding: 0px 4px;"></span></a>
         </div>
-        <div class="searches-list-container fixed-if-below" data-target=".searches-list-marker" data-requires=".search-history-row.viewed">
+        <div class="searches-list-container fixed-if-below fixed" data-target=".searches-list-marker" data-requires=".search-history-row.viewed">
             <form method="post" id="history-form" class="history-form form-inline" data-disable-target=".combine-selected-button,[name='combine-selection'],.nice-button-combined" data-min-length="2" data-parents-equal="data-databases" data-max-datas="1">
-                <input type="hidden" name="strategyId" value="110182" />
-                <input type="hidden" id="rerun-databases" />
+                <input type="hidden" name="strategyId" value="110182">
+                <input type="hidden" id="rerun-databases">
                 <table id="searches-history-table" data-strategy="110182" class="table" data-min-length="1" data-disable-target=".start-delete-all,.delete-selected-button,.save-selected-button,.remove-duplicates-button,.toggle-rerun-database-panel,.rerun-button,.toggle-fork-panel,.refresh-selected-searches" data-assistant-function="closeShelvesIfNoSelections">
                     <thead>
                         <tr>
                             <th class="pad-left-when-comfy">
-                                <label class="checkbox" id="checkAllLabel1"><input type="checkbox" class="actionable noinclude"  id="checkAll" data-duplicate-id="#checkAll2" /><span>All</span></label>
+                                <label class="checkbox" id="checkAllLabel1"><input type="checkbox" class="actionable noinclude" id="checkAll" data-duplicate-id="#checkAll2"><span>All</span></label>
                             </th>
                             <th>Database(s)</th>
                             <th id="strategy-filter-output">
@@ -390,19 +388,19 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody data-disable-target=".toggle-export-link-group,.save-file,.email-results" data-assistant-function="closeShelvesIfNoSelections" data-min-length="1" data-max-length="1" data-max-datas="1" data-min-results-length="1" data-parents-equal="data-databases" data-limit-allowed="true" data-include-errors="true" data-support-saved-results-row="true">
+                    <tbody data-disable-target=".toggle-export-link-group,.save-file,.email-results" data-assistant-function="closeShelvesIfNoSelections" data-min-length="1" data-max-length="1" data-max-datas="1" data-min-results-length="1" data-parents-equal="data-databases" data-limit-allowed="true" data-include-errors="true" data-support-saved-results-row="true" data-sortable-id="0" aria-dropeffect="move">
                         
-<tr class="search-history-row view-edit-container   viewed" id="edit-1" data-databases-count="1" data-count="3424911" data-ran="True" data-strategy="110182" data-overview="1" data-term="(cancer).ti,ab" data-databases="PubMed" data-deps="" data-has-child-rows="False" data-can-delete="!False" data-cachekey="" data-alert-frequency="never" data-alert-history="false" data-islimit="False">
+<tr class="search-history-row view-edit-container   viewed" id="edit-1" data-databases-count="1" data-count="3424911" data-ran="True" data-strategy="110182" data-overview="1" data-term="(cancer).ti,ab" data-databases="PubMed" data-deps="" data-has-child-rows="False" data-can-delete="!False" data-cachekey="" data-alert-frequency="never" data-alert-history="false" data-islimit="False" data-item-sortable-id="0" role="option" aria-grabbed="false">
     <td class="pad-left-when-comfy search-id-column">
-        <div class="sort-handle"><i class="fa fa-sort"></i></div>
+        <div class="sort-handle" draggable="true"><i class="fa fa-sort"></i></div>
         <label class="checkbox">
-            <input type="checkbox" class="search-checkbox actionable  " name="Id" id="Id" value="1" />
+            <input type="checkbox" class="search-checkbox actionable  " name="Id" id="Id" value="1">
             <span class="searchable">1</span>
         </label>
     </td>
     <td class="databases-cell">
                 <label class="checkbox edit-only inline-block">
-                    <input type="checkbox" class="sourceCheck-1 key-1" data-id="databases" value="PubMed" checked=checked />
+                    <input type="checkbox" class="sourceCheck-1 key-1" data-id="databases" value="PubMed" checked="checked">
                     <span class="edit-only">PubMed</span>
                 </label>
         <span class="view-only searchable">
@@ -411,7 +409,7 @@
     </td>
     <td>
         <span class="view-only">
-                <i class="searches-panel-fields fa fa-filter pull-right hidden" data-fields="tiab" title="ti&lt;br/&gt;ab" data-toggle="tooltip" data-placement="bottom" data-html="true" data-container="body"></i>
+                <i class="searches-panel-fields fa fa-filter pull-right hidden" data-fields="tiab" title="" data-toggle="tooltip" data-placement="bottom" data-html="true" data-container="body" data-original-title="ti<br/>ab"></i>
                     </span>
         <span class="view-only searchable jaql-container">
 
@@ -419,9 +417,9 @@
         </span>
         <span class="view-only searchable hidden">cancer</span>
         <div class="edit-only">
-            <input type="hidden" class="key-1" data-id="overviewid" value="1" />
-            <input type="hidden" class="key-1" data-id="partialupdate" value="true" />
-            <input type="text" class="search-inline-edit key-1" style="width:100%;" data-id="term" value="cancer" data-min-length="1" data-disable-target=".edit-button-1" />
+            <input type="hidden" class="key-1" data-id="overviewid" value="1">
+            <input type="hidden" class="key-1" data-id="partialupdate" value="true">
+            <input type="text" class="search-inline-edit key-1" style="width:100%;" data-id="term" value="cancer" data-min-length="1" data-disable-target=".edit-button-1">
         </div>
     </td>
     <td class="view-results-column">
@@ -443,7 +441,7 @@
             </span>
         </span>
         <div class="edit-only">
-            <input type="button" class="btn btn-default edit-button edit-button-1" data-target=".key-1" value="Update" />
+            <input type="button" class="btn btn-default edit-button edit-button-1" data-target=".key-1" value="Update">
         </div>
     </td>
     <td>
@@ -452,13 +450,7 @@
     </td>
             <td class="alert-cell">
                 <div class="view-only hide-alert">
-                    <a class="btn btn-link toggle-alert-shelf"
-                       title="Setup an email alert"
-                       data-alert-frequency="never"
-                       data-alert-size="short"
-                       data-alert-format="pdf"
-                       data-alert-name=""
-                       data-alert-email-to="">
+                    <a class="btn btn-link toggle-alert-shelf" title="Setup an email alert" data-alert-frequency="never" data-alert-size="short" data-alert-format="pdf" data-alert-name="" data-alert-email-to="">
                         <i class="fa fa-bell"></i>
                     </a>
                 </div>
@@ -470,7 +462,7 @@
             Edit Search
         </a>
         <span class="view-only inline">
-            <button type="button" class="btn btn-link start-danger start-delete-link" data-target="#confirm-delete-1" data-replace="true" >
+            <button type="button" class="btn btn-link start-danger start-delete-link" data-target="#confirm-delete-1" data-replace="true">
                 <i class="fa fa-trash"></i>
             </button>
             <span id="confirm-delete-1" class="hidden">
@@ -486,29 +478,29 @@
                 </table>
             </form>
         </div>
-            <div class="searches-list-marker" style="height:0px;"></div>
+            <div class="searches-list-marker" style="height: 108px;"></div>
     </div>
     <div class="panel-heading">
         <div class="row">
             <span class="span12">
                 <div class="back-to-top-marker" style="height:0px;"></div>
-                <label class="checkbox" id="checkAllLabel2"><input type="checkbox" class="actionable noinclude"  id="checkAll2" data-duplicate-id="#checkAll" /><span>All</span></label>
+                <label class="checkbox" id="checkAllLabel2"><input type="checkbox" class="actionable noinclude" id="checkAll2" data-duplicate-id="#checkAll"><span>All</span></label>
                 <span>&nbsp;</span>
                 <a class="btn btn-default pull-right toggle-export-link-group gtm-export-button disabled" disabled="disabled" title="Rows are valid for export if they are querying a single database and contain results">Export Options <span class="caret"></span></a>
                 <span class="hidden">Selected:</span>
                 <!-- TODO: Implement and unhide Deduplicate feature -->
-                <button type="button" class="remove-duplicates-button btn btn-default hidden">Deduplicate</button>
-                <button class="btn btn-default refresh-selected-searches" type="button">Refresh Search</button>
+                <button type="button" class="remove-duplicates-button btn btn-default hidden disabled" disabled="disabled">Deduplicate</button>
+                <button class="btn btn-default refresh-selected-searches disabled" type="button" disabled="disabled">Refresh Search</button>
                 <span>&nbsp;</span>
-                <span class="no-wrap nice-button-group nice-button-combined">
-                    <label class="inline radio"><input type="radio" name="combine-selection" checked="checked" value="AND" /><span>AND</span></label>
-                    <label class="inline radio"><input type="radio" name="combine-selection" value="OR" /><span>OR</span></label>
-                    <button type="button" class="combine-selected-button btn btn-default">Combine</button>
+                <span class="no-wrap nice-button-group nice-button-combined disabled" disabled="disabled">
+                    <label class="inline radio"><input type="radio" name="combine-selection" checked="checked" value="AND" disabled="disabled" class="disabled"><span>AND</span></label>
+                    <label class="inline radio"><input type="radio" name="combine-selection" value="OR" disabled="disabled" class="disabled"><span>OR</span></label>
+                    <button type="button" class="combine-selected-button btn btn-default disabled" disabled="disabled">Combine</button>
                 </span>
                 &nbsp;
-                <button type="button" class="btn btn-link start-danger start-delete-all" data-target="#confirm-delete-all">Delete Selected</button>
+                <button type="button" class="btn btn-link start-danger start-delete-all disabled" data-target="#confirm-delete-all" disabled="disabled">Delete Selected</button>
                 <span id="confirm-delete-all" class="hidden">
-                    <button type="button" class="delete-selected-button btn btn-danger">Confirm</button>
+                    <button type="button" class="delete-selected-button btn btn-danger disabled" disabled="disabled">Confirm</button>
                 </span>
             </span>
         </div>
@@ -516,7 +508,7 @@
             <span class="span12">
                 <div class="display-forkable-searches"></div>
                 <ul class="fork-strategies-list">
-                    <li class="active noremove"><a href="#" class="btn btn-link fork-to-strategy">to a <strong>new search strategy</strong>&hellip;</a></li>
+                    <li class="active noremove"><a href="#" class="btn btn-link fork-to-strategy">to a <strong>new search strategy</strong>…</a></li>
                 </ul>
             </span>
         </div>
@@ -535,22 +527,22 @@
             <span class="pull-left no-wrap">
                 <span class="no-wrap nice-button-group">
                     <label class="checkbox">
-                        <input type="checkbox" data-id="export-history" name="export-history" checked="checked"/>
+                        <input type="checkbox" data-id="export-history" name="export-history" checked="checked">
                         <span>Include History</span>
                     </label>
                 </span>
                 <span class="no-wrap nice-button-group">
                     <label class="distinguish">Type: </label>
                     <label class="radio">
-                        <input type="radio" data-id="export-size" name="export-size" value="short"/>
+                        <input type="radio" data-id="export-size" name="export-size" value="short">
                         <span>Short</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="export-size" name="export-size" value="medium" checked/>
+                        <input type="radio" data-id="export-size" name="export-size" value="medium" checked="">
                         <span>Medium</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="export-size" name="export-size" value="full"/>
+                        <input type="radio" data-id="export-size" name="export-size" value="full">
                         <span>Full</span>
                     </label>
                 </span>
@@ -564,13 +556,13 @@
             <span class="nice-button-group nice-select-group">
                 <label class="distinguish above">Records:</label>
                 <select id="export-count" style="width: 80px;">
-                    <option value="50" >50</option>
-                    <option value="100" selected>100</option>
-                    <option value="300" >300</option>
-                    <option value="500" >500</option>
+                    <option value="50">50</option>
+                    <option value="100" selected="">100</option>
+                    <option value="300">300</option>
+                    <option value="500">500</option>
                 </select>
             </span>
-            <span class="nice-button-group nice-select-group collapse large-exports-warning ">
+            <span class="nice-button-group nice-select-group collapse large-exports-warning">
                 <label for="export-start-page" class="distinguish above">Change Selection:</label>
                 <select id="export-start-page" name="export-start-page">
                     <option value="1">1-500</option>
@@ -588,10 +580,10 @@
             <span class="nice-button-group nice-select-group">
                 <label class="distinguish above">Output Format:</label>
                 <select class="awesome-font" id="output-format" name="output-format">
-                    <option value="pdf">&#xf1c1;&nbsp;PDF</option>
-                    <option value="docx">&#xf1c2;&nbsp;Word</option>
-                    <option value="xlsx">&#xf1c3;&nbsp;Excel</option>
-                    <option value="ris">&#xf0f6;&nbsp;RIS</option>
+                    <option value="pdf">&nbsp;PDF</option>
+                    <option value="docx">&nbsp;Word</option>
+                    <option value="xlsx">&nbsp;Excel</option>
+                    <option value="ris">ö&nbsp;RIS</option>
                 </select>
             </span>
         </span>
@@ -600,7 +592,7 @@
                 <form method="post" class="form-inline" id="export-email-form" style="display: inline;">
                     <label class="distinguish above" for="alert-medium">Action</label>
                     <div>
-                        <a class="btn btn-default save-file gtm-save-file" target="_blank">Save File</a>
+                        <a class="btn btn-default save-file gtm-save-file disabled" target="_blank" disabled="disabled">Save File</a>
                         &nbsp;
 
                     </div>
@@ -610,11 +602,11 @@
                         <div class="indent">Please complete the following fields to email the selected search results</div>
                         <div class="formLine">
                             <label class="distinguish fixed-width" for="export-email-to" title="Email addresses (space separated)">Email Address</label>
-                            <span><input type="text" class="form-control" name="export-email-to" id="export-email-to" placeholder="Leave blank to email yourself"/></span>
+                            <span><input type="text" class="form-control" name="export-email-to" id="export-email-to" placeholder="Leave blank to email yourself"></span>
                         </div>
                         <div class="formLine">
                             <label class="distinguish fixed-width" for="export-email-subject" title="Email subject">Subject Line</label>
-                            <span><input type="text" class="form-control" name="export-email-subject" id="export-email-subject" value="HDAS Search Results"/></span>
+                            <span><input type="text" class="form-control" name="export-email-subject" id="export-email-subject" value="HDAS Search Results"></span>
                         </div>
                         <button type="button" class="btn btn-default send-email-export gtm-email-results">Send email</button>
                         <span class="export-email-message"></span>
@@ -626,7 +618,7 @@
     <div class="row large-exports-warning pull-left collapse">
         <span class="span12 alert">
             Depending on provider database performance, large exports may take a long time to generate.
-            <br />
+            <br>
             You can continue to use the site in this window/tab. Do not close the opened tabs/windows.
         </span>
     </div>
@@ -635,38 +627,38 @@
                 <div class="no-wrap nice-button-group">
                     <label class="distinguish">Frequency: </label>
                     <label class="radio" style="color: red;display:none;">
-                        <input type="radio" data-id="alert-frequency" name="alert-frequency" value="never" />
+                        <input type="radio" data-id="alert-frequency" name="alert-frequency" value="never">
                         <span>Never</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-frequency" name="alert-frequency" value="weekly" />
+                        <input type="radio" data-id="alert-frequency" name="alert-frequency" value="weekly">
                         <span>Weekly</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-frequency" name="alert-frequency" value="biweekly" />
+                        <input type="radio" data-id="alert-frequency" name="alert-frequency" value="biweekly">
                         <span>Fortnightly</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-frequency" name="alert-frequency" value="monthly" checked />
+                        <input type="radio" data-id="alert-frequency" name="alert-frequency" value="monthly" checked="">
                         <span>Monthly</span>
                     </label>
                 </div>
                 <div class="no-wrap nice-button-group">
                     <label class="distinguish">Format: </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-format" name="alert-format" value="pdf" checked />
+                        <input type="radio" data-id="alert-format" name="alert-format" value="pdf" checked="">
                         <span>PDF</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-format" name="alert-format" value="word" />
+                        <input type="radio" data-id="alert-format" name="alert-format" value="word">
                         <span>Word</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-format" name="alert-format" value="excel" />
+                        <input type="radio" data-id="alert-format" name="alert-format" value="excel">
                         <span>Excel</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-format" name="alert-format" value="ris" />
+                        <input type="radio" data-id="alert-format" name="alert-format" value="ris">
                         <span>RIS</span>
                     </label>
                 </div>
@@ -674,21 +666,21 @@
 
                     <label class="distinguish">Type: </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-size" name="alert-size" value="short" />
+                        <input type="radio" data-id="alert-size" name="alert-size" value="short">
                         <span>Short</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-size" name="alert-size" value="medium" checked />
+                        <input type="radio" data-id="alert-size" name="alert-size" value="medium" checked="">
                         <span>Medium</span>
                     </label>
                     <label class="radio">
-                        <input type="radio" data-id="alert-size" name="alert-size" value="full" />
+                        <input type="radio" data-id="alert-size" name="alert-size" value="full">
                         <span>Full</span>
                     </label>
 
                     <span class="no-wrap nice-button-group">
                         <label class="checkbox">
-                            <input type="checkbox" data-id="alert-history" name="alert-history" value="true"/>
+                            <input type="checkbox" data-id="alert-history" name="alert-history" value="true">
                             <span>Include History</span>
                         </label>
                     </span>
@@ -696,11 +688,11 @@
             </span>
             <h4 class="span6">
                 <span>Alert email: </span>
-                <input type="text" class="form-control" name="alert-email-to" placeholder="Leave blank to email yourself"/>
+                <input type="text" class="form-control" name="alert-email-to" placeholder="Leave blank to email yourself">
                 <button class="btn btn-default" style="vertical-align: top;display:none;">Add another email address</button>
-                <br/>
+                <br>
                 <span>Alert name: </span>
-                <input type="text" class="form-control" name="alert-name" placeholder="Enter name for this alert" />
+                <input type="text" class="form-control" name="alert-name" placeholder="Enter name for this alert">
                 <button class="btn btn-default alerts-change-status-message save-button gtm-alert-save" style="vertical-align: top;">Save</button>
                 <span id="confirm-delete-alert" class="hidden">
                     <button class="btn btn-default alerts-delete" style="vertical-align: top;">Confirm</button>
@@ -726,14 +718,14 @@
             <div id="search-results-container">
                 
         <h3 id="search-results" data-count="3424911" data-strategy="110182" data-overview="1" data-term="(cancer).ti,ab" data-databases="PubMed" data-error="">
-            <strong>3,424,911</strong> search result<span class='search-plural '>s</span> for "<strong>(cancer).ti,ab</strong>"
+            <strong>3,424,911</strong> search result<span class="search-plural ">s</span> for "<strong>(cancer).ti,ab</strong>"
                 <span class="results-panel-fields hidden" data-fields="tiab">in fields ti, ab</span>
                     </h3>
         <div class="panel" data-min-length="1" data-disable-target=".export-selected-results,.save-selected-results,.btn-save-results,.start-delete-saved">
             <form class="form-inline" action="/strategy/110182/1#show-results" id="results-options">
-                    <input type="hidden" name="OverviewId" value="1" />
-                <input type="hidden" name="_method" id="_method" />
-                <input type="hidden" name="Page" value="1" />
+                    <input type="hidden" name="OverviewId" value="1">
+                <input type="hidden" name="_method" id="_method">
+                <input type="hidden" name="Page" value="1">
                     <ul class="nav nav-tabs provider-nav-tabs" id="provider-nav-tabs" role="tablist">
                                 <li role="presentation" class="active">
                                     <a data-toggle="tab" href="#PubMed-panel" aria-controls="PubMed" class="nav-tab-link  " role="tab" id="PubMed-tab">
@@ -745,7 +737,7 @@
                                             </div>
                                             <div class="tiny-row">
                                                 <tiny>
-                                                    1.79 seconds
+                                                    1.71 seconds
                                                 </tiny>
                                             </div>
                                     </a>
@@ -756,7 +748,7 @@
 
 <div class="panel-heading text-right">
     <span class="pull-left no-wrap results-options">
-        <label class="checkbox"><input type="checkbox" id="checkAllResults" class="checkAllResults actionable noinclude" /><span>All on this page</span></label>
+        <label class="checkbox"><input type="checkbox" id="checkAllResults" class="checkAllResults actionable noinclude"><span>All on this page</span></label>
     </span>
 
     <span class="pull-left results-options">
@@ -770,21 +762,21 @@
                     
         <span class="no-wrap results-options">
             <label>View:</label>
-                    <a class="page-size" data-size="10" href="/strategy/110182/1?page=1&amp;pagesize=10&amp;orderby=date#show-results">10</a>
+                    <a class="page-size" data-size="10" href="/strategy/110182/1?page=1&amp;pagesize=10&amp;orderby=date#PubMed-panel">10</a>
                     <span class="page-size selected-page-size" data-size="25">25</span>
-                    <a class="page-size" data-size="50" href="/strategy/110182/1?page=1&amp;pagesize=50&amp;orderby=date#show-results">50</a>
-                    <a class="page-size" data-size="100" href="/strategy/110182/1?page=1&amp;pagesize=100&amp;orderby=date#show-results">100</a>
+                    <a class="page-size" data-size="50" href="/strategy/110182/1?page=1&amp;pagesize=50&amp;orderby=date#PubMed-panel">50</a>
+                    <a class="page-size" data-size="100" href="/strategy/110182/1?page=1&amp;pagesize=100&amp;orderby=date#PubMed-panel">100</a>
         </span>
 
     <span class="no-wrap results-options results-ordering-container">
                     <label for="orderby">Sort:</label>
             <span>
                 <select name="orderby" id="orderby" class="orderby">
-                    <option value="unsorted" > Unsorted</option>
-                        <option value="date" selected=selected>Publication Date</option>
-                        <option value="author" >Author</option>
-                        <option value="lastauthor" >Last Author</option>
-                        <option value="journal" >Journal</option>
+                    <option value="unsorted"> Unsorted</option>
+                        <option value="date" selected="selected">Publication Date</option>
+                        <option value="author">Author</option>
+                        <option value="lastauthor">Last Author</option>
+                        <option value="journal">Journal</option>
                 </select>
             </span>
     </span>
@@ -807,7 +799,7 @@
                                                                             <div class="panel-body" style="padding-top: 0;">
                                             <ul class="media-list">
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="1" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="1">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="1" data-guid="52474ca0-76b2-8ef5-f091-ab0d39f2e155">
@@ -815,7 +807,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="52474ca0-76b2-8ef5-f091-ab0d39f2e155" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="52474ca0-76b2-8ef5-f091-ab0d39f2e155">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -840,18 +832,27 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1016/S0140-6736(16)32525-9" rel="external" class="external" target="_blank"> 10.1016/S0140-6736(16)32525-9</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1474-547X</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1474-547X</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Letter
             </div>
 
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="2" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="2">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="2" data-guid="6a136100-3b68-c20c-38a0-8fd9dbc0a88c">
@@ -859,7 +860,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="6a136100-3b68-c20c-38a0-8fd9dbc0a88c" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="6a136100-3b68-c20c-38a0-8fd9dbc0a88c">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -884,18 +885,27 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1016/S0140-6736(16)32418-7" rel="external" class="external" target="_blank"> 10.1016/S0140-6736(16)32418-7</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1474-547X</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1474-547X</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
             </div>
 
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="3" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="3">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="3" data-guid="8f5e0d5a-b722-7c79-9089-7f1876ee005a">
@@ -903,7 +913,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="8f5e0d5a-b722-7c79-9089-7f1876ee005a" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="8f5e0d5a-b722-7c79-9089-7f1876ee005a">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -930,24 +940,33 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1016/S0140-6736(16)32389-3" rel="external" class="external" target="_blank"> 10.1016/S0140-6736(16)32389-3</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1474-547X</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1474-547X</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
             </div>
 
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-3" data-field="abstract">
-                    <p><strong>BACKGROUND:</strong> Aromatase inhibitors are a standard of care for hormone receptor-positive locally advanced or metastatic breast cancer. We investigated whether the selective oestrogen receptor degrader fulvestrant could improve progression-free survival compared with anastrozole in postmenopausal patients who had not received previous endocrine therapy.<br /><strong>METHODS:</strong> In this phase 3, randomised, double-blind trial, we recruited eligible patients with histologically confirmed oestrogen receptor-positive or progesterone receptor-positive, or both, locally advanced or metastatic breast cancer from 113 academic hospitals and community centres in 20 countries. Eligible patients were endocrine therapy-naive, with WHO performance status 0-2, and at least one measurable or non-measurable lesion. Patients were randomly assigned (1:1) to fulvestrant (500 mg intramuscular injection; on days 0, 14, 28, then every 28 days thereafter) or anastrozole (1 mg orally daily) using a computer-generated randomisation scheme. The primary endpoint was progression-free survival, determined by Response Evaluation Criteria in Solid Tumors version 1·1, intervention by surgery or radiotherapy because of disease deterioration, or death from any cause, assessed in the intention-to-treat population. Safety outcomes were assessed in all patients who received at least one dose of randomised treatment (including placebo). This trial is registered with ClinicalTrials.gov, number NCT01602380.<br /><strong>FINDINGS:</strong> Between Oct 17, 2012, and July 11, 2014, 524 patients were enrolled to this study. Of these, 462 patients were randomised (230 to receive fulvestrant and 232 to receive anastrozole). Progression-free survival was significantly longer in the fulvestrant group than in the anastrozole group (hazard ratio [HR] 0·797, 95% CI 0·637-0·999, p=0·0486). Median progression-free survival was 16·6 months (95% CI 13·83-20·99) in the fulvestrant group versus 13·8 months (11·99-16·59) in the anastrozole group. The most common adverse events were arthralgia (38 [17%] in the fulvestrant group vs 24 [10%] in the anastrozole group) and hot flushes (26 [11%] in the fulvestrant group vs 24 [10%] in the anastrozole group). 16 (7%) of 228 patients in in the fulvestrant group and 11 (5%) of 232 patients in the anastrozole group discontinued because of adverse events.<br /><strong>INTERPRETATION:</strong> Fulvestrant has superior efficacy and is a preferred treatment option for patients with hormone receptor-positive locally advanced or metastatic breast cancer who have not received previous endocrine therapy compared with a third-generation aromatase inhibitor, a standard of care for first-line treatment of these patients.<br /><strong>FUNDING:</strong> AstraZeneca.</p>
+                    <p><strong>BACKGROUND:</strong> Aromatase inhibitors are a standard of care for hormone receptor-positive locally advanced or metastatic breast cancer. We investigated whether the selective oestrogen receptor degrader fulvestrant could improve progression-free survival compared with anastrozole in postmenopausal patients who had not received previous endocrine therapy.<br><strong>METHODS:</strong> In this phase 3, randomised, double-blind trial, we recruited eligible patients with histologically confirmed oestrogen receptor-positive or progesterone receptor-positive, or both, locally advanced or metastatic breast cancer from 113 academic hospitals and community centres in 20 countries. Eligible patients were endocrine therapy-naive, with WHO performance status 0-2, and at least one measurable or non-measurable lesion. Patients were randomly assigned (1:1) to fulvestrant (500 mg intramuscular injection; on days 0, 14, 28, then every 28 days thereafter) or anastrozole (1 mg orally daily) using a computer-generated randomisation scheme. The primary endpoint was progression-free survival, determined by Response Evaluation Criteria in Solid Tumors version 1·1, intervention by surgery or radiotherapy because of disease deterioration, or death from any cause, assessed in the intention-to-treat population. Safety outcomes were assessed in all patients who received at least one dose of randomised treatment (including placebo). This trial is registered with ClinicalTrials.gov, number NCT01602380.<br><strong>FINDINGS:</strong> Between Oct 17, 2012, and July 11, 2014, 524 patients were enrolled to this study. Of these, 462 patients were randomised (230 to receive fulvestrant and 232 to receive anastrozole). Progression-free survival was significantly longer in the fulvestrant group than in the anastrozole group (hazard ratio [HR] 0·797, 95% CI 0·637-0·999, p=0·0486). Median progression-free survival was 16·6 months (95% CI 13·83-20·99) in the fulvestrant group versus 13·8 months (11·99-16·59) in the anastrozole group. The most common adverse events were arthralgia (38 [17%] in the fulvestrant group vs 24 [10%] in the anastrozole group) and hot flushes (26 [11%] in the fulvestrant group vs 24 [10%] in the anastrozole group). 16 (7%) of 228 patients in in the fulvestrant group and 11 (5%) of 232 patients in the anastrozole group discontinued because of adverse events.<br><strong>INTERPRETATION:</strong> Fulvestrant has superior efficacy and is a preferred treatment option for patients with hormone receptor-positive locally advanced or metastatic breast cancer who have not received previous endocrine therapy compared with a third-generation aromatase inhibitor, a standard of care for first-line treatment of these patients.<br><strong>FUNDING:</strong> AstraZeneca.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="4" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="4">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="4" data-guid="d8634616-678f-5960-0816-89a854c20977">
@@ -955,7 +974,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="d8634616-678f-5960-0816-89a854c20977" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="d8634616-678f-5960-0816-89a854c20977">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -968,7 +987,7 @@
                 <strong>Author(s)</strong>
                 <span class="partial-author-list">Mercado MV; Gómez-Bañuelos E; Navarro-Hernández RE; Pizano-Martinez O; Saldaña-Millán A</span>
                     <a class="toggle-author-list" href="javascript:void(0);">et al.</a>
-                    <span class="complete-author-list hidden">Mercado MV; G&#243;mez-Ba&#241;uelos E; Navarro-Hern&#225;ndez RE; Pizano-Martinez O; Salda&#241;a-Mill&#225;n A; Chavarria-Avila E; Gonzalez-Rosas L; Andrade-Ortega L; Saavedra MA; Vera-Lastra OL; Jara LJ; Medrano-Ram&#237;rez G; Cruz-Reyes C; Garc&#237;a-De la Torre I; Escarra-Senmarti M; Anjos LM; Basu A; Albesa R; Mahler M; Casiano CA</span>
+                    <span class="complete-author-list hidden">Mercado MV; Gómez-Bañuelos E; Navarro-Hernández RE; Pizano-Martinez O; Saldaña-Millán A; Chavarria-Avila E; Gonzalez-Rosas L; Andrade-Ortega L; Saavedra MA; Vera-Lastra OL; Jara LJ; Medrano-Ramírez G; Cruz-Reyes C; García-De la Torre I; Escarra-Senmarti M; Anjos LM; Basu A; Albesa R; Mahler M; Casiano CA</span>
             </div>
 
         <div class="result-row" data-field="source"><strong>Source</strong> Auto- immunity highlights; Dec 2017; vol. 8 (no. 1); p. 1</div>
@@ -982,7 +1001,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1007/s13317-016-0089-7" rel="external" class="external" target="_blank"> 10.1007/s13317-016-0089-7</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 2038-0305</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 2038-0305</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -992,18 +1014,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Autoantibodies" data-subjecttermtype="minor">Autoantibodies</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="DFS70" data-subjecttermtype="minor">DFS70</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Frequency" data-subjecttermtype="minor">Frequency</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Hispanics" data-subjecttermtype="minor">Hispanics</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="LEDGF/p75" data-subjecttermtype="minor">LEDGF/p75</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Mexican" data-subjecttermtype="minor">Mexican</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Multiple assay platforms" data-subjecttermtype="minor">Multiple assay platforms</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-4" data-field="abstract">
-                    <p><strong>PURPOSE:</strong> Antinuclear autoantibodies (ANA) targeting the dense fine speckled antigen DFS70, also known as lens epithelium-derived growth factor p75 (LEDGF/p75), are attracting attention due to their low frequency in systemic rheumatic diseases but increased frequency in clinical laboratory referrals and healthy individuals (HI). These ANA specifically recognize the stress protein DFS70/LEDGFp75, implicated in cancer, HIV-AIDS, and inflammation. While their frequency has been investigated in various ethnic populations, there is little information on their frequency among Hispanics/Latinos. In this study, we determined the frequency of anti-DFS70/LEDGFp75 autoantibodies in Mexican Hispanics using multiple detection platforms.<br /><strong>METHODS:</strong> The frequency of anti-DFS70/LEDGFp75 antibodies was determined in 171 individuals, including 71 dermatomyositis (DM) patients, 47 rheumatoid arthritis (RA) patients, 30 obesity (OB) patients, and 23 HI. Antibody detection was achieved using four complementary assay platforms: indirect immunofluorescence, Western blotting, ELISA, and chemiluminescent immunoassay.<br /><strong>RESULTS:</strong> We detected relatively low frequencies of anti-DFS70/LEDGFp75 antibodies in patients with DM (1.4%), RA (4.3%), and OB (6.6%), and elevated frequency (17.4%) in HI. A strong concordance between the different antibody detection platforms was observed.<br /><strong>CONCLUSIONS:</strong> The low frequency of anti-DFS70/LEDGFp75 antibodies in Mexican patients with rheumatic diseases, but relatively higher frequency in HI, is consistent with previous observations with non-Hispanic populations, suggesting that geographic differences or ethnicity do not influence the frequency of these autoantibodies. Our results also highlight the importance of confirmatory assays for the accurate detection of these autoantibodies. Future studies with larger cohorts of healthy Hispanics/Latinos are needed to confirm if their anti-DFS70/LEDGFp75 antibody frequencies are significantly higher than in non-Hispanics.</p>
+                    <p><strong>PURPOSE:</strong> Antinuclear autoantibodies (ANA) targeting the dense fine speckled antigen DFS70, also known as lens epithelium-derived growth factor p75 (LEDGF/p75), are attracting attention due to their low frequency in systemic rheumatic diseases but increased frequency in clinical laboratory referrals and healthy individuals (HI). These ANA specifically recognize the stress protein DFS70/LEDGFp75, implicated in cancer, HIV-AIDS, and inflammation. While their frequency has been investigated in various ethnic populations, there is little information on their frequency among Hispanics/Latinos. In this study, we determined the frequency of anti-DFS70/LEDGFp75 autoantibodies in Mexican Hispanics using multiple detection platforms.<br><strong>METHODS:</strong> The frequency of anti-DFS70/LEDGFp75 antibodies was determined in 171 individuals, including 71 dermatomyositis (DM) patients, 47 rheumatoid arthritis (RA) patients, 30 obesity (OB) patients, and 23 HI. Antibody detection was achieved using four complementary assay platforms: indirect immunofluorescence, Western blotting, ELISA, and chemiluminescent immunoassay.<br><strong>RESULTS:</strong> We detected relatively low frequencies of anti-DFS70/LEDGFp75 antibodies in patients with DM (1.4%), RA (4.3%), and OB (6.6%), and elevated frequency (17.4%) in HI. A strong concordance between the different antibody detection platforms was observed.<br><strong>CONCLUSIONS:</strong> The low frequency of anti-DFS70/LEDGFp75 antibodies in Mexican patients with rheumatic diseases, but relatively higher frequency in HI, is consistent with previous observations with non-Hispanic populations, suggesting that geographic differences or ethnicity do not influence the frequency of these autoantibodies. Our results also highlight the importance of confirmatory assays for the accurate detection of these autoantibodies. Future studies with larger cohorts of healthy Hispanics/Latinos are needed to confirm if their anti-DFS70/LEDGFp75 antibody frequencies are significantly higher than in non-Hispanics.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="5" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="5">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="5" data-guid="a6e6f7fe-63f5-8c27-f648-f4a1c2182bc8">
@@ -1011,7 +1039,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="a6e6f7fe-63f5-8c27-f648-f4a1c2182bc8" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="a6e6f7fe-63f5-8c27-f648-f4a1c2182bc8">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1045,7 +1073,13 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Atezolizumab (Tecentriq)" data-subjecttermtype="minor">Atezolizumab (Tecentriq)</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Immune checkpoint blockade" data-subjecttermtype="minor">Immune checkpoint blockade</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Nivolumab (Opdivo)" data-subjecttermtype="minor">Nivolumab (Opdivo)</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Non-small cell lung cancer (NSCLC)" data-subjecttermtype="minor">Non-small cell lung cancer (NSCLC)</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="PD-1" data-subjecttermtype="minor">PD-1</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="PD-L1" data-subjecttermtype="minor">PD-L1</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Pembrolizumab (Keytruda)" data-subjecttermtype="minor">Pembrolizumab (Keytruda)</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Precision medicine" data-subjecttermtype="minor">Precision medicine</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
@@ -1056,7 +1090,7 @@
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="6" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="6">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="6" data-guid="950dd4d7-b890-1bee-89d2-6c19d7e8c3c8">
@@ -1064,7 +1098,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="950dd4d7-b890-1bee-89d2-6c19d7e8c3c8" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="950dd4d7-b890-1bee-89d2-6c19d7e8c3c8">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1100,18 +1134,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Biopsy" data-subjecttermtype="minor">Biopsy</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Ebus" data-subjecttermtype="minor">Ebus</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Egfr" data-subjecttermtype="minor">Egfr</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Lung cancer" data-subjecttermtype="minor">Lung cancer</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="t790" data-subjecttermtype="minor">t790</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-6" data-field="abstract">
-                    <p>Lung cancer is still the leading cause of death among all cancers. During the last 15 years, pharmacogenomics of lung cancer have established targeted therapy with tyrosine kinase inhibitors (TKIs) for epidermal growth factor receptor (EGFR) positive patients in adenocarcinoma or mixed adenosquamus lung cancer patients. However; while novel drugs are released in the market, at the same time novel mutations are observed after tyrosine kinase inhibitor administration. Recently the novel mutation T790 was observed and is highly prevalent in patients already treated with a TKI. A new drug targeting this mutation is already on the market, however; the most important factor for successful treatment in these patients, is adequate tissue re-sampling so that novel mutations can be detected.</p>
+                    <p>Lung cancer is still the leading cause of death among all cancers. During the last 15&nbsp;years, pharmacogenomics of lung cancer have established targeted therapy with tyrosine kinase inhibitors (TKIs) for epidermal growth factor receptor (EGFR) positive patients in adenocarcinoma or mixed adenosquamus lung cancer patients. However; while novel drugs are released in the market, at the same time novel mutations are observed after tyrosine kinase inhibitor administration. Recently the novel mutation T790 was observed and is highly prevalent in patients already treated with a TKI. A new drug targeting this mutation is already on the market, however; the most important factor for successful treatment in these patients, is adequate tissue re-sampling so that novel mutations can be detected.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="7" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="7">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="7" data-guid="1cebe3d0-8ae9-19fb-4497-7c6c4cc45cfc">
@@ -1119,7 +1159,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="1cebe3d0-8ae9-19fb-4497-7c6c4cc45cfc" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="1cebe3d0-8ae9-19fb-4497-7c6c4cc45cfc">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1151,18 +1191,24 @@
                 Journal Article
             </div>
 
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-7" data-field="abstract">
-                    <p><strong>BACKGROUND:</strong> The targeted ERBB2 therapy, trastuzumab, has had a tremendous impact on management of patients with HER2+ breast cancer, leading to development and increased use of further HER2 targeted therapies. The major clinical side effect is cardiotoxicity but the mechanism is largely unknown. On the basis that gene expression is known to be altered in multiple models of heart failure, we examined differential gene expression of iPSC-derived cardiomyocytes treated at day 11 with the ERBB2 targeted monoclonal antibody, trastuzumab for 48 h and the small molecule tyrosine kinase inhibitor of EGFR and ERBB2.<br /><strong>RESULTS:</strong> Transcriptome sequencing was performed on four replicates from each group (48 h untreated, 48 h trastuzumab and 48 h lapatinib) and differential gene expression analyses were performed on each treatment group relative to untreated cardiomyocytes. 517 and 1358 genes were differentially expressed, p < 0.05, respectively in cardiomyocytes treated with trastuzumab and lapatinib. Gene ontology analyses revealed in cardiomyocytes treated with trastuzumab, significant down-regulation of genes involved in small molecule metabolism (p = 3.22 × 10(-9)) and cholesterol (p = 0.01) and sterol (p = 0.03) processing. We next measured glucose uptake and lactate production in iPSC-derived cardiomyocytes 13 days post-plating, treated with trastuzumab up to 96 h. We observed significantly decreased glucose uptake from the media of iPSC-derived cardiomyocytes treated with trastuzumab as early as 24 h (p = 0.001) and consistently up to 96 h (p = 0.03).<br /><strong>CONCLUSIONS:</strong> Our study suggests dysregulation of cardiac gene expression and metabolism as key elements of ERBB2 signaling that could potentially be early biomarkers of cardiotoxicity.</p>
+                    <p><strong>BACKGROUND:</strong> The targeted ERBB2 therapy, trastuzumab, has had a tremendous impact on management of patients with HER2+ breast cancer, leading to development and increased use of further HER2 targeted therapies. The major clinical side effect is cardiotoxicity but the mechanism is largely unknown. On the basis that gene expression is known to be altered in multiple models of heart failure, we examined differential gene expression of iPSC-derived cardiomyocytes treated at day 11 with the ERBB2 targeted monoclonal antibody, trastuzumab for 48&nbsp;h and the small molecule tyrosine kinase inhibitor of EGFR and ERBB2.<br><strong>RESULTS:</strong> Transcriptome sequencing was performed on four replicates from each group (48&nbsp;h untreated, 48&nbsp;h trastuzumab and 48&nbsp;h lapatinib) and differential gene expression analyses were performed on each treatment group relative to untreated cardiomyocytes. 517 and 1358 genes were differentially expressed, p&nbsp;&lt;&nbsp;0.05, respectively in cardiomyocytes treated with trastuzumab and lapatinib. Gene ontology analyses revealed in cardiomyocytes treated with trastuzumab, significant down-regulation of genes involved in small molecule metabolism (p&nbsp;=&nbsp;3.22&nbsp;×&nbsp;10(-9)) and cholesterol (p&nbsp;=&nbsp;0.01) and sterol (p&nbsp;=&nbsp;0.03) processing. We next measured glucose uptake and lactate production in iPSC-derived cardiomyocytes 13&nbsp;days post-plating, treated with trastuzumab up to 96&nbsp;h. We observed significantly decreased glucose uptake from the media of iPSC-derived cardiomyocytes treated with trastuzumab as early as 24&nbsp;h (p&nbsp;=&nbsp;0.001) and consistently up to 96&nbsp;h (p&nbsp;=&nbsp;0.03).<br><strong>CONCLUSIONS:</strong> Our study suggests dysregulation of cardiac gene expression and metabolism as key elements of ERBB2 signaling that could potentially be early biomarkers of cardiotoxicity.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="8" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="8">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="8" data-guid="11f15651-31cc-cf75-8031-a30a91ad9850">
@@ -1170,7 +1216,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="11f15651-31cc-cf75-8031-a30a91ad9850" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="11f15651-31cc-cf75-8031-a30a91ad9850">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1204,7 +1250,13 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="CTLA-4" data-subjecttermtype="minor">CTLA-4</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Coley’s toxin" data-subjecttermtype="minor">Coley’s toxin</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Immunotherapy" data-subjecttermtype="minor">Immunotherapy</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="PD-1" data-subjecttermtype="minor">PD-1</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="PD-L1" data-subjecttermtype="minor">PD-L1</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
@@ -1215,7 +1267,7 @@
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="9" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="9">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="9" data-guid="384743a2-f971-4b02-c714-405cd21e2a81">
@@ -1223,7 +1275,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="384743a2-f971-4b02-c714-405cd21e2a81" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="384743a2-f971-4b02-c714-405cd21e2a81">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1257,7 +1309,13 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Aneuploidy" data-subjecttermtype="minor">Aneuploidy</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Cancer" data-subjecttermtype="minor">Cancer</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Cellular cognition" data-subjecttermtype="minor">Cellular cognition</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Hologenome" data-subjecttermtype="minor">Hologenome</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Information fields" data-subjecttermtype="minor">Information fields</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Niche construction" data-subjecttermtype="minor">Niche construction</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Phenotype" data-subjecttermtype="minor">Phenotype</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Self-reference" data-subjecttermtype="minor">Self-reference</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Stigmergy" data-subjecttermtype="minor">Stigmergy</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Tissue ecology" data-subjecttermtype="minor">Tissue ecology</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
@@ -1268,7 +1326,7 @@
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="10" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="10">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="10" data-guid="f1c3af74-298b-d0b2-f0f9-a08871c968b9">
@@ -1276,7 +1334,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="f1c3af74-298b-d0b2-f0f9-a08871c968b9" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="f1c3af74-298b-d0b2-f0f9-a08871c968b9">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1310,18 +1368,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="177Lu" data-subjecttermtype="minor">177Lu</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Intraoperative gamma detectors" data-subjecttermtype="minor">Intraoperative gamma detectors</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Neuroendocrine tumours" data-subjecttermtype="minor">Neuroendocrine tumours</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Performance evaluation" data-subjecttermtype="minor">Performance evaluation</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-10" data-field="abstract">
-                    <p><strong>BACKGROUND:</strong> Patients with somatostatin receptor-expressing neuroendocrine tumours can be treated with intravenously administered (177)Lu-octreotate. Few patients are cured with the present protocol due to the current dose limitation of normal organs at risk, such as the kidneys. By locally administering (177)Lu-octreotate to the liver for the purpose of treating liver metastases, a substantially reduced absorbed dose to organs at risk could be achieved. The development of such a technique requires the capability of measuring the (177)Lu activity concentration in tissues in vivo. The aim of this study was to evaluate different performance parameters of two commercially available intraoperative gamma detectors in order to investigate whether intraoperative gamma detector measurements could be used to determine (177)Lu activity concentration in vivo.<br /><strong>RESULTS:</strong> Measurements were made using different sources containing (177)Lu. Response linearity, sensitivity, spatial resolution and its depth dependence, organ thickness dependence of the measured count rate and tumour detectability were assessed for two intraoperative gamma detectors. The two detectors (a scintillation and a semiconductor detector) showed differences in technical performance. For example, the sensitivity was higher for the scintillation detector, while the spatial resolution was better for the semiconductor detector. Regarding organ thickness dependence and tumour detectability, similar results were obtained for both detectors, and even relatively small simulated tumours of low tumour-to-background activity concentration ratios could be detected.<br /><strong>CONCLUSIONS:</strong> Acceptable results were obtained for both detectors, although the semiconductor detector proved more advantageous for our purpose. The measurements demonstrated factors that must be corrected for, such as organ thickness or dead-time effects. Altogether, intraoperative gamma detector measurements could be used to determine (177)Lu activity concentration in vivo.</p>
+                    <p><strong>BACKGROUND:</strong> Patients with somatostatin receptor-expressing neuroendocrine tumours can be treated with intravenously administered (177)Lu-octreotate. Few patients are cured with the present protocol due to the current dose limitation of normal organs at risk, such as the kidneys. By locally administering (177)Lu-octreotate to the liver for the purpose of treating liver metastases, a substantially reduced absorbed dose to organs at risk could be achieved. The development of such a technique requires the capability of measuring the (177)Lu activity concentration in tissues in vivo. The aim of this study was to evaluate different performance parameters of two commercially available intraoperative gamma detectors in order to investigate whether intraoperative gamma detector measurements could be used to determine (177)Lu activity concentration in vivo.<br><strong>RESULTS:</strong> Measurements were made using different sources containing (177)Lu. Response linearity, sensitivity, spatial resolution and its depth dependence, organ thickness dependence of the measured count rate and tumour detectability were assessed for two intraoperative gamma detectors. The two detectors (a scintillation and a semiconductor detector) showed differences in technical performance. For example, the sensitivity was higher for the scintillation detector, while the spatial resolution was better for the semiconductor detector. Regarding organ thickness dependence and tumour detectability, similar results were obtained for both detectors, and even relatively small simulated tumours of low tumour-to-background activity concentration ratios could be detected.<br><strong>CONCLUSIONS:</strong> Acceptable results were obtained for both detectors, although the semiconductor detector proved more advantageous for our purpose. The measurements demonstrated factors that must be corrected for, such as organ thickness or dead-time effects. Altogether, intraoperative gamma detector measurements could be used to determine (177)Lu activity concentration in vivo.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="11" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="11">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="11" data-guid="a9d00245-5a50-fedb-d3cb-2f92f4bf0e09">
@@ -1329,7 +1393,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="a9d00245-5a50-fedb-d3cb-2f92f4bf0e09" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="a9d00245-5a50-fedb-d3cb-2f92f4bf0e09">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1365,18 +1429,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="177Lu" data-subjecttermtype="minor">177Lu</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="APDI" data-subjecttermtype="minor">APDI</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Dosimetry" data-subjecttermtype="minor">Dosimetry</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Quantification" data-subjecttermtype="minor">Quantification</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Scatter correction" data-subjecttermtype="minor">Scatter correction</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="TEW" data-subjecttermtype="minor">TEW</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-11" data-field="abstract">
-                    <p><strong>BACKGROUND:</strong> The aim of the study is to assess accuracy of activity quantification of (177)Lu studies performed according to recommendations provided by the committee on Medical Internal Radiation Dose (MIRD) pamphlets 23 and 26. The performances of two scatter correction and three segmentation methods were compared. Additionally, the accuracy of tomographic and planar methods for determination of the camera normalization factor (CNF) was evaluated. Eight phantoms containing inserts of different sizes and shapes placed in air, water, and radioactive background were scanned using a Siemens SymbiaT SPECT/CT camera. Planar and tomographic scans with (177)Lu sources were used to measure CNF. Images were reconstructed with our SPEQToR software using resolution recovery, attenuation, and two scatter correction methods (analytical photon distribution interpolated (APDI) and triple energy window (TEW)). Segmentation was performed using a fixed threshold method for both air and cold water scans. For hot water experiments three segmentation methods were compared as folows: a 40% fixed threshold, segmentation based on CT images, and our iterative adaptive dual thresholding (IADT). Quantification error, defined as the percent difference between experimental and true activities, was evaluated.<br /><strong>RESULTS:</strong> Quantification error for scans in air was better for TEW scatter correction (<6%) than for APDI (<11%). This trend was reversed for scans in water (<10% for APDI and <14% for TEW). For hot water, the best results (<18% for small objects and <5% for objects >100 ml) were obtained when APDI and IADT were used for scatter correction and segmentation, respectively. Additionally, we showed that planar acquisitions with scatter correction and tomographic scans provide similar CNF values. This is an important finding because planar acquisitions are easier to perform than tomographic scans. TEW and APDI resulted in similar quantification errors with APDI showing a small advantage for objects placed in medium with non-uniform density.<br /><strong>CONCLUSIONS:</strong> Following the MIRD recommendations for data acquisition and reconstruction resulted in accurate activity quantification (errors <5% for large objects). However, techniques for better organ/tumor segmentation must still be developed.</p>
+                    <p><strong>BACKGROUND:</strong> The aim of the study is to assess accuracy of activity quantification of (177)Lu studies performed according to recommendations provided by the committee on Medical Internal Radiation Dose (MIRD) pamphlets 23 and 26. The performances of two scatter correction and three segmentation methods were compared. Additionally, the accuracy of tomographic and planar methods for determination of the camera normalization factor (CNF) was evaluated. Eight phantoms containing inserts of different sizes and shapes placed in air, water, and radioactive background were scanned using a Siemens SymbiaT SPECT/CT camera. Planar and tomographic scans with (177)Lu sources were used to measure CNF. Images were reconstructed with our SPEQToR software using resolution recovery, attenuation, and two scatter correction methods (analytical photon distribution interpolated (APDI) and triple energy window (TEW)). Segmentation was performed using a fixed threshold method for both air and cold water scans. For hot water experiments three segmentation methods were compared as folows: a 40% fixed threshold, segmentation based on CT images, and our iterative adaptive dual thresholding (IADT). Quantification error, defined as the percent difference between experimental and true activities, was evaluated.<br><strong>RESULTS:</strong> Quantification error for scans in air was better for TEW scatter correction (&lt;6%) than for APDI (&lt;11%). This trend was reversed for scans in water (&lt;10% for APDI and &lt;14% for TEW). For hot water, the best results (&lt;18% for small objects and &lt;5% for objects &gt;100&nbsp;ml) were obtained when APDI and IADT were used for scatter correction and segmentation, respectively. Additionally, we showed that planar acquisitions with scatter correction and tomographic scans provide similar CNF values. This is an important finding because planar acquisitions are easier to perform than tomographic scans. TEW and APDI resulted in similar quantification errors with APDI showing a small advantage for objects placed in medium with non-uniform density.<br><strong>CONCLUSIONS:</strong> Following the MIRD recommendations for data acquisition and reconstruction resulted in accurate activity quantification (errors &lt;5% for large objects). However, techniques for better organ/tumor segmentation must still be developed.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="12" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="12">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="12" data-guid="a3af86d9-e4e7-d576-c8a5-997e551c6bef">
@@ -1384,7 +1454,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="a3af86d9-e4e7-d576-c8a5-997e551c6bef" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="a3af86d9-e4e7-d576-c8a5-997e551c6bef">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1397,7 +1467,7 @@
                 <strong>Author(s)</strong>
                 <span class="partial-author-list">Umbricht CA; Benešová M; Schmid RM; Türler A; Schibli R</span>
                     <a class="toggle-author-list" href="javascript:void(0);">et al.</a>
-                    <span class="complete-author-list hidden">Umbricht CA; Benešov&#225; M; Schmid RM; T&#252;rler A; Schibli R; van der Meulen NP; M&#252;ller C</span>
+                    <span class="complete-author-list hidden">Umbricht CA; Benešová M; Schmid RM; Türler A; Schibli R; van der Meulen NP; Müller C</span>
             </div>
 
         <div class="result-row" data-field="source"><strong>Source</strong> EJNMMI research; Dec 2017; vol. 7 (no. 1); p. 9</div>
@@ -1420,18 +1490,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="177Lu" data-subjecttermtype="minor">177Lu</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="44Sc" data-subjecttermtype="minor">44Sc</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="68Ga" data-subjecttermtype="minor">68Ga</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Cyclotron" data-subjecttermtype="minor">Cyclotron</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="PET imaging" data-subjecttermtype="minor">PET imaging</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="PSMA" data-subjecttermtype="minor">PSMA</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Prostate cancer" data-subjecttermtype="minor">Prostate cancer</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Theragnostics" data-subjecttermtype="minor">Theragnostics</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-12" data-field="abstract">
-                    <p><strong>BACKGROUND:</strong> The targeting of the prostate-specific membrane antigen (PSMA) is of particular interest for radiotheragnostic purposes of prostate cancer. Radiolabeled PSMA-617, a 1,4,7,10-tetraazacyclododecane-N,N',N'',N'''-tetraacetic acid (DOTA)-functionalized PSMA ligand, revealed favorable kinetics with high tumor uptake, enabling its successful application for PET imaging ((68)Ga) and radionuclide therapy ((177)Lu) in the clinics. In this study, PSMA-617 was labeled with cyclotron-produced (44)Sc (T 1/2 = 4.04 h) and investigated preclinically for its use as a diagnostic match to (177)Lu-PSMA-617.<br /><strong>RESULTS:</strong> (44)Sc was produced at the research cyclotron at PSI by irradiation of enriched (44)Ca targets, followed by chromatographic separation. (44)Sc-PSMA-617 was prepared under standard labeling conditions at elevated temperature resulting in a radiochemical purity of >97% at a specific activity of up to 10 MBq/nmol. (44)Sc-PSMA-617 was evaluated in vitro and compared to the (177)Lu- and (68)Ga-labeled match, as well as (68)Ga-PSMA-11 using PSMA-positive PC-3 PIP and PSMA-negative PC-3 flu prostate cancer cells. In these experiments it revealed similar in vitro properties to that of (177)Lu- and (68)Ga-labeled PSMA-617. Moreover, (44)Sc-PSMA-617 bound specifically to PSMA-expressing PC-3 PIP tumor cells, while unspecific binding to PC-3 flu cells was not observed. The radioligands were investigated with regard to their in vivo properties in PC-3 PIP/flu tumor-bearing mice. (44)Sc-PSMA-617 showed high tumor uptake and a fast renal excretion. The overall tissue distribution of (44)Sc-PSMA-617 resembled that of (177)Lu-PSMA-617 most closely, while the (68)Ga-labeled ligands, in particular (68)Ga-PSMA-11, showed different distribution kinetics. (44)Sc-PSMA-617 enabled distinct visualization of PC-3 PIP tumor xenografts shortly after injection, with increasing tumor-to-background contrast over time while unspecific uptake in the PC-3 flu tumors was not observed.<br /><strong>CONCLUSIONS:</strong> The in vitro characteristics and in vivo kinetics of (44)Sc-PSMA-617 were more similar to (177)Lu-PSMA-617 than to (68)Ga-PSMA-617 and 68Ga-PSMA-11. Due to the almost four-fold longer half-life of (44)Sc as compared to (68)Ga, a centralized production of (44)Sc-PSMA-617 and transport to satellite PET centers would be feasible. These features make (44)Sc-PSMA-617 particularly appealing for clinical application.</p>
+                    <p><strong>BACKGROUND:</strong> The targeting of the prostate-specific membrane antigen (PSMA) is of particular interest for radiotheragnostic purposes of prostate cancer. Radiolabeled PSMA-617, a 1,4,7,10-tetraazacyclododecane-N,N',N'',N'''-tetraacetic acid (DOTA)-functionalized PSMA ligand, revealed favorable kinetics with high tumor uptake, enabling its successful application for PET imaging ((68)Ga) and radionuclide therapy ((177)Lu) in the clinics. In this study, PSMA-617 was labeled with cyclotron-produced (44)Sc (T 1/2&thinsp;=&thinsp;4.04&nbsp;h) and investigated preclinically for its use as a diagnostic match to (177)Lu-PSMA-617.<br><strong>RESULTS:</strong> (44)Sc was produced at the research cyclotron at PSI by irradiation of enriched (44)Ca targets, followed by chromatographic separation. (44)Sc-PSMA-617 was prepared under standard labeling conditions at elevated temperature resulting in a radiochemical purity of &gt;97% at a specific activity of up to 10 MBq/nmol. (44)Sc-PSMA-617 was evaluated in vitro and compared to the (177)Lu- and (68)Ga-labeled match, as well as (68)Ga-PSMA-11 using PSMA-positive PC-3 PIP and PSMA-negative PC-3 flu prostate cancer cells. In these experiments it revealed similar in vitro properties to that of (177)Lu- and (68)Ga-labeled PSMA-617. Moreover, (44)Sc-PSMA-617 bound specifically to PSMA-expressing PC-3 PIP tumor cells, while unspecific binding to PC-3 flu cells was not observed. The radioligands were investigated with regard to their in vivo properties in PC-3 PIP/flu tumor-bearing mice. (44)Sc-PSMA-617 showed high tumor uptake and a fast renal excretion. The overall tissue distribution of (44)Sc-PSMA-617 resembled that of (177)Lu-PSMA-617 most closely, while the (68)Ga-labeled ligands, in particular (68)Ga-PSMA-11, showed different distribution kinetics. (44)Sc-PSMA-617 enabled distinct visualization of PC-3 PIP tumor xenografts shortly after injection, with increasing tumor-to-background contrast over time while unspecific uptake in the PC-3 flu tumors was not observed.<br><strong>CONCLUSIONS:</strong> The in vitro characteristics and in vivo kinetics of (44)Sc-PSMA-617 were more similar to (177)Lu-PSMA-617 than to (68)Ga-PSMA-617 and 68Ga-PSMA-11. Due to the almost four-fold longer half-life of (44)Sc as compared to (68)Ga, a centralized production of (44)Sc-PSMA-617 and transport to satellite PET centers would be feasible. These features make (44)Sc-PSMA-617 particularly appealing for clinical application.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="13" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="13">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="13" data-guid="3b222d67-0a67-e987-d7ba-3a6bb2c4aa66">
@@ -1439,7 +1515,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="3b222d67-0a67-e987-d7ba-3a6bb2c4aa66" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="3b222d67-0a67-e987-d7ba-3a6bb2c4aa66">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1475,18 +1551,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Early treatment response monitoring" data-subjecttermtype="minor">Early treatment response monitoring</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="FDG PET/CT" data-subjecttermtype="minor">FDG PET/CT</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="FLT PET/CT" data-subjecttermtype="minor">FLT PET/CT</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Non-small cell lung cancer" data-subjecttermtype="minor">Non-small cell lung cancer</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-13" data-field="abstract">
-                    <p><strong>BACKGROUND:</strong> The aim of this study was to compare the percentage change in (18)F-fluorothymidine (FLT) standard uptake value (SUV) between baseline and after one cycle of chemotherapy in patients categorized by RECIST 1.1 computed tomography (CT) as responders or non-responders after two cycles of therapy. Change in (18)F-fluorodeoxyglucose (FDG) uptake was also compared between these time points. Nine patients with newly diagnosed, operable, non-small cell lung cancer (NSCLC) were imaged with FDG positron emission tomography/CT (PET), FLT PET/CT, and CT at baseline, following one cycle of neoadjuvant therapy (75 mg/m(2) docetaxel + 75 mg/m(2) cisplatin), and again after the second cycle of therapy. All patients had a biopsy prior to enrollment and underwent surgical resection within 4 weeks of post-cycle 2 imaging.<br /><strong>RESULTS:</strong> Between baseline and post-cycle 1, non-responders had mean SULmax (maximum standard uptake value adjusted for lean body mass) increases of 7.0 and 3.4% for FDG and FLT, respectively. Responders had mean decreases of 44.8 and 32.0% in FDG and FLT SULmax, respectively, between baseline and post-cycle 1 imaging. On post-cycle 1 imaging, primary tumor FDG SUL values were significantly lower in responders than in non-responders (P = 0.016). Primary tumor FLT SUL values did not differ significantly between these groups. Using the change from baseline to post-cycle 1, receiver-operating characteristic (ROC) analysis showed an area under the curve (AUC) of 0.94 for FDG and 0.78 for FLT in predicting anatomic tumor response after the second cycle of therapy.<br /><strong>CONCLUSIONS:</strong> Fractional decrease in FDG SULmax from baseline to post-cycle 1 imaging was significantly different between anatomic responders and non-responders, while percentage changes in FLT SULmax were not significantly different between these groups over the same period of time.</p>
+                    <p><strong>BACKGROUND:</strong> The aim of this study was to compare the percentage change in (18)F-fluorothymidine (FLT) standard uptake value (SUV) between baseline and after one cycle of chemotherapy in patients categorized by RECIST 1.1 computed tomography (CT) as responders or non-responders after two cycles of therapy. Change in (18)F-fluorodeoxyglucose (FDG) uptake was also compared between these time points. Nine patients with newly diagnosed, operable, non-small cell lung cancer (NSCLC) were imaged with FDG positron emission tomography/CT (PET), FLT PET/CT, and CT at baseline, following one cycle of neoadjuvant therapy (75&nbsp;mg/m(2) docetaxel&thinsp;+&thinsp;75&nbsp;mg/m(2) cisplatin), and again after the second cycle of therapy. All patients had a biopsy prior to enrollment and underwent surgical resection within 4&nbsp;weeks of post-cycle 2 imaging.<br><strong>RESULTS:</strong> Between baseline and post-cycle 1, non-responders had mean SULmax (maximum standard uptake value adjusted for lean body mass) increases of 7.0 and 3.4% for FDG and FLT, respectively. Responders had mean decreases of 44.8 and 32.0% in FDG and FLT SULmax, respectively, between baseline and post-cycle 1 imaging. On post-cycle 1 imaging, primary tumor FDG SUL values were significantly lower in responders than in non-responders (P&thinsp;=&thinsp;0.016). Primary tumor FLT SUL values did not differ significantly between these groups. Using the change from baseline to post-cycle 1, receiver-operating characteristic (ROC) analysis showed an area under the curve (AUC) of 0.94 for FDG and 0.78 for FLT in predicting anatomic tumor response after the second cycle of therapy.<br><strong>CONCLUSIONS:</strong> Fractional decrease in FDG SULmax from baseline to post-cycle 1 imaging was significantly different between anatomic responders and non-responders, while percentage changes in FLT SULmax were not significantly different between these groups over the same period of time.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="14" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="14">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="14" data-guid="3282880f-0934-a2c7-3190-b17d118dd50a">
@@ -1494,7 +1576,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="3282880f-0934-a2c7-3190-b17d118dd50a" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="3282880f-0934-a2c7-3190-b17d118dd50a">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1507,7 +1589,7 @@
                 <strong>Author(s)</strong>
                 <span class="partial-author-list">Dalmo J; Spetz J; Montelius M; Langen B; Arvidsson Y</span>
                     <a class="toggle-author-list" href="javascript:void(0);">et al.</a>
-                    <span class="complete-author-list hidden">Dalmo J; Spetz J; Montelius M; Langen B; Arvidsson Y; Johansson H; Parris TZ; Helou K; W&#228;ngberg B; Nilsson O; Ljungberg M; Forssell-Aronsson E</span>
+                    <span class="complete-author-list hidden">Dalmo J; Spetz J; Montelius M; Langen B; Arvidsson Y; Johansson H; Parris TZ; Helou K; Wängberg B; Nilsson O; Ljungberg M; Forssell-Aronsson E</span>
             </div>
 
         <div class="result-row" data-field="source"><strong>Source</strong> EJNMMI research; Dec 2017; vol. 7 (no. 1); p. 6</div>
@@ -1530,18 +1612,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="177Lu-DOTATATE" data-subjecttermtype="minor">177Lu-DOTATATE</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Fractionated radionuclide therapy" data-subjecttermtype="minor">Fractionated radionuclide therapy</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Gene expression" data-subjecttermtype="minor">Gene expression</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="MRI" data-subjecttermtype="minor">MRI</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Neuroendocrine tumor" data-subjecttermtype="minor">Neuroendocrine tumor</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Radiation biology" data-subjecttermtype="minor">Radiation biology</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Somatostatin receptors" data-subjecttermtype="minor">Somatostatin receptors</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Xenograft model" data-subjecttermtype="minor">Xenograft model</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-14" data-field="abstract">
-                    <p><strong>BACKGROUND:</strong> (177)Lu-[DOTA(0), Tyr(3)]-octreotate ((177)Lu-octreotate) is used for treatment of patients with somatostatin receptor (SSTR) expressing neuroendocrine tumors. However, complete tumor remission is rarely seen, and optimization of treatment protocols is needed. In vitro studies have shown that irradiation can up-regulate the expression of SSTR1, 2 and 5, and increase (177)Lu-octreotate uptake. The aim of the present study was to examine the anti-tumor effect of a (177)Lu-octreotate priming dose followed 24 h later by a second injection of (177)Lu-octreotate compared to a single administration of (177)Lu-octreotate, performed on the human small intestine neuroendocrine tumor cell line, GOT1, transplanted to nude mice.<br /><strong>RESULTS:</strong> Priming resulted in a 1.9 times higher mean absorbed dose to the tumor tissue per administered activity, together with a reduced mean absorbed dose for kidneys. Priming gave the best overall anti-tumor effects. Magnetic resonance imaging showed no statistically significant difference in tumor response between treatment with and without priming. Gene expression analysis demonstrated effects on cell cycle regulation. Biological processes associated with apoptotic cell death were highly affected in the biodistribution and dosimetry study, via differential regulation of, e.g., APOE, BAX, CDKN1A, and GADD45A.<br /><strong>CONCLUSIONS:</strong> Priming had the best overall anti-tumor effects and also resulted in an increased therapeutic window. Results indicate that potential biomarkers for tumor regrowth may be found in the p53 or JNK signaling pathways. Priming administration is an interesting optimization strategy for (177)Lu-octreotate therapy of neuroendocrine tumors, and further studies should be performed to determine the mechanisms responsible for the reported effects.</p>
+                    <p><strong>BACKGROUND:</strong> (177)Lu-[DOTA(0), Tyr(3)]-octreotate ((177)Lu-octreotate) is used for treatment of patients with somatostatin receptor (SSTR) expressing neuroendocrine tumors. However, complete tumor remission is rarely seen, and optimization of treatment protocols is needed. In vitro studies have shown that irradiation can up-regulate the expression of SSTR1, 2 and 5, and increase (177)Lu-octreotate uptake. The aim of the present study was to examine the anti-tumor effect of a (177)Lu-octreotate priming dose followed 24&nbsp;h later by a second injection of (177)Lu-octreotate compared to a single administration of (177)Lu-octreotate, performed on the human small intestine neuroendocrine tumor cell line, GOT1, transplanted to nude mice.<br><strong>RESULTS:</strong> Priming resulted in a 1.9 times higher mean absorbed dose to the tumor tissue per administered activity, together with a reduced mean absorbed dose for kidneys. Priming gave the best overall anti-tumor effects. Magnetic resonance imaging showed no statistically significant difference in tumor response between treatment with and without priming. Gene expression analysis demonstrated effects on cell cycle regulation. Biological processes associated with apoptotic cell death were highly affected in the biodistribution and dosimetry study, via differential regulation of, e.g., APOE, BAX, CDKN1A, and GADD45A.<br><strong>CONCLUSIONS:</strong> Priming had the best overall anti-tumor effects and also resulted in an increased therapeutic window. Results indicate that potential biomarkers for tumor regrowth may be found in the p53 or JNK signaling pathways. Priming administration is an interesting optimization strategy for (177)Lu-octreotate therapy of neuroendocrine tumors, and further studies should be performed to determine the mechanisms responsible for the reported effects.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="15" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="15">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="15" data-guid="dad9eae7-67e7-41a6-135a-d6fc495e802d">
@@ -1549,7 +1637,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="dad9eae7-67e7-41a6-135a-d6fc495e802d" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="dad9eae7-67e7-41a6-135a-d6fc495e802d">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1585,18 +1673,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Breast cancer" data-subjecttermtype="minor">Breast cancer</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Molecular breast imaging" data-subjecttermtype="minor">Molecular breast imaging</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Tc-99m NC100692" data-subjecttermtype="minor">Tc-99m NC100692</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Tc-99m maraciclatide" data-subjecttermtype="minor">Tc-99m maraciclatide</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Tc-99m sestamibi" data-subjecttermtype="minor">Tc-99m sestamibi</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-15" data-field="abstract">
-                    <p><strong>BACKGROUND:</strong> Molecular breast imaging (MBI) performed with (99m)Tc sestamibi has been shown to be a valuable technique for the detection of breast cancer. Alternative radiotracers such as (99m)Tc maraciclatide may offer improved uptake in breast lesions. The purpose of this study was to compare relative performance of (99m)Tc sestamibi and (99m)Tc maraciclatide in patients with suspected breast cancer, using a high-resolution dedicated gamma camera for MBI. Women with breast lesions suspicious for malignancy were recruited to undergo two MBI examinations-one with (99m)Tc sestamibi and one with (99m)Tc maraciclatide. A radiologist interpreted MBI studies in a randomized, blinded fashion to assign an assessment score (1-5) and measured lesion size. Lesion-to-background (L/B) ratio was measured with region-of-interest analysis.<br /><strong>RESULTS:</strong> Among 39 analyzable patients, 21 malignant tumors were identified in 21 patients. Eighteen of 21 tumors (86%) were seen on (99m)Tc sestamibi MBI and 19 of 21 (90%) were seen on (99m)Tc maraciclatide MBI (p = 1). Tumor extent measured with both radiopharmaceuticals correlated strongly with pathologic size ((99m)Tc sestamibi, r = 0.84; (99m)Tc maraciclatide, r = 0.81). The L/B ratio in detected breast cancers was similar for the two radiopharmaceuticals: 1.55 ± 0.36 (mean ± S.D.) for (99m)Tc sestamibi and 1.62 ± 0.37 (mean ± S.D.) for (99m)Tc maraciclatide (p = 0.53). No correlation was found between the L/B ratio and molecular subtype for (99m)Tc sestamibi (r s  = 0.12, p = 0.63) or (99m)Tc maraciclatide (r s  = -0.12, p = 0.64). Of 20 benign lesions, 10 (50%) were seen on (99m)Tc sestamibi and 9 of 20 (45%) were seen on (99m)Tc maraciclatide images (p = 0.1). The average L/B ratio for benign lesions was 1.34 ±0.40 (mean ±S.D.) for (99m)Tc sestamibi and 1.41 ±0.52 (mean ±S.D.) for (99m)Tc maraciclatide (p = 0.75). Overall diagnostic performance was similar for both radiopharmaceuticals. AUC from ROC analysis was 0.83 for (99m)Tc sestamibi and 0.87 for (99m)Tc maraciclatide (p = 0.64).<br /><strong>CONCLUSIONS:</strong> (99m)Tc maraciclatide offered comparable lesion uptake to (99m)Tc sestamibi, in both malignant and benign lesions. There was good correlation between lesion extent and uptake measured from both radiopharmaceuticals. (99m)Tc maraciclatide offered a marginal (but not significant) improvement in sensitivity over (99m)Tc sestamibi. Our findings did not support an association between the uptake of either radiopharmaceutical and tumor molecular subtype.<br /><strong>TRIAL REGISTRATION:</strong> ClinicalTrials.gov, NCT00888589.</p>
+                    <p><strong>BACKGROUND:</strong> Molecular breast imaging (MBI) performed with (99m)Tc sestamibi has been shown to be a valuable technique for the detection of breast cancer. Alternative radiotracers such as (99m)Tc maraciclatide may offer improved uptake in breast lesions. The purpose of this study was to compare relative performance of (99m)Tc sestamibi and (99m)Tc maraciclatide in patients with suspected breast cancer, using a high-resolution dedicated gamma camera for MBI. Women with breast lesions suspicious for malignancy were recruited to undergo two MBI examinations-one with (99m)Tc sestamibi and one with (99m)Tc maraciclatide. A radiologist interpreted MBI studies in a randomized, blinded fashion to assign an assessment score (1-5) and measured lesion size. Lesion-to-background (L/B) ratio was measured with region-of-interest analysis.<br><strong>RESULTS:</strong> Among 39 analyzable patients, 21 malignant tumors were identified in 21 patients. Eighteen of 21 tumors (86%) were seen on (99m)Tc sestamibi MBI and 19 of 21 (90%) were seen on (99m)Tc maraciclatide MBI (p&thinsp;=&thinsp;1). Tumor extent measured with both radiopharmaceuticals correlated strongly with pathologic size ((99m)Tc sestamibi, r&thinsp;=&thinsp;0.84; (99m)Tc maraciclatide, r&thinsp;=&thinsp;0.81). The L/B ratio in detected breast cancers was similar for the two radiopharmaceuticals: 1.55&thinsp;±&thinsp;0.36 (mean&thinsp;±&thinsp;S.D.) for (99m)Tc sestamibi and 1.62&thinsp;±&thinsp;0.37 (mean&thinsp;±&thinsp;S.D.) for (99m)Tc maraciclatide (p&thinsp;=&thinsp;0.53). No correlation was found between the L/B ratio and molecular subtype for (99m)Tc sestamibi (r s &thinsp;=&thinsp;0.12, p&thinsp;=&thinsp;0.63) or (99m)Tc maraciclatide (r s &thinsp;=&thinsp;-0.12, p&thinsp;=&thinsp;0.64). Of 20 benign lesions, 10 (50%) were seen on (99m)Tc sestamibi and 9 of 20 (45%) were seen on (99m)Tc maraciclatide images (p&thinsp;=&thinsp;0.1). The average L/B ratio for benign lesions was 1.34&thinsp;±0.40 (mean&thinsp;±S.D.) for (99m)Tc sestamibi and 1.41&thinsp;±0.52 (mean&thinsp;±S.D.) for (99m)Tc maraciclatide (p&thinsp;=&thinsp;0.75). Overall diagnostic performance was similar for both radiopharmaceuticals. AUC from ROC analysis was 0.83 for (99m)Tc sestamibi and 0.87 for (99m)Tc maraciclatide (p&thinsp;=&thinsp;0.64).<br><strong>CONCLUSIONS:</strong> (99m)Tc maraciclatide offered comparable lesion uptake to (99m)Tc sestamibi, in both malignant and benign lesions. There was good correlation between lesion extent and uptake measured from both radiopharmaceuticals. (99m)Tc maraciclatide offered a marginal (but not significant) improvement in sensitivity over (99m)Tc sestamibi. Our findings did not support an association between the uptake of either radiopharmaceutical and tumor molecular subtype.<br><strong>TRIAL REGISTRATION:</strong> ClinicalTrials.gov, NCT00888589.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="16" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="16">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="16" data-guid="b6259419-bb35-5484-3738-702d358999c2">
@@ -1604,7 +1698,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="b6259419-bb35-5484-3738-702d358999c2" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="b6259419-bb35-5484-3738-702d358999c2">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1640,18 +1734,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Agreement" data-subjecttermtype="minor">Agreement</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Bone metastases" data-subjecttermtype="minor">Bone metastases</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Bone scintigraphy" data-subjecttermtype="minor">Bone scintigraphy</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Fast acquisition" data-subjecttermtype="minor">Fast acquisition</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="SPECT/CT" data-subjecttermtype="minor">SPECT/CT</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-16" data-field="abstract">
-                    <p><strong>BACKGROUND:</strong> The aim of this study is to assess whether ultra-fast acquisition SPECT/CT (UF-SPECT/CT) can replace standard SPECT/CT (std-SPECT/CT) as "add-on" to whole-body bone scintigraphy (WB-BS) for the investigation of bone metastases. Consecutive cancer patients referred for WB-BS who underwent SPECT/CT in addition to WB-BS were included. Std-SPECT, UF-SPECT, and low-dose CT were performed (std-SPECT: matrix 128 × 128, zoom factor 1, 20 s/view, 32 views; UF-SPECT: identical parameters except for 10 s/view and 16 views, reducing the acquisition time from 11 to 3 min). A consensus diagnosis was reached by two observers for each set of images (WB-BS + standard SPECT/CT or WB-BS + UF-SPECT/CT) using a three-category evaluation scale: M0: no bone metastases; M1: bone metastases; and Me: equivocal findings.<br /><strong>RESULTS:</strong> Among the 104 included patients, most presented with prostate cancer (n = 71) or breast cancer (n = 28). Using WB-BS + std-SPECT/CT, 71 (68%) patients were classified as M0, 19 (18%) as M1, and 14 (14%) as Me. Excellent agreement was observed between WB-BS + std-SPECT/CT and WB-BS + UF-SPECT/CT using the three-category scale: kappa = 0.91 (95% CI 0.84-0.97). No difference in observer agreement between cancer types was detected. SPECT/CT provided a definitive classification in 90 of 104 cases in which WB-BS was not entirely diagnostic.<br /><strong>CONCLUSIONS:</strong> To investigate potential bone metastases, UF-SPECT/CT can be conducted as add-on to WB-BS to notably reduce the SPECT acquisition time without compromising diagnostic confidence.</p>
+                    <p><strong>BACKGROUND:</strong> The aim of this study is to assess whether ultra-fast acquisition SPECT/CT (UF-SPECT/CT) can replace standard SPECT/CT (std-SPECT/CT) as "add-on" to whole-body bone scintigraphy (WB-BS) for the investigation of bone metastases. Consecutive cancer patients referred for WB-BS who underwent SPECT/CT in addition to WB-BS were included. Std-SPECT, UF-SPECT, and low-dose CT were performed (std-SPECT: matrix 128&thinsp;×&thinsp;128, zoom factor 1, 20&nbsp;s/view, 32 views; UF-SPECT: identical parameters except for 10&nbsp;s/view and 16 views, reducing the acquisition time from 11 to 3&nbsp;min). A consensus diagnosis was reached by two observers for each set of images (WB-BS + standard SPECT/CT or WB-BS + UF-SPECT/CT) using a three-category evaluation scale: M0: no bone metastases; M1: bone metastases; and Me: equivocal findings.<br><strong>RESULTS:</strong> Among the 104 included patients, most presented with prostate cancer (n&thinsp;=&thinsp;71) or breast cancer (n&thinsp;=&thinsp;28). Using WB-BS + std-SPECT/CT, 71 (68%) patients were classified as M0, 19 (18%) as M1, and 14 (14%) as Me. Excellent agreement was observed between WB-BS + std-SPECT/CT and WB-BS + UF-SPECT/CT using the three-category scale: kappa&thinsp;=&thinsp;0.91 (95% CI 0.84-0.97). No difference in observer agreement between cancer types was detected. SPECT/CT provided a definitive classification in 90 of 104 cases in which WB-BS was not entirely diagnostic.<br><strong>CONCLUSIONS:</strong> To investigate potential bone metastases, UF-SPECT/CT can be conducted as add-on to WB-BS to notably reduce the SPECT acquisition time without compromising diagnostic confidence.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="17" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="17">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="17" data-guid="3f2b53c0-652e-5836-917d-185e40a0944a">
@@ -1659,7 +1759,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="3f2b53c0-652e-5836-917d-185e40a0944a" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="3f2b53c0-652e-5836-917d-185e40a0944a">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1686,7 +1786,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1080/14756366.2016.1265518" rel="external" class="external" target="_blank"> 10.1080/14756366.2016.1265518</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -1696,7 +1799,13 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Lysyl oxidase" data-subjecttermtype="minor">Lysyl oxidase</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="enzyme kinetics" data-subjecttermtype="minor">enzyme kinetics</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="hydrazine" data-subjecttermtype="minor">hydrazine</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="irreversible inhibition" data-subjecttermtype="minor">irreversible inhibition</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
@@ -1707,7 +1816,7 @@
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="18" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="18">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="18" data-guid="084c290b-d97c-2604-be17-974ecfdda99c">
@@ -1715,7 +1824,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="084c290b-d97c-2604-be17-974ecfdda99c" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="084c290b-d97c-2604-be17-974ecfdda99c">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1742,7 +1851,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1080/14756366.2016.1250754" rel="external" class="external" target="_blank"> 10.1080/14756366.2016.1250754</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -1752,18 +1864,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="QSAR" data-subjecttermtype="minor">QSAR</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="carbamates" data-subjecttermtype="minor">carbamates</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="cyclic ureas" data-subjecttermtype="minor">cyclic ureas</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="cytotoxicity" data-subjecttermtype="minor">cytotoxicity</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="α-Glucosidase inhibitors" data-subjecttermtype="minor">α-Glucosidase inhibitors</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-18" data-field="abstract">
-                    <p>The inhibitory activities of selected cyclic urea and carbamate derivatives (1-13) toward α-glucosidase (α-Gls) in in vitro assay were examined in this study. All examined compounds showed higher inhibitory activity (IC50) against α-Gls compared to standard antidiabetic drug acarbose. The most potent was benzyl (3,4,5-trimethoxyphenyl)carbamate (12) with IC50 = 49.85 ± 0.10 µM. In vitro cytotoxicity of the investigated compounds was tested on three human cancer cell lines HeLa, A549 and MDA-MB-453 using MTT assay. The best antitumour activity was achieved with compound 2 (trans-5-phenethyl-1-phenylhexahydro-1H-imidazo[4,5-c]pyridin-2(3H)-one) against MDA-MB-453 human breast cancer cell line (IC50 = 83.41 ± 1.60 µM). Cyclic ureas and carbamates showed promising anti-α-glucosidase activity and should be further tested as potential antidiabetic drugs. The PLS model of preliminary QSAR study indicated that, in planing the future synthesis of more potent compounds, the newly designed should have the substituents capable of polar interactions with receptor sites in various positions, while avoiding the increase of their lipophilicity.</p>
+                    <p>The inhibitory activities of selected cyclic urea and carbamate derivatives (1-13) toward α-glucosidase (α-Gls) in in vitro assay were examined in this study. All examined compounds showed higher inhibitory activity (IC50) against α-Gls compared to standard antidiabetic drug acarbose. The most potent was benzyl (3,4,5-trimethoxyphenyl)carbamate (12) with IC50&thinsp;=&thinsp;49.85&thinsp;±&thinsp;0.10&thinsp;µM. In vitro cytotoxicity of the investigated compounds was tested on three human cancer cell lines HeLa, A549 and MDA-MB-453 using MTT assay. The best antitumour activity was achieved with compound 2 (trans-5-phenethyl-1-phenylhexahydro-1H-imidazo[4,5-c]pyridin-2(3H)-one) against MDA-MB-453 human breast cancer cell line (IC50&thinsp;=&thinsp;83.41&thinsp;±&thinsp;1.60&thinsp;µM). Cyclic ureas and carbamates showed promising anti-α-glucosidase activity and should be further tested as potential antidiabetic drugs. The PLS model of preliminary QSAR study indicated that, in planing the future synthesis of more potent compounds, the newly designed should have the substituents capable of polar interactions with receptor sites in various positions, while avoiding the increase of their lipophilicity.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="19" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="19">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="19" data-guid="b46bec4f-57bc-6575-247c-bcce6726100e">
@@ -1771,7 +1889,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="b46bec4f-57bc-6575-247c-bcce6726100e" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="b46bec4f-57bc-6575-247c-bcce6726100e">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1798,7 +1916,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1080/14756366.2016.1252757" rel="external" class="external" target="_blank"> 10.1080/14756366.2016.1252757</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -1808,7 +1929,13 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Anticancer drug" data-subjecttermtype="minor">Anticancer drug</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="S3I-201 analogs" data-subjecttermtype="minor">S3I-201 analogs</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="SH2 antagonist" data-subjecttermtype="minor">SH2 antagonist</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="STAT3" data-subjecttermtype="minor">STAT3</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="cytotoxicity" data-subjecttermtype="minor">cytotoxicity</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
@@ -1819,7 +1946,7 @@
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="20" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="20">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="20" data-guid="2b086ecc-228d-8490-c3c8-84bf07e68a75">
@@ -1827,7 +1954,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="2b086ecc-228d-8490-c3c8-84bf07e68a75" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="2b086ecc-228d-8490-c3c8-84bf07e68a75">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1840,7 +1967,7 @@
                 <strong>Author(s)</strong>
                 <span class="partial-author-list">Hempel C; Totzke F; Schächtele C; Najjar A; Sippl W</span>
                     <a class="toggle-author-list" href="javascript:void(0);">et al.</a>
-                    <span class="complete-author-list hidden">Hempel C; Totzke F; Sch&#228;chtele C; Najjar A; Sippl W; Ritter C; Hilgeroth A</span>
+                    <span class="complete-author-list hidden">Hempel C; Totzke F; Schächtele C; Najjar A; Sippl W; Ritter C; Hilgeroth A</span>
             </div>
 
         <div class="result-row" data-field="source"><strong>Source</strong> Journal of enzyme inhibition and medicinal chemistry; Dec 2017; vol. 32 (no. 1); p. 271-276</div>
@@ -1854,7 +1981,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1080/14756366.2016.1247062" rel="external" class="external" target="_blank"> 10.1080/14756366.2016.1247062</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -1864,7 +1994,13 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Benzo-anellated compounds" data-subjecttermtype="minor">Benzo-anellated compounds</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="biological activity" data-subjecttermtype="minor">biological activity</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="protein kinase inhibitory activity" data-subjecttermtype="minor">protein kinase inhibitory activity</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
@@ -1875,7 +2011,7 @@
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="21" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="21">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="21" data-guid="8841c6c7-5bf7-04d4-dd8f-398d3b66b265">
@@ -1883,7 +2019,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="8841c6c7-5bf7-04d4-dd8f-398d3b66b265" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="8841c6c7-5bf7-04d4-dd8f-398d3b66b265">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1908,7 +2044,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1080/14756366.2016.1261129" rel="external" class="external" target="_blank"> 10.1080/14756366.2016.1261129</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -1918,7 +2057,13 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="1-hydroxy-1,3-dihydrobenzo[c][1,2]oxaborole" data-subjecttermtype="minor">1-hydroxy-1,3-dihydrobenzo[c][1,2]oxaborole</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Antibiotic" data-subjecttermtype="minor">Antibiotic</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="antibacterial" data-subjecttermtype="minor">antibacterial</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="benzoxaborole" data-subjecttermtype="minor">benzoxaborole</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="clarithromycin" data-subjecttermtype="minor">clarithromycin</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="conjugates of antibiotics" data-subjecttermtype="minor">conjugates of antibiotics</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="macrolactone" data-subjecttermtype="minor">macrolactone</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="macrolide" data-subjecttermtype="minor">macrolide</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
@@ -1929,7 +2074,7 @@
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="22" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="22">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="22" data-guid="5798e1ba-89da-8c66-b5eb-b97e3bd26bae">
@@ -1937,7 +2082,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="5798e1ba-89da-8c66-b5eb-b97e3bd26bae" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="5798e1ba-89da-8c66-b5eb-b97e3bd26bae">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -1962,7 +2107,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1080/14756366.2016.1252760" rel="external" class="external" target="_blank"> 10.1080/14756366.2016.1252760</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -1972,7 +2120,13 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Alkalinisation" data-subjecttermtype="minor">Alkalinisation</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="TRAMP mice" data-subjecttermtype="minor">TRAMP mice</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="chemoprevention" data-subjecttermtype="minor">chemoprevention</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="prostate tumour" data-subjecttermtype="minor">prostate tumour</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="tumour microenvironment" data-subjecttermtype="minor">tumour microenvironment</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
@@ -1983,7 +2137,7 @@
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="23" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="23">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="23" data-guid="70ca3361-975c-ccb3-c397-025ef94b350e">
@@ -1991,7 +2145,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="70ca3361-975c-ccb3-c397-025ef94b350e" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="70ca3361-975c-ccb3-c397-025ef94b350e">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -2016,7 +2170,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1080/14756366.2016.1260564" rel="external" class="external" target="_blank"> 10.1080/14756366.2016.1260564</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -2026,18 +2183,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Small GTPase" data-subjecttermtype="minor">Small GTPase</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="geranylgeranylation" data-subjecttermtype="minor">geranylgeranylation</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="lipid anchoring" data-subjecttermtype="minor">lipid anchoring</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="post-translational modification" data-subjecttermtype="minor">post-translational modification</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="protein-membrane association" data-subjecttermtype="minor">protein-membrane association</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-23" data-field="abstract">
-                    <p>Rab5 is a small GTPase and a key regulator in early endosomal trafficking. Rab5 and its effectors are involved in a large number of infectious diseases and certain types of cancer. We performed µs atomistic molecular dynamics simulations of inactive and active full-length Rab5 anchored to a complex model bilayer with composition of the early endosome membrane. Direct interactions between the Rab5 G domain and the bilayer were observed. We found two dominant nucleotide-dependent orientations characterised by a different accessibility of the switch regions. The "buried switch" orientation was mainly associated with inactive Rab5 accompanied with a rather extended structure of the hypervariable C-terminal region. Active Rab5 preferred an orientation in which the switch regions are accessible to effector proteins. These structural differences may provide an opportunity to selectively target one Rab5 state and lead to new approaches in the development of Rab5-specific therapies.</p>
+                    <p>Rab5 is a small GTPase and a key regulator in early endosomal trafficking. Rab5 and its effectors are involved in a large number of infectious diseases and certain types of cancer. We performed µs atomistic molecular dynamics simulations of inactive and active full-length Rab5 anchored to a complex model bilayer with composition of the early endosome membrane. Direct interactions between the Rab5&thinsp;G domain and the bilayer were observed. We found two dominant nucleotide-dependent orientations characterised by a different accessibility of the switch regions. The "buried switch" orientation was mainly associated with inactive Rab5 accompanied with a rather extended structure of the hypervariable C-terminal region. Active Rab5 preferred an orientation in which the switch regions are accessible to effector proteins. These structural differences may provide an opportunity to selectively target one Rab5 state and lead to new approaches in the development of Rab5-specific therapies.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="24" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="24">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="24" data-guid="8707142d-e0ef-dd7c-06f1-4f18f46f7a34">
@@ -2045,7 +2208,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="8707142d-e0ef-dd7c-06f1-4f18f46f7a34" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="8707142d-e0ef-dd7c-06f1-4f18f46f7a34">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -2072,7 +2235,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1080/14756366.2016.1235040" rel="external" class="external" target="_blank"> 10.1080/14756366.2016.1235040</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -2082,18 +2248,24 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="Cancer-related isoforms" data-subjecttermtype="minor">Cancer-related isoforms</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="saccharin" data-subjecttermtype="minor">saccharin</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="secondary sulphonamides" data-subjecttermtype="minor">secondary sulphonamides</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="selective carbonic anhydrase inhibitors" data-subjecttermtype="minor">selective carbonic anhydrase inhibitors</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
                 <div class="abstract-content collapse  abstract-24" data-field="abstract">
-                    <p>A large number of novel secondary sulfonamides based on the open saccharin scaffold were synthesized and evaluated as selective inhibitors of four different isoforms of human carbonic anhydrase (hCA I, II, IX and XII, EC 4.2.1.1). They were obtained by reductive ring opening of the newly synthesized N-alkylated saccharin derivatives and were shown to be inactive against the two cytosolic off-target hCA I and II (Kis > 10 µM). Interestingly, these compounds inhibited hCA IX in the low nanomolar range with Kis ranging between 20 and 298 nM and were extremely potent inhibitors of hCA XII isoenzyme (Kis ranging between 4.3 and 432 nM). Since hCA IX and XII are the cancer-related isoforms recently validated as drug targets, these results represent an important goal in the development of new anticancer candidates. Finally, a computational approach has been performed to better correlate the biological data to the binding mode of these inhibitors.</p>
+                    <p>A large number of novel secondary sulfonamides based on the open saccharin scaffold were synthesized and evaluated as selective inhibitors of four different isoforms of human carbonic anhydrase (hCA I, II, IX and XII, EC 4.2.1.1). They were obtained by reductive ring opening of the newly synthesized N-alkylated saccharin derivatives and were shown to be inactive against the two cytosolic off-target hCA I and II (Kis&thinsp;&gt;&thinsp;10&thinsp;µM). Interestingly, these compounds inhibited hCA IX in the low nanomolar range with Kis ranging between 20 and 298&thinsp;nM and were extremely potent inhibitors of hCA XII isoenzyme (Kis ranging between 4.3 and 432&thinsp;nM). Since hCA IX and XII are the cancer-related isoforms recently validated as drug targets, these results represent an important goal in the development of new anticancer candidates. Finally, a computational approach has been performed to better correlate the biological data to the binding mode of these inhibitors.</p>
                 </div>
             </div>
                     </div>
 </li>
     
-<li class="media result-media collapse in" data-database="PubMed" data-result="25" >
+<li class="media result-media collapse in" data-database="PubMed" data-result="25">
         <ul class="duplicate-panel pull-right hidden" style="width:50%;">
         </ul>
     <div class="media-body result-container " id="25" data-guid="a8a285f8-323f-4f0d-2960-b87ca97dc013">
@@ -2101,7 +2273,7 @@
             <a class="btn btn-link toggle-titleonly pull-right"><i class="icon-chevron-up"></i></a>
         
         <label class="checkbox selectable result-checkbox-label">
-            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="a8a285f8-323f-4f0d-2960-b87ca97dc013" />
+            <input type="checkbox" class="result-checkbox actionable" name="resultid" data-strategy-id="110182" value="a8a285f8-323f-4f0d-2960-b87ca97dc013">
             <span></span>
         </label>
         <span class="result-heading media-heading">
@@ -2128,7 +2300,10 @@
         <div class="result-row hidden" data-field="publisher"></div>
 
             <div class="result-row" data-field="doi"><strong>DOI</strong><a href="http://dx.doi.org/10.1080/14756366.2016.1238364" rel="external" class="external" target="_blank"> 10.1080/14756366.2016.1238364</a></div>
-                    <div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27998531
+        </div><div class="result-row" data-field="issn"><strong>ISSN</strong> 1475-6374</div>
                     <div class="result-row hidden" data-field="publicationtype">
                 <strong>Publication Type(s)</strong>
                 Journal Article
@@ -2138,7 +2313,13 @@
                 <strong>Subject Headings</strong>
                 <a href="javascript:void(0);" class="search-subject-term" data-subject="CDC25" data-subjecttermtype="minor">CDC25</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="enzyme inhibitors" data-subjecttermtype="minor">enzyme inhibitors</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="molecular modeling" data-subjecttermtype="minor">molecular modeling</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="organic synthesis" data-subjecttermtype="minor">organic synthesis</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="quinonoid" data-subjecttermtype="minor">quinonoid</a>
             </div>
-                    <div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
+                    <div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            28108884
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27998531
+        </div><div class="result-row" data-field="bibliographicdatabase"><strong>Database</strong> PubMed</div>
 
             <div class="result-row">
                 <a class="btn btn-link toggle-abstract abstract-hidden">Show Abstract</a>
@@ -2170,7 +2351,7 @@
 
 <div class="panel-heading text-right">
     <span class="pull-left no-wrap results-options">
-        <label class="checkbox"><input type="checkbox" id="checkAllResults" class="checkAllResults actionable noinclude" /><span>All on this page</span></label>
+        <label class="checkbox"><input type="checkbox" id="checkAllResults" class="checkAllResults actionable noinclude"><span>All on this page</span></label>
     </span>
 
     <span class="pull-left results-options">
@@ -2184,21 +2365,21 @@
                     
         <span class="no-wrap results-options">
             <label>View:</label>
-                    <a class="page-size" data-size="10" href="/strategy/110182/1?page=1&amp;pagesize=10&amp;orderby=date#show-results">10</a>
+                    <a class="page-size" data-size="10" href="/strategy/110182/1?page=1&amp;pagesize=10&amp;orderby=date#PubMed-panel">10</a>
                     <span class="page-size selected-page-size" data-size="25">25</span>
-                    <a class="page-size" data-size="50" href="/strategy/110182/1?page=1&amp;pagesize=50&amp;orderby=date#show-results">50</a>
-                    <a class="page-size" data-size="100" href="/strategy/110182/1?page=1&amp;pagesize=100&amp;orderby=date#show-results">100</a>
+                    <a class="page-size" data-size="50" href="/strategy/110182/1?page=1&amp;pagesize=50&amp;orderby=date#PubMed-panel">50</a>
+                    <a class="page-size" data-size="100" href="/strategy/110182/1?page=1&amp;pagesize=100&amp;orderby=date#PubMed-panel">100</a>
         </span>
 
     <span class="no-wrap results-options results-ordering-container">
                     <label for="orderby">Sort:</label>
             <span>
                 <select name="orderby" id="orderby" class="orderby">
-                    <option value="unsorted" > Unsorted</option>
-                        <option value="date" selected=selected>Publication Date</option>
-                        <option value="author" >Author</option>
-                        <option value="lastauthor" >Last Author</option>
-                        <option value="journal" >Journal</option>
+                    <option value="unsorted"> Unsorted</option>
+                        <option value="date" selected="selected">Publication Date</option>
+                        <option value="author">Author</option>
+                        <option value="lastauthor">Last Author</option>
+                        <option value="journal">Journal</option>
                 </select>
             </span>
     </span>
@@ -2313,16 +2494,65 @@
 </div>
 
     </div>
-    <div id="fixed-result-panel" class="fill-screen hidden">
+    <div id="fixed-result-panel" class="fill-screen" data-database="PubMed" data-result="4">
         <div class="options-container text-right">
             <a class="btn btn-default back-to-results-live pull-left">Back to Results</a>
-            <span class="result-details-loading pull-left"><i class="fa fa-spinner fa-spin"></i> Loading Details&hellip;</span>
+            <span class="result-details-loading pull-left"><i class="fa fa-spinner fa-spin"></i> Loading Details…</span>
 
             <a class="btn btn-default previous-result"><i class="icon-chevron-left"></i> Previous Result</a>
             <a class="btn btn-default next-result">Next Result <i class="icon-chevron-right"></i></a>
         </div>
-        <div class="result-container">
-        </div>
+        <div class="result-container" tabindex="999">
+        <h3 class="result-heading" data-field="title"><label class="checkbox preview-checkbox"><input type="checkbox" value="d8634616-678f-5960-0816-89a854c20977"><span></span></label><a href="/strategy/110182/1/PubMed/27896669" target="_blank"><i class="fa fa-print pull-right"></i></a><a href="/strategy/110182/1/PubMed/27896669" target="_blank">4. Detection of autoantibodies to DSF70/LEDGFp75 in Mexican Hispanics using multiple complementary assay platforms.</a></h3><div class="result-row" data-field="authors">
+            <strong>Author(s)</strong>
+            Mercado MV; Gómez-Bañuelos E; Navarro-Hernández RE; Pizano-Martinez O; Saldaña-Millán A; Chavarria-Avila E; Gonzalez-Rosas L; Andrade-Ortega L; Saavedra MA; Vera-Lastra OL; Jara LJ; Medrano-Ramírez G; Cruz-Reyes C; García-De la Torre I; Escarra-Senmarti M; Anjos LM; Basu A; Albesa R; Mahler M; Casiano CA
+        </div><div class="result-row" data-field="source">
+            <strong>Source</strong>
+            Auto- immunity highlights; Dec 2017; vol. 8 (no. 1); p. 1
+        </div><div class="result-row" data-field="language">
+            <strong>Language</strong>
+            eng
+        </div><div class="result-row" data-field="publicationdate">
+            <strong>Publication Date</strong>
+            Dec 2017
+        </div><div class="result-row" data-field="publicationlocation">
+            <strong>Place of Publication</strong>
+            Italy
+        </div><div class="result-row" data-field="publisher"></div><div class="result-row" data-field="doi">
+            <strong>DOI</strong>
+            <a href="http://dx.doi.org/10.1007/s13317-016-0089-7" rel="external" class="external" target="_blank"> 10.1007/s13317-016-0089-7</a>
+        </div><div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27896669
+        </div><div class="result-row" data-field="issn">
+            <strong>ISSN</strong>
+            2038-0305
+        </div><div class="result-row" data-field="publicationtype">
+            <strong>Publication Type(s)</strong>
+            Journal Article
+        </div><div class="result-row" data-field="subjectterms">
+            <strong>Subject Headings</strong>
+            <span class="result-detail-links">
+               
+
+                <a href="javascript:void(0);" class="search-subject-term" data-subject="Autoantibodies" data-subjecttermtype="minor">Autoantibodies</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="DFS70" data-subjecttermtype="minor">DFS70</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Frequency" data-subjecttermtype="minor">Frequency</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Hispanics" data-subjecttermtype="minor">Hispanics</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="LEDGF/p75" data-subjecttermtype="minor">LEDGF/p75</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Mexican" data-subjecttermtype="minor">Mexican</a><span>; </span><a href="javascript:void(0);" class="search-subject-term" data-subject="Multiple assay platforms" data-subjecttermtype="minor">Multiple assay platforms</a>
+            </span>
+            <span class="result-detail-text">
+                Autoantibodies<span>; </span>DFS70<span>; </span>Frequency<span>; </span>Hispanics<span>; </span>LEDGF/p75<span>; </span>Mexican<span>; </span>Multiple assay platforms
+            </span>
+        </div><div class="result-row" data-field="accessionnumber">
+            <strong>Accession Number</strong>
+            27896669
+        </div><div class="result-row" data-field="pubmedid">
+            <strong>PubMed ID</strong>
+            27896669
+        </div><div class="result-row" data-field="bibliographicdatabase">
+            <strong>Database</strong>
+            PubMed
+        </div><div class="result-row" data-field="abstract">
+            <strong>Abstract</strong>
+            <p><strong>PURPOSE:</strong> Antinuclear autoantibodies (ANA) targeting the dense fine speckled antigen DFS70, also known as lens epithelium-derived growth factor p75 (LEDGF/p75), are attracting attention due to their low frequency in systemic rheumatic diseases but increased frequency in clinical laboratory referrals and healthy individuals (HI). These ANA specifically recognize the stress protein DFS70/LEDGFp75, implicated in cancer, HIV-AIDS, and inflammation. While their frequency has been investigated in various ethnic populations, there is little information on their frequency among Hispanics/Latinos. In this study, we determined the frequency of anti-DFS70/LEDGFp75 autoantibodies in Mexican Hispanics using multiple detection platforms.<br><strong>METHODS:</strong> The frequency of anti-DFS70/LEDGFp75 antibodies was determined in 171 individuals, including 71 dermatomyositis (DM) patients, 47 rheumatoid arthritis (RA) patients, 30 obesity (OB) patients, and 23 HI. Antibody detection was achieved using four complementary assay platforms: indirect immunofluorescence, Western blotting, ELISA, and chemiluminescent immunoassay.<br><strong>RESULTS:</strong> We detected relatively low frequencies of anti-DFS70/LEDGFp75 antibodies in patients with DM (1.4%), RA (4.3%), and OB (6.6%), and elevated frequency (17.4%) in HI. A strong concordance between the different antibody detection platforms was observed.<br><strong>CONCLUSIONS:</strong> The low frequency of anti-DFS70/LEDGFp75 antibodies in Mexican patients with rheumatic diseases, but relatively higher frequency in HI, is consistent with previous observations with non-Hispanic populations, suggesting that geographic differences or ethnicity do not influence the frequency of these autoantibodies. Our results also highlight the importance of confirmatory assays for the accurate detection of these autoantibodies. Future studies with larger cohorts of healthy Hispanics/Latinos are needed to confirm if their anti-DFS70/LEDGFp75 antibody frequencies are significantly higher than in non-Hispanics.</p>
+        </div></div>
     </div>
     
     <!--[if lte IE 10]>
@@ -2330,12 +2560,14 @@
     <![endif]-->
     <!-- Google Tag Manager -->
     <noscript>
-        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-T4XJXN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        &lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-T4XJXN" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
     </noscript>
     <script>
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
         (window,document,'script','dataLayer','GTM-T4XJXN');
     </script>
     <!-- End Google Tag Manager -->
+
+
 </body>
 </html>
