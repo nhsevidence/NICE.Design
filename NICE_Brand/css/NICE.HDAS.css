@@ -1169,11 +1169,12 @@ a:hover .nice-icon {
 /*
     Brand overrides
 */
-/* border radius removed */
+/* border radius removed, padding added */
 .btn-default {
     color: #fff;
     background-color: #393939;
     border-radius: 0px;
+    padding: 8px 15px;
 }
 
 .btn-default:hover {
