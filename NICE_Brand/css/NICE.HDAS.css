@@ -1003,12 +1003,13 @@ tr.first-of-type {
     padding: 0;
     display: inline-block;
 }
+/* color and border color change */
 .nice-button-combined {
     display: inline-block;
     background: transparent;
-    border-radius: 6px;
-    color: #0093c8;
-    border: 1px solid #0093c8;
+    border-radius: 0px;
+    color: #005f76;
+    border: 1px solid #005f76;
 }
 .nice-button-combined.disabled {
     background-color: #ededed;
