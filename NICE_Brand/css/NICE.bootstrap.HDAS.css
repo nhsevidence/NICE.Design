@@ -8908,10 +8908,10 @@ a.label:hover,a.label:focus,a.badge:hover,a.badge:focus {
         width:50%
     }
 }
-
+/* background color change */
 .footer {
     clear: both;
-    background-color: #262626
+    background-color: #222222
 }
 
 .footer-logo {
