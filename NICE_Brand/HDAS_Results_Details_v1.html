@@ -5,53 +5,42 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
-    <title>Result Details - Healthcare Databases Advanced Search</title>
+    <title>View/Edit Strategy - Healthcare Databases Advanced Search</title>
     <!-- Provide map/filter/reduce/bind/etc shims to any very old browser -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.4/es5-shim.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.4/es5-shim.min.js"></script>
     <!--[if lt IE 9]>
-        <script src="//cdn.nice.org.uk/V3/Scripts/html5shiv/html5shiv.js"></script>
+        <script src="http://cdn.nice.org.uk/V3/Scripts/html5shiv/html5shiv.js"></script>
     <![endif]-->
-    <link href="//fonts.googleapis.com/css?family=Lato:200normal,200italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic" rel="stylesheet" type="text/css" />
-    <link href="//cdn.nice.org.uk/Content/NICE.bootstrap.css" rel="stylesheet" />
-    <link href="//cdn.nice.org.uk/V2/Content/fontawesome.css" rel="stylesheet" type="text/css" />
-    <link href="//cdn.nice.org.uk/V2/Content/NICE.glyphs.css" rel="stylesheet" />
+    <link href="http:////fonts.googleapis.com/css?family=Lato:200normal,200italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic" rel="stylesheet" type="text/css" />
+    <link href="http://nhsevidence.github.io/NICE.Design/NICE_Brand/css/NICE.bootstrap.HDAS.css" rel="stylesheet" />
+    <link href="http://cdn.nice.org.uk/V2/Content/fontawesome.css" rel="stylesheet" type="text/css" />
+    <link href="http://cdn.nice.org.uk/V2/Content/NICE.glyphs.css" rel="stylesheet" />
     
-    <link href="/Content/NICE.Footer.css" rel="stylesheet" />
+    <link href="http://test-hdas.nice.org.uk/Content/NICE.Footer.css" rel="stylesheet" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    <link href="/Content/NICE.layout.css" rel="stylesheet" />
-    <link href="/Content/NICE.HDAS.css" rel="stylesheet" />
-    <link href="/Content/NICE.HDAS.Checkboxes.css" rel="stylesheet" />
-    <link href="/Content/NICE.HDAS.Thesaurus.css" rel="stylesheet" />
-    <link href="/Content/NICE.HDAS.Animations.css" rel="stylesheet" />
-    <link href="/Content/NICE.HDAS.Help.css" rel="stylesheet" />
-    <link href="/Content/NICE.HDAS.Migration-Modal.css" rel="stylesheet" /> 
-    <meta content="//cdn.nice.org.uk/V3/Content/nice/favicon-144.png" name="msapplication-TileImage" />
-    <link rel="shortcut icon" href="//cdn.nice.org.uk/V3/Content/nice/favicon.ico" />
-    <link rel="apple-touch-icon-precomposed" href="//cdn.nice.org.uk/V3/Content/nice/favicon-152.png">
-    <meta version="2921.0.0.0" />
+    <link href="http://nhsevidence.github.io/NICE.Design/NICE_Brand/css/NICE.layout.css" rel="stylesheet" />
+    <link href="http://nhsevidence.github.io/NICE.Design/NICE_Brand/css/NICE.HDAS.css" rel="stylesheet" />
+    <link href="http://test-hdas.nice.org.uk/Content/NICE.HDAS.Checkboxes.css" rel="stylesheet" />
+    <link href="http://test-hdas.nice.org.uk/Content/NICE.HDAS.Thesaurus.css" rel="stylesheet" />
+    <link href="http://test-hdas.nice.org.uk/Content/NICE.HDAS.Animations.css" rel="stylesheet" />
+    <link href="http://test-hdas.nice.org.uk/Content/NICE.HDAS.Help.css" rel="stylesheet" />
+    <link href="http://test-hdas.nice.org.uk/Content/NICE.HDAS.Migration-Modal.css" rel="stylesheet" /> 
+    <meta content="http://cdn.nice.org.uk/V3/Content/nice/favicon-144.png" name="msapplication-TileImage" />
+    <link rel="shortcut icon" href="http://cdn.nice.org.uk/V3/Content/nice/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="http://cdn.nice.org.uk/V3/Content/nice/favicon-152.png">
+    <meta version="2928.0.0.0" />
     <meta name="description" content="Search healthcare databases purchased for healthcare staff in England" />
 
-    <script src="//cdn.nice.org.uk/Scripts/jquery/jquery-1.10.2.min.js"></script>
-    <script src="//cdn.nice.org.uk/Scripts/twitter.bootstrap.min.js"></script>
-    <script src="//cdn.nice.org.uk/Scripts/NICE.bootstrap.min.js"></script>
-    <script src="/Scripts/lib/html.sortable.min.js"></script>
-    <script src="/Scripts/lib/jquery.visible.min.js"></script>
+    <script src="http://cdn.nice.org.uk/Scripts/jquery/jquery-1.10.2.min.js"></script>
+    <script src="http://cdn.nice.org.uk/Scripts/twitter.bootstrap.min.js"></script>
+    <script src="http://cdn.nice.org.uk/Scripts/NICE.bootstrap.min.js"></script>
+    <script src="http://test-hdas.nice.org.uk/Scripts/lib/html.sortable.min.js"></script>
+    <script src="http://test-hdas.nice.org.uk/Scripts/lib/jquery.visible.min.js"></script>
     <!--[if lte IE 8]>
-        <link href="/Content/IE.only.NICE.HDAS.css" rel="stylesheet" />
+        <link href="http://test-hdas.nice.org.uk/Content/IE.only.NICE.HDAS.css" rel="stylesheet" />
     <![endif]-->
-    <link href="/Content/print.css" rel="stylesheet" media="print" />
-        <!-- Hotjar Tracking Code -->
-        <script type="text/javascript">
-            (function (h, o, t, j, a, r) {
-                h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-                h._hjSettings = { hjid: 280842 , hjsv: 5 };
-                a = o.getElementsByTagName('head')[0];
-                r = o.createElement('script'); r.async = 1;
-                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
-        </script>
+    <link href="http://test-hdas.nice.org.uk/Content/print.css" rel="stylesheet" media="print" />
 </head>
 <body class="gtm-loggedin-false ">
 
@@ -344,7 +333,7 @@
     </div>
     
     <!--[if lte IE 10]>
-        <script src="/scripts/lib/placeholders.jquery.min.js"></script> 
+        <script src="http://test-hdas.nice.org.uk/scripts/lib/placeholders.jquery.min.js"></script> 
     <![endif]-->
     <!-- Google Tag Manager -->
     <noscript>
