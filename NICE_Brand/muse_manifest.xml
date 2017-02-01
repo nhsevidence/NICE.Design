@@ -1,0 +1,24 @@
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://nhsevidence.github.io/NICE.Design/NICE_Brand" resolutions="1x" timestamp="1485961427968">
+  <folder name="images">
+    <file name="magnifier-squared.svg" crc="3827390810" seo="true" ref="index"/>
+    <file name="magnifier-squared_poster_.png" crc="433354560" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="nice-logo-full-black.svg" crc="4249038545" seo="true" ref="index"/>
+    <file name="nice-logo-full-black_poster_.png" crc="4015837640" ref="index"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="184980192" ref="index"/>
+    <file name="nomq_index.css" crc="3802391242" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4148063285" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4179431180" ref="index"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index"/>
+    <file name="require.js" crc="4159430777" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3991890305" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4245243516" seo="true" mt="1485961399224" redirect="true"/>
+</manifest>

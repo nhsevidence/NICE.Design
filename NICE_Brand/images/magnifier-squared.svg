@@ -1,0 +1,18 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d6d6d6;
+      }
+
+      .cls-2 {
+        fill: #222;
+      }
+    </style>
+  </defs>
+  <title>magnifier-squared</title>
+  <g>
+    <rect class="cls-1" width="60" height="60"/>
+    <path class="cls-2" d="M18.928,45l8.055-7.995a11.817,11.817,0,1,0-5.829-10.171A11.7,11.7,0,0,0,23,33.157L15,41.1Zm14.15-10.741a7.423,7.423,0,1,1,7.479-7.424A7.461,7.461,0,0,1,33.078,34.259Z"/>
+  </g>
+</svg>
