@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://nhsevidence.github.io/NICE.Design/NICE_Brand" resolutions="1x" timestamp="1485965732889">
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://nhsevidence.github.io/NICE.Design/NICE_Brand" resolutions="1x" timestamp="1486044832384">
   <folder name="images">
     <file name="magnifier-squared.svg" crc="3827390810" seo="true" ref="index"/>
     <file name="magnifier-squared_poster_.png" crc="433354560" ref="index"/>
@@ -7,11 +7,15 @@
     <file name="nice-logo-full-black_poster_.png" crc="4015837640" ref="index"/>
     <file name="nice-logo-black.svg" crc="95659722" seo="true" ref="index"/>
     <file name="nice-logo-black_poster_.png" crc="3900947213" ref="index"/>
+    <file name="nice-logo-black-small.svg" crc="433579388" seo="true" ref="index"/>
+    <file name="nice-logo-black-small_poster_.png" crc="58847111" ref="index"/>
+    <file name="u1395-4.png" crc="3767191922" ref="index"/>
+    <file name="u1387-4.png" crc="349263224" ref="index"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="403978269" ref="index"/>
-    <file name="nomq_index.css" crc="296424979" ref="index"/>
+    <file name="index.css" crc="67313001" ref="index"/>
+    <file name="nomq_index.css" crc="179516951" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -22,5 +26,5 @@
     <file name="require.js" crc="4159430777" ref="index"/>
     <file name="jquery.museresponsive.js" crc="3991890305" ref="index"/>
   </folder>
-  <file name="index.html" crc="3992818132" seo="true" mt="1485963422253" redirect="true"/>
+  <file name="index.html" crc="4110464511" seo="true" mt="1486044053968" redirect="true"/>
 </manifest>
