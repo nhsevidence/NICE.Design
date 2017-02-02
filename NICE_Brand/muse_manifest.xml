@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://nhsevidence.github.io/NICE.Design/NICE_Brand" resolutions="1x" timestamp="1486045878096">
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://nhsevidence.github.io/NICE.Design/NICE_Brand" resolutions="1x" timestamp="1486048271617">
   <folder name="images">
     <file name="magnifier-squared.svg" crc="3827390810" seo="true" ref="index"/>
     <file name="magnifier-squared_poster_.png" crc="433354560" ref="index"/>
@@ -16,8 +16,8 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4076828767" ref="index"/>
-    <file name="nomq_index.css" crc="316401271" ref="index"/>
+    <file name="index.css" crc="446379841" ref="index"/>
+    <file name="nomq_index.css" crc="220432512" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -28,5 +28,5 @@
     <file name="require.js" crc="4159430777" ref="index"/>
     <file name="jquery.museresponsive.js" crc="3991890305" ref="index"/>
   </folder>
-  <file name="index.html" crc="3834539629" seo="true" mt="1486045797654" redirect="true"/>
+  <file name="index.html" crc="3822238107" seo="true" mt="1486048244056" redirect="true"/>
 </manifest>
