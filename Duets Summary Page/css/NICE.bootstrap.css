@@ -8834,11 +8834,12 @@ input.search-query {
         height:auto!important
     }
 }
-
+/* margin right added */
 .well {
     min-height: 24px;
     padding: 24px;
     margin-bottom: 24px;
+    margin-right: 24px;
     background-color: #fafafb;
 }
 
