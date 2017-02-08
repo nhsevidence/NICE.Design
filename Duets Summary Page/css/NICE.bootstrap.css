@@ -8834,13 +8834,13 @@ input.search-query {
         height:auto!important
     }
 }
-/* margin right added */
+/* margin right added and background colour change */
 .well {
     min-height: 24px;
     padding: 24px;
     margin-bottom: 24px;
     margin-right: 40px;
-    background-color: #fafafb;
+    background-color: #e9e9e9;
 }
 
 .well:before,.well:after {
