@@ -3570,18 +3570,18 @@ table .col-actions {
     width: 50px;
     text-align: right
 }
-
+/* border color change */
 .table-bordered {
-    border: 1px solid #eff1f3;
+    border: 1px solid #d6d6d6;
     border-collapse: collapse
 }
-
+/* border color change */
 .table-bordered th,.table-bordered td {
-    border: 1px solid #eff1f3
+    border: 1px solid #d6d6d6
 }
-
+/* border color change */
 .table-bordered tbody+tbody {
-    border-top: 2px solid #eff1f3
+    border-top: 2px solid #d6d6d6
 }
 
 .table-striped tbody>tr:nth-child(odd)>td,.table-striped tbody>tr:nth-child(odd)>th {
