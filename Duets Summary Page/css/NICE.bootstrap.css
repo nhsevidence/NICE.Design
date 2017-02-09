@@ -1150,12 +1150,12 @@ dt {
 dd {
     margin-left: 12px
 }
-
+/* border color change */
 hr {
     margin: 24px 0;
     border: 0;
-    border-top: 1px solid #fafafb;
-    border-bottom: 1px solid #fff
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6
 }
 
 abbr[title],abbr[data-original-title] {
