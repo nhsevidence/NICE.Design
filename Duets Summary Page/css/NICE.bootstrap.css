@@ -1091,7 +1091,7 @@ h3 small,h4 small {
     h1 {
         font-size:30px
     }
-
+/* line height added */
     h2 {
         font-size: 22px;
         line-height: 32px
