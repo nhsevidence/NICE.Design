@@ -148,10 +148,10 @@ table.sectionContainer tr.CatergoryHeader td
 	{font-size:14px}
 table.sectionContainer tr.CatergoryHeader td.Heading
 	{width:80%;
-	background-color:#e5e5e5}
+	background-color:#d6d6d6}
 table.sectionContainer tr.CatergoryHeader td.backToTop
 	{width:20%;
-    background-color:#adadad;
+    background-color:#d6d6d6;
     text-align:right;
     font-size:12px;
     font-weight:bold}
