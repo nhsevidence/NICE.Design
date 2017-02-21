@@ -1,4 +1,6 @@
-﻿body
+﻿<style type="text/css">
+<!--
+body
 	{line-height:20px;
 	color:#0e0e0e;
 	font-size:12px;
@@ -195,3 +197,5 @@ table#Footer tr td#leftFooter
 	{width:570px}
 #divNoPersonalized
 	{padding:0px 10px}
+-->
+</style>
