@@ -1,0 +1,355 @@
+﻿/*Nice header*/
+
+div#Header
+{
+    overflow: hidden;
+    padding: 0px 0px;
+}
+div#Header div#headerContainer
+{
+    background: #645d57 url('../images/fullheaderbackgroundstrip.png') repeat-x center center;
+    font-size: 1.125em;
+}
+div#Header div#headerContainer div#UpperHeader
+{   
+    overflow: hidden;
+    height: 69px; 
+    width: 770px;
+    margin: 0px auto;
+    margin-bottom:2px;
+}
+div#Header div#headerContainer div#UpperHeader p#logo
+{
+    float: left;
+    width: 225px;
+    padding-top: 16px;
+    padding-left: 8px;
+}
+div#Header div#headerContainer div#menuAndMemberButtonsContainer
+{
+	display:block;
+    float: right;
+    text-align: right;
+}
+div#Header div#headerContainer div#UpperHeader div#menuAndMemberButtonsContainer ul#HeaderMenu
+{
+	display:block;
+	float:right;
+	clear:right;
+    overflow: auto;
+    padding-top: 10px;
+}
+div#Header div#headerContainer div#UpperHeader div#menuAndMemberButtonsContainer ul#HeaderMenu li
+{
+    float: left;
+    margin: 0px;
+    padding: 2px 8px 2px 7px;
+    border-right: 1px solid #B8B8B8;
+    text-align: right;
+}
+div#Header div#headerContainer div#UpperHeader div#menuAndMemberButtonsContainer ul#HeaderMenu li#HeaderMenuHome
+{
+    border-left: 1px solid #B8B8B8;
+}
+div#Header div#headerContainer div#UpperHeader div#menuAndMemberButtonsContainer ul#HeaderMenu li.active
+{
+    /*color: #eab411;*/
+    background: url('/images/nav_highlight.gif') repeat-x center center;
+}
+
+div#Header div#headerContainer div#UpperHeader div#menuAndMemberButtonsContainer ul#HeaderMenu li.hover
+{
+    /*color: #eab411;*/
+    background: url('/images/hover_grad.gif') repeat-x center center;
+}
+div#Header div#headerContainer div#UpperHeader div#menuAndMemberButtonsContainer ul#HeaderMenu li a
+{
+    color: #fff;
+}
+#content div#tabContainer .ui-tabs-nav .ui-tabs-selected a, #content #ContentArea div#ProfileContent div#tabContainer .ui-tabs-nav .ui-tabs-selected a:hover, #content #ContentArea div#ProfileContent div#tabContainer .ui-tabs-nav .ui-tabs-selected a:visited, #content #ContentArea div#ProfileContent div#tabContainer .ui-tabs-nav .ui-tabs-selected a:active
+{
+    color: #fff;
+}
+
+div#Header div#menuAndMemberButtonsContainer ul#UserButtons
+{
+	display:block;
+	float:right;
+    color: #fff;
+    overflow: auto;
+    height:24px;
+    font-size: 0.925em;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: #7f7875;
+}
+div#Header div#menuAndMemberButtonsContainer ul#UserButtons li
+{
+    float: left;
+    padding: 5px 3px 5px 3px;
+}
+div#Header div#menuAndMemberButtonsContainer ul#UserButtons li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+div#Header div#menuAndMemberButtonsContainer ul#UserButtons li a:hover{ 
+ 	text-decoration: underline;}
+
+
+/*Lower header*/
+
+div#Header div#headerContainer div#LowerHeader
+{
+    color: #fff;
+    overflow: auto;
+    padding: 0px;
+    padding-left: 20px;
+    margin: 0px;
+    width: 770px;
+    margin: 0px auto;
+    overflow: hidden;
+    font-size: 14px;
+    height: 36px;
+
+}
+div#Header div#headerContainer div#LowerHeader a
+{
+    color: #fff;
+    text-decoration: none;
+}
+div#Header div#headerContainer div#LowerHeader div
+{
+    float: left;
+    list-style: none;
+    padding: 10px 10px 8px 10px;
+    height: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid #b8b8b8;
+}
+
+div#Header div#headerContainer div#LowerHeader div:first-child {
+    border-left: 1px solid #b8b8b8;
+}
+
+div#Header div#headerContainer div#LowerHeader div.hover {
+	background: #FE7801 url('../images/corpmenuhoverbackground.png') repeat-x;
+}
+
+
+div#Header div#headerContainer div#LowerHeader
+{
+    overflow: auto;
+}
+
+div#Header div#headerContainer div#LowerHeader div.NeLMtopnav ul
+{
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    float: right;
+}
+
+div#Header div#headerContainer div#LowerHeader div.NeLMtopnav ul li
+{
+    float: left;
+    padding-right: 10px;
+}
+
+div#Header div#headerContainer div#LowerHeader div.NeLMtopnav ul li a {
+    font-size: 0.85em;
+    color: #FFF;
+}
+
+.footer div#NICEfooter
+{
+	border-top: 1px solid #CECECE;
+	width: 770px;
+	margin: 10px auto;
+	padding: 10px 0px 10px 0px;
+    font-size: 1.125em;
+    color: #11527c;
+}
+
+.footer div#NICEfooter img
+{
+	float: left;
+	padding-left: 10px;
+	padding-top: 4px;
+}
+
+.footer div#NICEfooter ul
+{
+	float: right;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.footer div#NICEfooter li
+{
+	padding: 2px 0px 2px 15px;
+	background: url('../images/r-arr.png') no-repeat center left;
+}
+
+.footer div#NICEfooter p
+{
+	border-top: 1px solid #CECECE;
+	clear: both;
+	padding: 10px;
+}
+
+.footer div#NICEfooter a {
+    color: #11527c;
+}
+
+div.community h3 {
+    background-color: #ccc;
+}
+
+.backlinkbar a.link_bullet, .backlinkbar_for_password a.link_bullet, .toploginleft a.link_bullet {
+    text-decoration: none;
+    font-size: 1.125em;
+    padding: 8px 12px 8px 12px;
+    border: 1px solid gray;
+    color: #fff;
+    cursor: pointer;
+    background-color: #4A4A4A;
+    border: 0px;
+}
+
+.regmailcontent {
+    background-color: #ccc;
+    padding: 12px 15px;
+    margin: 0px;
+    font-size: 11px;
+    color: #333333;
+}
+
+span.save_button2 {
+    float: left;
+    padding: 4px 52px 4px 52px;
+    color: #fff;
+    margin-top: 20px;
+    clear: both;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    text-align: center;
+    background-color: #4A4A4A;
+    text-decoration: none;
+    background-image: none;
+}
+
+span.save_button2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*NICE Newsletter subscription page*/
+div.community ul#DailyOrWeekly {
+    list-style: none; 
+    padding: 15px 0px 15px 0px; 
+    overflow: auto;
+}
+
+div.community ul#DailyOrWeekly li#MedDaily {
+    padding: 10px; 
+    float: left; 
+    cursor: pointer; 
+    font-size: 1.5em; 
+    border: 1px solid gray; 
+    width: 150px; 
+    margin-right: 10px; 
+    text-align: center; 
+    color: #fff; 
+    background-color: #4A4A4A;
+}
+
+div.community ul#DailyOrWeekly li#MedWeekly {
+    padding: 10px; 
+    float: left; 
+    cursor: pointer; 
+    font-size: 1.5em; 
+    border: 1px solid gray; 
+    width: 150px; 
+    text-align: center;
+}
+
+div.community li#MedicinesAwarenessWeekly div.Positioning {
+
+}
+
+div.community li#MedicinesAwarenessWeekly div {
+    padding-top: 10px;
+}
+
+div.community li#MedicinesAwarenessWeekly div.Positioning {
+
+}
+
+div.community li#MedicinesAwarenessWeekly h4 {
+
+}
+
+div.community li#MedicinesAwarenessWeekly div.OptionTextHeading {
+    
+}
+
+div.community div#NiceSpeacialityContainer {
+    position: relative;
+    font-size: 1.125em;
+}
+
+div.community div#NiceSpeacialityContainer ul {
+    list-style: none; padding: 15px 0px 15px 0px; overflow: auto;
+}
+
+div.community div#NiceSpeacialityContainer ul li {
+    border-top: 1px solid gray; padding-bottom: 10px; overflow: auto;
+}
+
+div.community div#NiceSpeacialityContainer ul li div.Positioning {
+    width: 50px; font-size: 1.5em; color: #fff; float: left; padding: 10px; margin-top: 20px; background-color: gray; text-align: center;
+    display: none;
+}
+
+div.community div#NiceSpeacialityContainer ul li div.OptionTextHeading {
+    width: 680px; float: left; padding-left: 20px;padding-top: 0px;
+}
+
+div.community div#NiceSpeacialityContainer ul li div.OptionTextHeading input {
+    display: inline;
+    float: left;
+}
+
+div.community div#NiceSpeacialityContainer ul li div.OptionTextHeading div {
+    display: inline;
+    width: 620px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+div.community div#NiceSpeacialityContainer ul li div.OptionTextHeading h5 {
+    font-size: 1.125em; font-weight: bold;
+}
+
+div.community div#NiceSpeacialityContainer ul li div.OptionTextHeading span.select-unselect-all {
+    text-decoration: none; font-size: 1.125em; padding : 4px; border: 1px solid 000; color: #000; cursor: pointer; background-color: #ccc;display: block; text-align: center;width: 7em;
+}
+
+div.community div#NiceSpeacialityContainer div#MedicinesAwareness {
+    display: block;
+}
+
+div.community div#NiceSpeacialityContainer div#MedicinesAwareness h4 {
+    font-size: 1.325em;
+    margin-top: 20px;
+}
+
+div.community div#NiceSpeacialityContainer div#overlayDiv {
+    display: none; width: 770px; position: absolute; top: 160px; background-color: #cccccc; opacity: 0.6; filter: alpha(opacity=60); left: 0px;
+}
