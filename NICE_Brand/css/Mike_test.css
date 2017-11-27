@@ -1298,7 +1298,8 @@ h1 {
 }
 /* font size change start */
 h2 {
-    font-size: 60px
+    font-size: 60px;
+    color: red;
 }
 /* font size  end */
 .span4,.span6,.span8,.span12,.well h3 {
