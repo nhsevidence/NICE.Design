@@ -1296,11 +1296,11 @@ h1 {
 .span4,.span6,.span8,.span12,.well h2 {
     margin: 0 0 12px
 }
-
+/* font size change start */
 h2 {
-    font-size: 32px
+    font-size: 60px
 }
-
+/* font size  end */
 .span4,.span6,.span8,.span12,.well h3 {
     margin: 0 0 12px
 }
