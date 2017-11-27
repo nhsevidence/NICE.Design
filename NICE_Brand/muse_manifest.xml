@@ -1,42 +1,52 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://nhsevidence.github.io/NICE.Design/NICE_Brand" resolutions="1x" timestamp="1486135155552">
-  <folder name="images">
-    <file name="magnifier-squared.svg" crc="3827390810" seo="true" ref="index"/>
-    <file name="magnifier-squared_poster_.png" crc="433354560" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="nice-logo-full-black.svg" crc="4249038545" seo="true" ref="index"/>
-    <file name="nice-logo-full-black_poster_.png" crc="4015837640" ref="index"/>
-    <file name="nice-logo-black.svg" crc="95659722" seo="true" ref="index"/>
-    <file name="nice-logo-black_poster_.png" crc="3900947213" ref="index"/>
-    <file name="nice-logo-black-small.svg" crc="433579388" seo="true" ref="index"/>
-    <file name="nice-logo-black-small_poster_.png" crc="58847111" ref="index"/>
-    <file name="u1395-4.png" crc="3767191922" ref="index"/>
-    <file name="u1387-4.png" crc="349263224" ref="index"/>
-    <file name="u1395-42.png" crc="3767191922" ref="index"/>
-    <file name="u1387-42.png" crc="349263224" ref="index"/>
-    <file name="u2519.png" crc="54314693" ref="index"/>
-    <file name="u2519-r.png" crc="4063010778" ref="index"/>
-    <file name="u25192.png" crc="54314693" ref="index"/>
-    <file name="u2519-r2.png" crc="4063010778" ref="index"/>
-    <file name="u25193.png" crc="54314693" ref="index"/>
-    <file name="u2519-r3.png" crc="4063010778" ref="index"/>
-    <file name="u25194.png" crc="54314693" ref="index"/>
-    <file name="u2519-r4.png" crc="4063010778" ref="index"/>
-    <file name="u25195.png" crc="54314693" ref="index"/>
-    <file name="u2519-r5.png" crc="4063010778" ref="index"/>
-  </folder>
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://nhsevidence.github.io/NICE.Design/NICE_Brand" resolutions="1x" timestamp="1511453172118">
   <folder name="css">
-    <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4083207771" ref="index"/>
-    <file name="nomq_index.css" crc="4037986709" ref="index"/>
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="232759675" ref="index"/>
+    <file name="nomq_index.css" crc="16218678" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4148063285" ref="index"/>
+    <file name="museutils.js" crc="3803043152" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="4179431180" ref="index"/>
-    <file name="jquery.watch.js" crc="437028206" ref="index"/>
-    <file name="require.js" crc="4159430777" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="3991890305" ref="index"/>
+    <file name="museconfig.js" crc="4153641093" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index"/>
   </folder>
-  <file name="index.html" crc="3897230057" seo="true" mt="1486135142277" redirect="true"/>
+  <folder name="images">
+    <file name="nice-logo-full-black.svg" crc="4249038545" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nice-logo-full-black_poster_.png" crc="4015837640" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u2519.png" crc="4063392796" ref="index"/>
+    <file name="u2519-r.png" crc="137108113" ref="index"/>
+    <file name="magnifier-squared.svg" crc="3827390810" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="magnifier-squared_poster_.png" crc="433354560" ref="index"/>
+    <file name="nice-logo-black.svg" crc="95659722" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nice-logo-black_poster_.png" crc="3900947213" ref="index"/>
+    <file name="u25192.png" crc="4063392796" ref="index"/>
+    <file name="u2519-r2.png" crc="137108113" ref="index"/>
+    <file name="u25193.png" crc="4063392796" ref="index"/>
+    <file name="u2519-r3.png" crc="137108113" ref="index"/>
+    <file name="u1395-4.png" crc="4244072702" ref="index"/>
+    <file name="nice-logo-black-small.svg" crc="433579388" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nice-logo-black-small_poster_.png" crc="58847111" ref="index"/>
+    <file name="u1387-4.png" crc="218918050" ref="index"/>
+    <file name="u1395-42.png" crc="4244072702" ref="index"/>
+    <file name="u1387-42.png" crc="218918050" ref="index"/>
+  </folder>
+  <file name="index.html" crc="311727499" seo="true" mt="1486553690019" redirect="true"/>
 </manifest>
