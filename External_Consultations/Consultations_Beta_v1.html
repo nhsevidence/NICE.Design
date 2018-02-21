@@ -1,0 +1,1979 @@
+﻿
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="description" content="Colour palettes and usage, contrast guidelines and SASS variables">
+	<meta property="og:title" content="Colour">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Colour palettes and usage, contrast guidelines and SASS variables">
+	<meta property="og:image" content="/nice-design-system/images/nice-logo-256.png">
+	<meta name="theme-color" content="#004650">
+
+	<title>Colour | NICE Design System</title>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<link rel="manifest" href="/nice-design-system/manifest.json">
+	<link rel="author" type="text/plain" href="/nice-design-system/humans.txt" />
+	<link rel="shortcut icon" href="/nice-design-system/favicon.ico" />
+	<link rel="stylesheet" href="/nice-design-system/css/app.css" type="text/css" charset="utf-8">
+	<link href="//fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css" />
+
+	<!--[if lt IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.10/es5-sham.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body data-tracker>
+
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MDNG92"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MDNG92');</script>
+
+	<div id="content">
+		 <div class="container">
+	<p class="phase-banner">
+		<span class="phase-banner__tag">
+			<span class="tag tag--impact tag--alpha">Alpha</span>
+		</span>
+		<span class="phase-banner__label">
+			NICE Design System is in development. This means it is not feature complete and there may be issues. Find any? Please, <a href="https://github.com/nhsevidence/nice-design-system/issues" target="_blank" rel="noopener external">let us know</a>!
+		</span>
+	</p>
+</div>
+
+
+
+
+
+<div class="container">
+	<nav aria-label="Breadcrumbs" role="navigation">
+		<p class="visually-hidden" id="breadcrumb-label">
+			You are here:
+		</p>
+		<ol class="breadcrumbs" aria-labelledby="breadcrumb-label" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<li class="breadcrumbs__crumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a href="/nice-design-system/" itemprop="name">
+					NICE Design System
+				</a>
+				<meta itemprop="position" content="1">
+			</li>
+			
+			
+				
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+					
+						<li class="breadcrumbs__crumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+							
+							<a itemprop="name" href="/nice-design-system/foundations/">
+								
+									Foundations
+								
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			
+				
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+					
+						<li class="breadcrumbs__crumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+							
+							<a itemprop="name" href="/nice-design-system/foundations/colour/">
+								
+									Colour
+								
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			
+		</ol>
+	</nav>
+</div>
+
+
+<div class="container">
+
+	<div class="page-header">
+		<h1 class="page-header__heading">
+			Colour
+		</h1>
+		<p class="page-header__lead">
+			Colour palettes and usage, contrast guidelines and SASS variables
+		</p>
+	</div>
+
+	<div class="page ">
+
+		<aside class="page__sidebar" role="complementary">
+			
+
+<nav class="stacked-nav">
+
+	
+	
+
+	
+	
+
+	
+
+	
+	
+
+	
+	
+	
+
+	<h2 class="stacked-nav__root">
+		<a href="/nice-design-system/foundations/">
+			Foundations
+		</a>
+	</h2>
+
+	<ul class="stacked-nav__list">
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/buttons/">
+					Buttons
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/colour/" aria-current="page">
+					Colour
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/helpers/">
+					Helpers
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/iconography/">
+					Iconography
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/layout/">
+					Grid & layout
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/links/">
+					Links
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/responsive/">
+					Responsive
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/spacing/">
+					Spacing
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/typography/">
+					Typography
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/foundations/visibility/">
+					Visibility
+				</a>
+			</li>
+		
+	</ul>
+
+</nav>		
+		</aside>
+
+		<main class="page__main">
+
+			
+				<aside class="page__inpagenav" role="complementary">
+					<div data-inpagenav data-inpagenav-headings-container=".page__body"></div>
+				</aside>
+			
+
+			<article class="page__body">
+
+				<p>Follow these guidelines to determine the best way to apply the NICE colour palette. We use colour to aid in communication, and help our users navigate. We also use our <a href="https://www.nice.org.uk/brand/colour-palette" target="_blank">brand guidelines</a> to help form the base of our digital palette.</p>
+
+<h2 id="text">Text</h2>
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #0e0e0e">
+	</div>
+    <h4 class="colour-grid__heading">Primary text</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-text</code></dd>
+        <dt>HEX:</dt> <dd><code>#0e0e0e</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(14, 14, 14)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #fff">
+	</div>
+    <h4 class="colour-grid__heading">Inverse text</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-text-inverse</code></dd>
+        <dt>HEX:</dt> <dd><code>#fff</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(255, 255, 255)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h2 id="links">Links</h2>
+
+<h3 id="default-links">Default links</h3>
+
+<p>For use on a light background</p>
+
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #005ea5">
+	</div>
+    <h4 class="colour-grid__heading">Link</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link</code></dd>
+        <dt>HEX:</dt> <dd><code>#005ea5</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 94, 165)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #2e8aca">
+	</div>
+    <h4 class="colour-grid__heading">Link hover state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link-hover</code></dd>
+        <dt>HEX:</dt> <dd><code>#2e8aca</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(46, 138, 202)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #4c2c92">
+	</div>
+    <h4 class="colour-grid__heading">Link visited state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link-visited</code></dd>
+        <dt>HEX:</dt> <dd><code>#4c2c92</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(76, 44, 146)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #0e0e0e">
+	</div>
+    <h4 class="colour-grid__heading">Link active state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link-active</code></dd>
+        <dt>HEX:</dt> <dd><code>#0e0e0e</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(14, 14, 14)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #0092a6">
+	</div>
+    <h4 class="colour-grid__heading">Link focus</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-focus</code></dd>
+        <dt>HEX:</dt> <dd><code>#0092a6</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 146, 166)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #005ea5">
+	</div>
+    <h4 class="colour-grid__heading">Link focus text</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link-focus-text</code></dd>
+        <dt>HEX:</dt> <dd><code>#005ea5</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 94, 165)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h3 id="inverse-links">Inverse links</h3>
+
+<p>For use on a dark background</p>
+
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #fff">
+	</div>
+    <h4 class="colour-grid__heading">Inverse link</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link-inverse</code></dd>
+        <dt>HEX:</dt> <dd><code>#fff</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(255, 255, 255)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #d6d6d6">
+	</div>
+    <h4 class="colour-grid__heading">Inverse link hover state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link-inverse-hover</code></dd>
+        <dt>HEX:</dt> <dd><code>#d6d6d6</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(214, 214, 214)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #fff">
+	</div>
+    <h4 class="colour-grid__heading">Inverse link visited state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link-inverse-visited</code></dd>
+        <dt>HEX:</dt> <dd><code>#fff</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(255, 255, 255)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #d6d6d6">
+	</div>
+    <h4 class="colour-grid__heading">Inverse link active state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link-inverse-active</code></dd>
+        <dt>HEX:</dt> <dd><code>#d6d6d6</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(214, 214, 214)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #0092a6">
+	</div>
+    <h4 class="colour-grid__heading">Inverse link focus</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-focus</code></dd>
+        <dt>HEX:</dt> <dd><code>#0092a6</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 146, 166)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #fff">
+	</div>
+    <h4 class="colour-grid__heading">Inverse link focus text</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-link-inverse-focus-text</code></dd>
+        <dt>HEX:</dt> <dd><code>#fff</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(255, 255, 255)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h2 id="buttons">Buttons</h2>
+
+<h3 id="call-to-action">Call-to-action</h3>
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #451551">
+	</div>
+    <h4 class="colour-grid__heading">CTA button</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-cta</code></dd>
+        <dt>HEX:</dt> <dd><code>#451551</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(69, 21, 81)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #260b2d">
+	</div>
+    <h4 class="colour-grid__heading">CTA button hover state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-cta-hover</code></dd>
+        <dt>HEX:</dt> <dd><code>#260b2d</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(38, 11, 45)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #fff">
+	</div>
+    <h4 class="colour-grid__heading">CTA button text</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-cta-text</code></dd>
+        <dt>HEX:</dt> <dd><code>#fff</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(255, 255, 255)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h3 id="primary">Primary</h3>
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #393939">
+	</div>
+    <h4 class="colour-grid__heading">Primary button</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-primary</code></dd>
+        <dt>HEX:</dt> <dd><code>#393939</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(57, 57, 57)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #0e0e0e">
+	</div>
+    <h4 class="colour-grid__heading">Primary button hover state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-primary-hover</code></dd>
+        <dt>HEX:</dt> <dd><code>#0e0e0e</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(14, 14, 14)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #fff">
+	</div>
+    <h4 class="colour-grid__heading">Primary button text</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-primary-text</code></dd>
+        <dt>HEX:</dt> <dd><code>#fff</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(255, 255, 255)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h3 id="secondary">Secondary</h3>
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #666">
+	</div>
+    <h4 class="colour-grid__heading">Secondary button</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-secondary</code></dd>
+        <dt>HEX:</dt> <dd><code>#666</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(102, 102, 102)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #333">
+	</div>
+    <h4 class="colour-grid__heading">Secondary button hover state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-secondary-hover</code></dd>
+        <dt>HEX:</dt> <dd><code>#333</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(51, 51, 51)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #fff">
+	</div>
+    <h4 class="colour-grid__heading">Secondary button text</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-secondary-text</code></dd>
+        <dt>HEX:</dt> <dd><code>#fff</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(255, 255, 255)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h3 id="light">Light</h3>
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: ">
+	</div>
+    <h4 class="colour-grid__heading">Light button</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-light</code></dd>
+        <dt>HEX:</dt> <dd><code></code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 0, 0)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: ">
+	</div>
+    <h4 class="colour-grid__heading">Light button hover state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-light-hover</code></dd>
+        <dt>HEX:</dt> <dd><code></code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 0, 0)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: ">
+	</div>
+    <h4 class="colour-grid__heading">Light button text</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-btn-light-text</code></dd>
+        <dt>HEX:</dt> <dd><code></code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 0, 0)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h3 id="focus-state-all-buttons">Focus state (all buttons)</h3>
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #0092a6">
+	</div>
+    <h4 class="colour-grid__heading">Focus state</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-focus</code></dd>
+        <dt>HEX:</dt> <dd><code>#0092a6</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 146, 166)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h2 id="icons">Icons</h2>
+
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #004650">
+	</div>
+    <h4 class="colour-grid__heading">Icons</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-icons</code></dd>
+        <dt>HEX:</dt> <dd><code>#004650</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 70, 80)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h2 id="backgrounds-and-border">Backgrounds and border</h2>
+
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #fafafa">
+	</div>
+    <h4 class="colour-grid__heading">Body background</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-body</code></dd>
+        <dt>HEX:</dt> <dd><code>#fafafa</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(250, 250, 250)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #e9e9e9">
+	</div>
+    <h4 class="colour-grid__heading">Default (light) panel background</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-panel-default</code></dd>
+        <dt>HEX:</dt> <dd><code>#e9e9e9</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(233, 233, 233)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #393939">
+	</div>
+    <h4 class="colour-grid__heading">Inverse (dark) panel background</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-panel-inverse</code></dd>
+        <dt>HEX:</dt> <dd><code>#393939</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(57, 57, 57)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #adadad">
+	</div>
+    <h4 class="colour-grid__heading">Borders</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-border</code></dd>
+        <dt>HEX:</dt> <dd><code>#adadad</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(173, 173, 173)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h2 id="notifications-and-banners">Notifications and banners</h2>
+
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #009ae9">
+	</div>
+    <h4 class="colour-grid__heading">Alpha &amp; beta banner</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-agile-phase</code></dd>
+        <dt>HEX:</dt> <dd><code>#009ae9</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(0, 154, 233)</code></dd>
+    </dl>
+</li>
+
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #b10e1e">
+	</div>
+    <h4 class="colour-grid__heading">Error text &amp; border</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-error</code></dd>
+        <dt>HEX:</dt> <dd><code>#b10e1e</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(177, 14, 30)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #eac3c3">
+	</div>
+    <h4 class="colour-grid__heading">Error background</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-error-background</code></dd>
+        <dt>HEX:</dt> <dd><code>#eac3c3</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(234, 195, 195)</code></dd>
+    </dl>
+</li>
+
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #9b722f">
+	</div>
+    <h4 class="colour-grid__heading">Caution text &amp; border</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-caution</code></dd>
+        <dt>HEX:</dt> <dd><code>#9b722f</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(155, 114, 47)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #ffdfa4">
+	</div>
+    <h4 class="colour-grid__heading">Caution background</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-caution-background</code></dd>
+        <dt>HEX:</dt> <dd><code>#ffdfa4</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(255, 223, 164)</code></dd>
+    </dl>
+</li>
+
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #4a7f99">
+	</div>
+    <h4 class="colour-grid__heading">Info text &amp; border</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-info</code></dd>
+        <dt>HEX:</dt> <dd><code>#4a7f99</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(74, 127, 153)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #e6faff">
+	</div>
+    <h4 class="colour-grid__heading">Info background</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-info-background</code></dd>
+        <dt>HEX:</dt> <dd><code>#e6faff</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(230, 250, 255)</code></dd>
+    </dl>
+</li>
+
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #3f8c5e">
+	</div>
+    <h4 class="colour-grid__heading">Success text &amp; border</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-success</code></dd>
+        <dt>HEX:</dt> <dd><code>#3f8c5e</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(63, 140, 94)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #eff7eb">
+	</div>
+    <h4 class="colour-grid__heading">Success background</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-success-background</code></dd>
+        <dt>HEX:</dt> <dd><code>#eff7eb</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(239, 247, 235)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h2 id="guidance-colours">Guidance colours</h2>
+
+<ul class="colour-grid">
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #451551">
+	</div>
+    <h4 class="colour-grid__heading">New guidance</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-guidance-new</code></dd>
+        <dt>HEX:</dt> <dd><code>#451551</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(69, 21, 81)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #517489">
+	</div>
+    <h4 class="colour-grid__heading">Updated guidance</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-guidance-updated</code></dd>
+        <dt>HEX:</dt> <dd><code>#517489</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(81, 116, 137)</code></dd>
+    </dl>
+</li>
+    
+
+<li class="colour-grid__item">
+	<div class="colour-grid__block" style="background: #557021">
+	</div>
+    <h4 class="colour-grid__heading">In consultation guidance</h4>
+    <dl class="dl-inline">
+        <dt>SASS:</dt> <dd><code>$colour-guidance-consultation</code></dd>
+        <dt>HEX:</dt> <dd><code>#557021</code></dd>
+        <dt>RGB:</dt> <dd><code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb(85, 112, 33)</code></dd>
+    </dl>
+</li>
+</ul>
+
+<h2 id="colours-in-sass">Colours in SASS</h2>
+
+<p>In our SASS, we have colour variables for both <a href="/nice-design-system/technical/sass/documentation/colours/">the corporate palette and ‘semantic’ colours</a>. Wherever possible, the semantic variables should be used rather than the corporate palette directly. For example, text should use <code class="highlighter-rouge">color: $colour-text</code> rather than <code class="highlighter-rouge">color: $colour-rich-black</code>, panels should use <code class="highlighter-rouge">background: $colour-panel-light</code> rather than <code class="highlighter-rouge">background: $colour-nice-grey-3;</code> and so on.</p>
+
+<p><a href="/nice-design-system/technical/sass/documentation/colours/" class="btn btn--secondary">SASS colour documentation</a></p>
+
+<h3 id="sass-example">SASS example</h3>
+
+<div class="example">
+	<div class="example__code">
+		<h4 class="example__label">
+			Semantic colour example
+		</h4>
+<div>
+      <div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nt">body</span> <span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="nv">$colour-page</span><span class="p">;</span>
+    <span class="na">colour</span><span class="p">:</span> <span class="nv">$colour-text</span><span class="p">;</span>
+<span class="p">}</span>
+
+</code></pre></div>      </div>
+    </div>
+	</div>
+</div>
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>We follow the guidelines for UK government websites and aim to support <a href="https://www.w3.org/TR/WCAG20/" target="_blank">W3C’s WCAG 2.0 Guidelines Level AA level</a>.</p>
+
+<p>Specifically, this means meeting guideline 1.4. <q>Distinguishable: Make it easier for users to see and hear content including separating foreground from background</q>. These are the most relevant guidelines for colour:</p>
+
+<h3 id="141-use-of-color">1.4.1 Use of Color</h3>
+
+<blockquote class="quote">
+    <p>
+        Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. (Level A)
+    </p>
+    <footer>
+        <cite><a href="https://www.w3.org/TR/WCAG/#visual-audio-contrast-without-color">W3C</a></cite>
+    </footer>
+</blockquote>
+
+<p>This guideline is designed for <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html#visual-audio-contrast-without-color-65-head" target="_blank">users who have difficulty perceiving colour</a>. This may be people with partial sight, colourblindness etc. The W3C describes <a href="http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-without-color" target="_blank">how to meet 1.4.1</a> in detail.</p>
+
+<p>Use other visual cues aside from colour to convey information, states etc. Use elements such as strokes, indicators, patterns, texture, or text to describe actions and content.</p>
+
+<h3 id="143-contrast">1.4.3 Contrast</h3>
+
+<blockquote class="quote">
+    <p>
+        The visual presentation of text and images of text has a contrast ratio of at least 4.5:1 &hellip; (Level AA)
+    </p>
+    <footer>
+        <cite><a href="https://www.w3.org/TR/WCAG/#visual-audio-contrast-contrast">W3C</a></cite>
+    </footer>
+</blockquote>
+
+<p>The W3C guidlines <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="_blank">1.4.3 Contrast (Minimum) (AA)</a> and <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast7" target="_blank">1.4.6 Contrast (Enhanced) (AAA)</a> describe the minimum levels of colour contrast for different sizes of text.</p>
+
+<h4 id="contrast-tools">Contrast tools</h4>
+
+<p>The NICE colour palette has been designed to meet WCAG 2.0 AA with respect to colour contrast. However, because applications can use colours in their own way, the following tools can be used to test colour contrast:</p>
+
+<ul>
+  <li><a href="http://leaverou.github.io/contrast-ratio/" target="_blank">Lea Verou’s Contrast Ratio</a> - useful for a quick test of 2 colours</li>
+  <li><a href="http://wave.webaim.org/extension/" target="_blank">WAVE WebAIM</a> - general accessibility testing tool that highlights colour contrast issues</li>
+  <li><a href="http://squizlabs.github.io/HTML_CodeSniffer/" target="_blank">HTML_CodeSniffer</a> - general accessibility testing tool that highlights colour contrast issues</li>
+  <li><a href="https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en" target="_blank">Accessibility Developer Tools extension for Chrome</a> - extension for Chrome developer tools to check contrast of any inspected element</li>
+</ul>
+
+
+				<p class="text-right">
+					<a href="https://github.com/nhsevidence/nice-design-system/edit/gh-pages/foundations/colour.md" target="_blank">
+						Edit on GitHub
+					</a>
+				</p>
+
+			</article>
+
+		</main>
+
+	</div>
+</div>
+
+	</div>
+
+	<footer class="site-footer" role="contentinfo">
+	<div class="container">
+
+		<a class="site-footer__logo" href="http://www.nice.org.uk/" rel="noopener external">
+			<span class="visually-hidden">NICE</span>
+			<i class="icon icon--logo" aria-hidden="true"></i>
+		</a>
+
+		<div class="site-footer__services">
+			<nav class="services">
+				<ul class="services__list" role="navigation">
+					<li class="services__item">
+						<a href="http://pathways.nice.org.uk" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--pathways"></span>
+							NICE Pathways
+						</a>
+					</li>
+					<li class="services__item">
+						<a href="http://www.nice.org.uk/guidance" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--guidance"></span>
+							Guidance
+						</a>
+					</li>
+					<li class="services__item">
+						<a href="http://www.nice.org.uk/standards-and-indicators" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--standards"></span>
+							Standards &amp; Indicators
+						</a>
+					</li>
+					<li class="services__item">
+						<a href="http://www.evidence.nhs.uk" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--evidence"></span>
+							Evidence services
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="site-footer__social">
+			<div class="social-networks">
+				<h2 class="social-networks__heading">
+					Follow Us
+				</h2>
+				<ul class="social-networks__list">
+					<li class="social-networks__item">
+						<a class="social-networks__network" target="_blank" title="Follow NICE on Twitter" href="https://twitter.com/nicecomms" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--twitter-square"></span>
+							<span class="visually-hidden">Follow NICE on Twitter</span>
+						</a>
+					</li>
+					<li class="social-networks__item">
+						<a target="_blank" title="Follow NICE on YouTube" href="https://www.youtube.com/c/niceorguk" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--youtube-square"></span>
+							<span class="visually-hidden">Follow NICE on YouTube</span>
+						</a>
+					</li>
+					<li class="social-networks__item">
+						<a target="_blank" title="Follow NICE on LinkedIn" href="https://www.linkedin.com/company-beta/788975/" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--linkedin-square"></span>
+							<span class="visually-hidden">Follow NICE on LinkedIn</span>
+						</a>
+					</li>
+					<li class="social-networks__item">
+						<a target="_blank" title="Follow NICE on Facebook" href="https://www.facebook.com/NationalInstituteforHealthandCareExcellence/" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--facebook-square"></span>
+							<span class="visually-hidden">Follow NICE on Facebook</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="site-footer__nav">
+			<nav class="footer-nav">
+				<ul class="footer-nav__list" role="navigation">
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/about">About NICE</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/accessibility">Accessibility</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/freedom-of-information">Freedom of information</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/get-involved/contact-us">Contact Us</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/glossary">Glossary</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/terms-and-conditions">Terms and conditions</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<p class="site-footer__copyright">
+			&copy; NICE 2018. All rights reserved. Subject to <a href="https://www.nice.org.uk/terms-and-conditions#notice-of-rights">Notice of rights</a>.
+		</p>
+
+	</div>
+</footer>
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="//cdn.nice.org.uk/V3.1/Scripts/nice/NICE.TopHat.min.js"></script>
+
+	<!--[if gt IE 8]><!-->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+    <!--<![endif]-->
+
+	<script src="/nice-design-system/javascripts/nice.min.js"></script>
+	<script src="/nice-design-system/javascripts/app.js"></script>
+
+	<script>
+		if(typeof console !== "undefined" && console.info) {
+			console.info("%c✪ We hire people like you; people who are curious about how things are built. Interested? See http://bit.ly/NICEJobs for more info ✪", "background: #333; border-radius: 4px; color: #fff; font-size: 18px; font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif; padding: 2px 6px;");
+		}
+	</script>
+
+	<script>
+	if("serviceWorker" in navigator) {
+		navigator.serviceWorker
+			.register("/nice-design-system/sw.js", { scope: "/nice-design-system/" })
+			.then(function(registration) {
+				//console.log("Service Worker Registered");
+			});
+		navigator.serviceWorker.ready
+			.then(function(registration) {
+				//console.log("Service Worker Ready");
+			});
+	}
+	</script>
+</body>
+</html>
