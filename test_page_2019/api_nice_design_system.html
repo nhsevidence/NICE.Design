@@ -1,0 +1,494 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="description" content="Technical documentation and code style guides for creating NICE digital services">
+	<meta property="og:title" content="Technical">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Technical documentation and code style guides for creating NICE digital services">
+	<meta property="og:image" content="/nice-design-system/images/nice-logo-256.png">
+	<meta name="theme-color" content="#004650">
+
+	<title>API | NICE Design System</title>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<link rel="manifest" href="/nice-design-system/manifest.json">
+	<link rel="author" type="text/plain" href="/nice-design-system/humans.txt" />
+	<link rel="shortcut icon" href="/nice-design-system/favicon.ico" />
+	<link rel="stylesheet" href="/nice-design-system/css/app.css" type="text/css" charset="utf-8">
+	<link href="//fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css" />
+
+	<!--[if lt IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.10/es5-sham.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body data-tracker>
+
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MDNG92"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MDNG92');</script>
+
+	<div id="content">
+		 <div class="container">
+	<p class="phase-banner">
+		<span class="phase-banner__tag">
+			<span class="tag tag--impact tag--alpha">Alpha</span>
+		</span>
+		<span class="phase-banner__label">
+			NICE Design System is in development. This means it is not feature complete and there may be issues. Find any? Please, <a href="https://github.com/nhsevidence/nice-design-system/issues" target="_blank" rel="noopener external">let us know</a>!
+		</span>
+	</p>
+</div>
+
+
+
+
+
+<div class="container">
+	<nav aria-label="Breadcrumbs" role="navigation">
+		<p class="visually-hidden" id="breadcrumb-label">
+			You are here:
+		</p>
+		<ol class="breadcrumbs" aria-labelledby="breadcrumb-label" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<li class="breadcrumbs__crumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a href="/nice-design-system/" itemprop="name">
+					NICE Design System
+				</a>
+				<meta itemprop="position" content="1">
+			</li>
+			
+			
+				
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+					
+						<li class="breadcrumbs__crumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+							
+							<a itemprop="name" href="/nice-design-system/technical/">
+								
+									Technical
+								
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			
+		</ol>
+	</nav>
+</div>
+
+
+<div class="container">
+
+	<div class="page-header">
+		<h1 class="page-header__heading">
+			Technical
+		</h1>
+		<p class="page-header__lead">
+			Technical documentation and code style guides for creating NICE digital services
+		</p>
+		
+	</div>
+
+	<div class="page page--full">
+
+		<aside class="page__sidebar" role="complementary">
+			
+
+<nav class="stacked-nav">
+
+	
+	
+
+	
+	
+
+	
+
+	
+	
+
+	
+	
+	
+
+	<h2 class="stacked-nav__root">
+		<a href="/nice-design-system/technical/" aria-current="page">
+			Technical
+		</a>
+	</h2>
+
+	<ul class="stacked-nav__list">
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/technical/sass/">
+					SASS & CSS
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/technical/javascript/">
+					JavaScript
+				</a>
+			</li>
+		
+			<li class="stacked-nav__list-item">
+				<a href="/nice-design-system/technical/installation/">
+					Installation
+				</a>
+			</li>
+		
+	</ul>
+
+</nav>		
+		</aside>
+
+		<main class="page__main">
+
+			
+
+			<article class="page__body">
+
+				
+<p>Technical documentation and code style guides for creating NICE digital services</p>
+
+<div class="grid">
+	
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+			
+
+<div data-g="12 xs:6 sm:4 md:3">
+	<h4><a href="/nice-design-system/technical/sass/">SASS &amp; CSS</a></h4>
+	<p>
+		SASS documentation (mixins, functions, variables, selectors) and code style guide
+	</p>
+</div>
+
+		
+	
+		
+		
+			
+
+<div data-g="12 xs:6 sm:4 md:3">
+	<h4><a href="/nice-design-system/technical/javascript/">JavaScript</a></h4>
+	<p>
+		JS documentation and code style guide
+	</p>
+</div>
+
+		
+	
+		
+		
+	
+		
+		
+			
+
+<div data-g="12 xs:6 sm:4 md:3">
+	<h4><a href="/nice-design-system/technical/installation/">Installation</a></h4>
+	<p>
+		Install the product to get started
+	</p>
+</div>
+
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+</div>
+
+
+				<p class="text-right">
+					<a href="https://github.com/nhsevidence/nice-design-system/edit/gh-pages/technical/index.md" target="_blank">
+						Edit on GitHub
+					</a>
+				</p>
+
+			</article>
+
+		</main>
+
+	</div>
+</div>
+
+	</div>
+
+	<footer class="site-footer" role="contentinfo">
+	<div class="container">
+
+		<a class="site-footer__logo" href="http://www.nice.org.uk/" rel="noopener external">
+			<span class="visually-hidden">NICE</span>
+			<i class="icon icon--logo" aria-hidden="true"></i>
+		</a>
+
+		<div class="site-footer__services">
+			<nav class="services">
+				<ul class="services__list" role="navigation">
+					<li class="services__item">
+						<a href="http://pathways.nice.org.uk" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--pathways"></span>
+							NICE Pathways
+						</a>
+					</li>
+					<li class="services__item">
+						<a href="http://www.nice.org.uk/guidance" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--guidance"></span>
+							Guidance
+						</a>
+					</li>
+					<li class="services__item">
+						<a href="http://www.nice.org.uk/standards-and-indicators" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--standards"></span>
+							Standards &amp; Indicators
+						</a>
+					</li>
+					<li class="services__item">
+						<a href="http://www.evidence.nhs.uk" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--evidence"></span>
+							Evidence services
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="site-footer__social">
+			<div class="social-networks">
+				<h2 class="social-networks__heading">
+					Follow Us
+				</h2>
+				<ul class="social-networks__list">
+					<li class="social-networks__item">
+						<a class="social-networks__network" target="_blank" title="Follow NICE on Twitter" href="https://twitter.com/nicecomms" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--twitter-square"></span>
+							<span class="visually-hidden">Follow NICE on Twitter</span>
+						</a>
+					</li>
+					<li class="social-networks__item">
+						<a target="_blank" title="Follow NICE on YouTube" href="https://www.youtube.com/c/niceorguk" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--youtube-square"></span>
+							<span class="visually-hidden">Follow NICE on YouTube</span>
+						</a>
+					</li>
+					<li class="social-networks__item">
+						<a target="_blank" title="Follow NICE on LinkedIn" href="https://www.linkedin.com/company-beta/788975/" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--linkedin-sign"></span>
+							<span class="visually-hidden">Follow NICE on LinkedIn</span>
+						</a>
+					</li>
+					<li class="social-networks__item">
+						<a target="_blank" title="Follow NICE on Facebook" href="https://www.facebook.com/NationalInstituteforHealthandCareExcellence/" rel="noopener external">
+							<span aria-hidden="true" class="icon icon--facebook-square"></span>
+							<span class="visually-hidden">Follow NICE on Facebook</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="site-footer__nav">
+			<nav class="footer-nav">
+				<ul class="footer-nav__list" role="navigation">
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/about">About NICE</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/accessibility">Accessibility</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/freedom-of-information">Freedom of information</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/get-involved/contact-us">Contact Us</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/glossary">Glossary</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="http://www.nice.org.uk/terms-and-conditions">Terms and conditions</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<p class="site-footer__copyright">
+			&copy; NICE 2018. All rights reserved. Subject to <a href="https://www.nice.org.uk/terms-and-conditions#notice-of-rights">Notice of rights</a>.
+		</p>
+
+	</div>
+</footer>
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="//cdn.nice.org.uk/V3.1/Scripts/nice/NICE.TopHat.min.js"></script>
+
+	<!--[if gt IE 8]><!-->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+    <!--<![endif]-->
+
+	<script src="/nice-design-system/javascripts/nice.min.js"></script>
+	<script src="/nice-design-system/javascripts/app.js"></script>
+
+	<script>
+		if(typeof console !== "undefined" && console.info) {
+			console.info("%c✪ We hire people like you; people who are curious about how things are built. Interested? See http://bit.ly/NICEJobs for more info ✪", "background: #333; border-radius: 4px; color: #fff; font-size: 18px; font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif; padding: 2px 6px;");
+		}
+	</script>
+
+	<script>
+	if("serviceWorker" in navigator) {
+		navigator.serviceWorker
+			.register("/nice-design-system/sw.js", { scope: "/nice-design-system/" })
+			.then(function(registration) {
+				//console.log("Service Worker Registered");
+			});
+		navigator.serviceWorker.ready
+			.then(function(registration) {
+				//console.log("Service Worker Ready");
+			});
+	}
+	</script>
+</body>
+</html>
