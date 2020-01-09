@@ -998,7 +998,7 @@
         th,
         a {
             color: #0a0a0a;
-            font-family: lato, sans-serif;
+            font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
             font-weight: normal;
             padding: 0;
             margin: 0;
@@ -1015,7 +1015,7 @@
         h6 {
             color: inherit;
             word-wrap: normal;
-            font-family: lato, sans-serif;
+            font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
             font-weight: normal;
             margin-bottom: 10px;
             Margin-bottom: 10px;
@@ -1185,7 +1185,7 @@
         }
         
         table.button table td a {
-            font-family: lato, sans-serif;
+            font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
             font-size: 16px;
             font-weight: bold;
             color: #fefefe;
@@ -1668,7 +1668,6 @@
                 min-width: 0;
             }
         }
-        }
     </style>
 
 
@@ -1684,21 +1683,30 @@
         .header-bgd {
             background-color: #004650;
         }
+        
         .emailheader {
             font-size: 40px;
-    font-weight: 700;
-    color: white;}
+            font-weight: 700;
+            color: white;
+        }
         
         .emailsubheader {
             font-size: 20px;
-    color: white;
+            color: white;
         }
-        .tagline, .date {font-size: 14px;
+        
+        .tagline,
+        .date {
+            font-size: 14px;
             font-weight: normal;
-    color: white;}
-        .top-logo{padding-top: 30px; padding-right: 20px;}
-    
-            
+            color: white;
+        }
+        
+        .top-logo {
+            padding-top: 30px;
+            padding-right: 20px;
+        }
+        
         table.spacer-heading {
             width: 100%;
             background-color: #E9E9E9;
@@ -1707,60 +1715,117 @@
         table.spacer-heading td {
             mso-line-height-rule: exactly;
         }
-        .article-heading{            
-            padding-top:10px;
+        
+        table.spacer-heading-top {
+            width: 100%;
+            background-color: #ffffff;
+        }
+        
+        table.spacer-heading-top td {
+            mso-line-height-rule: exactly;
+        }
+        
+        .article-heading {
+            padding-top: 10px;
             padding-left: 30px;
             padding-bottom: 0px;
             font-size: 20px;
-            color:#5C5C5C;
-}
-        .article-title{
+            color: #5C5C5C;
+        }
+        
+        a.article-link:link {
+            color: #0000CD;
             font-size: 16px;
             font-weight: 800;
-            color: #0000CD;
             padding-top: 24px;
-            line-height:24px;
-            text-decoration: underline;
+            line-height: 24px;
         }
-        .article-description{
+        
+        a.article-link-subtle:link {
+            color: #0000CD;
+            font-size: 16px;
+            padding-top: 24px;
+            line-height: 24px;
+        }
+        
+        .article-title {
+            font-size: 16px;
+            font-weight: 800;
+            color: #000000;
+            padding-top: 24px;
+            line-height: 24px;
+        }
+        
+        .article-description {
             font-weight: 600;
-            line-height:24px;
+            line-height: 24px;
         }
-        .source-tag{
-            background-color: #393939; color:white; padding-top:3px; padding-bottom: 6px; padding-left: 6px; padding-right: 6px; border-radius: 3px;line-height:34px; margin-right:2px;
+        
+        .source-tag {
+            background-color: #393939;
+            color: white;
+            padding-top: 3px;
+            padding-bottom: 6px;
+            padding-left: 6px;
+            padding-right: 6px;
+            border-radius: 3px;
+            line-height: 34px;
+            margin-right: 2px;
         }
-        .specialism-tag{
-            background-color: #E9E9E9; color:white; padding-top:3px; padding-bottom: 6px; padding-left: 6px; padding-right: 6px; border: #CCCCCC; border-width: 1px; border-radius: 3px; color:#393939; line-height:34px; margin-right:2px; border-style:solid;
+        
+        .specialism-tag {
+            background-color: #E9E9E9;
+            color: white;
+            padding-top: 3px;
+            padding-bottom: 6px;
+            padding-left: 6px;
+            padding-right: 6px;
+            border: #CCCCCC;
+            border-width: 1px;
+            border-radius: 3px;
+            color: #393939;
+            line-height: 34px;
+            margin-right: 2px;
+            border-style: solid;
         }
-        .article-border{
+        
+        .article-border {
             border-bottom: #E9E9E9;
             border-width: 1px;
             border-style: solid;
             border-top: none;
             border-left: none;
             border-right: none;
-            
         }
-        .about-text{
-            color:white;
+        
+        .about-text {
+            color: white;
             font-size: 14px;
             font-weight: normal;
             line-height: 24px;
             padding-top: 16px;
         }
-        .footer{
+        
+        .footer {
             background-color: #F2F2F2;
         }
-        .footer-text{
-            color:#393939;
+        
+        .footer-text {
+            color: #393939;
             font-size: 12px;
             line-height: 24px;
-            margin-bottom:0;
+            margin-bottom: 0;
         }
-        .footer-link{
-            color:#393939;
+        
+        .footer-link {
+            color: #393939;
         }
-
+        
+        .back-to-top {
+            color: #0000CD;
+            padding-left: 30px;
+            padding-top: 10px;
+        }
     </style>
 
 </head>
@@ -1835,26 +1900,29 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    
+
                                     <!-- article heading -->
-                                    
+
                                     <table class="spacer-heading">
                                         <tbody>
                                             <tr>
-                                                <td height="16px" style="font-size:16px;line-height:16px;"><h3 class="article-heading">Primary research</h3></td>
+                                                <td height="16px" style="font-size:16px;line-height:16px;">
+                                                    <h3 class="article-heading">Medicines evidence commentary</h3>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                       
-                                       <table class="row article-border">
+
+                                    <table class="row article-border">
                                         <tbody>
                                             <tr>
                                                 <th class="small-12 large-12 columns first last">
                                                     <table>
                                                         <tr>
                                                             <th>
-                                                                <h4 class="article-title">Effects of tranexamic acid on death, disability, vascular occlusive events and other morbidities in patients with acute traumatic brain injury (CRASH-3): a randomised, placebo-controlled trial</h4>
-                                                                <p class="article-description">RCT of 9,202 people treated within 3hrs of injury reports lower risk of head injury-related death at 28days with tranexamic acid (18.5%) vs placebo (19.8%; RR 0.94 [95% CI 0.86–1.02]), and this was statistically significant in those with mild-moderate injury (RR 0.78, 0.64–0.95).</p>
+                                                                <h4 class="h4 article-title">Antibiotic prescribing for respiratory tract infections in children: study finds antibiotic-seeking behaviour by parents does not influence prescribing</h4>
+                                                                <p class="article-description">A qualitative and quantitative study in English general practice found that parents of children with apparent respiratory tract infections communicated the problem to the clinician in 5 different ways. The study concluded that clinicians potentially misinterpreted some presentations as antibiotic-seeking behaviour when they were not.</p>
+                                                                <p class="article-description"><a class="article-link-subtle" href="#">Read full commentary</a></p>
                                                                 <p class="article-tags"><span class="source-tag">The Lancet</span> <span class="specialism-tag">Critical care</span> <span class="specialism-tag">Emergency medicine and urgent care</span> <span class="specialism-tag">Haematological disorders</span> </p>
                                                             </th>
                                                             <th class="expander"></th>
@@ -1865,17 +1933,19 @@
                                         </tbody>
                                     </table>
 
-                                                                       <!-- article heading -->
-                                    
+
+                                    <!-- article heading -->
+
                                     <table class="spacer-heading">
                                         <tbody>
                                             <tr>
-                                                <td height="16px" style="font-size:16px;line-height:16px;"><h3 class="article-heading">Media and commentaries</h3></td>
+                                                <td height="16px" style="font-size:16px;line-height:16px;">
+                                                    <h3 class="article-heading">Primary research</h3>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    
-                                    <!-- article with header -->
+
                                     <table class="row article-border">
                                         <tbody>
                                             <tr>
@@ -1883,7 +1953,40 @@
                                                     <table>
                                                         <tr>
                                                             <th>
-                                                                <h4 class="article-title">Updated Supply Disruption Alert for Berinert (Human C1 Esterase inhibitor) 500units powder and solvent for injection (CSL Behring UK)</h4>
+                                                                <h4 class="h4 article-title"><a class="article-link" href="#">Effects of tranexamic acid on death, disability, vascular occlusive events and other morbidities in patients with acute traumatic brain injury (CRASH-3): a randomised, placebo-controlled trial</a></h4>
+                                                                <p class="article-description">RCT of 9,202 people treated within 3hrs of injury reports lower risk of head injury-related death at 28days with tranexamic acid (18.5%) vs placebo (19.8%; RR 0.94 [95% CI 0.86–1.02]), and this was statistically significant in those with mild-moderate injury (RR 0.78, 0.64–0.95).</p>
+                                                                <p class="article-description"><a class="article-link-subtle" href="#">Read SPS commentary</a></p>
+                                                                <p class="article-tags"><span class="source-tag">The Lancet</span> <span class="specialism-tag">Critical care</span> <span class="specialism-tag">Emergency medicine and urgent care</span> <span class="specialism-tag">Haematological disorders</span> </p>
+                                                            </th>
+                                                            <th class="expander"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <!-- article heading -->
+
+                                    <table class="spacer-heading">
+                                        <tbody>
+                                            <tr>
+                                                <td height="16px" style="font-size:16px;line-height:16px;">
+                                                    <h3 class="article-heading">Media and commentaries</h3>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <!-- article -->
+                                    <table class="row article-border">
+                                        <tbody>
+                                            <tr>
+                                                <th class="small-12 large-12 columns first last">
+                                                    <table>
+                                                        <tr>
+                                                            <th>
+                                                                <h4 class="h4 article-title"><a class="article-link" href="#">Updated Supply Disruption Alert for Berinert (Human C1 Esterase inhibitor) 500units powder and solvent for injection (CSL Behring UK)</a></h4>
                                                                 <p class="article-description">This alert provides an update on the resupply date, which has been brought forward to 30 December 2019 and contains updated advice on the management of patients.</p>
                                                                 <p class="article-tags"><span class="source-tag">Department of Health and Social care</span> <span class="specialism-tag">Allergy and immunology</span> <span class="specialism-tag">Ear, nose and throat disorders</span> <span class="specialism-tag">Genetics</span> </p>
                                                             </th>
@@ -1895,7 +1998,7 @@
                                         </tbody>
                                     </table>
 
-                                    <!-- article without header -->
+                                    <!-- article -->
                                     <table class="row article-border">
                                         <tbody>
                                             <tr>
@@ -1903,7 +2006,7 @@
                                                     <table>
                                                         <tr>
                                                             <th>
-                                                                <h4 class="article-title">Effects of tranexamic acid on death, disability, vascular occlusive events and other morbidities in patients with acute traumatic brain injury (CRASH-3): a randomised, placebo-controlled trial</h4>
+                                                                <h4 class="h4 article-title"><a class="article-link" href="#">Effects of tranexamic acid on death, disability, vascular occlusive events and other morbidities in patients with acute traumatic brain injury (CRASH-3): a randomised, placebo-controlled trial</a></h4>
                                                                 <p class="article-description">RCT of 9,202 people treated within 3hrs of injury reports lower risk of head injury-related death at 28days with tranexamic acid (18.5%) vs placebo (19.8%; RR 0.94 [95% CI 0.86–1.02]), and this was statistically significant in those with mild-moderate injury (RR 0.78, 0.64–0.95).</p>
                                                                 <p class="article-tags"><span class="source-tag">The Lancet</span> <span class="specialism-tag">Critical care</span> <span class="specialism-tag">Emergency medicine and urgent care</span> <span class="specialism-tag">Haematological disorders</span> </p>
                                                             </th>
@@ -1914,6 +2017,54 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <!-- article heading -->
+
+                                    <table class="spacer-heading">
+                                        <tbody>
+                                            <tr>
+                                                <td height="16px" style="font-size:16px;line-height:16px;">
+                                                    <h3 class="article-heading">Media and commentaries</h3>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <!-- article -->
+                                    <table class="row article-border">
+                                        <tbody>
+                                            <tr>
+                                                <th class="small-12 large-12 columns first last">
+                                                    <table>
+                                                        <tr>
+                                                            <th>
+                                                                <h4 class="h4 article-title">Antibiotic prescribing for respiratory tract infections in children: study finds antibiotic-seeking behaviour by parents does not influence prescribing</h4>
+                                                                <p class="article-description">A qualitative and quantitative study in English general practice found that parents of children with apparent respiratory tract infections communicated the problem to the clinician in 5 different ways. The study concluded that clinicians potentially misinterpreted some presentations as antibiotic-seeking behaviour when they were not.</p>
+
+                                                                <p class="article-description"><b>Overview and current advice</b><br/> The substantial public health threat posed by growing antimicrobial resistance is widely known, and a major cause of this – overprescribing of antibiotics for self-limiting, often non-bacterial conditions – is widely acknowledged. Many prescribers cite antibiotic-seeking behaviour and expectations of patients and carers as important drivers for such prescribing.</p>
+
+                                                                <p class="article-description">The NICE key therapeutics topic antimicrobial stewardship: prescribing antibiotics summarises the available evidence on the topic, including NICE guidelines on antimicrobial stewardship: systems and processes for effective antimicrobial medicine use and antimicrobial stewardship: changing risk-related behaviours in the general population, together with links to resources and practical advice.</p>
+
+                                                                <p class="article-description"><strong>New evidence</strong><br/> Researchers undertook qualitative and quantitative research to explore the communication patterns of parents in primary care consultations for children with apparent respiratory tract infections. They aimed to find out if certain types of communication were particularly associated with antibiotic prescribing (Cabral et al. 2019).</p>
+
+                                                            </th>
+                                                            <th class="expander"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <!-- back to top -->
+
+                                    <table class="spacer-heading-top">
+                                        <tbody>
+                                            <tr>
+                                                <td height="45px" style="font-size:14px;line-height:40px;"><a class="back-to-top" href="#">Back to top</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
 
                                     <!-- about section -->
                                     <table class="row header-bgd">
@@ -1972,7 +2123,7 @@
                                                                         </tr>
                                                                     </table>
                                                                 </center>
-                                                                <p class="text-center footer-text">Copyright 2019 © National Institute for Health Care Excellence. All rights reserved.<br/>Our mailing address is: Level 1A, City Tower, Piccadilly Plaza, Manchester, M1 4BT <br/>Add us to your address book<br/><a href="#" class="footer-link">Update your preferences</a> or  <a href="#" class="footer-link">unsubscribe from list</a></p>
+                                                                <p class="text-center footer-text">Copyright 2019 © National Institute for Health Care Excellence. All rights reserved.<br/>Our mailing address is: Level 1A, City Tower, Piccadilly Plaza, Manchester, M1 4BT <br/>Add us to your address book<br/><a href="#" class="footer-link">Update your preferences</a> or <a href="#" class="footer-link">unsubscribe from list</a></p>
 
                                                             </th>
                                                             <th class="expander"></th>
@@ -1983,11 +2134,11 @@
                                         </tbody>
                                     </table>
 
-                                                                </tr>
+                            </tr>
                         </tbody>
                     </table>
                 </center>
-            </td>
+                </td>
         </tr>
     </table>
 </body>
