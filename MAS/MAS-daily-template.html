@@ -1667,7 +1667,7 @@
             table.button.small-expanded center {
                 min-width: 0;
             }
-        }
+        }}
     </style>
 
 
@@ -1700,6 +1700,7 @@
             font-size: 14px;
             font-weight: normal;
             color: white;
+            line-height: 20px;
         }
         
         .top-logo {
@@ -1838,6 +1839,34 @@
             padding-left: 30px;
             padding-top: 10px;
         }
+        .articles-match{
+            background-color: #393939;
+            font-size: 14px;
+            line-height: 20px;
+            padding-left: 30px;
+            color: #ffffff;
+            border-top: 1px #ffffff solid;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 10px
+        }
+        .articles-all{
+         background-color: #393939;
+            font-size: 14px;
+            line-height: 20px;
+            padding-left: 30px;
+            color: #ffffff;
+            border-top: 1px #ffffff solid;
+            border-bottom: 1px #ffffff solid;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 10px
+        }
+        .white-link{
+            color:#ffffff;
+        }
     </style>
 
 </head>
@@ -1872,7 +1901,7 @@
                                                     <table>
                                                         <tr>
                                                             <th>
-                                                                <center data-parsed=""> <img src="img/nice-logo-mobile.png" align="center" class="float-left top-logo"> </center>
+                                                                <center data-parsed=""> <img src="img/nice-logo.png" align="center" class="float-left top-logo"> </center>
                                                             </th>
                                                         </tr>
                                                     </table>
@@ -1903,7 +1932,7 @@
 
                                                                 <h1 class="emailheader">Medicines awareness service - daily</h1>
                                                                 <h2 class="emailsubheader">The very latest current awareness and evidence-based medicines information</h2>
-                                                                <p class="tagline">Content produced by the Specialist Pharmacy Service - Medicines Information</p>
+                                                                <p class="tagline">Content produced by the <a href="#">Specialist Pharmacy Service</a> - Medicines Information</p>
                                                             </th>
                                                             <th class="expander"></th>
                                                         </tr>
@@ -1912,6 +1941,30 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <!-- article heading -->
+
+                                    <table class="spacer-heading">
+                                        <tbody>
+                                            <tr>
+                                                <td height="16px" style="font-size:14px;line-height:30px;">
+                                                    <h3 class="articles-match">No articles match (or Articles that match) your chosen specialities today</h3>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <!-- article heading -->
+
+                                    <table class="spacer-heading">
+                                        <tbody>
+                                            <tr>
+                                                <td height="16px" style="font-size:16px;line-height:16px;">
+                                                    <h3 class="articles-all">All articles from Medicines awareness service: Daily edition</h3>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
 
                                     <!-- article heading -->
 
@@ -2035,7 +2088,7 @@
                                         <tbody>
                                             <tr>
                                                 <td height="16px" style="font-size:16px;line-height:16px;">
-                                                    <h3 class="article-heading">Media and commentaries</h3>
+                                                    <h3 class="article-heading">Medicines evidence commentary</h3>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -2087,9 +2140,9 @@
                                                         <tr>
                                                             <th>
                                                                 <p class="text-center about-text">Specialist Pharmacy Service and NICE bring you the latest current awareness and evidence-based medicines information, direct to your inbox.<br/> 
-                                                                <a href="#">Contact us</a> | 
-                                                                <a href="#">Terms and conditions</a> | 
-                                                                <a href="mailto:nice@nice.org.uk?subject=User feeback: Medicines awareness service">Leave feedback</a></p>
+                                                                <a href="#" class="white-link">Contact us</a> | 
+                                                                <a href="#" class="white-link">Terms and conditions</a> | 
+                                                                <a href="mailto:nice@nice.org.uk?subject=User feeback: Medicines awareness service" class="white-link">Leave feedback</a></p>
                                                             </th>
                                                             <th class="expander"></th>
                                                         </tr>
