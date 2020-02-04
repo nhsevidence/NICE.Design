@@ -1094,8 +1094,21 @@
         }
         
         a:visited {
+            color: #ffffff;
+        }
+        .footer-link:visited {
+            color:#393939;
+        }
+        .back-to-top:visited {
+            color:#0000CD;
+        }
+                a.article-link-subtle:visited {
             color: #0000CD;
         }
+        .white-link:visited {
+            color:#ffffff;
+        }
+
         
         h1 a,
         h1 a:visited,
@@ -1109,7 +1122,9 @@
         h5 a:visited,
         h6 a,
         h6 a:visited {
-            color: ##0000CD;
+
+            color: #0000CD;
+
         }
         
         pre {
@@ -1764,16 +1779,21 @@
 			line-height:24px;
 		}
         .source-tag {
-            background-color: #393939;
-            color: #ffffff;
+            background-color: #E9E9E9;
+            color: white;
             padding-top: 3px;
             padding-bottom: 6px;
             padding-left: 6px;
             padding-right: 6px;
+            border: #CCCCCC;
+            border-width: 1px;
             border-radius: 3px;
+            color: #393939;
             margin-bottom: 4px;
             display: inline-block;
             line-height: 18px;
+            margin-right: 2px;
+            border-style: solid;
         }
         .source-tag-nice {
             background-color: #004650;
@@ -1905,26 +1925,21 @@
 
                                     <!-- header logos-->
 
-                                    <table class="row header-bgd">
+                                <table class="row header-bgd">
                                         <tbody>
                                             <tr>
-                                                <th class="small-6 large-6 columns first">
+                                                <th class="small-12 large-12 columns first">
                                                     <table>
-                                                        <tr>
-                                                            <th>
-                                                                <center data-parsed=""> <img src="img/nice-logo.png" align="center" class="float-left top-logo"> </center>
-                                                            </th>
+                                                        <tbody><tr>
+                                                            <td class="top-logo">
+                                                                <img src="img/nice-logo.png" class="float-left" align="left">
+                                                            </td>
+                                                       
+                                                            <td class="top-logo">
+                                                                <img src="img/sps-logo.png" class="float-right" align="right">
+                                                            </td>
                                                         </tr>
-                                                    </table>
-                                                </th>
-                                                <th class="small-6 large-6 columns">
-                                                    <table>
-                                                        <tr>
-                                                            <th>
-                                                                <center data-parsed=""> <img src="img/sps-logo.png" align="center" class="float-right top-logo"> </center>
-                                                            </th>
-                                                        </tr>
-                                                    </table>
+                                                    </tbody></table>
                                                 </th>
                                             </tr>
                                         </tbody>
@@ -1939,7 +1954,7 @@
                                                     <table>
                                                         <tr>
                                                             <th>
-                                                                <p class="date">11th December to 28th December 2019</p>
+                                                                <p class="date">11th December to 28th December 2020</p>
 
                                                                 <h1 class="emailheader">Medicines Awareness Service: Weekly</h1>
                                                                 <h2 class="emailsubheader">Current awareness and evidence-based medicines information</h2>
